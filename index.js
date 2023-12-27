@@ -8,10 +8,10 @@ app.listen(
 const cors = require("cors");
 
 app.use(
-  cors({
-    origin: "https://fooder-abhi.vercel.app",
-    credentials:true,
-}));
+    cors({
+        origin: "https://fooder-abhi.vercel.app",
+        credentials: true,
+    }));
 
 app.get('/restaurant', (req, res) => {
     res.status(200).send({
@@ -4222,5 +4222,19323 @@ app.get('/restaurant', (req, res) => {
                 },
             ],
         }
-    })      
+    })
+})
+
+app.get('/restaurant/10576', (req, res) => {
+    res.status(200).send(
+        [
+            {
+                "card": {
+                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                    "info": {
+                        "id": "116284884",
+                        "name": "Mexican Fiesta",
+                        "category": "Veg Pizza",
+                        "description": "Serves 1 | Flavourful mix of red capsicum, green capsicum, jalapeno, onion, black olives, sweet corn and 100% mozzarella Cheese with a signature spice sprinkle & our flavourful pan sauce.",
+                        "imageId": "0c4c12819d98a35144e3f08451ae64f3",
+                        "inStock": 1,
+                        "isVeg": 1,
+                        "variants": {},
+                        "variantsV2": {
+                            "variantGroups": [
+                                {
+                                    "groupId": "27982732",
+                                    "name": "Size",
+                                    "variations": [
+                                        {
+                                            "name": "Personal",
+                                            "default": 1,
+                                            "id": "88416975",
+                                            "inStock": 1,
+                                            "isVeg": 1,
+                                            "isEnabled": 1,
+                                            "dependantVariation": {
+                                                "groupId": "27982733",
+                                                "variationId": "88416977"
+                                            }
+                                        },
+                                        {
+                                            "name": "Medium",
+                                            "id": "88416976",
+                                            "inStock": 1,
+                                            "isVeg": 1,
+                                            "isEnabled": 1,
+                                            "dependantVariation": {
+                                                "groupId": "27982733",
+                                                "variationId": "88416980"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "groupId": "27982733",
+                                    "name": "Base",
+                                    "variations": [
+                                        {
+                                            "name": "Pan",
+                                            "price": 319,
+                                            "default": 1,
+                                            "id": "88416977",
+                                            "inStock": 1,
+                                            "isVeg": 1,
+                                            "isEnabled": 1
+                                        },
+                                        {
+                                            "name": "Pan",
+                                            "price": 569,
+                                            "id": "88416980",
+                                            "inStock": 1,
+                                            "isVeg": 1,
+                                            "isEnabled": 1
+                                        },
+                                        {
+                                            "name": "Stuffed Crust - Cheese Maxx",
+                                            "price": 394,
+                                            "id": "88416979",
+                                            "inStock": 1,
+                                            "isVeg": 1,
+                                            "isEnabled": 1
+                                        },
+                                        {
+                                            "name": "Stuffed Crust - Cheese Maxx",
+                                            "price": 668,
+                                            "id": "88416982",
+                                            "inStock": 1,
+                                            "isVeg": 1,
+                                            "isEnabled": 1
+                                        }
+                                    ]
+                                }
+                            ],
+                            "pricingModels": [
+                                {
+                                    "variations": [
+                                        {
+                                            "groupId": "27982732",
+                                            "variationId": "88416975"
+                                        },
+                                        {
+                                            "groupId": "27982733",
+                                            "variationId": "88416977"
+                                        }
+                                    ],
+                                    "price": 31900,
+                                    "addonCombinations": [
+                                        {
+                                            "groupId": "114407811",
+                                            "addonId": "101385674"
+                                        },
+                                        {
+                                            "groupId": "114407811",
+                                            "addonId": "101385675"
+                                        },
+                                        {
+                                            "groupId": "114407811",
+                                            "addonId": "101385676"
+                                        },
+                                        {
+                                            "groupId": "114407811",
+                                            "addonId": "101385677"
+                                        },
+                                        {
+                                            "groupId": "114407811",
+                                            "addonId": "101385678"
+                                        },
+                                        {
+                                            "groupId": "114407811",
+                                            "addonId": "101385679"
+                                        },
+                                        {
+                                            "groupId": "114407845",
+                                            "addonId": "101385680"
+                                        },
+                                        {
+                                            "groupId": "114407845",
+                                            "addonId": "101385681"
+                                        },
+                                        {
+                                            "groupId": "114407845",
+                                            "addonId": "101385682"
+                                        },
+                                        {
+                                            "groupId": "114407845",
+                                            "addonId": "101385683"
+                                        },
+                                        {
+                                            "groupId": "114407845",
+                                            "addonId": "101385684"
+                                        },
+                                        {
+                                            "groupId": "114407845",
+                                            "addonId": "101385685"
+                                        },
+                                        {
+                                            "groupId": "114407845",
+                                            "addonId": "101385686"
+                                        },
+                                        {
+                                            "groupId": "114407845",
+                                            "addonId": "101385687"
+                                        },
+                                        {
+                                            "groupId": "114407845",
+                                            "addonId": "101385688"
+                                        },
+                                        {
+                                            "groupId": "114407845",
+                                            "addonId": "101385689"
+                                        },
+                                        {
+                                            "groupId": "114407845",
+                                            "addonId": "101385690"
+                                        },
+                                        {
+                                            "groupId": "114407845",
+                                            "addonId": "101385691"
+                                        },
+                                        {
+                                            "groupId": "114407845",
+                                            "addonId": "101385692"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "variations": [
+                                        {
+                                            "groupId": "27982732",
+                                            "variationId": "88416975"
+                                        },
+                                        {
+                                            "groupId": "27982733",
+                                            "variationId": "88416979"
+                                        }
+                                    ],
+                                    "price": 39400,
+                                    "addonCombinations": [
+                                        {
+                                            "groupId": "114407811",
+                                            "addonId": "101385674"
+                                        },
+                                        {
+                                            "groupId": "114407811",
+                                            "addonId": "101385675"
+                                        },
+                                        {
+                                            "groupId": "114407811",
+                                            "addonId": "101385676"
+                                        },
+                                        {
+                                            "groupId": "114407811",
+                                            "addonId": "101385677"
+                                        },
+                                        {
+                                            "groupId": "114407811",
+                                            "addonId": "101385678"
+                                        },
+                                        {
+                                            "groupId": "114407811",
+                                            "addonId": "101385679"
+                                        },
+                                        {
+                                            "groupId": "114407845",
+                                            "addonId": "101385680"
+                                        },
+                                        {
+                                            "groupId": "114407845",
+                                            "addonId": "101385681"
+                                        },
+                                        {
+                                            "groupId": "114407845",
+                                            "addonId": "101385682"
+                                        },
+                                        {
+                                            "groupId": "114407845",
+                                            "addonId": "101385683"
+                                        },
+                                        {
+                                            "groupId": "114407845",
+                                            "addonId": "101385684"
+                                        },
+                                        {
+                                            "groupId": "114407845",
+                                            "addonId": "101385685"
+                                        },
+                                        {
+                                            "groupId": "114407845",
+                                            "addonId": "101385686"
+                                        },
+                                        {
+                                            "groupId": "114407845",
+                                            "addonId": "101385687"
+                                        },
+                                        {
+                                            "groupId": "114407845",
+                                            "addonId": "101385688"
+                                        },
+                                        {
+                                            "groupId": "114407845",
+                                            "addonId": "101385689"
+                                        },
+                                        {
+                                            "groupId": "114407845",
+                                            "addonId": "101385690"
+                                        },
+                                        {
+                                            "groupId": "114407845",
+                                            "addonId": "101385691"
+                                        },
+                                        {
+                                            "groupId": "114407845",
+                                            "addonId": "101385692"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "variations": [
+                                        {
+                                            "groupId": "27982732",
+                                            "variationId": "88416976"
+                                        },
+                                        {
+                                            "groupId": "27982733",
+                                            "variationId": "88416980"
+                                        }
+                                    ],
+                                    "price": 56900,
+                                    "addonCombinations": [
+                                        {
+                                            "groupId": "114407811",
+                                            "addonId": "101385674"
+                                        },
+                                        {
+                                            "groupId": "114407811",
+                                            "addonId": "101385675"
+                                        },
+                                        {
+                                            "groupId": "114407811",
+                                            "addonId": "101385676"
+                                        },
+                                        {
+                                            "groupId": "114407811",
+                                            "addonId": "101385677"
+                                        },
+                                        {
+                                            "groupId": "114407811",
+                                            "addonId": "101385678"
+                                        },
+                                        {
+                                            "groupId": "114407811",
+                                            "addonId": "101385679"
+                                        },
+                                        {
+                                            "groupId": "114407823",
+                                            "addonId": "101385700"
+                                        },
+                                        {
+                                            "groupId": "114407823",
+                                            "addonId": "101385701"
+                                        },
+                                        {
+                                            "groupId": "114407823",
+                                            "addonId": "101385702"
+                                        },
+                                        {
+                                            "groupId": "114407823",
+                                            "addonId": "101385703"
+                                        },
+                                        {
+                                            "groupId": "114407823",
+                                            "addonId": "101385704"
+                                        },
+                                        {
+                                            "groupId": "114407823",
+                                            "addonId": "101385705"
+                                        },
+                                        {
+                                            "groupId": "114407823",
+                                            "addonId": "101385706"
+                                        },
+                                        {
+                                            "groupId": "114407823",
+                                            "addonId": "101385707"
+                                        },
+                                        {
+                                            "groupId": "114407823",
+                                            "addonId": "101385708"
+                                        },
+                                        {
+                                            "groupId": "114407823",
+                                            "addonId": "101385709"
+                                        },
+                                        {
+                                            "groupId": "114407823",
+                                            "addonId": "101385710"
+                                        },
+                                        {
+                                            "groupId": "114407823",
+                                            "addonId": "101385711"
+                                        },
+                                        {
+                                            "groupId": "114407823",
+                                            "addonId": "101385712"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "variations": [
+                                        {
+                                            "groupId": "27982732",
+                                            "variationId": "88416976"
+                                        },
+                                        {
+                                            "groupId": "27982733",
+                                            "variationId": "88416982"
+                                        }
+                                    ],
+                                    "price": 66800,
+                                    "addonCombinations": [
+                                        {
+                                            "groupId": "114407811",
+                                            "addonId": "101385674"
+                                        },
+                                        {
+                                            "groupId": "114407811",
+                                            "addonId": "101385675"
+                                        },
+                                        {
+                                            "groupId": "114407811",
+                                            "addonId": "101385676"
+                                        },
+                                        {
+                                            "groupId": "114407811",
+                                            "addonId": "101385677"
+                                        },
+                                        {
+                                            "groupId": "114407811",
+                                            "addonId": "101385678"
+                                        },
+                                        {
+                                            "groupId": "114407811",
+                                            "addonId": "101385679"
+                                        },
+                                        {
+                                            "groupId": "114407823",
+                                            "addonId": "101385700"
+                                        },
+                                        {
+                                            "groupId": "114407823",
+                                            "addonId": "101385701"
+                                        },
+                                        {
+                                            "groupId": "114407823",
+                                            "addonId": "101385702"
+                                        },
+                                        {
+                                            "groupId": "114407823",
+                                            "addonId": "101385703"
+                                        },
+                                        {
+                                            "groupId": "114407823",
+                                            "addonId": "101385704"
+                                        },
+                                        {
+                                            "groupId": "114407823",
+                                            "addonId": "101385705"
+                                        },
+                                        {
+                                            "groupId": "114407823",
+                                            "addonId": "101385706"
+                                        },
+                                        {
+                                            "groupId": "114407823",
+                                            "addonId": "101385707"
+                                        },
+                                        {
+                                            "groupId": "114407823",
+                                            "addonId": "101385708"
+                                        },
+                                        {
+                                            "groupId": "114407823",
+                                            "addonId": "101385709"
+                                        },
+                                        {
+                                            "groupId": "114407823",
+                                            "addonId": "101385710"
+                                        },
+                                        {
+                                            "groupId": "114407823",
+                                            "addonId": "101385711"
+                                        },
+                                        {
+                                            "groupId": "114407823",
+                                            "addonId": "101385712"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "addons": [
+                            {
+                                "groupId": "114407811",
+                                "groupName": "Add Ons",
+                                "choices": [
+                                    {
+                                        "id": "101385674",
+                                        "name": "Pepsi Pet Bottle",
+                                        "price": 5700,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385675",
+                                        "name": "Classic BreadStix : Flat Rs 20 Off",
+                                        "price": 9900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385676",
+                                        "name": "Cheese Garlic Bread : Flat Rs 20 Off",
+                                        "price": 13900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385677",
+                                        "name": "Creamy BreadStix : Flat Rs 20 Off",
+                                        "price": 14900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385678",
+                                        "name": "Zesty Paneer Pocket : Flat Rs 20 Off",
+                                        "price": 10900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385679",
+                                        "name": "Choco Volcano : Flat Rs 20 Off",
+                                        "price": 10900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    }
+                                ],
+                                "maxAddons": 6,
+                                "maxFreeAddons": -1
+                            },
+                            {
+                                "groupId": "114407823",
+                                "groupName": "Toppings.",
+                                "choices": [
+                                    {
+                                        "id": "101385700",
+                                        "name": "Cheese",
+                                        "price": 8500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385701",
+                                        "name": "Black Olives",
+                                        "price": 7000,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385702",
+                                        "name": "Baby Corn",
+                                        "price": 7000,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385703",
+                                        "name": "Capsicum",
+                                        "price": 7000,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385704",
+                                        "name": "Herbed Veggies",
+                                        "price": 7000,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385705",
+                                        "name": "Jalapeno",
+                                        "price": 7000,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385706",
+                                        "name": "Mushroom",
+                                        "price": 7000,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385707",
+                                        "name": "Onion",
+                                        "price": 7000,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385708",
+                                        "name": "Paneer",
+                                        "price": 7500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385709",
+                                        "name": "Red Paprika",
+                                        "price": 7000,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385710",
+                                        "name": "Red Capsicum",
+                                        "price": 7000,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385711",
+                                        "name": "Sweet Corn",
+                                        "price": 7000,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385712",
+                                        "name": "Tomato",
+                                        "price": 7000,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    }
+                                ],
+                                "maxAddons": 2,
+                                "maxFreeAddons": -1
+                            },
+                            {
+                                "groupId": "114407845",
+                                "groupName": "Toppings",
+                                "choices": [
+                                    {
+                                        "id": "101385680",
+                                        "name": "Cheese",
+                                        "price": 6500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385681",
+                                        "name": "Black Olives",
+                                        "price": 4500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385683",
+                                        "name": "Capsicum",
+                                        "price": 4500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385684",
+                                        "name": "Herbed Veggies",
+                                        "price": 4500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385685",
+                                        "name": "Jalapeno",
+                                        "price": 4500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385686",
+                                        "name": "Mushroom",
+                                        "price": 4500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385687",
+                                        "name": "Onion",
+                                        "price": 4500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385688",
+                                        "name": "Paneer",
+                                        "price": 5500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385689",
+                                        "name": "Red Paprika",
+                                        "price": 4500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385690",
+                                        "name": "Red Capsicum",
+                                        "price": 4500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385691",
+                                        "name": "Sweet Corn",
+                                        "price": 4500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385692",
+                                        "name": "Tomato",
+                                        "price": 4500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385682",
+                                        "name": "Baby Corn",
+                                        "price": 4500,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    }
+                                ],
+                                "maxAddons": 2,
+                                "maxFreeAddons": -1
+                            }
+                        ],
+                        "itemAttribute": {
+                            "vegClassifier": "VEG",
+                            "portionSize": "Serves 1"
+                        },
+                        "defaultPrice": 31900,
+                        "ribbon": {},
+                        "type": "ITEM",
+                        "itemBadge": {},
+                        "badgesV2": {},
+                        "ratings": {
+                            "aggregatedRating": {
+                                "rating": "2.3",
+                                "ratingCount": "3 ratings",
+                                "ratingCountV2": "3"
+                            }
+                        }
+                    },
+                    "analytics": {},
+                    "hideRestaurantDetails": true
+                }
+            },
+            {
+                "card": {
+                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                    "info": {
+                        "id": "116284886",
+                        "name": "Cheezy Mushroom Magic",
+                        "category": "Veg Pizza",
+                        "description": "Serves 1 | A new combination with creamy mushroom sauce, chunky black olives, spicy jalapeno, juicy sweet corn, mushroom and 100% mozzarella cheese with garlic sprinkle for extra flavour hit.",
+                        "imageId": "c53ce130542adf692e861b4bf9756883",
+                        "inStock": 1,
+                        "isVeg": 1,
+                        "variants": {},
+                        "variantsV2": {
+                            "variantGroups": [
+                                {
+                                    "groupId": "27982736",
+                                    "name": "Size",
+                                    "variations": [
+                                        {
+                                            "name": "Personal",
+                                            "default": 1,
+                                            "id": "88416993",
+                                            "inStock": 1,
+                                            "isVeg": 1,
+                                            "isEnabled": 1,
+                                            "dependantVariation": {
+                                                "groupId": "27982737",
+                                                "variationId": "88416995"
+                                            }
+                                        },
+                                        {
+                                            "name": "Medium",
+                                            "id": "88416994",
+                                            "inStock": 1,
+                                            "isVeg": 1,
+                                            "isEnabled": 1,
+                                            "dependantVariation": {
+                                                "groupId": "27982737",
+                                                "variationId": "88416998"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "groupId": "27982737",
+                                    "name": "Base",
+                                    "variations": [
+                                        {
+                                            "name": "Pan",
+                                            "price": 319,
+                                            "default": 1,
+                                            "id": "88416995",
+                                            "inStock": 1,
+                                            "isVeg": 1,
+                                            "isEnabled": 1
+                                        },
+                                        {
+                                            "name": "Pan",
+                                            "price": 569,
+                                            "id": "88416998",
+                                            "inStock": 1,
+                                            "isVeg": 1,
+                                            "isEnabled": 1
+                                        },
+                                        {
+                                            "name": "Stuffed Crust - Cheese Maxx",
+                                            "price": 394,
+                                            "id": "88416997",
+                                            "inStock": 1,
+                                            "isVeg": 1,
+                                            "isEnabled": 1
+                                        },
+                                        {
+                                            "name": "Stuffed Crust - Cheese Maxx",
+                                            "price": 668,
+                                            "id": "88417000",
+                                            "inStock": 1,
+                                            "isVeg": 1,
+                                            "isEnabled": 1
+                                        }
+                                    ]
+                                }
+                            ],
+                            "pricingModels": [
+                                {
+                                    "variations": [
+                                        {
+                                            "groupId": "27982736",
+                                            "variationId": "88416993"
+                                        },
+                                        {
+                                            "groupId": "27982737",
+                                            "variationId": "88416995"
+                                        }
+                                    ],
+                                    "price": 31900,
+                                    "addonCombinations": [
+                                        {
+                                            "groupId": "114407878",
+                                            "addonId": "101385674"
+                                        },
+                                        {
+                                            "groupId": "114407878",
+                                            "addonId": "101385675"
+                                        },
+                                        {
+                                            "groupId": "114407878",
+                                            "addonId": "101385676"
+                                        },
+                                        {
+                                            "groupId": "114407878",
+                                            "addonId": "101385677"
+                                        },
+                                        {
+                                            "groupId": "114407878",
+                                            "addonId": "101385678"
+                                        },
+                                        {
+                                            "groupId": "114407878",
+                                            "addonId": "101385679"
+                                        },
+                                        {
+                                            "groupId": "114407912",
+                                            "addonId": "101385680"
+                                        },
+                                        {
+                                            "groupId": "114407912",
+                                            "addonId": "101385681"
+                                        },
+                                        {
+                                            "groupId": "114407912",
+                                            "addonId": "101385682"
+                                        },
+                                        {
+                                            "groupId": "114407912",
+                                            "addonId": "101385683"
+                                        },
+                                        {
+                                            "groupId": "114407912",
+                                            "addonId": "101385684"
+                                        },
+                                        {
+                                            "groupId": "114407912",
+                                            "addonId": "101385685"
+                                        },
+                                        {
+                                            "groupId": "114407912",
+                                            "addonId": "101385686"
+                                        },
+                                        {
+                                            "groupId": "114407912",
+                                            "addonId": "101385687"
+                                        },
+                                        {
+                                            "groupId": "114407912",
+                                            "addonId": "101385688"
+                                        },
+                                        {
+                                            "groupId": "114407912",
+                                            "addonId": "101385689"
+                                        },
+                                        {
+                                            "groupId": "114407912",
+                                            "addonId": "101385690"
+                                        },
+                                        {
+                                            "groupId": "114407912",
+                                            "addonId": "101385691"
+                                        },
+                                        {
+                                            "groupId": "114407912",
+                                            "addonId": "101385692"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "variations": [
+                                        {
+                                            "groupId": "27982736",
+                                            "variationId": "88416993"
+                                        },
+                                        {
+                                            "groupId": "27982737",
+                                            "variationId": "88416997"
+                                        }
+                                    ],
+                                    "price": 39400,
+                                    "addonCombinations": [
+                                        {
+                                            "groupId": "114407878",
+                                            "addonId": "101385674"
+                                        },
+                                        {
+                                            "groupId": "114407878",
+                                            "addonId": "101385675"
+                                        },
+                                        {
+                                            "groupId": "114407878",
+                                            "addonId": "101385676"
+                                        },
+                                        {
+                                            "groupId": "114407878",
+                                            "addonId": "101385677"
+                                        },
+                                        {
+                                            "groupId": "114407878",
+                                            "addonId": "101385678"
+                                        },
+                                        {
+                                            "groupId": "114407878",
+                                            "addonId": "101385679"
+                                        },
+                                        {
+                                            "groupId": "114407912",
+                                            "addonId": "101385680"
+                                        },
+                                        {
+                                            "groupId": "114407912",
+                                            "addonId": "101385681"
+                                        },
+                                        {
+                                            "groupId": "114407912",
+                                            "addonId": "101385682"
+                                        },
+                                        {
+                                            "groupId": "114407912",
+                                            "addonId": "101385683"
+                                        },
+                                        {
+                                            "groupId": "114407912",
+                                            "addonId": "101385684"
+                                        },
+                                        {
+                                            "groupId": "114407912",
+                                            "addonId": "101385685"
+                                        },
+                                        {
+                                            "groupId": "114407912",
+                                            "addonId": "101385686"
+                                        },
+                                        {
+                                            "groupId": "114407912",
+                                            "addonId": "101385687"
+                                        },
+                                        {
+                                            "groupId": "114407912",
+                                            "addonId": "101385688"
+                                        },
+                                        {
+                                            "groupId": "114407912",
+                                            "addonId": "101385689"
+                                        },
+                                        {
+                                            "groupId": "114407912",
+                                            "addonId": "101385690"
+                                        },
+                                        {
+                                            "groupId": "114407912",
+                                            "addonId": "101385691"
+                                        },
+                                        {
+                                            "groupId": "114407912",
+                                            "addonId": "101385692"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "variations": [
+                                        {
+                                            "groupId": "27982736",
+                                            "variationId": "88416994"
+                                        },
+                                        {
+                                            "groupId": "27982737",
+                                            "variationId": "88416998"
+                                        }
+                                    ],
+                                    "price": 56900,
+                                    "addonCombinations": [
+                                        {
+                                            "groupId": "114407878",
+                                            "addonId": "101385674"
+                                        },
+                                        {
+                                            "groupId": "114407878",
+                                            "addonId": "101385675"
+                                        },
+                                        {
+                                            "groupId": "114407878",
+                                            "addonId": "101385676"
+                                        },
+                                        {
+                                            "groupId": "114407878",
+                                            "addonId": "101385677"
+                                        },
+                                        {
+                                            "groupId": "114407878",
+                                            "addonId": "101385678"
+                                        },
+                                        {
+                                            "groupId": "114407878",
+                                            "addonId": "101385679"
+                                        },
+                                        {
+                                            "groupId": "114407890",
+                                            "addonId": "101385700"
+                                        },
+                                        {
+                                            "groupId": "114407890",
+                                            "addonId": "101385701"
+                                        },
+                                        {
+                                            "groupId": "114407890",
+                                            "addonId": "101385702"
+                                        },
+                                        {
+                                            "groupId": "114407890",
+                                            "addonId": "101385703"
+                                        },
+                                        {
+                                            "groupId": "114407890",
+                                            "addonId": "101385704"
+                                        },
+                                        {
+                                            "groupId": "114407890",
+                                            "addonId": "101385705"
+                                        },
+                                        {
+                                            "groupId": "114407890",
+                                            "addonId": "101385706"
+                                        },
+                                        {
+                                            "groupId": "114407890",
+                                            "addonId": "101385707"
+                                        },
+                                        {
+                                            "groupId": "114407890",
+                                            "addonId": "101385708"
+                                        },
+                                        {
+                                            "groupId": "114407890",
+                                            "addonId": "101385709"
+                                        },
+                                        {
+                                            "groupId": "114407890",
+                                            "addonId": "101385710"
+                                        },
+                                        {
+                                            "groupId": "114407890",
+                                            "addonId": "101385711"
+                                        },
+                                        {
+                                            "groupId": "114407890",
+                                            "addonId": "101385712"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "variations": [
+                                        {
+                                            "groupId": "27982736",
+                                            "variationId": "88416994"
+                                        },
+                                        {
+                                            "groupId": "27982737",
+                                            "variationId": "88417000"
+                                        }
+                                    ],
+                                    "price": 66800,
+                                    "addonCombinations": [
+                                        {
+                                            "groupId": "114407878",
+                                            "addonId": "101385674"
+                                        },
+                                        {
+                                            "groupId": "114407878",
+                                            "addonId": "101385675"
+                                        },
+                                        {
+                                            "groupId": "114407878",
+                                            "addonId": "101385676"
+                                        },
+                                        {
+                                            "groupId": "114407878",
+                                            "addonId": "101385677"
+                                        },
+                                        {
+                                            "groupId": "114407878",
+                                            "addonId": "101385678"
+                                        },
+                                        {
+                                            "groupId": "114407878",
+                                            "addonId": "101385679"
+                                        },
+                                        {
+                                            "groupId": "114407890",
+                                            "addonId": "101385700"
+                                        },
+                                        {
+                                            "groupId": "114407890",
+                                            "addonId": "101385701"
+                                        },
+                                        {
+                                            "groupId": "114407890",
+                                            "addonId": "101385702"
+                                        },
+                                        {
+                                            "groupId": "114407890",
+                                            "addonId": "101385703"
+                                        },
+                                        {
+                                            "groupId": "114407890",
+                                            "addonId": "101385704"
+                                        },
+                                        {
+                                            "groupId": "114407890",
+                                            "addonId": "101385705"
+                                        },
+                                        {
+                                            "groupId": "114407890",
+                                            "addonId": "101385706"
+                                        },
+                                        {
+                                            "groupId": "114407890",
+                                            "addonId": "101385707"
+                                        },
+                                        {
+                                            "groupId": "114407890",
+                                            "addonId": "101385708"
+                                        },
+                                        {
+                                            "groupId": "114407890",
+                                            "addonId": "101385709"
+                                        },
+                                        {
+                                            "groupId": "114407890",
+                                            "addonId": "101385710"
+                                        },
+                                        {
+                                            "groupId": "114407890",
+                                            "addonId": "101385711"
+                                        },
+                                        {
+                                            "groupId": "114407890",
+                                            "addonId": "101385712"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "addons": [
+                            {
+                                "groupId": "114407878",
+                                "groupName": "Add Ons",
+                                "choices": [
+                                    {
+                                        "id": "101385674",
+                                        "name": "Pepsi Pet Bottle",
+                                        "price": 5700,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385675",
+                                        "name": "Classic BreadStix : Flat Rs 20 Off",
+                                        "price": 9900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385676",
+                                        "name": "Cheese Garlic Bread : Flat Rs 20 Off",
+                                        "price": 13900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385677",
+                                        "name": "Creamy BreadStix : Flat Rs 20 Off",
+                                        "price": 14900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385678",
+                                        "name": "Zesty Paneer Pocket : Flat Rs 20 Off",
+                                        "price": 10900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385679",
+                                        "name": "Choco Volcano : Flat Rs 20 Off",
+                                        "price": 10900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    }
+                                ],
+                                "maxAddons": 6,
+                                "maxFreeAddons": -1
+                            },
+                            {
+                                "groupId": "114407890",
+                                "groupName": "Toppings.",
+                                "choices": [
+                                    {
+                                        "id": "101385700",
+                                        "name": "Cheese",
+                                        "price": 8500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385701",
+                                        "name": "Black Olives",
+                                        "price": 7000,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385702",
+                                        "name": "Baby Corn",
+                                        "price": 7000,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385703",
+                                        "name": "Capsicum",
+                                        "price": 7000,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385704",
+                                        "name": "Herbed Veggies",
+                                        "price": 7000,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385705",
+                                        "name": "Jalapeno",
+                                        "price": 7000,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385706",
+                                        "name": "Mushroom",
+                                        "price": 7000,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385707",
+                                        "name": "Onion",
+                                        "price": 7000,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385708",
+                                        "name": "Paneer",
+                                        "price": 7500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385709",
+                                        "name": "Red Paprika",
+                                        "price": 7000,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385710",
+                                        "name": "Red Capsicum",
+                                        "price": 7000,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385711",
+                                        "name": "Sweet Corn",
+                                        "price": 7000,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385712",
+                                        "name": "Tomato",
+                                        "price": 7000,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    }
+                                ],
+                                "maxAddons": 2,
+                                "maxFreeAddons": -1
+                            },
+                            {
+                                "groupId": "114407912",
+                                "groupName": "Toppings",
+                                "choices": [
+                                    {
+                                        "id": "101385680",
+                                        "name": "Cheese",
+                                        "price": 6500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385681",
+                                        "name": "Black Olives",
+                                        "price": 4500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385683",
+                                        "name": "Capsicum",
+                                        "price": 4500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385684",
+                                        "name": "Herbed Veggies",
+                                        "price": 4500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385685",
+                                        "name": "Jalapeno",
+                                        "price": 4500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385686",
+                                        "name": "Mushroom",
+                                        "price": 4500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385687",
+                                        "name": "Onion",
+                                        "price": 4500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385688",
+                                        "name": "Paneer",
+                                        "price": 5500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385689",
+                                        "name": "Red Paprika",
+                                        "price": 4500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385690",
+                                        "name": "Red Capsicum",
+                                        "price": 4500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385691",
+                                        "name": "Sweet Corn",
+                                        "price": 4500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385692",
+                                        "name": "Tomato",
+                                        "price": 4500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385682",
+                                        "name": "Baby Corn",
+                                        "price": 4500,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    }
+                                ],
+                                "maxAddons": 2,
+                                "maxFreeAddons": -1
+                            }
+                        ],
+                        "itemAttribute": {
+                            "vegClassifier": "VEG",
+                            "portionSize": "Serves 1"
+                        },
+                        "defaultPrice": 31900,
+                        "ribbon": {},
+                        "type": "ITEM",
+                        "itemBadge": {},
+                        "badgesV2": {},
+                        "ratings": {
+                            "aggregatedRating": {}
+                        }
+                    },
+                    "analytics": {},
+                    "hideRestaurantDetails": true
+                }
+            },
+            {
+                "card": {
+                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                    "info": {
+                        "id": "116284888",
+                        "name": "Ultimate Tandoori Veggie",
+                        "category": "Veg Pizza",
+                        "description": "Serves 1 | An ultimate combination of your favourite veggies- onion, green capsicum, mushroom, tomato, spicy jalapeno on tandoori sauce, topped with 100% mozzarella cheese & generous drizzle of mint mayo.",
+                        "imageId": "b7d1f56df6414f8b6e49001af95e259a",
+                        "inStock": 1,
+                        "isVeg": 1,
+                        "variants": {},
+                        "variantsV2": {
+                            "variantGroups": [
+                                {
+                                    "groupId": "27982740",
+                                    "name": "Size",
+                                    "variations": [
+                                        {
+                                            "name": "Personal",
+                                            "default": 1,
+                                            "id": "88417011",
+                                            "inStock": 1,
+                                            "isVeg": 1,
+                                            "isEnabled": 1,
+                                            "dependantVariation": {
+                                                "groupId": "27982741",
+                                                "variationId": "88417013"
+                                            }
+                                        },
+                                        {
+                                            "name": "Medium",
+                                            "id": "88417012",
+                                            "inStock": 1,
+                                            "isVeg": 1,
+                                            "isEnabled": 1,
+                                            "dependantVariation": {
+                                                "groupId": "27982741",
+                                                "variationId": "88417016"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "groupId": "27982741",
+                                    "name": "Base",
+                                    "variations": [
+                                        {
+                                            "name": "Pan",
+                                            "price": 379,
+                                            "default": 1,
+                                            "id": "88417013",
+                                            "inStock": 1,
+                                            "isVeg": 1,
+                                            "isEnabled": 1
+                                        },
+                                        {
+                                            "name": "Pan",
+                                            "price": 639,
+                                            "id": "88417016",
+                                            "inStock": 1,
+                                            "isVeg": 1,
+                                            "isEnabled": 1
+                                        },
+                                        {
+                                            "name": "Stuffed Crust - Cheese Maxx",
+                                            "price": 454,
+                                            "id": "88417015",
+                                            "inStock": 1,
+                                            "isVeg": 1,
+                                            "isEnabled": 1
+                                        },
+                                        {
+                                            "name": "Stuffed Crust - Cheese Maxx",
+                                            "price": 738,
+                                            "id": "88417018",
+                                            "inStock": 1,
+                                            "isVeg": 1,
+                                            "isEnabled": 1
+                                        }
+                                    ]
+                                }
+                            ],
+                            "pricingModels": [
+                                {
+                                    "variations": [
+                                        {
+                                            "groupId": "27982740",
+                                            "variationId": "88417011"
+                                        },
+                                        {
+                                            "groupId": "27982741",
+                                            "variationId": "88417013"
+                                        }
+                                    ],
+                                    "price": 37900,
+                                    "addonCombinations": [
+                                        {
+                                            "groupId": "114407945",
+                                            "addonId": "101385674"
+                                        },
+                                        {
+                                            "groupId": "114407945",
+                                            "addonId": "101385675"
+                                        },
+                                        {
+                                            "groupId": "114407945",
+                                            "addonId": "101385676"
+                                        },
+                                        {
+                                            "groupId": "114407945",
+                                            "addonId": "101385677"
+                                        },
+                                        {
+                                            "groupId": "114407945",
+                                            "addonId": "101385678"
+                                        },
+                                        {
+                                            "groupId": "114407945",
+                                            "addonId": "101385679"
+                                        },
+                                        {
+                                            "groupId": "114407983",
+                                            "addonId": "101385680"
+                                        },
+                                        {
+                                            "groupId": "114407983",
+                                            "addonId": "101385681"
+                                        },
+                                        {
+                                            "groupId": "114407983",
+                                            "addonId": "101385682"
+                                        },
+                                        {
+                                            "groupId": "114407983",
+                                            "addonId": "101385683"
+                                        },
+                                        {
+                                            "groupId": "114407983",
+                                            "addonId": "101385684"
+                                        },
+                                        {
+                                            "groupId": "114407983",
+                                            "addonId": "101385685"
+                                        },
+                                        {
+                                            "groupId": "114407983",
+                                            "addonId": "101385686"
+                                        },
+                                        {
+                                            "groupId": "114407983",
+                                            "addonId": "101385687"
+                                        },
+                                        {
+                                            "groupId": "114407983",
+                                            "addonId": "101385688"
+                                        },
+                                        {
+                                            "groupId": "114407983",
+                                            "addonId": "101385689"
+                                        },
+                                        {
+                                            "groupId": "114407983",
+                                            "addonId": "101385690"
+                                        },
+                                        {
+                                            "groupId": "114407983",
+                                            "addonId": "101385691"
+                                        },
+                                        {
+                                            "groupId": "114407983",
+                                            "addonId": "101385692"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "variations": [
+                                        {
+                                            "groupId": "27982740",
+                                            "variationId": "88417011"
+                                        },
+                                        {
+                                            "groupId": "27982741",
+                                            "variationId": "88417015"
+                                        }
+                                    ],
+                                    "price": 45400,
+                                    "addonCombinations": [
+                                        {
+                                            "groupId": "114407945",
+                                            "addonId": "101385674"
+                                        },
+                                        {
+                                            "groupId": "114407945",
+                                            "addonId": "101385675"
+                                        },
+                                        {
+                                            "groupId": "114407945",
+                                            "addonId": "101385676"
+                                        },
+                                        {
+                                            "groupId": "114407945",
+                                            "addonId": "101385677"
+                                        },
+                                        {
+                                            "groupId": "114407945",
+                                            "addonId": "101385678"
+                                        },
+                                        {
+                                            "groupId": "114407945",
+                                            "addonId": "101385679"
+                                        },
+                                        {
+                                            "groupId": "114407983",
+                                            "addonId": "101385680"
+                                        },
+                                        {
+                                            "groupId": "114407983",
+                                            "addonId": "101385681"
+                                        },
+                                        {
+                                            "groupId": "114407983",
+                                            "addonId": "101385682"
+                                        },
+                                        {
+                                            "groupId": "114407983",
+                                            "addonId": "101385683"
+                                        },
+                                        {
+                                            "groupId": "114407983",
+                                            "addonId": "101385684"
+                                        },
+                                        {
+                                            "groupId": "114407983",
+                                            "addonId": "101385685"
+                                        },
+                                        {
+                                            "groupId": "114407983",
+                                            "addonId": "101385686"
+                                        },
+                                        {
+                                            "groupId": "114407983",
+                                            "addonId": "101385687"
+                                        },
+                                        {
+                                            "groupId": "114407983",
+                                            "addonId": "101385688"
+                                        },
+                                        {
+                                            "groupId": "114407983",
+                                            "addonId": "101385689"
+                                        },
+                                        {
+                                            "groupId": "114407983",
+                                            "addonId": "101385690"
+                                        },
+                                        {
+                                            "groupId": "114407983",
+                                            "addonId": "101385691"
+                                        },
+                                        {
+                                            "groupId": "114407983",
+                                            "addonId": "101385692"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "variations": [
+                                        {
+                                            "groupId": "27982740",
+                                            "variationId": "88417012"
+                                        },
+                                        {
+                                            "groupId": "27982741",
+                                            "variationId": "88417016"
+                                        }
+                                    ],
+                                    "price": 63900,
+                                    "addonCombinations": [
+                                        {
+                                            "groupId": "114407945",
+                                            "addonId": "101385674"
+                                        },
+                                        {
+                                            "groupId": "114407945",
+                                            "addonId": "101385675"
+                                        },
+                                        {
+                                            "groupId": "114407945",
+                                            "addonId": "101385676"
+                                        },
+                                        {
+                                            "groupId": "114407945",
+                                            "addonId": "101385677"
+                                        },
+                                        {
+                                            "groupId": "114407945",
+                                            "addonId": "101385678"
+                                        },
+                                        {
+                                            "groupId": "114407945",
+                                            "addonId": "101385679"
+                                        },
+                                        {
+                                            "groupId": "114407959",
+                                            "addonId": "101385700"
+                                        },
+                                        {
+                                            "groupId": "114407959",
+                                            "addonId": "101385701"
+                                        },
+                                        {
+                                            "groupId": "114407959",
+                                            "addonId": "101385702"
+                                        },
+                                        {
+                                            "groupId": "114407959",
+                                            "addonId": "101385703"
+                                        },
+                                        {
+                                            "groupId": "114407959",
+                                            "addonId": "101385704"
+                                        },
+                                        {
+                                            "groupId": "114407959",
+                                            "addonId": "101385705"
+                                        },
+                                        {
+                                            "groupId": "114407959",
+                                            "addonId": "101385706"
+                                        },
+                                        {
+                                            "groupId": "114407959",
+                                            "addonId": "101385707"
+                                        },
+                                        {
+                                            "groupId": "114407959",
+                                            "addonId": "101385708"
+                                        },
+                                        {
+                                            "groupId": "114407959",
+                                            "addonId": "101385709"
+                                        },
+                                        {
+                                            "groupId": "114407959",
+                                            "addonId": "101385710"
+                                        },
+                                        {
+                                            "groupId": "114407959",
+                                            "addonId": "101385711"
+                                        },
+                                        {
+                                            "groupId": "114407959",
+                                            "addonId": "101385712"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "variations": [
+                                        {
+                                            "groupId": "27982740",
+                                            "variationId": "88417012"
+                                        },
+                                        {
+                                            "groupId": "27982741",
+                                            "variationId": "88417018"
+                                        }
+                                    ],
+                                    "price": 73800,
+                                    "addonCombinations": [
+                                        {
+                                            "groupId": "114407945",
+                                            "addonId": "101385674"
+                                        },
+                                        {
+                                            "groupId": "114407945",
+                                            "addonId": "101385675"
+                                        },
+                                        {
+                                            "groupId": "114407945",
+                                            "addonId": "101385676"
+                                        },
+                                        {
+                                            "groupId": "114407945",
+                                            "addonId": "101385677"
+                                        },
+                                        {
+                                            "groupId": "114407945",
+                                            "addonId": "101385678"
+                                        },
+                                        {
+                                            "groupId": "114407945",
+                                            "addonId": "101385679"
+                                        },
+                                        {
+                                            "groupId": "114407959",
+                                            "addonId": "101385700"
+                                        },
+                                        {
+                                            "groupId": "114407959",
+                                            "addonId": "101385701"
+                                        },
+                                        {
+                                            "groupId": "114407959",
+                                            "addonId": "101385702"
+                                        },
+                                        {
+                                            "groupId": "114407959",
+                                            "addonId": "101385703"
+                                        },
+                                        {
+                                            "groupId": "114407959",
+                                            "addonId": "101385704"
+                                        },
+                                        {
+                                            "groupId": "114407959",
+                                            "addonId": "101385705"
+                                        },
+                                        {
+                                            "groupId": "114407959",
+                                            "addonId": "101385706"
+                                        },
+                                        {
+                                            "groupId": "114407959",
+                                            "addonId": "101385707"
+                                        },
+                                        {
+                                            "groupId": "114407959",
+                                            "addonId": "101385708"
+                                        },
+                                        {
+                                            "groupId": "114407959",
+                                            "addonId": "101385709"
+                                        },
+                                        {
+                                            "groupId": "114407959",
+                                            "addonId": "101385710"
+                                        },
+                                        {
+                                            "groupId": "114407959",
+                                            "addonId": "101385711"
+                                        },
+                                        {
+                                            "groupId": "114407959",
+                                            "addonId": "101385712"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "addons": [
+                            {
+                                "groupId": "114407945",
+                                "groupName": "Add Ons",
+                                "choices": [
+                                    {
+                                        "id": "101385674",
+                                        "name": "Pepsi Pet Bottle",
+                                        "price": 5700,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385675",
+                                        "name": "Classic BreadStix : Flat Rs 20 Off",
+                                        "price": 9900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385676",
+                                        "name": "Cheese Garlic Bread : Flat Rs 20 Off",
+                                        "price": 13900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385677",
+                                        "name": "Creamy BreadStix : Flat Rs 20 Off",
+                                        "price": 14900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385678",
+                                        "name": "Zesty Paneer Pocket : Flat Rs 20 Off",
+                                        "price": 10900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385679",
+                                        "name": "Choco Volcano : Flat Rs 20 Off",
+                                        "price": 10900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    }
+                                ],
+                                "maxAddons": 6,
+                                "maxFreeAddons": -1
+                            },
+                            {
+                                "groupId": "114407959",
+                                "groupName": "Toppings.",
+                                "choices": [
+                                    {
+                                        "id": "101385700",
+                                        "name": "Cheese",
+                                        "price": 8500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385701",
+                                        "name": "Black Olives",
+                                        "price": 7000,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385702",
+                                        "name": "Baby Corn",
+                                        "price": 7000,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385703",
+                                        "name": "Capsicum",
+                                        "price": 7000,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385704",
+                                        "name": "Herbed Veggies",
+                                        "price": 7000,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385705",
+                                        "name": "Jalapeno",
+                                        "price": 7000,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385706",
+                                        "name": "Mushroom",
+                                        "price": 7000,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385707",
+                                        "name": "Onion",
+                                        "price": 7000,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385708",
+                                        "name": "Paneer",
+                                        "price": 7500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385709",
+                                        "name": "Red Paprika",
+                                        "price": 7000,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385710",
+                                        "name": "Red Capsicum",
+                                        "price": 7000,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385711",
+                                        "name": "Sweet Corn",
+                                        "price": 7000,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385712",
+                                        "name": "Tomato",
+                                        "price": 7000,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    }
+                                ],
+                                "maxAddons": 2,
+                                "maxFreeAddons": -1
+                            },
+                            {
+                                "groupId": "114407983",
+                                "groupName": "Toppings",
+                                "choices": [
+                                    {
+                                        "id": "101385680",
+                                        "name": "Cheese",
+                                        "price": 6500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385681",
+                                        "name": "Black Olives",
+                                        "price": 4500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385683",
+                                        "name": "Capsicum",
+                                        "price": 4500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385684",
+                                        "name": "Herbed Veggies",
+                                        "price": 4500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385685",
+                                        "name": "Jalapeno",
+                                        "price": 4500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385686",
+                                        "name": "Mushroom",
+                                        "price": 4500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385687",
+                                        "name": "Onion",
+                                        "price": 4500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385688",
+                                        "name": "Paneer",
+                                        "price": 5500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385689",
+                                        "name": "Red Paprika",
+                                        "price": 4500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385690",
+                                        "name": "Red Capsicum",
+                                        "price": 4500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385691",
+                                        "name": "Sweet Corn",
+                                        "price": 4500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385692",
+                                        "name": "Tomato",
+                                        "price": 4500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385682",
+                                        "name": "Baby Corn",
+                                        "price": 4500,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    }
+                                ],
+                                "maxAddons": 2,
+                                "maxFreeAddons": -1
+                            }
+                        ],
+                        "itemAttribute": {
+                            "vegClassifier": "VEG",
+                            "portionSize": "Serves 1"
+                        },
+                        "defaultPrice": 37900,
+                        "ribbon": {},
+                        "type": "ITEM",
+                        "itemBadge": {},
+                        "badgesV2": {},
+                        "ratings": {
+                            "aggregatedRating": {}
+                        }
+                    },
+                    "analytics": {},
+                    "hideRestaurantDetails": true
+                }
+            },
+            {
+                "card": {
+                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                    "info": {
+                        "id": "116284890",
+                        "name": "Mazedar Makhni Paneer",
+                        "category": "Veg Pizza",
+                        "description": "Serves 1 | A treat for all makhni lovers. Spiced paneer, onion, juicy red bell peppers with our new flavourful makhni sauce, topped with 100% mozzarella cheese and buttery spice sprinkle",
+                        "imageId": "bf62afee565475fb92a204206321a41c",
+                        "inStock": 1,
+                        "isVeg": 1,
+                        "variants": {},
+                        "variantsV2": {
+                            "variantGroups": [
+                                {
+                                    "groupId": "27982744",
+                                    "name": "Size",
+                                    "variations": [
+                                        {
+                                            "name": "Personal",
+                                            "default": 1,
+                                            "id": "88417029",
+                                            "inStock": 1,
+                                            "isVeg": 1,
+                                            "isEnabled": 1,
+                                            "dependantVariation": {
+                                                "groupId": "27982745",
+                                                "variationId": "88417031"
+                                            }
+                                        },
+                                        {
+                                            "name": "Medium",
+                                            "id": "88417030",
+                                            "inStock": 1,
+                                            "isVeg": 1,
+                                            "isEnabled": 1,
+                                            "dependantVariation": {
+                                                "groupId": "27982745",
+                                                "variationId": "88417034"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "groupId": "27982745",
+                                    "name": "Base",
+                                    "variations": [
+                                        {
+                                            "name": "Pan",
+                                            "price": 379,
+                                            "default": 1,
+                                            "id": "88417031",
+                                            "inStock": 1,
+                                            "isVeg": 1,
+                                            "isEnabled": 1
+                                        },
+                                        {
+                                            "name": "Pan",
+                                            "price": 639,
+                                            "id": "88417034",
+                                            "inStock": 1,
+                                            "isVeg": 1,
+                                            "isEnabled": 1
+                                        },
+                                        {
+                                            "name": "Stuffed Crust - Cheese Maxx",
+                                            "price": 454,
+                                            "id": "88417033",
+                                            "inStock": 1,
+                                            "isVeg": 1,
+                                            "isEnabled": 1
+                                        },
+                                        {
+                                            "name": "Stuffed Crust - Cheese Maxx",
+                                            "price": 738,
+                                            "id": "88417036",
+                                            "inStock": 1,
+                                            "isVeg": 1,
+                                            "isEnabled": 1
+                                        }
+                                    ]
+                                }
+                            ],
+                            "pricingModels": [
+                                {
+                                    "variations": [
+                                        {
+                                            "groupId": "27982744",
+                                            "variationId": "88417029"
+                                        },
+                                        {
+                                            "groupId": "27982745",
+                                            "variationId": "88417031"
+                                        }
+                                    ],
+                                    "price": 37900,
+                                    "addonCombinations": [
+                                        {
+                                            "groupId": "114408004",
+                                            "addonId": "101385674"
+                                        },
+                                        {
+                                            "groupId": "114408004",
+                                            "addonId": "101385675"
+                                        },
+                                        {
+                                            "groupId": "114408004",
+                                            "addonId": "101385676"
+                                        },
+                                        {
+                                            "groupId": "114408004",
+                                            "addonId": "101385677"
+                                        },
+                                        {
+                                            "groupId": "114408004",
+                                            "addonId": "101385678"
+                                        },
+                                        {
+                                            "groupId": "114408004",
+                                            "addonId": "101385679"
+                                        },
+                                        {
+                                            "groupId": "114408037",
+                                            "addonId": "101385680"
+                                        },
+                                        {
+                                            "groupId": "114408037",
+                                            "addonId": "101385681"
+                                        },
+                                        {
+                                            "groupId": "114408037",
+                                            "addonId": "101385682"
+                                        },
+                                        {
+                                            "groupId": "114408037",
+                                            "addonId": "101385683"
+                                        },
+                                        {
+                                            "groupId": "114408037",
+                                            "addonId": "101385684"
+                                        },
+                                        {
+                                            "groupId": "114408037",
+                                            "addonId": "101385685"
+                                        },
+                                        {
+                                            "groupId": "114408037",
+                                            "addonId": "101385686"
+                                        },
+                                        {
+                                            "groupId": "114408037",
+                                            "addonId": "101385687"
+                                        },
+                                        {
+                                            "groupId": "114408037",
+                                            "addonId": "101385688"
+                                        },
+                                        {
+                                            "groupId": "114408037",
+                                            "addonId": "101385689"
+                                        },
+                                        {
+                                            "groupId": "114408037",
+                                            "addonId": "101385690"
+                                        },
+                                        {
+                                            "groupId": "114408037",
+                                            "addonId": "101385691"
+                                        },
+                                        {
+                                            "groupId": "114408037",
+                                            "addonId": "101385692"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "variations": [
+                                        {
+                                            "groupId": "27982744",
+                                            "variationId": "88417029"
+                                        },
+                                        {
+                                            "groupId": "27982745",
+                                            "variationId": "88417033"
+                                        }
+                                    ],
+                                    "price": 45400,
+                                    "addonCombinations": [
+                                        {
+                                            "groupId": "114408004",
+                                            "addonId": "101385674"
+                                        },
+                                        {
+                                            "groupId": "114408004",
+                                            "addonId": "101385675"
+                                        },
+                                        {
+                                            "groupId": "114408004",
+                                            "addonId": "101385676"
+                                        },
+                                        {
+                                            "groupId": "114408004",
+                                            "addonId": "101385677"
+                                        },
+                                        {
+                                            "groupId": "114408004",
+                                            "addonId": "101385678"
+                                        },
+                                        {
+                                            "groupId": "114408004",
+                                            "addonId": "101385679"
+                                        },
+                                        {
+                                            "groupId": "114408037",
+                                            "addonId": "101385680"
+                                        },
+                                        {
+                                            "groupId": "114408037",
+                                            "addonId": "101385681"
+                                        },
+                                        {
+                                            "groupId": "114408037",
+                                            "addonId": "101385682"
+                                        },
+                                        {
+                                            "groupId": "114408037",
+                                            "addonId": "101385683"
+                                        },
+                                        {
+                                            "groupId": "114408037",
+                                            "addonId": "101385684"
+                                        },
+                                        {
+                                            "groupId": "114408037",
+                                            "addonId": "101385685"
+                                        },
+                                        {
+                                            "groupId": "114408037",
+                                            "addonId": "101385686"
+                                        },
+                                        {
+                                            "groupId": "114408037",
+                                            "addonId": "101385687"
+                                        },
+                                        {
+                                            "groupId": "114408037",
+                                            "addonId": "101385688"
+                                        },
+                                        {
+                                            "groupId": "114408037",
+                                            "addonId": "101385689"
+                                        },
+                                        {
+                                            "groupId": "114408037",
+                                            "addonId": "101385690"
+                                        },
+                                        {
+                                            "groupId": "114408037",
+                                            "addonId": "101385691"
+                                        },
+                                        {
+                                            "groupId": "114408037",
+                                            "addonId": "101385692"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "variations": [
+                                        {
+                                            "groupId": "27982744",
+                                            "variationId": "88417030"
+                                        },
+                                        {
+                                            "groupId": "27982745",
+                                            "variationId": "88417034"
+                                        }
+                                    ],
+                                    "price": 63900,
+                                    "addonCombinations": [
+                                        {
+                                            "groupId": "114408004",
+                                            "addonId": "101385674"
+                                        },
+                                        {
+                                            "groupId": "114408004",
+                                            "addonId": "101385675"
+                                        },
+                                        {
+                                            "groupId": "114408004",
+                                            "addonId": "101385676"
+                                        },
+                                        {
+                                            "groupId": "114408004",
+                                            "addonId": "101385677"
+                                        },
+                                        {
+                                            "groupId": "114408004",
+                                            "addonId": "101385678"
+                                        },
+                                        {
+                                            "groupId": "114408004",
+                                            "addonId": "101385679"
+                                        },
+                                        {
+                                            "groupId": "114408016",
+                                            "addonId": "101385700"
+                                        },
+                                        {
+                                            "groupId": "114408016",
+                                            "addonId": "101385701"
+                                        },
+                                        {
+                                            "groupId": "114408016",
+                                            "addonId": "101385702"
+                                        },
+                                        {
+                                            "groupId": "114408016",
+                                            "addonId": "101385703"
+                                        },
+                                        {
+                                            "groupId": "114408016",
+                                            "addonId": "101385704"
+                                        },
+                                        {
+                                            "groupId": "114408016",
+                                            "addonId": "101385705"
+                                        },
+                                        {
+                                            "groupId": "114408016",
+                                            "addonId": "101385706"
+                                        },
+                                        {
+                                            "groupId": "114408016",
+                                            "addonId": "101385707"
+                                        },
+                                        {
+                                            "groupId": "114408016",
+                                            "addonId": "101385708"
+                                        },
+                                        {
+                                            "groupId": "114408016",
+                                            "addonId": "101385709"
+                                        },
+                                        {
+                                            "groupId": "114408016",
+                                            "addonId": "101385710"
+                                        },
+                                        {
+                                            "groupId": "114408016",
+                                            "addonId": "101385711"
+                                        },
+                                        {
+                                            "groupId": "114408016",
+                                            "addonId": "101385712"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "variations": [
+                                        {
+                                            "groupId": "27982744",
+                                            "variationId": "88417030"
+                                        },
+                                        {
+                                            "groupId": "27982745",
+                                            "variationId": "88417036"
+                                        }
+                                    ],
+                                    "price": 73800,
+                                    "addonCombinations": [
+                                        {
+                                            "groupId": "114408004",
+                                            "addonId": "101385674"
+                                        },
+                                        {
+                                            "groupId": "114408004",
+                                            "addonId": "101385675"
+                                        },
+                                        {
+                                            "groupId": "114408004",
+                                            "addonId": "101385676"
+                                        },
+                                        {
+                                            "groupId": "114408004",
+                                            "addonId": "101385677"
+                                        },
+                                        {
+                                            "groupId": "114408004",
+                                            "addonId": "101385678"
+                                        },
+                                        {
+                                            "groupId": "114408004",
+                                            "addonId": "101385679"
+                                        },
+                                        {
+                                            "groupId": "114408016",
+                                            "addonId": "101385700"
+                                        },
+                                        {
+                                            "groupId": "114408016",
+                                            "addonId": "101385701"
+                                        },
+                                        {
+                                            "groupId": "114408016",
+                                            "addonId": "101385702"
+                                        },
+                                        {
+                                            "groupId": "114408016",
+                                            "addonId": "101385703"
+                                        },
+                                        {
+                                            "groupId": "114408016",
+                                            "addonId": "101385704"
+                                        },
+                                        {
+                                            "groupId": "114408016",
+                                            "addonId": "101385705"
+                                        },
+                                        {
+                                            "groupId": "114408016",
+                                            "addonId": "101385706"
+                                        },
+                                        {
+                                            "groupId": "114408016",
+                                            "addonId": "101385707"
+                                        },
+                                        {
+                                            "groupId": "114408016",
+                                            "addonId": "101385708"
+                                        },
+                                        {
+                                            "groupId": "114408016",
+                                            "addonId": "101385709"
+                                        },
+                                        {
+                                            "groupId": "114408016",
+                                            "addonId": "101385710"
+                                        },
+                                        {
+                                            "groupId": "114408016",
+                                            "addonId": "101385711"
+                                        },
+                                        {
+                                            "groupId": "114408016",
+                                            "addonId": "101385712"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "addons": [
+                            {
+                                "groupId": "114408004",
+                                "groupName": "Add Ons",
+                                "choices": [
+                                    {
+                                        "id": "101385674",
+                                        "name": "Pepsi Pet Bottle",
+                                        "price": 5700,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385675",
+                                        "name": "Classic BreadStix : Flat Rs 20 Off",
+                                        "price": 9900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385676",
+                                        "name": "Cheese Garlic Bread : Flat Rs 20 Off",
+                                        "price": 13900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385677",
+                                        "name": "Creamy BreadStix : Flat Rs 20 Off",
+                                        "price": 14900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385678",
+                                        "name": "Zesty Paneer Pocket : Flat Rs 20 Off",
+                                        "price": 10900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385679",
+                                        "name": "Choco Volcano : Flat Rs 20 Off",
+                                        "price": 10900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    }
+                                ],
+                                "maxAddons": 6,
+                                "maxFreeAddons": -1
+                            },
+                            {
+                                "groupId": "114408016",
+                                "groupName": "Toppings.",
+                                "choices": [
+                                    {
+                                        "id": "101385700",
+                                        "name": "Cheese",
+                                        "price": 8500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385701",
+                                        "name": "Black Olives",
+                                        "price": 7000,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385702",
+                                        "name": "Baby Corn",
+                                        "price": 7000,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385703",
+                                        "name": "Capsicum",
+                                        "price": 7000,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385704",
+                                        "name": "Herbed Veggies",
+                                        "price": 7000,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385705",
+                                        "name": "Jalapeno",
+                                        "price": 7000,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385706",
+                                        "name": "Mushroom",
+                                        "price": 7000,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385707",
+                                        "name": "Onion",
+                                        "price": 7000,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385708",
+                                        "name": "Paneer",
+                                        "price": 7500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385709",
+                                        "name": "Red Paprika",
+                                        "price": 7000,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385710",
+                                        "name": "Red Capsicum",
+                                        "price": 7000,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385711",
+                                        "name": "Sweet Corn",
+                                        "price": 7000,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385712",
+                                        "name": "Tomato",
+                                        "price": 7000,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    }
+                                ],
+                                "maxAddons": 2,
+                                "maxFreeAddons": -1
+                            },
+                            {
+                                "groupId": "114408037",
+                                "groupName": "Toppings",
+                                "choices": [
+                                    {
+                                        "id": "101385680",
+                                        "name": "Cheese",
+                                        "price": 6500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385681",
+                                        "name": "Black Olives",
+                                        "price": 4500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385683",
+                                        "name": "Capsicum",
+                                        "price": 4500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385684",
+                                        "name": "Herbed Veggies",
+                                        "price": 4500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385685",
+                                        "name": "Jalapeno",
+                                        "price": 4500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385686",
+                                        "name": "Mushroom",
+                                        "price": 4500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385687",
+                                        "name": "Onion",
+                                        "price": 4500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385688",
+                                        "name": "Paneer",
+                                        "price": 5500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385689",
+                                        "name": "Red Paprika",
+                                        "price": 4500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385690",
+                                        "name": "Red Capsicum",
+                                        "price": 4500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385691",
+                                        "name": "Sweet Corn",
+                                        "price": 4500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385692",
+                                        "name": "Tomato",
+                                        "price": 4500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385682",
+                                        "name": "Baby Corn",
+                                        "price": 4500,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    }
+                                ],
+                                "maxAddons": 2,
+                                "maxFreeAddons": -1
+                            }
+                        ],
+                        "itemAttribute": {
+                            "vegClassifier": "VEG",
+                            "portionSize": "Serves 1"
+                        },
+                        "defaultPrice": 37900,
+                        "ribbon": {},
+                        "type": "ITEM",
+                        "itemBadge": {},
+                        "badgesV2": {},
+                        "ratings": {
+                            "aggregatedRating": {
+                                "rating": "3.2",
+                                "ratingCount": "4 ratings",
+                                "ratingCountV2": "4"
+                            }
+                        }
+                    },
+                    "analytics": {},
+                    "hideRestaurantDetails": true
+                }
+            },
+            {
+                "card": {
+                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                    "info": {
+                        "id": "116284892",
+                        "name": "Awesome American Cheesy",
+                        "category": "Veg Pizza",
+                        "description": "Serves 1 | Our divine peruvian flavoured cheesy sauce, topped with sweet corn, green capsicum, red paprika and 100% mozzarella cheese, finished with a generous drizzle of texas garlic sauce.",
+                        "imageId": "9bd233c76aaf2d2745c5c07332609a8c",
+                        "inStock": 1,
+                        "isVeg": 1,
+                        "variants": {},
+                        "variantsV2": {
+                            "variantGroups": [
+                                {
+                                    "groupId": "27982748",
+                                    "name": "Size",
+                                    "variations": [
+                                        {
+                                            "name": "Personal",
+                                            "default": 1,
+                                            "id": "88417047",
+                                            "inStock": 1,
+                                            "isVeg": 1,
+                                            "isEnabled": 1,
+                                            "dependantVariation": {
+                                                "groupId": "27982749",
+                                                "variationId": "88417049"
+                                            }
+                                        },
+                                        {
+                                            "name": "Medium",
+                                            "id": "88417048",
+                                            "inStock": 1,
+                                            "isVeg": 1,
+                                            "isEnabled": 1,
+                                            "dependantVariation": {
+                                                "groupId": "27982749",
+                                                "variationId": "88417052"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "groupId": "27982749",
+                                    "name": "Base",
+                                    "variations": [
+                                        {
+                                            "name": "Pan",
+                                            "price": 379,
+                                            "default": 1,
+                                            "id": "88417049",
+                                            "inStock": 1,
+                                            "isVeg": 1,
+                                            "isEnabled": 1
+                                        },
+                                        {
+                                            "name": "Pan",
+                                            "price": 639,
+                                            "id": "88417052",
+                                            "inStock": 1,
+                                            "isVeg": 1,
+                                            "isEnabled": 1
+                                        },
+                                        {
+                                            "name": "Stuffed Crust - Cheese Maxx",
+                                            "price": 454,
+                                            "id": "88417051",
+                                            "inStock": 1,
+                                            "isVeg": 1,
+                                            "isEnabled": 1
+                                        },
+                                        {
+                                            "name": "Stuffed Crust - Cheese Maxx",
+                                            "price": 738,
+                                            "id": "88417054",
+                                            "inStock": 1,
+                                            "isVeg": 1,
+                                            "isEnabled": 1
+                                        }
+                                    ]
+                                }
+                            ],
+                            "pricingModels": [
+                                {
+                                    "variations": [
+                                        {
+                                            "groupId": "27982748",
+                                            "variationId": "88417047"
+                                        },
+                                        {
+                                            "groupId": "27982749",
+                                            "variationId": "88417049"
+                                        }
+                                    ],
+                                    "price": 37900,
+                                    "addonCombinations": [
+                                        {
+                                            "groupId": "114408060",
+                                            "addonId": "101385674"
+                                        },
+                                        {
+                                            "groupId": "114408060",
+                                            "addonId": "101385675"
+                                        },
+                                        {
+                                            "groupId": "114408060",
+                                            "addonId": "101385676"
+                                        },
+                                        {
+                                            "groupId": "114408060",
+                                            "addonId": "101385677"
+                                        },
+                                        {
+                                            "groupId": "114408060",
+                                            "addonId": "101385678"
+                                        },
+                                        {
+                                            "groupId": "114408060",
+                                            "addonId": "101385679"
+                                        },
+                                        {
+                                            "groupId": "114408104",
+                                            "addonId": "101385680"
+                                        },
+                                        {
+                                            "groupId": "114408104",
+                                            "addonId": "101385681"
+                                        },
+                                        {
+                                            "groupId": "114408104",
+                                            "addonId": "101385682"
+                                        },
+                                        {
+                                            "groupId": "114408104",
+                                            "addonId": "101385683"
+                                        },
+                                        {
+                                            "groupId": "114408104",
+                                            "addonId": "101385684"
+                                        },
+                                        {
+                                            "groupId": "114408104",
+                                            "addonId": "101385685"
+                                        },
+                                        {
+                                            "groupId": "114408104",
+                                            "addonId": "101385686"
+                                        },
+                                        {
+                                            "groupId": "114408104",
+                                            "addonId": "101385687"
+                                        },
+                                        {
+                                            "groupId": "114408104",
+                                            "addonId": "101385688"
+                                        },
+                                        {
+                                            "groupId": "114408104",
+                                            "addonId": "101385689"
+                                        },
+                                        {
+                                            "groupId": "114408104",
+                                            "addonId": "101385690"
+                                        },
+                                        {
+                                            "groupId": "114408104",
+                                            "addonId": "101385691"
+                                        },
+                                        {
+                                            "groupId": "114408104",
+                                            "addonId": "101385692"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "variations": [
+                                        {
+                                            "groupId": "27982748",
+                                            "variationId": "88417047"
+                                        },
+                                        {
+                                            "groupId": "27982749",
+                                            "variationId": "88417051"
+                                        }
+                                    ],
+                                    "price": 45400,
+                                    "addonCombinations": [
+                                        {
+                                            "groupId": "114408060",
+                                            "addonId": "101385674"
+                                        },
+                                        {
+                                            "groupId": "114408060",
+                                            "addonId": "101385675"
+                                        },
+                                        {
+                                            "groupId": "114408060",
+                                            "addonId": "101385676"
+                                        },
+                                        {
+                                            "groupId": "114408060",
+                                            "addonId": "101385677"
+                                        },
+                                        {
+                                            "groupId": "114408060",
+                                            "addonId": "101385678"
+                                        },
+                                        {
+                                            "groupId": "114408060",
+                                            "addonId": "101385679"
+                                        },
+                                        {
+                                            "groupId": "114408104",
+                                            "addonId": "101385680"
+                                        },
+                                        {
+                                            "groupId": "114408104",
+                                            "addonId": "101385681"
+                                        },
+                                        {
+                                            "groupId": "114408104",
+                                            "addonId": "101385682"
+                                        },
+                                        {
+                                            "groupId": "114408104",
+                                            "addonId": "101385683"
+                                        },
+                                        {
+                                            "groupId": "114408104",
+                                            "addonId": "101385684"
+                                        },
+                                        {
+                                            "groupId": "114408104",
+                                            "addonId": "101385685"
+                                        },
+                                        {
+                                            "groupId": "114408104",
+                                            "addonId": "101385686"
+                                        },
+                                        {
+                                            "groupId": "114408104",
+                                            "addonId": "101385687"
+                                        },
+                                        {
+                                            "groupId": "114408104",
+                                            "addonId": "101385688"
+                                        },
+                                        {
+                                            "groupId": "114408104",
+                                            "addonId": "101385689"
+                                        },
+                                        {
+                                            "groupId": "114408104",
+                                            "addonId": "101385690"
+                                        },
+                                        {
+                                            "groupId": "114408104",
+                                            "addonId": "101385691"
+                                        },
+                                        {
+                                            "groupId": "114408104",
+                                            "addonId": "101385692"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "variations": [
+                                        {
+                                            "groupId": "27982748",
+                                            "variationId": "88417048"
+                                        },
+                                        {
+                                            "groupId": "27982749",
+                                            "variationId": "88417052"
+                                        }
+                                    ],
+                                    "price": 63900,
+                                    "addonCombinations": [
+                                        {
+                                            "groupId": "114408060",
+                                            "addonId": "101385674"
+                                        },
+                                        {
+                                            "groupId": "114408060",
+                                            "addonId": "101385675"
+                                        },
+                                        {
+                                            "groupId": "114408060",
+                                            "addonId": "101385676"
+                                        },
+                                        {
+                                            "groupId": "114408060",
+                                            "addonId": "101385677"
+                                        },
+                                        {
+                                            "groupId": "114408060",
+                                            "addonId": "101385678"
+                                        },
+                                        {
+                                            "groupId": "114408060",
+                                            "addonId": "101385679"
+                                        },
+                                        {
+                                            "groupId": "114408078",
+                                            "addonId": "101385700"
+                                        },
+                                        {
+                                            "groupId": "114408078",
+                                            "addonId": "101385701"
+                                        },
+                                        {
+                                            "groupId": "114408078",
+                                            "addonId": "101385702"
+                                        },
+                                        {
+                                            "groupId": "114408078",
+                                            "addonId": "101385703"
+                                        },
+                                        {
+                                            "groupId": "114408078",
+                                            "addonId": "101385704"
+                                        },
+                                        {
+                                            "groupId": "114408078",
+                                            "addonId": "101385705"
+                                        },
+                                        {
+                                            "groupId": "114408078",
+                                            "addonId": "101385706"
+                                        },
+                                        {
+                                            "groupId": "114408078",
+                                            "addonId": "101385707"
+                                        },
+                                        {
+                                            "groupId": "114408078",
+                                            "addonId": "101385708"
+                                        },
+                                        {
+                                            "groupId": "114408078",
+                                            "addonId": "101385709"
+                                        },
+                                        {
+                                            "groupId": "114408078",
+                                            "addonId": "101385710"
+                                        },
+                                        {
+                                            "groupId": "114408078",
+                                            "addonId": "101385711"
+                                        },
+                                        {
+                                            "groupId": "114408078",
+                                            "addonId": "101385712"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "variations": [
+                                        {
+                                            "groupId": "27982748",
+                                            "variationId": "88417048"
+                                        },
+                                        {
+                                            "groupId": "27982749",
+                                            "variationId": "88417054"
+                                        }
+                                    ],
+                                    "price": 73800,
+                                    "addonCombinations": [
+                                        {
+                                            "groupId": "114408060",
+                                            "addonId": "101385674"
+                                        },
+                                        {
+                                            "groupId": "114408060",
+                                            "addonId": "101385675"
+                                        },
+                                        {
+                                            "groupId": "114408060",
+                                            "addonId": "101385676"
+                                        },
+                                        {
+                                            "groupId": "114408060",
+                                            "addonId": "101385677"
+                                        },
+                                        {
+                                            "groupId": "114408060",
+                                            "addonId": "101385678"
+                                        },
+                                        {
+                                            "groupId": "114408060",
+                                            "addonId": "101385679"
+                                        },
+                                        {
+                                            "groupId": "114408078",
+                                            "addonId": "101385700"
+                                        },
+                                        {
+                                            "groupId": "114408078",
+                                            "addonId": "101385701"
+                                        },
+                                        {
+                                            "groupId": "114408078",
+                                            "addonId": "101385702"
+                                        },
+                                        {
+                                            "groupId": "114408078",
+                                            "addonId": "101385703"
+                                        },
+                                        {
+                                            "groupId": "114408078",
+                                            "addonId": "101385704"
+                                        },
+                                        {
+                                            "groupId": "114408078",
+                                            "addonId": "101385705"
+                                        },
+                                        {
+                                            "groupId": "114408078",
+                                            "addonId": "101385706"
+                                        },
+                                        {
+                                            "groupId": "114408078",
+                                            "addonId": "101385707"
+                                        },
+                                        {
+                                            "groupId": "114408078",
+                                            "addonId": "101385708"
+                                        },
+                                        {
+                                            "groupId": "114408078",
+                                            "addonId": "101385709"
+                                        },
+                                        {
+                                            "groupId": "114408078",
+                                            "addonId": "101385710"
+                                        },
+                                        {
+                                            "groupId": "114408078",
+                                            "addonId": "101385711"
+                                        },
+                                        {
+                                            "groupId": "114408078",
+                                            "addonId": "101385712"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "addons": [
+                            {
+                                "groupId": "114408060",
+                                "groupName": "Add Ons",
+                                "choices": [
+                                    {
+                                        "id": "101385674",
+                                        "name": "Pepsi Pet Bottle",
+                                        "price": 5700,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385675",
+                                        "name": "Classic BreadStix : Flat Rs 20 Off",
+                                        "price": 9900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385676",
+                                        "name": "Cheese Garlic Bread : Flat Rs 20 Off",
+                                        "price": 13900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385677",
+                                        "name": "Creamy BreadStix : Flat Rs 20 Off",
+                                        "price": 14900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385678",
+                                        "name": "Zesty Paneer Pocket : Flat Rs 20 Off",
+                                        "price": 10900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385679",
+                                        "name": "Choco Volcano : Flat Rs 20 Off",
+                                        "price": 10900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    }
+                                ],
+                                "maxAddons": 6,
+                                "maxFreeAddons": -1
+                            },
+                            {
+                                "groupId": "114408078",
+                                "groupName": "Toppings.",
+                                "choices": [
+                                    {
+                                        "id": "101385700",
+                                        "name": "Cheese",
+                                        "price": 8500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385701",
+                                        "name": "Black Olives",
+                                        "price": 7000,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385702",
+                                        "name": "Baby Corn",
+                                        "price": 7000,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385703",
+                                        "name": "Capsicum",
+                                        "price": 7000,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385704",
+                                        "name": "Herbed Veggies",
+                                        "price": 7000,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385705",
+                                        "name": "Jalapeno",
+                                        "price": 7000,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385706",
+                                        "name": "Mushroom",
+                                        "price": 7000,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385707",
+                                        "name": "Onion",
+                                        "price": 7000,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385708",
+                                        "name": "Paneer",
+                                        "price": 7500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385709",
+                                        "name": "Red Paprika",
+                                        "price": 7000,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385710",
+                                        "name": "Red Capsicum",
+                                        "price": 7000,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385711",
+                                        "name": "Sweet Corn",
+                                        "price": 7000,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385712",
+                                        "name": "Tomato",
+                                        "price": 7000,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    }
+                                ],
+                                "maxAddons": 2,
+                                "maxFreeAddons": -1
+                            },
+                            {
+                                "groupId": "114408104",
+                                "groupName": "Toppings",
+                                "choices": [
+                                    {
+                                        "id": "101385680",
+                                        "name": "Cheese",
+                                        "price": 6500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385681",
+                                        "name": "Black Olives",
+                                        "price": 4500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385683",
+                                        "name": "Capsicum",
+                                        "price": 4500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385684",
+                                        "name": "Herbed Veggies",
+                                        "price": 4500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385685",
+                                        "name": "Jalapeno",
+                                        "price": 4500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385686",
+                                        "name": "Mushroom",
+                                        "price": 4500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385687",
+                                        "name": "Onion",
+                                        "price": 4500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385688",
+                                        "name": "Paneer",
+                                        "price": 5500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385689",
+                                        "name": "Red Paprika",
+                                        "price": 4500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385690",
+                                        "name": "Red Capsicum",
+                                        "price": 4500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385691",
+                                        "name": "Sweet Corn",
+                                        "price": 4500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385692",
+                                        "name": "Tomato",
+                                        "price": 4500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385682",
+                                        "name": "Baby Corn",
+                                        "price": 4500,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    }
+                                ],
+                                "maxAddons": 2,
+                                "maxFreeAddons": -1
+                            }
+                        ],
+                        "itemAttribute": {
+                            "vegClassifier": "VEG",
+                            "portionSize": "Serves 1"
+                        },
+                        "defaultPrice": 37900,
+                        "ribbon": {},
+                        "type": "ITEM",
+                        "itemBadge": {},
+                        "badgesV2": {},
+                        "ratings": {
+                            "aggregatedRating": {}
+                        }
+                    },
+                    "analytics": {},
+                    "hideRestaurantDetails": true
+                }
+            },
+            {
+                "card": {
+                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                    "info": {
+                        "id": "111819613",
+                        "name": "Margherita",
+                        "category": "Veg Pizza",
+                        "description": "Pizza topped with our herb-infused signature pan sauce and 100% mozzarella cheese. A classic treat for all cheese lovers out there!",
+                        "imageId": "dpventcrozvfni0lqb10",
+                        "inStock": 1,
+                        "isVeg": 1,
+                        "variants": {},
+                        "variantsV2": {
+                            "variantGroups": [
+                                {
+                                    "groupId": "26829424",
+                                    "name": "Size",
+                                    "variations": [
+                                        {
+                                            "name": "Personal",
+                                            "default": 1,
+                                            "id": "85026363",
+                                            "inStock": 1,
+                                            "isVeg": 1,
+                                            "isEnabled": 1,
+                                            "dependantVariation": {
+                                                "groupId": "26829425",
+                                                "variationId": "85026365"
+                                            }
+                                        },
+                                        {
+                                            "name": "Medium",
+                                            "id": "85026364",
+                                            "inStock": 1,
+                                            "isVeg": 1,
+                                            "isEnabled": 1,
+                                            "dependantVariation": {
+                                                "groupId": "26829425",
+                                                "variationId": "85026373"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "groupId": "26829425",
+                                    "name": "Base",
+                                    "variations": [
+                                        {
+                                            "name": "Pan",
+                                            "price": 169,
+                                            "default": 1,
+                                            "id": "85026365",
+                                            "inStock": 1,
+                                            "isVeg": 1,
+                                            "isEnabled": 1
+                                        },
+                                        {
+                                            "name": "Pan",
+                                            "price": 329,
+                                            "id": "85026373",
+                                            "inStock": 1,
+                                            "isVeg": 1,
+                                            "isEnabled": 1
+                                        },
+                                        {
+                                            "name": "Stuffed Crust - Cheese Maxx",
+                                            "price": 244,
+                                            "id": "85026370",
+                                            "inStock": 1,
+                                            "isVeg": 1,
+                                            "isEnabled": 1
+                                        },
+                                        {
+                                            "name": "Stuffed Crust - Cheese Maxx",
+                                            "price": 428,
+                                            "id": "85026382",
+                                            "inStock": 1,
+                                            "isVeg": 1,
+                                            "isEnabled": 1
+                                        }
+                                    ]
+                                }
+                            ],
+                            "pricingModels": [
+                                {
+                                    "variations": [
+                                        {
+                                            "groupId": "26829424",
+                                            "variationId": "85026363"
+                                        },
+                                        {
+                                            "groupId": "26829425",
+                                            "variationId": "85026365"
+                                        }
+                                    ],
+                                    "price": 16900,
+                                    "addonCombinations": [
+                                        {
+                                            "groupId": "114405735",
+                                            "addonId": "101385674"
+                                        },
+                                        {
+                                            "groupId": "114405735",
+                                            "addonId": "101385675"
+                                        },
+                                        {
+                                            "groupId": "114405735",
+                                            "addonId": "101385676"
+                                        },
+                                        {
+                                            "groupId": "114405735",
+                                            "addonId": "101385677"
+                                        },
+                                        {
+                                            "groupId": "114405735",
+                                            "addonId": "101385678"
+                                        },
+                                        {
+                                            "groupId": "114405735",
+                                            "addonId": "101385679"
+                                        },
+                                        {
+                                            "groupId": "114405754",
+                                            "addonId": "101385680"
+                                        },
+                                        {
+                                            "groupId": "114405754",
+                                            "addonId": "101385681"
+                                        },
+                                        {
+                                            "groupId": "114405754",
+                                            "addonId": "101385682"
+                                        },
+                                        {
+                                            "groupId": "114405754",
+                                            "addonId": "101385683"
+                                        },
+                                        {
+                                            "groupId": "114405754",
+                                            "addonId": "101385684"
+                                        },
+                                        {
+                                            "groupId": "114405754",
+                                            "addonId": "101385685"
+                                        },
+                                        {
+                                            "groupId": "114405754",
+                                            "addonId": "101385686"
+                                        },
+                                        {
+                                            "groupId": "114405754",
+                                            "addonId": "101385687"
+                                        },
+                                        {
+                                            "groupId": "114405754",
+                                            "addonId": "101385688"
+                                        },
+                                        {
+                                            "groupId": "114405754",
+                                            "addonId": "101385689"
+                                        },
+                                        {
+                                            "groupId": "114405754",
+                                            "addonId": "101385690"
+                                        },
+                                        {
+                                            "groupId": "114405754",
+                                            "addonId": "101385691"
+                                        },
+                                        {
+                                            "groupId": "114405754",
+                                            "addonId": "101385692"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "variations": [
+                                        {
+                                            "groupId": "26829424",
+                                            "variationId": "85026363"
+                                        },
+                                        {
+                                            "groupId": "26829425",
+                                            "variationId": "85026370"
+                                        }
+                                    ],
+                                    "price": 24400,
+                                    "addonCombinations": [
+                                        {
+                                            "groupId": "114405735",
+                                            "addonId": "101385674"
+                                        },
+                                        {
+                                            "groupId": "114405735",
+                                            "addonId": "101385675"
+                                        },
+                                        {
+                                            "groupId": "114405735",
+                                            "addonId": "101385676"
+                                        },
+                                        {
+                                            "groupId": "114405735",
+                                            "addonId": "101385677"
+                                        },
+                                        {
+                                            "groupId": "114405735",
+                                            "addonId": "101385678"
+                                        },
+                                        {
+                                            "groupId": "114405735",
+                                            "addonId": "101385679"
+                                        },
+                                        {
+                                            "groupId": "114405754",
+                                            "addonId": "101385680"
+                                        },
+                                        {
+                                            "groupId": "114405754",
+                                            "addonId": "101385681"
+                                        },
+                                        {
+                                            "groupId": "114405754",
+                                            "addonId": "101385682"
+                                        },
+                                        {
+                                            "groupId": "114405754",
+                                            "addonId": "101385683"
+                                        },
+                                        {
+                                            "groupId": "114405754",
+                                            "addonId": "101385684"
+                                        },
+                                        {
+                                            "groupId": "114405754",
+                                            "addonId": "101385685"
+                                        },
+                                        {
+                                            "groupId": "114405754",
+                                            "addonId": "101385686"
+                                        },
+                                        {
+                                            "groupId": "114405754",
+                                            "addonId": "101385687"
+                                        },
+                                        {
+                                            "groupId": "114405754",
+                                            "addonId": "101385688"
+                                        },
+                                        {
+                                            "groupId": "114405754",
+                                            "addonId": "101385689"
+                                        },
+                                        {
+                                            "groupId": "114405754",
+                                            "addonId": "101385690"
+                                        },
+                                        {
+                                            "groupId": "114405754",
+                                            "addonId": "101385691"
+                                        },
+                                        {
+                                            "groupId": "114405754",
+                                            "addonId": "101385692"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "variations": [
+                                        {
+                                            "groupId": "26829424",
+                                            "variationId": "85026364"
+                                        },
+                                        {
+                                            "groupId": "26829425",
+                                            "variationId": "85026373"
+                                        }
+                                    ],
+                                    "price": 32900,
+                                    "addonCombinations": [
+                                        {
+                                            "groupId": "114405735",
+                                            "addonId": "101385674"
+                                        },
+                                        {
+                                            "groupId": "114405735",
+                                            "addonId": "101385675"
+                                        },
+                                        {
+                                            "groupId": "114405735",
+                                            "addonId": "101385676"
+                                        },
+                                        {
+                                            "groupId": "114405735",
+                                            "addonId": "101385677"
+                                        },
+                                        {
+                                            "groupId": "114405735",
+                                            "addonId": "101385678"
+                                        },
+                                        {
+                                            "groupId": "114405735",
+                                            "addonId": "101385679"
+                                        },
+                                        {
+                                            "groupId": "114405743",
+                                            "addonId": "101385700"
+                                        },
+                                        {
+                                            "groupId": "114405743",
+                                            "addonId": "101385701"
+                                        },
+                                        {
+                                            "groupId": "114405743",
+                                            "addonId": "101385702"
+                                        },
+                                        {
+                                            "groupId": "114405743",
+                                            "addonId": "101385703"
+                                        },
+                                        {
+                                            "groupId": "114405743",
+                                            "addonId": "101385704"
+                                        },
+                                        {
+                                            "groupId": "114405743",
+                                            "addonId": "101385705"
+                                        },
+                                        {
+                                            "groupId": "114405743",
+                                            "addonId": "101385706"
+                                        },
+                                        {
+                                            "groupId": "114405743",
+                                            "addonId": "101385707"
+                                        },
+                                        {
+                                            "groupId": "114405743",
+                                            "addonId": "101385708"
+                                        },
+                                        {
+                                            "groupId": "114405743",
+                                            "addonId": "101385709"
+                                        },
+                                        {
+                                            "groupId": "114405743",
+                                            "addonId": "101385710"
+                                        },
+                                        {
+                                            "groupId": "114405743",
+                                            "addonId": "101385711"
+                                        },
+                                        {
+                                            "groupId": "114405743",
+                                            "addonId": "101385712"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "variations": [
+                                        {
+                                            "groupId": "26829424",
+                                            "variationId": "85026364"
+                                        },
+                                        {
+                                            "groupId": "26829425",
+                                            "variationId": "85026382"
+                                        }
+                                    ],
+                                    "price": 42800,
+                                    "addonCombinations": [
+                                        {
+                                            "groupId": "114405735",
+                                            "addonId": "101385674"
+                                        },
+                                        {
+                                            "groupId": "114405735",
+                                            "addonId": "101385675"
+                                        },
+                                        {
+                                            "groupId": "114405735",
+                                            "addonId": "101385676"
+                                        },
+                                        {
+                                            "groupId": "114405735",
+                                            "addonId": "101385677"
+                                        },
+                                        {
+                                            "groupId": "114405735",
+                                            "addonId": "101385678"
+                                        },
+                                        {
+                                            "groupId": "114405735",
+                                            "addonId": "101385679"
+                                        },
+                                        {
+                                            "groupId": "114405743",
+                                            "addonId": "101385700"
+                                        },
+                                        {
+                                            "groupId": "114405743",
+                                            "addonId": "101385701"
+                                        },
+                                        {
+                                            "groupId": "114405743",
+                                            "addonId": "101385702"
+                                        },
+                                        {
+                                            "groupId": "114405743",
+                                            "addonId": "101385703"
+                                        },
+                                        {
+                                            "groupId": "114405743",
+                                            "addonId": "101385704"
+                                        },
+                                        {
+                                            "groupId": "114405743",
+                                            "addonId": "101385705"
+                                        },
+                                        {
+                                            "groupId": "114405743",
+                                            "addonId": "101385706"
+                                        },
+                                        {
+                                            "groupId": "114405743",
+                                            "addonId": "101385707"
+                                        },
+                                        {
+                                            "groupId": "114405743",
+                                            "addonId": "101385708"
+                                        },
+                                        {
+                                            "groupId": "114405743",
+                                            "addonId": "101385709"
+                                        },
+                                        {
+                                            "groupId": "114405743",
+                                            "addonId": "101385710"
+                                        },
+                                        {
+                                            "groupId": "114405743",
+                                            "addonId": "101385711"
+                                        },
+                                        {
+                                            "groupId": "114405743",
+                                            "addonId": "101385712"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "addons": [
+                            {
+                                "groupId": "114405735",
+                                "groupName": "Add Ons",
+                                "choices": [
+                                    {
+                                        "id": "101385674",
+                                        "name": "Pepsi Pet Bottle",
+                                        "price": 5700,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385675",
+                                        "name": "Classic BreadStix : Flat Rs 20 Off",
+                                        "price": 9900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385676",
+                                        "name": "Cheese Garlic Bread : Flat Rs 20 Off",
+                                        "price": 13900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385677",
+                                        "name": "Creamy BreadStix : Flat Rs 20 Off",
+                                        "price": 14900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385678",
+                                        "name": "Zesty Paneer Pocket : Flat Rs 20 Off",
+                                        "price": 10900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385679",
+                                        "name": "Choco Volcano : Flat Rs 20 Off",
+                                        "price": 10900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    }
+                                ],
+                                "maxAddons": 6,
+                                "maxFreeAddons": -1
+                            },
+                            {
+                                "groupId": "114405743",
+                                "groupName": "Toppings.",
+                                "choices": [
+                                    {
+                                        "id": "101385700",
+                                        "name": "Cheese",
+                                        "price": 8500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385701",
+                                        "name": "Black Olives",
+                                        "price": 7000,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385702",
+                                        "name": "Baby Corn",
+                                        "price": 7000,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385703",
+                                        "name": "Capsicum",
+                                        "price": 7000,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385704",
+                                        "name": "Herbed Veggies",
+                                        "price": 7000,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385705",
+                                        "name": "Jalapeno",
+                                        "price": 7000,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385706",
+                                        "name": "Mushroom",
+                                        "price": 7000,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385707",
+                                        "name": "Onion",
+                                        "price": 7000,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385708",
+                                        "name": "Paneer",
+                                        "price": 7500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385709",
+                                        "name": "Red Paprika",
+                                        "price": 7000,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385710",
+                                        "name": "Red Capsicum",
+                                        "price": 7000,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385711",
+                                        "name": "Sweet Corn",
+                                        "price": 7000,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385712",
+                                        "name": "Tomato",
+                                        "price": 7000,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    }
+                                ],
+                                "maxAddons": 2,
+                                "maxFreeAddons": -1
+                            },
+                            {
+                                "groupId": "114405754",
+                                "groupName": "Toppings",
+                                "choices": [
+                                    {
+                                        "id": "101385680",
+                                        "name": "Cheese",
+                                        "price": 6500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385681",
+                                        "name": "Black Olives",
+                                        "price": 4500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385683",
+                                        "name": "Capsicum",
+                                        "price": 4500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385684",
+                                        "name": "Herbed Veggies",
+                                        "price": 4500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385685",
+                                        "name": "Jalapeno",
+                                        "price": 4500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385686",
+                                        "name": "Mushroom",
+                                        "price": 4500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385687",
+                                        "name": "Onion",
+                                        "price": 4500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385688",
+                                        "name": "Paneer",
+                                        "price": 5500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385689",
+                                        "name": "Red Paprika",
+                                        "price": 4500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385690",
+                                        "name": "Red Capsicum",
+                                        "price": 4500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385691",
+                                        "name": "Sweet Corn",
+                                        "price": 4500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385692",
+                                        "name": "Tomato",
+                                        "price": 4500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385682",
+                                        "name": "Baby Corn",
+                                        "price": 4500,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    }
+                                ],
+                                "maxAddons": 2,
+                                "maxFreeAddons": -1
+                            }
+                        ],
+                        "itemAttribute": {
+                            "vegClassifier": "VEG"
+                        },
+                        "defaultPrice": 16900,
+                        "ribbon": {},
+                        "type": "ITEM",
+                        "itemBadge": {},
+                        "badgesV2": {},
+                        "ratings": {
+                            "aggregatedRating": {
+                                "rating": "3.8",
+                                "ratingCount": "486 ratings",
+                                "ratingCountV2": "486"
+                            }
+                        }
+                    },
+                    "analytics": {},
+                    "hideRestaurantDetails": true
+                }
+            },
+            {
+                "card": {
+                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                    "info": {
+                        "id": "72273585",
+                        "name": "Corn & Cheese",
+                        "category": "Veg Pizza",
+                        "description": "Serves 1 | A combination of juicy Sweet Corn & 100% mozzarella cheese with flavourful signature pan sauce.",
+                        "imageId": "ckbnw98n6tffy50wvuzm",
+                        "inStock": 1,
+                        "isVeg": 1,
+                        "variants": {},
+                        "variantsV2": {
+                            "variantGroups": [
+                                {
+                                    "groupId": "26829239",
+                                    "name": "Size",
+                                    "variations": [
+                                        {
+                                            "name": "Personal",
+                                            "default": 1,
+                                            "id": "85025483",
+                                            "inStock": 1,
+                                            "isVeg": 1,
+                                            "isEnabled": 1,
+                                            "dependantVariation": {
+                                                "groupId": "26829240",
+                                                "variationId": "85025485"
+                                            }
+                                        },
+                                        {
+                                            "name": "Medium",
+                                            "id": "85025484",
+                                            "inStock": 1,
+                                            "isVeg": 1,
+                                            "isEnabled": 1,
+                                            "dependantVariation": {
+                                                "groupId": "26829240",
+                                                "variationId": "85025490"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "groupId": "26829240",
+                                    "name": "Base",
+                                    "variations": [
+                                        {
+                                            "name": "Pan",
+                                            "price": 219,
+                                            "default": 1,
+                                            "id": "85025485",
+                                            "inStock": 1,
+                                            "isVeg": 1,
+                                            "isEnabled": 1
+                                        },
+                                        {
+                                            "name": "Pan",
+                                            "price": 409,
+                                            "id": "85025490",
+                                            "inStock": 1,
+                                            "isVeg": 1,
+                                            "isEnabled": 1
+                                        },
+                                        {
+                                            "name": "Stuffed Crust - Cheese Maxx",
+                                            "price": 294,
+                                            "id": "85025489",
+                                            "inStock": 1,
+                                            "isVeg": 1,
+                                            "isEnabled": 1
+                                        },
+                                        {
+                                            "name": "Stuffed Crust - Cheese Maxx",
+                                            "price": 508,
+                                            "id": "85025494",
+                                            "inStock": 1,
+                                            "isVeg": 1,
+                                            "isEnabled": 1
+                                        }
+                                    ]
+                                }
+                            ],
+                            "pricingModels": [
+                                {
+                                    "variations": [
+                                        {
+                                            "groupId": "26829239",
+                                            "variationId": "85025483"
+                                        },
+                                        {
+                                            "groupId": "26829240",
+                                            "variationId": "85025485"
+                                        }
+                                    ],
+                                    "price": 21900,
+                                    "addonCombinations": [
+                                        {
+                                            "groupId": "114405687",
+                                            "addonId": "101385674"
+                                        },
+                                        {
+                                            "groupId": "114405687",
+                                            "addonId": "101385675"
+                                        },
+                                        {
+                                            "groupId": "114405687",
+                                            "addonId": "101385676"
+                                        },
+                                        {
+                                            "groupId": "114405687",
+                                            "addonId": "101385677"
+                                        },
+                                        {
+                                            "groupId": "114405687",
+                                            "addonId": "101385678"
+                                        },
+                                        {
+                                            "groupId": "114405687",
+                                            "addonId": "101385679"
+                                        },
+                                        {
+                                            "groupId": "114405702",
+                                            "addonId": "101385680"
+                                        },
+                                        {
+                                            "groupId": "114405702",
+                                            "addonId": "101385681"
+                                        },
+                                        {
+                                            "groupId": "114405702",
+                                            "addonId": "101385682"
+                                        },
+                                        {
+                                            "groupId": "114405702",
+                                            "addonId": "101385683"
+                                        },
+                                        {
+                                            "groupId": "114405702",
+                                            "addonId": "101385684"
+                                        },
+                                        {
+                                            "groupId": "114405702",
+                                            "addonId": "101385685"
+                                        },
+                                        {
+                                            "groupId": "114405702",
+                                            "addonId": "101385686"
+                                        },
+                                        {
+                                            "groupId": "114405702",
+                                            "addonId": "101385687"
+                                        },
+                                        {
+                                            "groupId": "114405702",
+                                            "addonId": "101385688"
+                                        },
+                                        {
+                                            "groupId": "114405702",
+                                            "addonId": "101385689"
+                                        },
+                                        {
+                                            "groupId": "114405702",
+                                            "addonId": "101385690"
+                                        },
+                                        {
+                                            "groupId": "114405702",
+                                            "addonId": "101385691"
+                                        },
+                                        {
+                                            "groupId": "114405702",
+                                            "addonId": "101385692"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "variations": [
+                                        {
+                                            "groupId": "26829239",
+                                            "variationId": "85025483"
+                                        },
+                                        {
+                                            "groupId": "26829240",
+                                            "variationId": "85025489"
+                                        }
+                                    ],
+                                    "price": 29400,
+                                    "addonCombinations": [
+                                        {
+                                            "groupId": "114405687",
+                                            "addonId": "101385674"
+                                        },
+                                        {
+                                            "groupId": "114405687",
+                                            "addonId": "101385675"
+                                        },
+                                        {
+                                            "groupId": "114405687",
+                                            "addonId": "101385676"
+                                        },
+                                        {
+                                            "groupId": "114405687",
+                                            "addonId": "101385677"
+                                        },
+                                        {
+                                            "groupId": "114405687",
+                                            "addonId": "101385678"
+                                        },
+                                        {
+                                            "groupId": "114405687",
+                                            "addonId": "101385679"
+                                        },
+                                        {
+                                            "groupId": "114405702",
+                                            "addonId": "101385680"
+                                        },
+                                        {
+                                            "groupId": "114405702",
+                                            "addonId": "101385681"
+                                        },
+                                        {
+                                            "groupId": "114405702",
+                                            "addonId": "101385682"
+                                        },
+                                        {
+                                            "groupId": "114405702",
+                                            "addonId": "101385683"
+                                        },
+                                        {
+                                            "groupId": "114405702",
+                                            "addonId": "101385684"
+                                        },
+                                        {
+                                            "groupId": "114405702",
+                                            "addonId": "101385685"
+                                        },
+                                        {
+                                            "groupId": "114405702",
+                                            "addonId": "101385686"
+                                        },
+                                        {
+                                            "groupId": "114405702",
+                                            "addonId": "101385687"
+                                        },
+                                        {
+                                            "groupId": "114405702",
+                                            "addonId": "101385688"
+                                        },
+                                        {
+                                            "groupId": "114405702",
+                                            "addonId": "101385689"
+                                        },
+                                        {
+                                            "groupId": "114405702",
+                                            "addonId": "101385690"
+                                        },
+                                        {
+                                            "groupId": "114405702",
+                                            "addonId": "101385691"
+                                        },
+                                        {
+                                            "groupId": "114405702",
+                                            "addonId": "101385692"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "variations": [
+                                        {
+                                            "groupId": "26829239",
+                                            "variationId": "85025484"
+                                        },
+                                        {
+                                            "groupId": "26829240",
+                                            "variationId": "85025490"
+                                        }
+                                    ],
+                                    "price": 40900,
+                                    "addonCombinations": [
+                                        {
+                                            "groupId": "114405687",
+                                            "addonId": "101385674"
+                                        },
+                                        {
+                                            "groupId": "114405687",
+                                            "addonId": "101385675"
+                                        },
+                                        {
+                                            "groupId": "114405687",
+                                            "addonId": "101385676"
+                                        },
+                                        {
+                                            "groupId": "114405687",
+                                            "addonId": "101385677"
+                                        },
+                                        {
+                                            "groupId": "114405687",
+                                            "addonId": "101385678"
+                                        },
+                                        {
+                                            "groupId": "114405687",
+                                            "addonId": "101385679"
+                                        },
+                                        {
+                                            "groupId": "114405691",
+                                            "addonId": "101385700"
+                                        },
+                                        {
+                                            "groupId": "114405691",
+                                            "addonId": "101385701"
+                                        },
+                                        {
+                                            "groupId": "114405691",
+                                            "addonId": "101385702"
+                                        },
+                                        {
+                                            "groupId": "114405691",
+                                            "addonId": "101385703"
+                                        },
+                                        {
+                                            "groupId": "114405691",
+                                            "addonId": "101385704"
+                                        },
+                                        {
+                                            "groupId": "114405691",
+                                            "addonId": "101385705"
+                                        },
+                                        {
+                                            "groupId": "114405691",
+                                            "addonId": "101385706"
+                                        },
+                                        {
+                                            "groupId": "114405691",
+                                            "addonId": "101385707"
+                                        },
+                                        {
+                                            "groupId": "114405691",
+                                            "addonId": "101385708"
+                                        },
+                                        {
+                                            "groupId": "114405691",
+                                            "addonId": "101385709"
+                                        },
+                                        {
+                                            "groupId": "114405691",
+                                            "addonId": "101385710"
+                                        },
+                                        {
+                                            "groupId": "114405691",
+                                            "addonId": "101385711"
+                                        },
+                                        {
+                                            "groupId": "114405691",
+                                            "addonId": "101385712"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "variations": [
+                                        {
+                                            "groupId": "26829239",
+                                            "variationId": "85025484"
+                                        },
+                                        {
+                                            "groupId": "26829240",
+                                            "variationId": "85025494"
+                                        }
+                                    ],
+                                    "price": 50800,
+                                    "addonCombinations": [
+                                        {
+                                            "groupId": "114405687",
+                                            "addonId": "101385674"
+                                        },
+                                        {
+                                            "groupId": "114405687",
+                                            "addonId": "101385675"
+                                        },
+                                        {
+                                            "groupId": "114405687",
+                                            "addonId": "101385676"
+                                        },
+                                        {
+                                            "groupId": "114405687",
+                                            "addonId": "101385677"
+                                        },
+                                        {
+                                            "groupId": "114405687",
+                                            "addonId": "101385678"
+                                        },
+                                        {
+                                            "groupId": "114405687",
+                                            "addonId": "101385679"
+                                        },
+                                        {
+                                            "groupId": "114405691",
+                                            "addonId": "101385700"
+                                        },
+                                        {
+                                            "groupId": "114405691",
+                                            "addonId": "101385701"
+                                        },
+                                        {
+                                            "groupId": "114405691",
+                                            "addonId": "101385702"
+                                        },
+                                        {
+                                            "groupId": "114405691",
+                                            "addonId": "101385703"
+                                        },
+                                        {
+                                            "groupId": "114405691",
+                                            "addonId": "101385704"
+                                        },
+                                        {
+                                            "groupId": "114405691",
+                                            "addonId": "101385705"
+                                        },
+                                        {
+                                            "groupId": "114405691",
+                                            "addonId": "101385706"
+                                        },
+                                        {
+                                            "groupId": "114405691",
+                                            "addonId": "101385707"
+                                        },
+                                        {
+                                            "groupId": "114405691",
+                                            "addonId": "101385708"
+                                        },
+                                        {
+                                            "groupId": "114405691",
+                                            "addonId": "101385709"
+                                        },
+                                        {
+                                            "groupId": "114405691",
+                                            "addonId": "101385710"
+                                        },
+                                        {
+                                            "groupId": "114405691",
+                                            "addonId": "101385711"
+                                        },
+                                        {
+                                            "groupId": "114405691",
+                                            "addonId": "101385712"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "addons": [
+                            {
+                                "groupId": "114405687",
+                                "groupName": "Add Ons",
+                                "choices": [
+                                    {
+                                        "id": "101385674",
+                                        "name": "Pepsi Pet Bottle",
+                                        "price": 5700,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385675",
+                                        "name": "Classic BreadStix : Flat Rs 20 Off",
+                                        "price": 9900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385676",
+                                        "name": "Cheese Garlic Bread : Flat Rs 20 Off",
+                                        "price": 13900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385677",
+                                        "name": "Creamy BreadStix : Flat Rs 20 Off",
+                                        "price": 14900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385678",
+                                        "name": "Zesty Paneer Pocket : Flat Rs 20 Off",
+                                        "price": 10900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385679",
+                                        "name": "Choco Volcano : Flat Rs 20 Off",
+                                        "price": 10900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    }
+                                ],
+                                "maxAddons": 6,
+                                "maxFreeAddons": -1
+                            },
+                            {
+                                "groupId": "114405691",
+                                "groupName": "Toppings.",
+                                "choices": [
+                                    {
+                                        "id": "101385700",
+                                        "name": "Cheese",
+                                        "price": 8500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385701",
+                                        "name": "Black Olives",
+                                        "price": 7000,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385702",
+                                        "name": "Baby Corn",
+                                        "price": 7000,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385703",
+                                        "name": "Capsicum",
+                                        "price": 7000,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385704",
+                                        "name": "Herbed Veggies",
+                                        "price": 7000,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385705",
+                                        "name": "Jalapeno",
+                                        "price": 7000,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385706",
+                                        "name": "Mushroom",
+                                        "price": 7000,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385707",
+                                        "name": "Onion",
+                                        "price": 7000,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385708",
+                                        "name": "Paneer",
+                                        "price": 7500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385709",
+                                        "name": "Red Paprika",
+                                        "price": 7000,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385710",
+                                        "name": "Red Capsicum",
+                                        "price": 7000,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385711",
+                                        "name": "Sweet Corn",
+                                        "price": 7000,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385712",
+                                        "name": "Tomato",
+                                        "price": 7000,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    }
+                                ],
+                                "maxAddons": 2,
+                                "maxFreeAddons": -1
+                            },
+                            {
+                                "groupId": "114405702",
+                                "groupName": "Toppings",
+                                "choices": [
+                                    {
+                                        "id": "101385680",
+                                        "name": "Cheese",
+                                        "price": 6500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385681",
+                                        "name": "Black Olives",
+                                        "price": 4500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385683",
+                                        "name": "Capsicum",
+                                        "price": 4500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385684",
+                                        "name": "Herbed Veggies",
+                                        "price": 4500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385685",
+                                        "name": "Jalapeno",
+                                        "price": 4500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385686",
+                                        "name": "Mushroom",
+                                        "price": 4500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385687",
+                                        "name": "Onion",
+                                        "price": 4500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385688",
+                                        "name": "Paneer",
+                                        "price": 5500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385689",
+                                        "name": "Red Paprika",
+                                        "price": 4500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385690",
+                                        "name": "Red Capsicum",
+                                        "price": 4500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385691",
+                                        "name": "Sweet Corn",
+                                        "price": 4500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385692",
+                                        "name": "Tomato",
+                                        "price": 4500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385682",
+                                        "name": "Baby Corn",
+                                        "price": 4500,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    }
+                                ],
+                                "maxAddons": 2,
+                                "maxFreeAddons": -1
+                            }
+                        ],
+                        "itemAttribute": {
+                            "vegClassifier": "VEG",
+                            "portionSize": "Serves 1"
+                        },
+                        "defaultPrice": 21900,
+                        "ribbon": {},
+                        "type": "ITEM",
+                        "itemBadge": {},
+                        "badgesV2": {},
+                        "ratings": {
+                            "aggregatedRating": {
+                                "rating": "3.5",
+                                "ratingCount": "159 ratings",
+                                "ratingCountV2": "159"
+                            }
+                        }
+                    },
+                    "analytics": {},
+                    "hideRestaurantDetails": true
+                }
+            },
+            {
+                "card": {
+                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                    "info": {
+                        "id": "47542941",
+                        "name": "Veggie Feast",
+                        "category": "Veg Pizza",
+                        "description": "Serves 1 | Herbed onion and Green Capsicum, juicy Sweet Corn & 100% mozzarella cheese with flavourful pan sauce.",
+                        "imageId": "cbye9x7wxeopwqvenn7g",
+                        "inStock": 1,
+                        "isVeg": 1,
+                        "variants": {},
+                        "variantsV2": {
+                            "variantGroups": [
+                                {
+                                    "groupId": "26829478",
+                                    "name": "Size",
+                                    "variations": [
+                                        {
+                                            "name": "Personal",
+                                            "default": 1,
+                                            "id": "85026645",
+                                            "inStock": 1,
+                                            "isVeg": 1,
+                                            "isEnabled": 1,
+                                            "dependantVariation": {
+                                                "groupId": "26829479",
+                                                "variationId": "85026650"
+                                            }
+                                        },
+                                        {
+                                            "name": "Medium",
+                                            "id": "85026647",
+                                            "inStock": 1,
+                                            "isVeg": 1,
+                                            "isEnabled": 1,
+                                            "dependantVariation": {
+                                                "groupId": "26829479",
+                                                "variationId": "85026659"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "groupId": "26829479",
+                                    "name": "Base",
+                                    "variations": [
+                                        {
+                                            "name": "Pan",
+                                            "price": 259,
+                                            "default": 1,
+                                            "id": "85026650",
+                                            "inStock": 1,
+                                            "isVeg": 1,
+                                            "isEnabled": 1
+                                        },
+                                        {
+                                            "name": "Pan",
+                                            "price": 489,
+                                            "id": "85026659",
+                                            "inStock": 1,
+                                            "isVeg": 1,
+                                            "isEnabled": 1
+                                        },
+                                        {
+                                            "name": "Stuffed Crust - Cheese Maxx",
+                                            "price": 334,
+                                            "id": "85026657",
+                                            "inStock": 1,
+                                            "isVeg": 1,
+                                            "isEnabled": 1
+                                        },
+                                        {
+                                            "name": "Stuffed Crust - Cheese Maxx",
+                                            "price": 588,
+                                            "id": "85026665",
+                                            "inStock": 1,
+                                            "isVeg": 1,
+                                            "isEnabled": 1
+                                        }
+                                    ]
+                                }
+                            ],
+                            "pricingModels": [
+                                {
+                                    "variations": [
+                                        {
+                                            "groupId": "26829478",
+                                            "variationId": "85026645"
+                                        },
+                                        {
+                                            "groupId": "26829479",
+                                            "variationId": "85026650"
+                                        }
+                                    ],
+                                    "price": 25900,
+                                    "addonCombinations": [
+                                        {
+                                            "groupId": "114405931",
+                                            "addonId": "101385674"
+                                        },
+                                        {
+                                            "groupId": "114405931",
+                                            "addonId": "101385675"
+                                        },
+                                        {
+                                            "groupId": "114405931",
+                                            "addonId": "101385676"
+                                        },
+                                        {
+                                            "groupId": "114405931",
+                                            "addonId": "101385677"
+                                        },
+                                        {
+                                            "groupId": "114405931",
+                                            "addonId": "101385678"
+                                        },
+                                        {
+                                            "groupId": "114405931",
+                                            "addonId": "101385679"
+                                        },
+                                        {
+                                            "groupId": "114405953",
+                                            "addonId": "101385680"
+                                        },
+                                        {
+                                            "groupId": "114405953",
+                                            "addonId": "101385681"
+                                        },
+                                        {
+                                            "groupId": "114405953",
+                                            "addonId": "101385682"
+                                        },
+                                        {
+                                            "groupId": "114405953",
+                                            "addonId": "101385683"
+                                        },
+                                        {
+                                            "groupId": "114405953",
+                                            "addonId": "101385684"
+                                        },
+                                        {
+                                            "groupId": "114405953",
+                                            "addonId": "101385685"
+                                        },
+                                        {
+                                            "groupId": "114405953",
+                                            "addonId": "101385686"
+                                        },
+                                        {
+                                            "groupId": "114405953",
+                                            "addonId": "101385687"
+                                        },
+                                        {
+                                            "groupId": "114405953",
+                                            "addonId": "101385688"
+                                        },
+                                        {
+                                            "groupId": "114405953",
+                                            "addonId": "101385689"
+                                        },
+                                        {
+                                            "groupId": "114405953",
+                                            "addonId": "101385690"
+                                        },
+                                        {
+                                            "groupId": "114405953",
+                                            "addonId": "101385691"
+                                        },
+                                        {
+                                            "groupId": "114405953",
+                                            "addonId": "101385692"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "variations": [
+                                        {
+                                            "groupId": "26829478",
+                                            "variationId": "85026645"
+                                        },
+                                        {
+                                            "groupId": "26829479",
+                                            "variationId": "85026657"
+                                        }
+                                    ],
+                                    "price": 33400,
+                                    "addonCombinations": [
+                                        {
+                                            "groupId": "114405931",
+                                            "addonId": "101385674"
+                                        },
+                                        {
+                                            "groupId": "114405931",
+                                            "addonId": "101385675"
+                                        },
+                                        {
+                                            "groupId": "114405931",
+                                            "addonId": "101385676"
+                                        },
+                                        {
+                                            "groupId": "114405931",
+                                            "addonId": "101385677"
+                                        },
+                                        {
+                                            "groupId": "114405931",
+                                            "addonId": "101385678"
+                                        },
+                                        {
+                                            "groupId": "114405931",
+                                            "addonId": "101385679"
+                                        },
+                                        {
+                                            "groupId": "114405953",
+                                            "addonId": "101385680"
+                                        },
+                                        {
+                                            "groupId": "114405953",
+                                            "addonId": "101385681"
+                                        },
+                                        {
+                                            "groupId": "114405953",
+                                            "addonId": "101385682"
+                                        },
+                                        {
+                                            "groupId": "114405953",
+                                            "addonId": "101385683"
+                                        },
+                                        {
+                                            "groupId": "114405953",
+                                            "addonId": "101385684"
+                                        },
+                                        {
+                                            "groupId": "114405953",
+                                            "addonId": "101385685"
+                                        },
+                                        {
+                                            "groupId": "114405953",
+                                            "addonId": "101385686"
+                                        },
+                                        {
+                                            "groupId": "114405953",
+                                            "addonId": "101385687"
+                                        },
+                                        {
+                                            "groupId": "114405953",
+                                            "addonId": "101385688"
+                                        },
+                                        {
+                                            "groupId": "114405953",
+                                            "addonId": "101385689"
+                                        },
+                                        {
+                                            "groupId": "114405953",
+                                            "addonId": "101385690"
+                                        },
+                                        {
+                                            "groupId": "114405953",
+                                            "addonId": "101385691"
+                                        },
+                                        {
+                                            "groupId": "114405953",
+                                            "addonId": "101385692"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "variations": [
+                                        {
+                                            "groupId": "26829478",
+                                            "variationId": "85026647"
+                                        },
+                                        {
+                                            "groupId": "26829479",
+                                            "variationId": "85026659"
+                                        }
+                                    ],
+                                    "price": 48900,
+                                    "addonCombinations": [
+                                        {
+                                            "groupId": "114405931",
+                                            "addonId": "101385674"
+                                        },
+                                        {
+                                            "groupId": "114405931",
+                                            "addonId": "101385675"
+                                        },
+                                        {
+                                            "groupId": "114405931",
+                                            "addonId": "101385676"
+                                        },
+                                        {
+                                            "groupId": "114405931",
+                                            "addonId": "101385677"
+                                        },
+                                        {
+                                            "groupId": "114405931",
+                                            "addonId": "101385678"
+                                        },
+                                        {
+                                            "groupId": "114405931",
+                                            "addonId": "101385679"
+                                        },
+                                        {
+                                            "groupId": "114405942",
+                                            "addonId": "101385700"
+                                        },
+                                        {
+                                            "groupId": "114405942",
+                                            "addonId": "101385701"
+                                        },
+                                        {
+                                            "groupId": "114405942",
+                                            "addonId": "101385702"
+                                        },
+                                        {
+                                            "groupId": "114405942",
+                                            "addonId": "101385703"
+                                        },
+                                        {
+                                            "groupId": "114405942",
+                                            "addonId": "101385704"
+                                        },
+                                        {
+                                            "groupId": "114405942",
+                                            "addonId": "101385705"
+                                        },
+                                        {
+                                            "groupId": "114405942",
+                                            "addonId": "101385706"
+                                        },
+                                        {
+                                            "groupId": "114405942",
+                                            "addonId": "101385707"
+                                        },
+                                        {
+                                            "groupId": "114405942",
+                                            "addonId": "101385708"
+                                        },
+                                        {
+                                            "groupId": "114405942",
+                                            "addonId": "101385709"
+                                        },
+                                        {
+                                            "groupId": "114405942",
+                                            "addonId": "101385710"
+                                        },
+                                        {
+                                            "groupId": "114405942",
+                                            "addonId": "101385711"
+                                        },
+                                        {
+                                            "groupId": "114405942",
+                                            "addonId": "101385712"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "variations": [
+                                        {
+                                            "groupId": "26829478",
+                                            "variationId": "85026647"
+                                        },
+                                        {
+                                            "groupId": "26829479",
+                                            "variationId": "85026665"
+                                        }
+                                    ],
+                                    "price": 58800,
+                                    "addonCombinations": [
+                                        {
+                                            "groupId": "114405931",
+                                            "addonId": "101385674"
+                                        },
+                                        {
+                                            "groupId": "114405931",
+                                            "addonId": "101385675"
+                                        },
+                                        {
+                                            "groupId": "114405931",
+                                            "addonId": "101385676"
+                                        },
+                                        {
+                                            "groupId": "114405931",
+                                            "addonId": "101385677"
+                                        },
+                                        {
+                                            "groupId": "114405931",
+                                            "addonId": "101385678"
+                                        },
+                                        {
+                                            "groupId": "114405931",
+                                            "addonId": "101385679"
+                                        },
+                                        {
+                                            "groupId": "114405942",
+                                            "addonId": "101385700"
+                                        },
+                                        {
+                                            "groupId": "114405942",
+                                            "addonId": "101385701"
+                                        },
+                                        {
+                                            "groupId": "114405942",
+                                            "addonId": "101385702"
+                                        },
+                                        {
+                                            "groupId": "114405942",
+                                            "addonId": "101385703"
+                                        },
+                                        {
+                                            "groupId": "114405942",
+                                            "addonId": "101385704"
+                                        },
+                                        {
+                                            "groupId": "114405942",
+                                            "addonId": "101385705"
+                                        },
+                                        {
+                                            "groupId": "114405942",
+                                            "addonId": "101385706"
+                                        },
+                                        {
+                                            "groupId": "114405942",
+                                            "addonId": "101385707"
+                                        },
+                                        {
+                                            "groupId": "114405942",
+                                            "addonId": "101385708"
+                                        },
+                                        {
+                                            "groupId": "114405942",
+                                            "addonId": "101385709"
+                                        },
+                                        {
+                                            "groupId": "114405942",
+                                            "addonId": "101385710"
+                                        },
+                                        {
+                                            "groupId": "114405942",
+                                            "addonId": "101385711"
+                                        },
+                                        {
+                                            "groupId": "114405942",
+                                            "addonId": "101385712"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "addons": [
+                            {
+                                "groupId": "114405931",
+                                "groupName": "Add Ons",
+                                "choices": [
+                                    {
+                                        "id": "101385674",
+                                        "name": "Pepsi Pet Bottle",
+                                        "price": 5700,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385675",
+                                        "name": "Classic BreadStix : Flat Rs 20 Off",
+                                        "price": 9900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385676",
+                                        "name": "Cheese Garlic Bread : Flat Rs 20 Off",
+                                        "price": 13900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385677",
+                                        "name": "Creamy BreadStix : Flat Rs 20 Off",
+                                        "price": 14900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385678",
+                                        "name": "Zesty Paneer Pocket : Flat Rs 20 Off",
+                                        "price": 10900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385679",
+                                        "name": "Choco Volcano : Flat Rs 20 Off",
+                                        "price": 10900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    }
+                                ],
+                                "maxAddons": 6,
+                                "maxFreeAddons": -1
+                            },
+                            {
+                                "groupId": "114405942",
+                                "groupName": "Toppings.",
+                                "choices": [
+                                    {
+                                        "id": "101385700",
+                                        "name": "Cheese",
+                                        "price": 8500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385701",
+                                        "name": "Black Olives",
+                                        "price": 7000,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385702",
+                                        "name": "Baby Corn",
+                                        "price": 7000,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385703",
+                                        "name": "Capsicum",
+                                        "price": 7000,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385704",
+                                        "name": "Herbed Veggies",
+                                        "price": 7000,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385705",
+                                        "name": "Jalapeno",
+                                        "price": 7000,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385706",
+                                        "name": "Mushroom",
+                                        "price": 7000,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385707",
+                                        "name": "Onion",
+                                        "price": 7000,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385708",
+                                        "name": "Paneer",
+                                        "price": 7500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385709",
+                                        "name": "Red Paprika",
+                                        "price": 7000,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385710",
+                                        "name": "Red Capsicum",
+                                        "price": 7000,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385711",
+                                        "name": "Sweet Corn",
+                                        "price": 7000,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385712",
+                                        "name": "Tomato",
+                                        "price": 7000,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    }
+                                ],
+                                "maxAddons": 2,
+                                "maxFreeAddons": -1
+                            },
+                            {
+                                "groupId": "114405953",
+                                "groupName": "Toppings",
+                                "choices": [
+                                    {
+                                        "id": "101385680",
+                                        "name": "Cheese",
+                                        "price": 6500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385681",
+                                        "name": "Black Olives",
+                                        "price": 4500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385683",
+                                        "name": "Capsicum",
+                                        "price": 4500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385684",
+                                        "name": "Herbed Veggies",
+                                        "price": 4500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385685",
+                                        "name": "Jalapeno",
+                                        "price": 4500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385686",
+                                        "name": "Mushroom",
+                                        "price": 4500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385687",
+                                        "name": "Onion",
+                                        "price": 4500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385688",
+                                        "name": "Paneer",
+                                        "price": 5500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385689",
+                                        "name": "Red Paprika",
+                                        "price": 4500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385690",
+                                        "name": "Red Capsicum",
+                                        "price": 4500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385691",
+                                        "name": "Sweet Corn",
+                                        "price": 4500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385692",
+                                        "name": "Tomato",
+                                        "price": 4500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385682",
+                                        "name": "Baby Corn",
+                                        "price": 4500,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    }
+                                ],
+                                "maxAddons": 2,
+                                "maxFreeAddons": -1
+                            }
+                        ],
+                        "itemAttribute": {
+                            "vegClassifier": "VEG",
+                            "portionSize": "Serves 1"
+                        },
+                        "defaultPrice": 25900,
+                        "ribbon": {},
+                        "type": "ITEM",
+                        "itemBadge": {},
+                        "badgesV2": {},
+                        "ratings": {
+                            "aggregatedRating": {
+                                "rating": "3.5",
+                                "ratingCount": "151 ratings",
+                                "ratingCountV2": "151"
+                            }
+                        }
+                    },
+                    "analytics": {},
+                    "hideRestaurantDetails": true
+                }
+            },
+            {
+                "card": {
+                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                    "info": {
+                        "id": "111819608",
+                        "name": "Spiced Paneer",
+                        "category": "Veg Pizza",
+                        "description": "Serves 1 | Spiced Paneer, crunchy Onion, juicy Tomato  & 100% mozzarella cheese, with our classic pan sauce.",
+                        "imageId": "a89yqx09ppwlecyqterp",
+                        "inStock": 1,
+                        "isVeg": 1,
+                        "variants": {},
+                        "variantsV2": {
+                            "variantGroups": [
+                                {
+                                    "groupId": "26829466",
+                                    "name": "Size",
+                                    "variations": [
+                                        {
+                                            "name": "Personal",
+                                            "default": 1,
+                                            "id": "85026581",
+                                            "inStock": 1,
+                                            "isVeg": 1,
+                                            "isEnabled": 1,
+                                            "dependantVariation": {
+                                                "groupId": "26829467",
+                                                "variationId": "85026585"
+                                            }
+                                        },
+                                        {
+                                            "name": "Medium",
+                                            "id": "85026583",
+                                            "inStock": 1,
+                                            "isVeg": 1,
+                                            "isEnabled": 1,
+                                            "dependantVariation": {
+                                                "groupId": "26829467",
+                                                "variationId": "85026595"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "groupId": "26829467",
+                                    "name": "Base",
+                                    "variations": [
+                                        {
+                                            "name": "Pan",
+                                            "price": 259,
+                                            "default": 1,
+                                            "id": "85026585",
+                                            "inStock": 1,
+                                            "isVeg": 1,
+                                            "isEnabled": 1
+                                        },
+                                        {
+                                            "name": "Pan",
+                                            "price": 489,
+                                            "id": "85026595",
+                                            "inStock": 1,
+                                            "isVeg": 1,
+                                            "isEnabled": 1
+                                        },
+                                        {
+                                            "name": "Stuffed Crust - Cheese Maxx",
+                                            "price": 334,
+                                            "id": "85026593",
+                                            "inStock": 1,
+                                            "isVeg": 1,
+                                            "isEnabled": 1
+                                        },
+                                        {
+                                            "name": "Stuffed Crust - Cheese Maxx",
+                                            "price": 588,
+                                            "id": "85026601",
+                                            "inStock": 1,
+                                            "isVeg": 1,
+                                            "isEnabled": 1
+                                        }
+                                    ]
+                                }
+                            ],
+                            "pricingModels": [
+                                {
+                                    "variations": [
+                                        {
+                                            "groupId": "26829466",
+                                            "variationId": "85026581"
+                                        },
+                                        {
+                                            "groupId": "26829467",
+                                            "variationId": "85026585"
+                                        }
+                                    ],
+                                    "price": 25900,
+                                    "addonCombinations": [
+                                        {
+                                            "groupId": "114405872",
+                                            "addonId": "101385674"
+                                        },
+                                        {
+                                            "groupId": "114405872",
+                                            "addonId": "101385675"
+                                        },
+                                        {
+                                            "groupId": "114405872",
+                                            "addonId": "101385676"
+                                        },
+                                        {
+                                            "groupId": "114405872",
+                                            "addonId": "101385677"
+                                        },
+                                        {
+                                            "groupId": "114405872",
+                                            "addonId": "101385678"
+                                        },
+                                        {
+                                            "groupId": "114405872",
+                                            "addonId": "101385679"
+                                        },
+                                        {
+                                            "groupId": "114405897",
+                                            "addonId": "101385680"
+                                        },
+                                        {
+                                            "groupId": "114405897",
+                                            "addonId": "101385681"
+                                        },
+                                        {
+                                            "groupId": "114405897",
+                                            "addonId": "101385682"
+                                        },
+                                        {
+                                            "groupId": "114405897",
+                                            "addonId": "101385683"
+                                        },
+                                        {
+                                            "groupId": "114405897",
+                                            "addonId": "101385684"
+                                        },
+                                        {
+                                            "groupId": "114405897",
+                                            "addonId": "101385685"
+                                        },
+                                        {
+                                            "groupId": "114405897",
+                                            "addonId": "101385686"
+                                        },
+                                        {
+                                            "groupId": "114405897",
+                                            "addonId": "101385687"
+                                        },
+                                        {
+                                            "groupId": "114405897",
+                                            "addonId": "101385688"
+                                        },
+                                        {
+                                            "groupId": "114405897",
+                                            "addonId": "101385689"
+                                        },
+                                        {
+                                            "groupId": "114405897",
+                                            "addonId": "101385690"
+                                        },
+                                        {
+                                            "groupId": "114405897",
+                                            "addonId": "101385691"
+                                        },
+                                        {
+                                            "groupId": "114405897",
+                                            "addonId": "101385692"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "variations": [
+                                        {
+                                            "groupId": "26829466",
+                                            "variationId": "85026581"
+                                        },
+                                        {
+                                            "groupId": "26829467",
+                                            "variationId": "85026593"
+                                        }
+                                    ],
+                                    "price": 33400,
+                                    "addonCombinations": [
+                                        {
+                                            "groupId": "114405872",
+                                            "addonId": "101385674"
+                                        },
+                                        {
+                                            "groupId": "114405872",
+                                            "addonId": "101385675"
+                                        },
+                                        {
+                                            "groupId": "114405872",
+                                            "addonId": "101385676"
+                                        },
+                                        {
+                                            "groupId": "114405872",
+                                            "addonId": "101385677"
+                                        },
+                                        {
+                                            "groupId": "114405872",
+                                            "addonId": "101385678"
+                                        },
+                                        {
+                                            "groupId": "114405872",
+                                            "addonId": "101385679"
+                                        },
+                                        {
+                                            "groupId": "114405897",
+                                            "addonId": "101385680"
+                                        },
+                                        {
+                                            "groupId": "114405897",
+                                            "addonId": "101385681"
+                                        },
+                                        {
+                                            "groupId": "114405897",
+                                            "addonId": "101385682"
+                                        },
+                                        {
+                                            "groupId": "114405897",
+                                            "addonId": "101385683"
+                                        },
+                                        {
+                                            "groupId": "114405897",
+                                            "addonId": "101385684"
+                                        },
+                                        {
+                                            "groupId": "114405897",
+                                            "addonId": "101385685"
+                                        },
+                                        {
+                                            "groupId": "114405897",
+                                            "addonId": "101385686"
+                                        },
+                                        {
+                                            "groupId": "114405897",
+                                            "addonId": "101385687"
+                                        },
+                                        {
+                                            "groupId": "114405897",
+                                            "addonId": "101385688"
+                                        },
+                                        {
+                                            "groupId": "114405897",
+                                            "addonId": "101385689"
+                                        },
+                                        {
+                                            "groupId": "114405897",
+                                            "addonId": "101385690"
+                                        },
+                                        {
+                                            "groupId": "114405897",
+                                            "addonId": "101385691"
+                                        },
+                                        {
+                                            "groupId": "114405897",
+                                            "addonId": "101385692"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "variations": [
+                                        {
+                                            "groupId": "26829466",
+                                            "variationId": "85026583"
+                                        },
+                                        {
+                                            "groupId": "26829467",
+                                            "variationId": "85026595"
+                                        }
+                                    ],
+                                    "price": 48900,
+                                    "addonCombinations": [
+                                        {
+                                            "groupId": "114405872",
+                                            "addonId": "101385674"
+                                        },
+                                        {
+                                            "groupId": "114405872",
+                                            "addonId": "101385675"
+                                        },
+                                        {
+                                            "groupId": "114405872",
+                                            "addonId": "101385676"
+                                        },
+                                        {
+                                            "groupId": "114405872",
+                                            "addonId": "101385677"
+                                        },
+                                        {
+                                            "groupId": "114405872",
+                                            "addonId": "101385678"
+                                        },
+                                        {
+                                            "groupId": "114405872",
+                                            "addonId": "101385679"
+                                        },
+                                        {
+                                            "groupId": "114405881",
+                                            "addonId": "101385700"
+                                        },
+                                        {
+                                            "groupId": "114405881",
+                                            "addonId": "101385701"
+                                        },
+                                        {
+                                            "groupId": "114405881",
+                                            "addonId": "101385702"
+                                        },
+                                        {
+                                            "groupId": "114405881",
+                                            "addonId": "101385703"
+                                        },
+                                        {
+                                            "groupId": "114405881",
+                                            "addonId": "101385704"
+                                        },
+                                        {
+                                            "groupId": "114405881",
+                                            "addonId": "101385705"
+                                        },
+                                        {
+                                            "groupId": "114405881",
+                                            "addonId": "101385706"
+                                        },
+                                        {
+                                            "groupId": "114405881",
+                                            "addonId": "101385707"
+                                        },
+                                        {
+                                            "groupId": "114405881",
+                                            "addonId": "101385708"
+                                        },
+                                        {
+                                            "groupId": "114405881",
+                                            "addonId": "101385709"
+                                        },
+                                        {
+                                            "groupId": "114405881",
+                                            "addonId": "101385710"
+                                        },
+                                        {
+                                            "groupId": "114405881",
+                                            "addonId": "101385711"
+                                        },
+                                        {
+                                            "groupId": "114405881",
+                                            "addonId": "101385712"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "variations": [
+                                        {
+                                            "groupId": "26829466",
+                                            "variationId": "85026583"
+                                        },
+                                        {
+                                            "groupId": "26829467",
+                                            "variationId": "85026601"
+                                        }
+                                    ],
+                                    "price": 58800,
+                                    "addonCombinations": [
+                                        {
+                                            "groupId": "114405872",
+                                            "addonId": "101385674"
+                                        },
+                                        {
+                                            "groupId": "114405872",
+                                            "addonId": "101385675"
+                                        },
+                                        {
+                                            "groupId": "114405872",
+                                            "addonId": "101385676"
+                                        },
+                                        {
+                                            "groupId": "114405872",
+                                            "addonId": "101385677"
+                                        },
+                                        {
+                                            "groupId": "114405872",
+                                            "addonId": "101385678"
+                                        },
+                                        {
+                                            "groupId": "114405872",
+                                            "addonId": "101385679"
+                                        },
+                                        {
+                                            "groupId": "114405881",
+                                            "addonId": "101385700"
+                                        },
+                                        {
+                                            "groupId": "114405881",
+                                            "addonId": "101385701"
+                                        },
+                                        {
+                                            "groupId": "114405881",
+                                            "addonId": "101385702"
+                                        },
+                                        {
+                                            "groupId": "114405881",
+                                            "addonId": "101385703"
+                                        },
+                                        {
+                                            "groupId": "114405881",
+                                            "addonId": "101385704"
+                                        },
+                                        {
+                                            "groupId": "114405881",
+                                            "addonId": "101385705"
+                                        },
+                                        {
+                                            "groupId": "114405881",
+                                            "addonId": "101385706"
+                                        },
+                                        {
+                                            "groupId": "114405881",
+                                            "addonId": "101385707"
+                                        },
+                                        {
+                                            "groupId": "114405881",
+                                            "addonId": "101385708"
+                                        },
+                                        {
+                                            "groupId": "114405881",
+                                            "addonId": "101385709"
+                                        },
+                                        {
+                                            "groupId": "114405881",
+                                            "addonId": "101385710"
+                                        },
+                                        {
+                                            "groupId": "114405881",
+                                            "addonId": "101385711"
+                                        },
+                                        {
+                                            "groupId": "114405881",
+                                            "addonId": "101385712"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "addons": [
+                            {
+                                "groupId": "114405872",
+                                "groupName": "Add Ons",
+                                "choices": [
+                                    {
+                                        "id": "101385674",
+                                        "name": "Pepsi Pet Bottle",
+                                        "price": 5700,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385675",
+                                        "name": "Classic BreadStix : Flat Rs 20 Off",
+                                        "price": 9900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385676",
+                                        "name": "Cheese Garlic Bread : Flat Rs 20 Off",
+                                        "price": 13900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385677",
+                                        "name": "Creamy BreadStix : Flat Rs 20 Off",
+                                        "price": 14900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385678",
+                                        "name": "Zesty Paneer Pocket : Flat Rs 20 Off",
+                                        "price": 10900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385679",
+                                        "name": "Choco Volcano : Flat Rs 20 Off",
+                                        "price": 10900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    }
+                                ],
+                                "maxAddons": 6,
+                                "maxFreeAddons": -1
+                            },
+                            {
+                                "groupId": "114405881",
+                                "groupName": "Toppings.",
+                                "choices": [
+                                    {
+                                        "id": "101385700",
+                                        "name": "Cheese",
+                                        "price": 8500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385701",
+                                        "name": "Black Olives",
+                                        "price": 7000,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385702",
+                                        "name": "Baby Corn",
+                                        "price": 7000,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385703",
+                                        "name": "Capsicum",
+                                        "price": 7000,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385704",
+                                        "name": "Herbed Veggies",
+                                        "price": 7000,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385705",
+                                        "name": "Jalapeno",
+                                        "price": 7000,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385706",
+                                        "name": "Mushroom",
+                                        "price": 7000,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385707",
+                                        "name": "Onion",
+                                        "price": 7000,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385708",
+                                        "name": "Paneer",
+                                        "price": 7500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385709",
+                                        "name": "Red Paprika",
+                                        "price": 7000,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385710",
+                                        "name": "Red Capsicum",
+                                        "price": 7000,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385711",
+                                        "name": "Sweet Corn",
+                                        "price": 7000,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385712",
+                                        "name": "Tomato",
+                                        "price": 7000,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    }
+                                ],
+                                "maxAddons": 2,
+                                "maxFreeAddons": -1
+                            },
+                            {
+                                "groupId": "114405897",
+                                "groupName": "Toppings",
+                                "choices": [
+                                    {
+                                        "id": "101385680",
+                                        "name": "Cheese",
+                                        "price": 6500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385681",
+                                        "name": "Black Olives",
+                                        "price": 4500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385683",
+                                        "name": "Capsicum",
+                                        "price": 4500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385684",
+                                        "name": "Herbed Veggies",
+                                        "price": 4500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385685",
+                                        "name": "Jalapeno",
+                                        "price": 4500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385686",
+                                        "name": "Mushroom",
+                                        "price": 4500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385687",
+                                        "name": "Onion",
+                                        "price": 4500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385688",
+                                        "name": "Paneer",
+                                        "price": 5500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385689",
+                                        "name": "Red Paprika",
+                                        "price": 4500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385690",
+                                        "name": "Red Capsicum",
+                                        "price": 4500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385691",
+                                        "name": "Sweet Corn",
+                                        "price": 4500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385692",
+                                        "name": "Tomato",
+                                        "price": 4500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385682",
+                                        "name": "Baby Corn",
+                                        "price": 4500,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    }
+                                ],
+                                "maxAddons": 2,
+                                "maxFreeAddons": -1
+                            }
+                        ],
+                        "itemAttribute": {
+                            "vegClassifier": "VEG",
+                            "portionSize": "Serves 1"
+                        },
+                        "defaultPrice": 25900,
+                        "ribbon": {},
+                        "type": "ITEM",
+                        "itemBadge": {},
+                        "badgesV2": {},
+                        "ratings": {
+                            "aggregatedRating": {
+                                "rating": "3.5",
+                                "ratingCount": "57 ratings",
+                                "ratingCountV2": "57"
+                            }
+                        }
+                    },
+                    "analytics": {},
+                    "hideRestaurantDetails": true
+                }
+            },
+            {
+                "card": {
+                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                    "info": {
+                        "id": "47542921",
+                        "name": "Tandoori Paneer",
+                        "category": "Veg Pizza",
+                        "description": "Serves 1 | It's our signature. Spiced Paneer, Crunchy Onions & Green Capsicum, spicy Red Paprika with delicious Tandoori Sauce and 100% mozzarella cheese!",
+                        "imageId": "s5ld93rsknx0fhj6xarn",
+                        "inStock": 1,
+                        "isVeg": 1,
+                        "variants": {},
+                        "variantsV2": {
+                            "variantGroups": [
+                                {
+                                    "groupId": "26829235",
+                                    "name": "Size",
+                                    "variations": [
+                                        {
+                                            "name": "Personal",
+                                            "default": 1,
+                                            "id": "85025459",
+                                            "inStock": 1,
+                                            "isVeg": 1,
+                                            "isEnabled": 1,
+                                            "dependantVariation": {
+                                                "groupId": "26829236",
+                                                "variationId": "85025461"
+                                            }
+                                        },
+                                        {
+                                            "name": "Medium",
+                                            "id": "85025460",
+                                            "inStock": 1,
+                                            "isVeg": 1,
+                                            "isEnabled": 1,
+                                            "dependantVariation": {
+                                                "groupId": "26829236",
+                                                "variationId": "85025466"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "groupId": "26829236",
+                                    "name": "Base",
+                                    "variations": [
+                                        {
+                                            "name": "Pan",
+                                            "price": 319,
+                                            "default": 1,
+                                            "id": "85025461",
+                                            "inStock": 1,
+                                            "isVeg": 1,
+                                            "isEnabled": 1
+                                        },
+                                        {
+                                            "name": "Pan",
+                                            "price": 569,
+                                            "id": "85025466",
+                                            "inStock": 1,
+                                            "isVeg": 1,
+                                            "isEnabled": 1
+                                        },
+                                        {
+                                            "name": "Stuffed Crust - Cheese Maxx",
+                                            "price": 394,
+                                            "id": "85025465",
+                                            "inStock": 1,
+                                            "isVeg": 1,
+                                            "isEnabled": 1
+                                        },
+                                        {
+                                            "name": "Stuffed Crust - Cheese Maxx",
+                                            "price": 668,
+                                            "id": "85025470",
+                                            "inStock": 1,
+                                            "isVeg": 1,
+                                            "isEnabled": 1
+                                        }
+                                    ]
+                                }
+                            ],
+                            "pricingModels": [
+                                {
+                                    "variations": [
+                                        {
+                                            "groupId": "26829235",
+                                            "variationId": "85025459"
+                                        },
+                                        {
+                                            "groupId": "26829236",
+                                            "variationId": "85025461"
+                                        }
+                                    ],
+                                    "price": 31900,
+                                    "addonCombinations": [
+                                        {
+                                            "groupId": "114405636",
+                                            "addonId": "101385674"
+                                        },
+                                        {
+                                            "groupId": "114405636",
+                                            "addonId": "101385675"
+                                        },
+                                        {
+                                            "groupId": "114405636",
+                                            "addonId": "101385676"
+                                        },
+                                        {
+                                            "groupId": "114405636",
+                                            "addonId": "101385677"
+                                        },
+                                        {
+                                            "groupId": "114405636",
+                                            "addonId": "101385678"
+                                        },
+                                        {
+                                            "groupId": "114405636",
+                                            "addonId": "101385679"
+                                        },
+                                        {
+                                            "groupId": "114405656",
+                                            "addonId": "101385680"
+                                        },
+                                        {
+                                            "groupId": "114405656",
+                                            "addonId": "101385681"
+                                        },
+                                        {
+                                            "groupId": "114405656",
+                                            "addonId": "101385682"
+                                        },
+                                        {
+                                            "groupId": "114405656",
+                                            "addonId": "101385683"
+                                        },
+                                        {
+                                            "groupId": "114405656",
+                                            "addonId": "101385684"
+                                        },
+                                        {
+                                            "groupId": "114405656",
+                                            "addonId": "101385685"
+                                        },
+                                        {
+                                            "groupId": "114405656",
+                                            "addonId": "101385686"
+                                        },
+                                        {
+                                            "groupId": "114405656",
+                                            "addonId": "101385687"
+                                        },
+                                        {
+                                            "groupId": "114405656",
+                                            "addonId": "101385688"
+                                        },
+                                        {
+                                            "groupId": "114405656",
+                                            "addonId": "101385689"
+                                        },
+                                        {
+                                            "groupId": "114405656",
+                                            "addonId": "101385690"
+                                        },
+                                        {
+                                            "groupId": "114405656",
+                                            "addonId": "101385691"
+                                        },
+                                        {
+                                            "groupId": "114405656",
+                                            "addonId": "101385692"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "variations": [
+                                        {
+                                            "groupId": "26829235",
+                                            "variationId": "85025459"
+                                        },
+                                        {
+                                            "groupId": "26829236",
+                                            "variationId": "85025465"
+                                        }
+                                    ],
+                                    "price": 39400,
+                                    "addonCombinations": [
+                                        {
+                                            "groupId": "114405636",
+                                            "addonId": "101385674"
+                                        },
+                                        {
+                                            "groupId": "114405636",
+                                            "addonId": "101385675"
+                                        },
+                                        {
+                                            "groupId": "114405636",
+                                            "addonId": "101385676"
+                                        },
+                                        {
+                                            "groupId": "114405636",
+                                            "addonId": "101385677"
+                                        },
+                                        {
+                                            "groupId": "114405636",
+                                            "addonId": "101385678"
+                                        },
+                                        {
+                                            "groupId": "114405636",
+                                            "addonId": "101385679"
+                                        },
+                                        {
+                                            "groupId": "114405656",
+                                            "addonId": "101385680"
+                                        },
+                                        {
+                                            "groupId": "114405656",
+                                            "addonId": "101385681"
+                                        },
+                                        {
+                                            "groupId": "114405656",
+                                            "addonId": "101385682"
+                                        },
+                                        {
+                                            "groupId": "114405656",
+                                            "addonId": "101385683"
+                                        },
+                                        {
+                                            "groupId": "114405656",
+                                            "addonId": "101385684"
+                                        },
+                                        {
+                                            "groupId": "114405656",
+                                            "addonId": "101385685"
+                                        },
+                                        {
+                                            "groupId": "114405656",
+                                            "addonId": "101385686"
+                                        },
+                                        {
+                                            "groupId": "114405656",
+                                            "addonId": "101385687"
+                                        },
+                                        {
+                                            "groupId": "114405656",
+                                            "addonId": "101385688"
+                                        },
+                                        {
+                                            "groupId": "114405656",
+                                            "addonId": "101385689"
+                                        },
+                                        {
+                                            "groupId": "114405656",
+                                            "addonId": "101385690"
+                                        },
+                                        {
+                                            "groupId": "114405656",
+                                            "addonId": "101385691"
+                                        },
+                                        {
+                                            "groupId": "114405656",
+                                            "addonId": "101385692"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "variations": [
+                                        {
+                                            "groupId": "26829235",
+                                            "variationId": "85025460"
+                                        },
+                                        {
+                                            "groupId": "26829236",
+                                            "variationId": "85025466"
+                                        }
+                                    ],
+                                    "price": 56900,
+                                    "addonCombinations": [
+                                        {
+                                            "groupId": "114405636",
+                                            "addonId": "101385674"
+                                        },
+                                        {
+                                            "groupId": "114405636",
+                                            "addonId": "101385675"
+                                        },
+                                        {
+                                            "groupId": "114405636",
+                                            "addonId": "101385676"
+                                        },
+                                        {
+                                            "groupId": "114405636",
+                                            "addonId": "101385677"
+                                        },
+                                        {
+                                            "groupId": "114405636",
+                                            "addonId": "101385678"
+                                        },
+                                        {
+                                            "groupId": "114405636",
+                                            "addonId": "101385679"
+                                        },
+                                        {
+                                            "groupId": "114405643",
+                                            "addonId": "101385700"
+                                        },
+                                        {
+                                            "groupId": "114405643",
+                                            "addonId": "101385701"
+                                        },
+                                        {
+                                            "groupId": "114405643",
+                                            "addonId": "101385702"
+                                        },
+                                        {
+                                            "groupId": "114405643",
+                                            "addonId": "101385703"
+                                        },
+                                        {
+                                            "groupId": "114405643",
+                                            "addonId": "101385704"
+                                        },
+                                        {
+                                            "groupId": "114405643",
+                                            "addonId": "101385705"
+                                        },
+                                        {
+                                            "groupId": "114405643",
+                                            "addonId": "101385706"
+                                        },
+                                        {
+                                            "groupId": "114405643",
+                                            "addonId": "101385707"
+                                        },
+                                        {
+                                            "groupId": "114405643",
+                                            "addonId": "101385708"
+                                        },
+                                        {
+                                            "groupId": "114405643",
+                                            "addonId": "101385709"
+                                        },
+                                        {
+                                            "groupId": "114405643",
+                                            "addonId": "101385710"
+                                        },
+                                        {
+                                            "groupId": "114405643",
+                                            "addonId": "101385711"
+                                        },
+                                        {
+                                            "groupId": "114405643",
+                                            "addonId": "101385712"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "variations": [
+                                        {
+                                            "groupId": "26829235",
+                                            "variationId": "85025460"
+                                        },
+                                        {
+                                            "groupId": "26829236",
+                                            "variationId": "85025470"
+                                        }
+                                    ],
+                                    "price": 66800,
+                                    "addonCombinations": [
+                                        {
+                                            "groupId": "114405636",
+                                            "addonId": "101385674"
+                                        },
+                                        {
+                                            "groupId": "114405636",
+                                            "addonId": "101385675"
+                                        },
+                                        {
+                                            "groupId": "114405636",
+                                            "addonId": "101385676"
+                                        },
+                                        {
+                                            "groupId": "114405636",
+                                            "addonId": "101385677"
+                                        },
+                                        {
+                                            "groupId": "114405636",
+                                            "addonId": "101385678"
+                                        },
+                                        {
+                                            "groupId": "114405636",
+                                            "addonId": "101385679"
+                                        },
+                                        {
+                                            "groupId": "114405643",
+                                            "addonId": "101385700"
+                                        },
+                                        {
+                                            "groupId": "114405643",
+                                            "addonId": "101385701"
+                                        },
+                                        {
+                                            "groupId": "114405643",
+                                            "addonId": "101385702"
+                                        },
+                                        {
+                                            "groupId": "114405643",
+                                            "addonId": "101385703"
+                                        },
+                                        {
+                                            "groupId": "114405643",
+                                            "addonId": "101385704"
+                                        },
+                                        {
+                                            "groupId": "114405643",
+                                            "addonId": "101385705"
+                                        },
+                                        {
+                                            "groupId": "114405643",
+                                            "addonId": "101385706"
+                                        },
+                                        {
+                                            "groupId": "114405643",
+                                            "addonId": "101385707"
+                                        },
+                                        {
+                                            "groupId": "114405643",
+                                            "addonId": "101385708"
+                                        },
+                                        {
+                                            "groupId": "114405643",
+                                            "addonId": "101385709"
+                                        },
+                                        {
+                                            "groupId": "114405643",
+                                            "addonId": "101385710"
+                                        },
+                                        {
+                                            "groupId": "114405643",
+                                            "addonId": "101385711"
+                                        },
+                                        {
+                                            "groupId": "114405643",
+                                            "addonId": "101385712"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "addons": [
+                            {
+                                "groupId": "114405636",
+                                "groupName": "Add Ons",
+                                "choices": [
+                                    {
+                                        "id": "101385674",
+                                        "name": "Pepsi Pet Bottle",
+                                        "price": 5700,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385675",
+                                        "name": "Classic BreadStix : Flat Rs 20 Off",
+                                        "price": 9900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385676",
+                                        "name": "Cheese Garlic Bread : Flat Rs 20 Off",
+                                        "price": 13900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385677",
+                                        "name": "Creamy BreadStix : Flat Rs 20 Off",
+                                        "price": 14900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385678",
+                                        "name": "Zesty Paneer Pocket : Flat Rs 20 Off",
+                                        "price": 10900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385679",
+                                        "name": "Choco Volcano : Flat Rs 20 Off",
+                                        "price": 10900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    }
+                                ],
+                                "maxAddons": 6,
+                                "maxFreeAddons": -1
+                            },
+                            {
+                                "groupId": "114405643",
+                                "groupName": "Toppings.",
+                                "choices": [
+                                    {
+                                        "id": "101385700",
+                                        "name": "Cheese",
+                                        "price": 8500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385701",
+                                        "name": "Black Olives",
+                                        "price": 7000,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385702",
+                                        "name": "Baby Corn",
+                                        "price": 7000,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385703",
+                                        "name": "Capsicum",
+                                        "price": 7000,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385704",
+                                        "name": "Herbed Veggies",
+                                        "price": 7000,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385705",
+                                        "name": "Jalapeno",
+                                        "price": 7000,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385706",
+                                        "name": "Mushroom",
+                                        "price": 7000,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385707",
+                                        "name": "Onion",
+                                        "price": 7000,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385708",
+                                        "name": "Paneer",
+                                        "price": 7500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385709",
+                                        "name": "Red Paprika",
+                                        "price": 7000,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385710",
+                                        "name": "Red Capsicum",
+                                        "price": 7000,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385711",
+                                        "name": "Sweet Corn",
+                                        "price": 7000,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385712",
+                                        "name": "Tomato",
+                                        "price": 7000,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    }
+                                ],
+                                "maxAddons": 2,
+                                "maxFreeAddons": -1
+                            },
+                            {
+                                "groupId": "114405656",
+                                "groupName": "Toppings",
+                                "choices": [
+                                    {
+                                        "id": "101385680",
+                                        "name": "Cheese",
+                                        "price": 6500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385681",
+                                        "name": "Black Olives",
+                                        "price": 4500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385683",
+                                        "name": "Capsicum",
+                                        "price": 4500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385684",
+                                        "name": "Herbed Veggies",
+                                        "price": 4500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385685",
+                                        "name": "Jalapeno",
+                                        "price": 4500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385686",
+                                        "name": "Mushroom",
+                                        "price": 4500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385687",
+                                        "name": "Onion",
+                                        "price": 4500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385688",
+                                        "name": "Paneer",
+                                        "price": 5500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385689",
+                                        "name": "Red Paprika",
+                                        "price": 4500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385690",
+                                        "name": "Red Capsicum",
+                                        "price": 4500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385691",
+                                        "name": "Sweet Corn",
+                                        "price": 4500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385692",
+                                        "name": "Tomato",
+                                        "price": 4500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385682",
+                                        "name": "Baby Corn",
+                                        "price": 4500,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    }
+                                ],
+                                "maxAddons": 2,
+                                "maxFreeAddons": -1
+                            }
+                        ],
+                        "itemAttribute": {
+                            "vegClassifier": "VEG",
+                            "portionSize": "Serves 1"
+                        },
+                        "defaultPrice": 31900,
+                        "ribbon": {},
+                        "type": "ITEM",
+                        "itemBadge": {},
+                        "badgesV2": {},
+                        "ratings": {
+                            "aggregatedRating": {
+                                "rating": "3.7",
+                                "ratingCount": "110 ratings",
+                                "ratingCountV2": "110"
+                            }
+                        }
+                    },
+                    "analytics": {},
+                    "hideRestaurantDetails": true
+                }
+            },
+            {
+                "card": {
+                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                    "info": {
+                        "id": "47542806",
+                        "name": "Country Feast",
+                        "category": "Veg Pizza",
+                        "description": "Serves 1 | Loaded with Herbed Onion & Green capsicum, Sweet Corn, Tomato with signature pan sauce and 100% Mozzarella cheese. It's a feast you can't refuse.",
+                        "imageId": "c3832837392378cca98e484b89c313ba",
+                        "inStock": 1,
+                        "isVeg": 1,
+                        "variants": {},
+                        "variantsV2": {
+                            "variantGroups": [
+                                {
+                                    "groupId": "26829224",
+                                    "name": "Size",
+                                    "variations": [
+                                        {
+                                            "name": "Personal",
+                                            "default": 1,
+                                            "id": "85025388",
+                                            "inStock": 1,
+                                            "isVeg": 1,
+                                            "isEnabled": 1,
+                                            "dependantVariation": {
+                                                "groupId": "26829225",
+                                                "variationId": "85025391"
+                                            }
+                                        },
+                                        {
+                                            "name": "Medium",
+                                            "id": "85025389",
+                                            "inStock": 1,
+                                            "isVeg": 1,
+                                            "isEnabled": 1,
+                                            "dependantVariation": {
+                                                "groupId": "26829225",
+                                                "variationId": "85025398"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "groupId": "26829225",
+                                    "name": "Base",
+                                    "variations": [
+                                        {
+                                            "name": "Pan",
+                                            "price": 319,
+                                            "default": 1,
+                                            "id": "85025391",
+                                            "inStock": 1,
+                                            "isVeg": 1,
+                                            "isEnabled": 1
+                                        },
+                                        {
+                                            "name": "Pan",
+                                            "price": 569,
+                                            "id": "85025398",
+                                            "inStock": 1,
+                                            "isVeg": 1,
+                                            "isEnabled": 1
+                                        },
+                                        {
+                                            "name": "Stuffed Crust - Cheese Maxx",
+                                            "price": 394,
+                                            "id": "85025397",
+                                            "inStock": 1,
+                                            "isVeg": 1,
+                                            "isEnabled": 1
+                                        },
+                                        {
+                                            "name": "Stuffed Crust - Cheese Maxx",
+                                            "price": 668,
+                                            "id": "85025405",
+                                            "inStock": 1,
+                                            "isVeg": 1,
+                                            "isEnabled": 1
+                                        }
+                                    ]
+                                }
+                            ],
+                            "pricingModels": [
+                                {
+                                    "variations": [
+                                        {
+                                            "groupId": "26829224",
+                                            "variationId": "85025388"
+                                        },
+                                        {
+                                            "groupId": "26829225",
+                                            "variationId": "85025391"
+                                        }
+                                    ],
+                                    "price": 31900,
+                                    "addonCombinations": [
+                                        {
+                                            "groupId": "114405556",
+                                            "addonId": "101385674"
+                                        },
+                                        {
+                                            "groupId": "114405556",
+                                            "addonId": "101385675"
+                                        },
+                                        {
+                                            "groupId": "114405556",
+                                            "addonId": "101385676"
+                                        },
+                                        {
+                                            "groupId": "114405556",
+                                            "addonId": "101385677"
+                                        },
+                                        {
+                                            "groupId": "114405556",
+                                            "addonId": "101385678"
+                                        },
+                                        {
+                                            "groupId": "114405556",
+                                            "addonId": "101385679"
+                                        },
+                                        {
+                                            "groupId": "114405572",
+                                            "addonId": "101385680"
+                                        },
+                                        {
+                                            "groupId": "114405572",
+                                            "addonId": "101385681"
+                                        },
+                                        {
+                                            "groupId": "114405572",
+                                            "addonId": "101385682"
+                                        },
+                                        {
+                                            "groupId": "114405572",
+                                            "addonId": "101385683"
+                                        },
+                                        {
+                                            "groupId": "114405572",
+                                            "addonId": "101385684"
+                                        },
+                                        {
+                                            "groupId": "114405572",
+                                            "addonId": "101385685"
+                                        },
+                                        {
+                                            "groupId": "114405572",
+                                            "addonId": "101385686"
+                                        },
+                                        {
+                                            "groupId": "114405572",
+                                            "addonId": "101385687"
+                                        },
+                                        {
+                                            "groupId": "114405572",
+                                            "addonId": "101385688"
+                                        },
+                                        {
+                                            "groupId": "114405572",
+                                            "addonId": "101385689"
+                                        },
+                                        {
+                                            "groupId": "114405572",
+                                            "addonId": "101385690"
+                                        },
+                                        {
+                                            "groupId": "114405572",
+                                            "addonId": "101385691"
+                                        },
+                                        {
+                                            "groupId": "114405572",
+                                            "addonId": "101385692"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "variations": [
+                                        {
+                                            "groupId": "26829224",
+                                            "variationId": "85025388"
+                                        },
+                                        {
+                                            "groupId": "26829225",
+                                            "variationId": "85025397"
+                                        }
+                                    ],
+                                    "price": 39400,
+                                    "addonCombinations": [
+                                        {
+                                            "groupId": "114405556",
+                                            "addonId": "101385674"
+                                        },
+                                        {
+                                            "groupId": "114405556",
+                                            "addonId": "101385675"
+                                        },
+                                        {
+                                            "groupId": "114405556",
+                                            "addonId": "101385676"
+                                        },
+                                        {
+                                            "groupId": "114405556",
+                                            "addonId": "101385677"
+                                        },
+                                        {
+                                            "groupId": "114405556",
+                                            "addonId": "101385678"
+                                        },
+                                        {
+                                            "groupId": "114405556",
+                                            "addonId": "101385679"
+                                        },
+                                        {
+                                            "groupId": "114405572",
+                                            "addonId": "101385680"
+                                        },
+                                        {
+                                            "groupId": "114405572",
+                                            "addonId": "101385681"
+                                        },
+                                        {
+                                            "groupId": "114405572",
+                                            "addonId": "101385682"
+                                        },
+                                        {
+                                            "groupId": "114405572",
+                                            "addonId": "101385683"
+                                        },
+                                        {
+                                            "groupId": "114405572",
+                                            "addonId": "101385684"
+                                        },
+                                        {
+                                            "groupId": "114405572",
+                                            "addonId": "101385685"
+                                        },
+                                        {
+                                            "groupId": "114405572",
+                                            "addonId": "101385686"
+                                        },
+                                        {
+                                            "groupId": "114405572",
+                                            "addonId": "101385687"
+                                        },
+                                        {
+                                            "groupId": "114405572",
+                                            "addonId": "101385688"
+                                        },
+                                        {
+                                            "groupId": "114405572",
+                                            "addonId": "101385689"
+                                        },
+                                        {
+                                            "groupId": "114405572",
+                                            "addonId": "101385690"
+                                        },
+                                        {
+                                            "groupId": "114405572",
+                                            "addonId": "101385691"
+                                        },
+                                        {
+                                            "groupId": "114405572",
+                                            "addonId": "101385692"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "variations": [
+                                        {
+                                            "groupId": "26829224",
+                                            "variationId": "85025389"
+                                        },
+                                        {
+                                            "groupId": "26829225",
+                                            "variationId": "85025398"
+                                        }
+                                    ],
+                                    "price": 56900,
+                                    "addonCombinations": [
+                                        {
+                                            "groupId": "114405556",
+                                            "addonId": "101385674"
+                                        },
+                                        {
+                                            "groupId": "114405556",
+                                            "addonId": "101385675"
+                                        },
+                                        {
+                                            "groupId": "114405556",
+                                            "addonId": "101385676"
+                                        },
+                                        {
+                                            "groupId": "114405556",
+                                            "addonId": "101385677"
+                                        },
+                                        {
+                                            "groupId": "114405556",
+                                            "addonId": "101385678"
+                                        },
+                                        {
+                                            "groupId": "114405556",
+                                            "addonId": "101385679"
+                                        },
+                                        {
+                                            "groupId": "114405561",
+                                            "addonId": "101385700"
+                                        },
+                                        {
+                                            "groupId": "114405561",
+                                            "addonId": "101385701"
+                                        },
+                                        {
+                                            "groupId": "114405561",
+                                            "addonId": "101385702"
+                                        },
+                                        {
+                                            "groupId": "114405561",
+                                            "addonId": "101385703"
+                                        },
+                                        {
+                                            "groupId": "114405561",
+                                            "addonId": "101385704"
+                                        },
+                                        {
+                                            "groupId": "114405561",
+                                            "addonId": "101385705"
+                                        },
+                                        {
+                                            "groupId": "114405561",
+                                            "addonId": "101385706"
+                                        },
+                                        {
+                                            "groupId": "114405561",
+                                            "addonId": "101385707"
+                                        },
+                                        {
+                                            "groupId": "114405561",
+                                            "addonId": "101385708"
+                                        },
+                                        {
+                                            "groupId": "114405561",
+                                            "addonId": "101385709"
+                                        },
+                                        {
+                                            "groupId": "114405561",
+                                            "addonId": "101385710"
+                                        },
+                                        {
+                                            "groupId": "114405561",
+                                            "addonId": "101385711"
+                                        },
+                                        {
+                                            "groupId": "114405561",
+                                            "addonId": "101385712"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "variations": [
+                                        {
+                                            "groupId": "26829224",
+                                            "variationId": "85025389"
+                                        },
+                                        {
+                                            "groupId": "26829225",
+                                            "variationId": "85025405"
+                                        }
+                                    ],
+                                    "price": 66800,
+                                    "addonCombinations": [
+                                        {
+                                            "groupId": "114405556",
+                                            "addonId": "101385674"
+                                        },
+                                        {
+                                            "groupId": "114405556",
+                                            "addonId": "101385675"
+                                        },
+                                        {
+                                            "groupId": "114405556",
+                                            "addonId": "101385676"
+                                        },
+                                        {
+                                            "groupId": "114405556",
+                                            "addonId": "101385677"
+                                        },
+                                        {
+                                            "groupId": "114405556",
+                                            "addonId": "101385678"
+                                        },
+                                        {
+                                            "groupId": "114405556",
+                                            "addonId": "101385679"
+                                        },
+                                        {
+                                            "groupId": "114405561",
+                                            "addonId": "101385700"
+                                        },
+                                        {
+                                            "groupId": "114405561",
+                                            "addonId": "101385701"
+                                        },
+                                        {
+                                            "groupId": "114405561",
+                                            "addonId": "101385702"
+                                        },
+                                        {
+                                            "groupId": "114405561",
+                                            "addonId": "101385703"
+                                        },
+                                        {
+                                            "groupId": "114405561",
+                                            "addonId": "101385704"
+                                        },
+                                        {
+                                            "groupId": "114405561",
+                                            "addonId": "101385705"
+                                        },
+                                        {
+                                            "groupId": "114405561",
+                                            "addonId": "101385706"
+                                        },
+                                        {
+                                            "groupId": "114405561",
+                                            "addonId": "101385707"
+                                        },
+                                        {
+                                            "groupId": "114405561",
+                                            "addonId": "101385708"
+                                        },
+                                        {
+                                            "groupId": "114405561",
+                                            "addonId": "101385709"
+                                        },
+                                        {
+                                            "groupId": "114405561",
+                                            "addonId": "101385710"
+                                        },
+                                        {
+                                            "groupId": "114405561",
+                                            "addonId": "101385711"
+                                        },
+                                        {
+                                            "groupId": "114405561",
+                                            "addonId": "101385712"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "addons": [
+                            {
+                                "groupId": "114405556",
+                                "groupName": "Add Ons",
+                                "choices": [
+                                    {
+                                        "id": "101385674",
+                                        "name": "Pepsi Pet Bottle",
+                                        "price": 5700,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385675",
+                                        "name": "Classic BreadStix : Flat Rs 20 Off",
+                                        "price": 9900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385676",
+                                        "name": "Cheese Garlic Bread : Flat Rs 20 Off",
+                                        "price": 13900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385677",
+                                        "name": "Creamy BreadStix : Flat Rs 20 Off",
+                                        "price": 14900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385678",
+                                        "name": "Zesty Paneer Pocket : Flat Rs 20 Off",
+                                        "price": 10900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385679",
+                                        "name": "Choco Volcano : Flat Rs 20 Off",
+                                        "price": 10900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    }
+                                ],
+                                "maxAddons": 6,
+                                "maxFreeAddons": -1
+                            },
+                            {
+                                "groupId": "114405561",
+                                "groupName": "Toppings.",
+                                "choices": [
+                                    {
+                                        "id": "101385700",
+                                        "name": "Cheese",
+                                        "price": 8500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385701",
+                                        "name": "Black Olives",
+                                        "price": 7000,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385702",
+                                        "name": "Baby Corn",
+                                        "price": 7000,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385703",
+                                        "name": "Capsicum",
+                                        "price": 7000,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385704",
+                                        "name": "Herbed Veggies",
+                                        "price": 7000,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385705",
+                                        "name": "Jalapeno",
+                                        "price": 7000,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385706",
+                                        "name": "Mushroom",
+                                        "price": 7000,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385707",
+                                        "name": "Onion",
+                                        "price": 7000,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385708",
+                                        "name": "Paneer",
+                                        "price": 7500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385709",
+                                        "name": "Red Paprika",
+                                        "price": 7000,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385710",
+                                        "name": "Red Capsicum",
+                                        "price": 7000,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385711",
+                                        "name": "Sweet Corn",
+                                        "price": 7000,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385712",
+                                        "name": "Tomato",
+                                        "price": 7000,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    }
+                                ],
+                                "maxAddons": 2,
+                                "maxFreeAddons": -1
+                            },
+                            {
+                                "groupId": "114405572",
+                                "groupName": "Toppings",
+                                "choices": [
+                                    {
+                                        "id": "101385680",
+                                        "name": "Cheese",
+                                        "price": 6500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385681",
+                                        "name": "Black Olives",
+                                        "price": 4500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385683",
+                                        "name": "Capsicum",
+                                        "price": 4500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385684",
+                                        "name": "Herbed Veggies",
+                                        "price": 4500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385685",
+                                        "name": "Jalapeno",
+                                        "price": 4500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385686",
+                                        "name": "Mushroom",
+                                        "price": 4500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385687",
+                                        "name": "Onion",
+                                        "price": 4500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385688",
+                                        "name": "Paneer",
+                                        "price": 5500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385689",
+                                        "name": "Red Paprika",
+                                        "price": 4500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385690",
+                                        "name": "Red Capsicum",
+                                        "price": 4500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385691",
+                                        "name": "Sweet Corn",
+                                        "price": 4500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385692",
+                                        "name": "Tomato",
+                                        "price": 4500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385682",
+                                        "name": "Baby Corn",
+                                        "price": 4500,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    }
+                                ],
+                                "maxAddons": 2,
+                                "maxFreeAddons": -1
+                            }
+                        ],
+                        "itemAttribute": {
+                            "vegClassifier": "VEG",
+                            "portionSize": "Serves 1"
+                        },
+                        "defaultPrice": 31900,
+                        "ribbon": {},
+                        "type": "ITEM",
+                        "itemBadge": {},
+                        "badgesV2": {},
+                        "ratings": {
+                            "aggregatedRating": {
+                                "rating": "3.5",
+                                "ratingCount": "59 ratings",
+                                "ratingCountV2": "59"
+                            }
+                        }
+                    },
+                    "analytics": {},
+                    "hideRestaurantDetails": true
+                }
+            },
+            {
+                "card": {
+                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                    "info": {
+                        "id": "47542834",
+                        "name": "Farmers Pick",
+                        "category": "Veg Pizza",
+                        "description": "Serves 1 | Flavourful Herbed Onion and Green, crunchy Red Capsicum, yummy  Mushrooms & Baby Corn with flavourful pan sauce and 100% mozzarella cheese.",
+                        "imageId": "abecxrnu6gpe6btgcgzx",
+                        "inStock": 1,
+                        "isVeg": 1,
+                        "variants": {},
+                        "variantsV2": {
+                            "variantGroups": [
+                                {
+                                    "groupId": "30202476",
+                                    "name": "Size",
+                                    "variations": [
+                                        {
+                                            "name": "Personal",
+                                            "default": 1,
+                                            "id": "94167020",
+                                            "inStock": 1,
+                                            "isVeg": 1,
+                                            "isEnabled": 1,
+                                            "dependantVariation": {
+                                                "groupId": "30202477",
+                                                "variationId": "94167022"
+                                            }
+                                        },
+                                        {
+                                            "name": "Medium",
+                                            "id": "94167021",
+                                            "inStock": 1,
+                                            "isVeg": 1,
+                                            "isEnabled": 1,
+                                            "dependantVariation": {
+                                                "groupId": "30202477",
+                                                "variationId": "94167025"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "groupId": "30202477",
+                                    "name": "Base",
+                                    "variations": [
+                                        {
+                                            "name": "Pan",
+                                            "price": 319,
+                                            "default": 1,
+                                            "id": "94167022",
+                                            "inStock": 1,
+                                            "isVeg": 1,
+                                            "isEnabled": 1
+                                        },
+                                        {
+                                            "name": "Pan",
+                                            "price": 569,
+                                            "id": "94167025",
+                                            "inStock": 1,
+                                            "isVeg": 1,
+                                            "isEnabled": 1
+                                        },
+                                        {
+                                            "name": "Stuffed Crust - Cheese Maxx",
+                                            "price": 394,
+                                            "id": "94167024",
+                                            "inStock": 1,
+                                            "isVeg": 1,
+                                            "isEnabled": 1
+                                        },
+                                        {
+                                            "name": "Stuffed Crust - Cheese Maxx",
+                                            "price": 668,
+                                            "id": "94167027",
+                                            "inStock": 1,
+                                            "isVeg": 1,
+                                            "isEnabled": 1
+                                        }
+                                    ]
+                                }
+                            ],
+                            "pricingModels": [
+                                {
+                                    "variations": [
+                                        {
+                                            "groupId": "30202476",
+                                            "variationId": "94167020"
+                                        },
+                                        {
+                                            "groupId": "30202477",
+                                            "variationId": "94167022"
+                                        }
+                                    ],
+                                    "price": 31900,
+                                    "addonCombinations": [
+                                        {
+                                            "groupId": "114405590",
+                                            "addonId": "101385674"
+                                        },
+                                        {
+                                            "groupId": "114405590",
+                                            "addonId": "101385675"
+                                        },
+                                        {
+                                            "groupId": "114405590",
+                                            "addonId": "101385676"
+                                        },
+                                        {
+                                            "groupId": "114405590",
+                                            "addonId": "101385677"
+                                        },
+                                        {
+                                            "groupId": "114405590",
+                                            "addonId": "101385678"
+                                        },
+                                        {
+                                            "groupId": "114405590",
+                                            "addonId": "101385679"
+                                        },
+                                        {
+                                            "groupId": "114405608",
+                                            "addonId": "101385680"
+                                        },
+                                        {
+                                            "groupId": "114405608",
+                                            "addonId": "101385681"
+                                        },
+                                        {
+                                            "groupId": "114405608",
+                                            "addonId": "101385682"
+                                        },
+                                        {
+                                            "groupId": "114405608",
+                                            "addonId": "101385683"
+                                        },
+                                        {
+                                            "groupId": "114405608",
+                                            "addonId": "101385684"
+                                        },
+                                        {
+                                            "groupId": "114405608",
+                                            "addonId": "101385685"
+                                        },
+                                        {
+                                            "groupId": "114405608",
+                                            "addonId": "101385686"
+                                        },
+                                        {
+                                            "groupId": "114405608",
+                                            "addonId": "101385687"
+                                        },
+                                        {
+                                            "groupId": "114405608",
+                                            "addonId": "101385688"
+                                        },
+                                        {
+                                            "groupId": "114405608",
+                                            "addonId": "101385689"
+                                        },
+                                        {
+                                            "groupId": "114405608",
+                                            "addonId": "101385690"
+                                        },
+                                        {
+                                            "groupId": "114405608",
+                                            "addonId": "101385691"
+                                        },
+                                        {
+                                            "groupId": "114405608",
+                                            "addonId": "101385692"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "variations": [
+                                        {
+                                            "groupId": "30202476",
+                                            "variationId": "94167020"
+                                        },
+                                        {
+                                            "groupId": "30202477",
+                                            "variationId": "94167024"
+                                        }
+                                    ],
+                                    "price": 39400,
+                                    "addonCombinations": [
+                                        {
+                                            "groupId": "114405590",
+                                            "addonId": "101385674"
+                                        },
+                                        {
+                                            "groupId": "114405590",
+                                            "addonId": "101385675"
+                                        },
+                                        {
+                                            "groupId": "114405590",
+                                            "addonId": "101385676"
+                                        },
+                                        {
+                                            "groupId": "114405590",
+                                            "addonId": "101385677"
+                                        },
+                                        {
+                                            "groupId": "114405590",
+                                            "addonId": "101385678"
+                                        },
+                                        {
+                                            "groupId": "114405590",
+                                            "addonId": "101385679"
+                                        },
+                                        {
+                                            "groupId": "114405608",
+                                            "addonId": "101385680"
+                                        },
+                                        {
+                                            "groupId": "114405608",
+                                            "addonId": "101385681"
+                                        },
+                                        {
+                                            "groupId": "114405608",
+                                            "addonId": "101385682"
+                                        },
+                                        {
+                                            "groupId": "114405608",
+                                            "addonId": "101385683"
+                                        },
+                                        {
+                                            "groupId": "114405608",
+                                            "addonId": "101385684"
+                                        },
+                                        {
+                                            "groupId": "114405608",
+                                            "addonId": "101385685"
+                                        },
+                                        {
+                                            "groupId": "114405608",
+                                            "addonId": "101385686"
+                                        },
+                                        {
+                                            "groupId": "114405608",
+                                            "addonId": "101385687"
+                                        },
+                                        {
+                                            "groupId": "114405608",
+                                            "addonId": "101385688"
+                                        },
+                                        {
+                                            "groupId": "114405608",
+                                            "addonId": "101385689"
+                                        },
+                                        {
+                                            "groupId": "114405608",
+                                            "addonId": "101385690"
+                                        },
+                                        {
+                                            "groupId": "114405608",
+                                            "addonId": "101385691"
+                                        },
+                                        {
+                                            "groupId": "114405608",
+                                            "addonId": "101385692"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "variations": [
+                                        {
+                                            "groupId": "30202476",
+                                            "variationId": "94167021"
+                                        },
+                                        {
+                                            "groupId": "30202477",
+                                            "variationId": "94167025"
+                                        }
+                                    ],
+                                    "price": 56900,
+                                    "addonCombinations": [
+                                        {
+                                            "groupId": "114405590",
+                                            "addonId": "101385674"
+                                        },
+                                        {
+                                            "groupId": "114405590",
+                                            "addonId": "101385675"
+                                        },
+                                        {
+                                            "groupId": "114405590",
+                                            "addonId": "101385676"
+                                        },
+                                        {
+                                            "groupId": "114405590",
+                                            "addonId": "101385677"
+                                        },
+                                        {
+                                            "groupId": "114405590",
+                                            "addonId": "101385678"
+                                        },
+                                        {
+                                            "groupId": "114405590",
+                                            "addonId": "101385679"
+                                        },
+                                        {
+                                            "groupId": "114405594",
+                                            "addonId": "101385700"
+                                        },
+                                        {
+                                            "groupId": "114405594",
+                                            "addonId": "101385701"
+                                        },
+                                        {
+                                            "groupId": "114405594",
+                                            "addonId": "101385702"
+                                        },
+                                        {
+                                            "groupId": "114405594",
+                                            "addonId": "101385703"
+                                        },
+                                        {
+                                            "groupId": "114405594",
+                                            "addonId": "101385704"
+                                        },
+                                        {
+                                            "groupId": "114405594",
+                                            "addonId": "101385705"
+                                        },
+                                        {
+                                            "groupId": "114405594",
+                                            "addonId": "101385706"
+                                        },
+                                        {
+                                            "groupId": "114405594",
+                                            "addonId": "101385707"
+                                        },
+                                        {
+                                            "groupId": "114405594",
+                                            "addonId": "101385708"
+                                        },
+                                        {
+                                            "groupId": "114405594",
+                                            "addonId": "101385709"
+                                        },
+                                        {
+                                            "groupId": "114405594",
+                                            "addonId": "101385710"
+                                        },
+                                        {
+                                            "groupId": "114405594",
+                                            "addonId": "101385711"
+                                        },
+                                        {
+                                            "groupId": "114405594",
+                                            "addonId": "101385712"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "variations": [
+                                        {
+                                            "groupId": "30202476",
+                                            "variationId": "94167021"
+                                        },
+                                        {
+                                            "groupId": "30202477",
+                                            "variationId": "94167027"
+                                        }
+                                    ],
+                                    "price": 66800,
+                                    "addonCombinations": [
+                                        {
+                                            "groupId": "114405590",
+                                            "addonId": "101385674"
+                                        },
+                                        {
+                                            "groupId": "114405590",
+                                            "addonId": "101385675"
+                                        },
+                                        {
+                                            "groupId": "114405590",
+                                            "addonId": "101385676"
+                                        },
+                                        {
+                                            "groupId": "114405590",
+                                            "addonId": "101385677"
+                                        },
+                                        {
+                                            "groupId": "114405590",
+                                            "addonId": "101385678"
+                                        },
+                                        {
+                                            "groupId": "114405590",
+                                            "addonId": "101385679"
+                                        },
+                                        {
+                                            "groupId": "114405594",
+                                            "addonId": "101385700"
+                                        },
+                                        {
+                                            "groupId": "114405594",
+                                            "addonId": "101385701"
+                                        },
+                                        {
+                                            "groupId": "114405594",
+                                            "addonId": "101385702"
+                                        },
+                                        {
+                                            "groupId": "114405594",
+                                            "addonId": "101385703"
+                                        },
+                                        {
+                                            "groupId": "114405594",
+                                            "addonId": "101385704"
+                                        },
+                                        {
+                                            "groupId": "114405594",
+                                            "addonId": "101385705"
+                                        },
+                                        {
+                                            "groupId": "114405594",
+                                            "addonId": "101385706"
+                                        },
+                                        {
+                                            "groupId": "114405594",
+                                            "addonId": "101385707"
+                                        },
+                                        {
+                                            "groupId": "114405594",
+                                            "addonId": "101385708"
+                                        },
+                                        {
+                                            "groupId": "114405594",
+                                            "addonId": "101385709"
+                                        },
+                                        {
+                                            "groupId": "114405594",
+                                            "addonId": "101385710"
+                                        },
+                                        {
+                                            "groupId": "114405594",
+                                            "addonId": "101385711"
+                                        },
+                                        {
+                                            "groupId": "114405594",
+                                            "addonId": "101385712"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "addons": [
+                            {
+                                "groupId": "114405590",
+                                "groupName": "Add Ons",
+                                "choices": [
+                                    {
+                                        "id": "101385674",
+                                        "name": "Pepsi Pet Bottle",
+                                        "price": 5700,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385675",
+                                        "name": "Classic BreadStix : Flat Rs 20 Off",
+                                        "price": 9900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385676",
+                                        "name": "Cheese Garlic Bread : Flat Rs 20 Off",
+                                        "price": 13900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385677",
+                                        "name": "Creamy BreadStix : Flat Rs 20 Off",
+                                        "price": 14900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385678",
+                                        "name": "Zesty Paneer Pocket : Flat Rs 20 Off",
+                                        "price": 10900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385679",
+                                        "name": "Choco Volcano : Flat Rs 20 Off",
+                                        "price": 10900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    }
+                                ],
+                                "maxAddons": 6,
+                                "maxFreeAddons": -1
+                            },
+                            {
+                                "groupId": "114405594",
+                                "groupName": "Toppings.",
+                                "choices": [
+                                    {
+                                        "id": "101385700",
+                                        "name": "Cheese",
+                                        "price": 8500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385701",
+                                        "name": "Black Olives",
+                                        "price": 7000,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385702",
+                                        "name": "Baby Corn",
+                                        "price": 7000,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385703",
+                                        "name": "Capsicum",
+                                        "price": 7000,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385704",
+                                        "name": "Herbed Veggies",
+                                        "price": 7000,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385705",
+                                        "name": "Jalapeno",
+                                        "price": 7000,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385706",
+                                        "name": "Mushroom",
+                                        "price": 7000,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385707",
+                                        "name": "Onion",
+                                        "price": 7000,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385708",
+                                        "name": "Paneer",
+                                        "price": 7500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385709",
+                                        "name": "Red Paprika",
+                                        "price": 7000,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385710",
+                                        "name": "Red Capsicum",
+                                        "price": 7000,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385711",
+                                        "name": "Sweet Corn",
+                                        "price": 7000,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385712",
+                                        "name": "Tomato",
+                                        "price": 7000,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    }
+                                ],
+                                "maxAddons": 2,
+                                "maxFreeAddons": -1
+                            },
+                            {
+                                "groupId": "114405608",
+                                "groupName": "Toppings",
+                                "choices": [
+                                    {
+                                        "id": "101385680",
+                                        "name": "Cheese",
+                                        "price": 6500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385681",
+                                        "name": "Black Olives",
+                                        "price": 4500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385683",
+                                        "name": "Capsicum",
+                                        "price": 4500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385684",
+                                        "name": "Herbed Veggies",
+                                        "price": 4500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385685",
+                                        "name": "Jalapeno",
+                                        "price": 4500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385686",
+                                        "name": "Mushroom",
+                                        "price": 4500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385687",
+                                        "name": "Onion",
+                                        "price": 4500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385688",
+                                        "name": "Paneer",
+                                        "price": 5500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385689",
+                                        "name": "Red Paprika",
+                                        "price": 4500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385690",
+                                        "name": "Red Capsicum",
+                                        "price": 4500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385691",
+                                        "name": "Sweet Corn",
+                                        "price": 4500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385692",
+                                        "name": "Tomato",
+                                        "price": 4500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385682",
+                                        "name": "Baby Corn",
+                                        "price": 4500,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    }
+                                ],
+                                "maxAddons": 2,
+                                "maxFreeAddons": -1
+                            }
+                        ],
+                        "itemAttribute": {
+                            "vegClassifier": "VEG",
+                            "portionSize": "Serves 1"
+                        },
+                        "defaultPrice": 31900,
+                        "ribbon": {},
+                        "type": "ITEM",
+                        "itemBadge": {},
+                        "badgesV2": {},
+                        "ratings": {
+                            "aggregatedRating": {
+                                "rating": "3.1",
+                                "ratingCount": "21 ratings",
+                                "ratingCountV2": "21"
+                            }
+                        }
+                    },
+                    "analytics": {},
+                    "hideRestaurantDetails": true
+                }
+            },
+            {
+                "card": {
+                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                    "info": {
+                        "id": "111819607",
+                        "name": "Veggie Supreme",
+                        "category": "Veg Pizza",
+                        "description": "Serves 1 | A supreme combination of Black Olives, Green Capsicum, Mushroom, Onion, spicy Red Paprika & juicy Sweet Corn  with flavourful pan sauce and 100% mozzarella cheese.",
+                        "imageId": "z0c4xpovma1qtmu4tlls",
+                        "inStock": 1,
+                        "isVeg": 1,
+                        "variants": {},
+                        "variantsV2": {
+                            "variantGroups": [
+                                {
+                                    "groupId": "26829032",
+                                    "name": "Size",
+                                    "variations": [
+                                        {
+                                            "name": "Personal",
+                                            "default": 1,
+                                            "id": "85024363",
+                                            "inStock": 1,
+                                            "isVeg": 1,
+                                            "isEnabled": 1,
+                                            "dependantVariation": {
+                                                "groupId": "26829034",
+                                                "variationId": "85024366"
+                                            }
+                                        },
+                                        {
+                                            "name": "Medium",
+                                            "id": "85024364",
+                                            "inStock": 1,
+                                            "isVeg": 1,
+                                            "isEnabled": 1,
+                                            "dependantVariation": {
+                                                "groupId": "26829034",
+                                                "variationId": "85024371"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "groupId": "26829034",
+                                    "name": "Base",
+                                    "variations": [
+                                        {
+                                            "name": "Pan",
+                                            "price": 379,
+                                            "default": 1,
+                                            "id": "85024366",
+                                            "inStock": 1,
+                                            "isVeg": 1,
+                                            "isEnabled": 1
+                                        },
+                                        {
+                                            "name": "Pan",
+                                            "price": 639,
+                                            "id": "85024371",
+                                            "inStock": 1,
+                                            "isVeg": 1,
+                                            "isEnabled": 1
+                                        },
+                                        {
+                                            "name": "Stuffed Crust - Cheese Maxx",
+                                            "price": 454,
+                                            "id": "85024370",
+                                            "inStock": 1,
+                                            "isVeg": 1,
+                                            "isEnabled": 1
+                                        },
+                                        {
+                                            "name": "Stuffed Crust - Cheese Maxx",
+                                            "price": 738,
+                                            "id": "85024375",
+                                            "inStock": 1,
+                                            "isVeg": 1,
+                                            "isEnabled": 1
+                                        }
+                                    ]
+                                }
+                            ],
+                            "pricingModels": [
+                                {
+                                    "variations": [
+                                        {
+                                            "groupId": "26829032",
+                                            "variationId": "85024363"
+                                        },
+                                        {
+                                            "groupId": "26829034",
+                                            "variationId": "85024366"
+                                        }
+                                    ],
+                                    "price": 37900,
+                                    "addonCombinations": [
+                                        {
+                                            "groupId": "114405472",
+                                            "addonId": "101385674"
+                                        },
+                                        {
+                                            "groupId": "114405472",
+                                            "addonId": "101385675"
+                                        },
+                                        {
+                                            "groupId": "114405472",
+                                            "addonId": "101385676"
+                                        },
+                                        {
+                                            "groupId": "114405472",
+                                            "addonId": "101385677"
+                                        },
+                                        {
+                                            "groupId": "114405472",
+                                            "addonId": "101385678"
+                                        },
+                                        {
+                                            "groupId": "114405472",
+                                            "addonId": "101385679"
+                                        },
+                                        {
+                                            "groupId": "114405483",
+                                            "addonId": "101385680"
+                                        },
+                                        {
+                                            "groupId": "114405483",
+                                            "addonId": "101385681"
+                                        },
+                                        {
+                                            "groupId": "114405483",
+                                            "addonId": "101385682"
+                                        },
+                                        {
+                                            "groupId": "114405483",
+                                            "addonId": "101385683"
+                                        },
+                                        {
+                                            "groupId": "114405483",
+                                            "addonId": "101385684"
+                                        },
+                                        {
+                                            "groupId": "114405483",
+                                            "addonId": "101385685"
+                                        },
+                                        {
+                                            "groupId": "114405483",
+                                            "addonId": "101385686"
+                                        },
+                                        {
+                                            "groupId": "114405483",
+                                            "addonId": "101385687"
+                                        },
+                                        {
+                                            "groupId": "114405483",
+                                            "addonId": "101385688"
+                                        },
+                                        {
+                                            "groupId": "114405483",
+                                            "addonId": "101385689"
+                                        },
+                                        {
+                                            "groupId": "114405483",
+                                            "addonId": "101385690"
+                                        },
+                                        {
+                                            "groupId": "114405483",
+                                            "addonId": "101385691"
+                                        },
+                                        {
+                                            "groupId": "114405483",
+                                            "addonId": "101385692"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "variations": [
+                                        {
+                                            "groupId": "26829032",
+                                            "variationId": "85024363"
+                                        },
+                                        {
+                                            "groupId": "26829034",
+                                            "variationId": "85024370"
+                                        }
+                                    ],
+                                    "price": 45400,
+                                    "addonCombinations": [
+                                        {
+                                            "groupId": "114405472",
+                                            "addonId": "101385674"
+                                        },
+                                        {
+                                            "groupId": "114405472",
+                                            "addonId": "101385675"
+                                        },
+                                        {
+                                            "groupId": "114405472",
+                                            "addonId": "101385676"
+                                        },
+                                        {
+                                            "groupId": "114405472",
+                                            "addonId": "101385677"
+                                        },
+                                        {
+                                            "groupId": "114405472",
+                                            "addonId": "101385678"
+                                        },
+                                        {
+                                            "groupId": "114405472",
+                                            "addonId": "101385679"
+                                        },
+                                        {
+                                            "groupId": "114405483",
+                                            "addonId": "101385680"
+                                        },
+                                        {
+                                            "groupId": "114405483",
+                                            "addonId": "101385681"
+                                        },
+                                        {
+                                            "groupId": "114405483",
+                                            "addonId": "101385682"
+                                        },
+                                        {
+                                            "groupId": "114405483",
+                                            "addonId": "101385683"
+                                        },
+                                        {
+                                            "groupId": "114405483",
+                                            "addonId": "101385684"
+                                        },
+                                        {
+                                            "groupId": "114405483",
+                                            "addonId": "101385685"
+                                        },
+                                        {
+                                            "groupId": "114405483",
+                                            "addonId": "101385686"
+                                        },
+                                        {
+                                            "groupId": "114405483",
+                                            "addonId": "101385687"
+                                        },
+                                        {
+                                            "groupId": "114405483",
+                                            "addonId": "101385688"
+                                        },
+                                        {
+                                            "groupId": "114405483",
+                                            "addonId": "101385689"
+                                        },
+                                        {
+                                            "groupId": "114405483",
+                                            "addonId": "101385690"
+                                        },
+                                        {
+                                            "groupId": "114405483",
+                                            "addonId": "101385691"
+                                        },
+                                        {
+                                            "groupId": "114405483",
+                                            "addonId": "101385692"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "variations": [
+                                        {
+                                            "groupId": "26829032",
+                                            "variationId": "85024364"
+                                        },
+                                        {
+                                            "groupId": "26829034",
+                                            "variationId": "85024371"
+                                        }
+                                    ],
+                                    "price": 63900,
+                                    "addonCombinations": [
+                                        {
+                                            "groupId": "114405472",
+                                            "addonId": "101385674"
+                                        },
+                                        {
+                                            "groupId": "114405472",
+                                            "addonId": "101385675"
+                                        },
+                                        {
+                                            "groupId": "114405472",
+                                            "addonId": "101385676"
+                                        },
+                                        {
+                                            "groupId": "114405472",
+                                            "addonId": "101385677"
+                                        },
+                                        {
+                                            "groupId": "114405472",
+                                            "addonId": "101385678"
+                                        },
+                                        {
+                                            "groupId": "114405472",
+                                            "addonId": "101385679"
+                                        },
+                                        {
+                                            "groupId": "114405474",
+                                            "addonId": "101385700"
+                                        },
+                                        {
+                                            "groupId": "114405474",
+                                            "addonId": "101385701"
+                                        },
+                                        {
+                                            "groupId": "114405474",
+                                            "addonId": "101385702"
+                                        },
+                                        {
+                                            "groupId": "114405474",
+                                            "addonId": "101385703"
+                                        },
+                                        {
+                                            "groupId": "114405474",
+                                            "addonId": "101385704"
+                                        },
+                                        {
+                                            "groupId": "114405474",
+                                            "addonId": "101385705"
+                                        },
+                                        {
+                                            "groupId": "114405474",
+                                            "addonId": "101385706"
+                                        },
+                                        {
+                                            "groupId": "114405474",
+                                            "addonId": "101385707"
+                                        },
+                                        {
+                                            "groupId": "114405474",
+                                            "addonId": "101385708"
+                                        },
+                                        {
+                                            "groupId": "114405474",
+                                            "addonId": "101385709"
+                                        },
+                                        {
+                                            "groupId": "114405474",
+                                            "addonId": "101385710"
+                                        },
+                                        {
+                                            "groupId": "114405474",
+                                            "addonId": "101385711"
+                                        },
+                                        {
+                                            "groupId": "114405474",
+                                            "addonId": "101385712"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "variations": [
+                                        {
+                                            "groupId": "26829032",
+                                            "variationId": "85024364"
+                                        },
+                                        {
+                                            "groupId": "26829034",
+                                            "variationId": "85024375"
+                                        }
+                                    ],
+                                    "price": 73800,
+                                    "addonCombinations": [
+                                        {
+                                            "groupId": "114405472",
+                                            "addonId": "101385674"
+                                        },
+                                        {
+                                            "groupId": "114405472",
+                                            "addonId": "101385675"
+                                        },
+                                        {
+                                            "groupId": "114405472",
+                                            "addonId": "101385676"
+                                        },
+                                        {
+                                            "groupId": "114405472",
+                                            "addonId": "101385677"
+                                        },
+                                        {
+                                            "groupId": "114405472",
+                                            "addonId": "101385678"
+                                        },
+                                        {
+                                            "groupId": "114405472",
+                                            "addonId": "101385679"
+                                        },
+                                        {
+                                            "groupId": "114405474",
+                                            "addonId": "101385700"
+                                        },
+                                        {
+                                            "groupId": "114405474",
+                                            "addonId": "101385701"
+                                        },
+                                        {
+                                            "groupId": "114405474",
+                                            "addonId": "101385702"
+                                        },
+                                        {
+                                            "groupId": "114405474",
+                                            "addonId": "101385703"
+                                        },
+                                        {
+                                            "groupId": "114405474",
+                                            "addonId": "101385704"
+                                        },
+                                        {
+                                            "groupId": "114405474",
+                                            "addonId": "101385705"
+                                        },
+                                        {
+                                            "groupId": "114405474",
+                                            "addonId": "101385706"
+                                        },
+                                        {
+                                            "groupId": "114405474",
+                                            "addonId": "101385707"
+                                        },
+                                        {
+                                            "groupId": "114405474",
+                                            "addonId": "101385708"
+                                        },
+                                        {
+                                            "groupId": "114405474",
+                                            "addonId": "101385709"
+                                        },
+                                        {
+                                            "groupId": "114405474",
+                                            "addonId": "101385710"
+                                        },
+                                        {
+                                            "groupId": "114405474",
+                                            "addonId": "101385711"
+                                        },
+                                        {
+                                            "groupId": "114405474",
+                                            "addonId": "101385712"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "addons": [
+                            {
+                                "groupId": "114405472",
+                                "groupName": "Add Ons",
+                                "choices": [
+                                    {
+                                        "id": "101385674",
+                                        "name": "Pepsi Pet Bottle",
+                                        "price": 5700,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385675",
+                                        "name": "Classic BreadStix : Flat Rs 20 Off",
+                                        "price": 9900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385676",
+                                        "name": "Cheese Garlic Bread : Flat Rs 20 Off",
+                                        "price": 13900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385677",
+                                        "name": "Creamy BreadStix : Flat Rs 20 Off",
+                                        "price": 14900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385678",
+                                        "name": "Zesty Paneer Pocket : Flat Rs 20 Off",
+                                        "price": 10900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385679",
+                                        "name": "Choco Volcano : Flat Rs 20 Off",
+                                        "price": 10900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    }
+                                ],
+                                "maxAddons": 6,
+                                "maxFreeAddons": -1
+                            },
+                            {
+                                "groupId": "114405474",
+                                "groupName": "Toppings.",
+                                "choices": [
+                                    {
+                                        "id": "101385700",
+                                        "name": "Cheese",
+                                        "price": 8500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385701",
+                                        "name": "Black Olives",
+                                        "price": 7000,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385702",
+                                        "name": "Baby Corn",
+                                        "price": 7000,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385703",
+                                        "name": "Capsicum",
+                                        "price": 7000,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385704",
+                                        "name": "Herbed Veggies",
+                                        "price": 7000,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385705",
+                                        "name": "Jalapeno",
+                                        "price": 7000,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385706",
+                                        "name": "Mushroom",
+                                        "price": 7000,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385707",
+                                        "name": "Onion",
+                                        "price": 7000,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385708",
+                                        "name": "Paneer",
+                                        "price": 7500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385709",
+                                        "name": "Red Paprika",
+                                        "price": 7000,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385710",
+                                        "name": "Red Capsicum",
+                                        "price": 7000,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385711",
+                                        "name": "Sweet Corn",
+                                        "price": 7000,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385712",
+                                        "name": "Tomato",
+                                        "price": 7000,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    }
+                                ],
+                                "maxAddons": 2,
+                                "maxFreeAddons": -1
+                            },
+                            {
+                                "groupId": "114405483",
+                                "groupName": "Toppings",
+                                "choices": [
+                                    {
+                                        "id": "101385680",
+                                        "name": "Cheese",
+                                        "price": 6500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385681",
+                                        "name": "Black Olives",
+                                        "price": 4500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385683",
+                                        "name": "Capsicum",
+                                        "price": 4500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385684",
+                                        "name": "Herbed Veggies",
+                                        "price": 4500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385685",
+                                        "name": "Jalapeno",
+                                        "price": 4500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385686",
+                                        "name": "Mushroom",
+                                        "price": 4500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385687",
+                                        "name": "Onion",
+                                        "price": 4500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385688",
+                                        "name": "Paneer",
+                                        "price": 5500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385689",
+                                        "name": "Red Paprika",
+                                        "price": 4500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385690",
+                                        "name": "Red Capsicum",
+                                        "price": 4500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385691",
+                                        "name": "Sweet Corn",
+                                        "price": 4500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385692",
+                                        "name": "Tomato",
+                                        "price": 4500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385682",
+                                        "name": "Baby Corn",
+                                        "price": 4500,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    }
+                                ],
+                                "maxAddons": 2,
+                                "maxFreeAddons": -1
+                            }
+                        ],
+                        "itemAttribute": {
+                            "vegClassifier": "VEG",
+                            "portionSize": "Serves 1"
+                        },
+                        "defaultPrice": 37900,
+                        "ribbon": {},
+                        "type": "ITEM",
+                        "itemBadge": {},
+                        "badgesV2": {},
+                        "ratings": {
+                            "aggregatedRating": {
+                                "rating": "3.2",
+                                "ratingCount": "103 ratings",
+                                "ratingCountV2": "103"
+                            }
+                        }
+                    },
+                    "analytics": {},
+                    "hideRestaurantDetails": true
+                }
+            },
+            {
+                "card": {
+                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                    "info": {
+                        "id": "72273517",
+                        "name": "Veg Exotica",
+                        "category": "Veg Pizza",
+                        "description": "Serves 1 | An exotic combination of Baby Corn, Black Olives, Green Capsicum, spicy Jalapeno, Red Capsicum with flavourful pan sauce and 100% mozzarella cheese.",
+                        "imageId": "fczfoggv5ehndszayadg",
+                        "inStock": 1,
+                        "isVeg": 1,
+                        "variants": {},
+                        "variantsV2": {
+                            "variantGroups": [
+                                {
+                                    "groupId": "30202474",
+                                    "name": "Size",
+                                    "variations": [
+                                        {
+                                            "name": "Personal",
+                                            "default": 1,
+                                            "id": "94167003",
+                                            "inStock": 1,
+                                            "isVeg": 1,
+                                            "isEnabled": 1,
+                                            "dependantVariation": {
+                                                "groupId": "30202475",
+                                                "variationId": "94167006"
+                                            }
+                                        },
+                                        {
+                                            "name": "Medium",
+                                            "id": "94167004",
+                                            "inStock": 1,
+                                            "isVeg": 1,
+                                            "isEnabled": 1,
+                                            "dependantVariation": {
+                                                "groupId": "30202475",
+                                                "variationId": "94167010"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "groupId": "30202475",
+                                    "name": "Base",
+                                    "variations": [
+                                        {
+                                            "name": "Pan",
+                                            "price": 379,
+                                            "default": 1,
+                                            "id": "94167006",
+                                            "inStock": 1,
+                                            "isVeg": 1,
+                                            "isEnabled": 1
+                                        },
+                                        {
+                                            "name": "Pan",
+                                            "price": 639,
+                                            "id": "94167010",
+                                            "inStock": 1,
+                                            "isVeg": 1,
+                                            "isEnabled": 1
+                                        },
+                                        {
+                                            "name": "Stuffed Crust - Cheese Maxx",
+                                            "price": 454,
+                                            "id": "94167009",
+                                            "inStock": 1,
+                                            "isVeg": 1,
+                                            "isEnabled": 1
+                                        },
+                                        {
+                                            "name": "Stuffed Crust - Cheese Maxx",
+                                            "price": 738,
+                                            "id": "94167012",
+                                            "inStock": 1,
+                                            "isVeg": 1,
+                                            "isEnabled": 1
+                                        }
+                                    ]
+                                }
+                            ],
+                            "pricingModels": [
+                                {
+                                    "variations": [
+                                        {
+                                            "groupId": "30202474",
+                                            "variationId": "94167003"
+                                        },
+                                        {
+                                            "groupId": "30202475",
+                                            "variationId": "94167006"
+                                        }
+                                    ],
+                                    "price": 37900,
+                                    "addonCombinations": [
+                                        {
+                                            "groupId": "114405441",
+                                            "addonId": "101385674"
+                                        },
+                                        {
+                                            "groupId": "114405441",
+                                            "addonId": "101385675"
+                                        },
+                                        {
+                                            "groupId": "114405441",
+                                            "addonId": "101385676"
+                                        },
+                                        {
+                                            "groupId": "114405441",
+                                            "addonId": "101385677"
+                                        },
+                                        {
+                                            "groupId": "114405441",
+                                            "addonId": "101385678"
+                                        },
+                                        {
+                                            "groupId": "114405441",
+                                            "addonId": "101385679"
+                                        },
+                                        {
+                                            "groupId": "114405452",
+                                            "addonId": "101385680"
+                                        },
+                                        {
+                                            "groupId": "114405452",
+                                            "addonId": "101385681"
+                                        },
+                                        {
+                                            "groupId": "114405452",
+                                            "addonId": "101385682"
+                                        },
+                                        {
+                                            "groupId": "114405452",
+                                            "addonId": "101385683"
+                                        },
+                                        {
+                                            "groupId": "114405452",
+                                            "addonId": "101385684"
+                                        },
+                                        {
+                                            "groupId": "114405452",
+                                            "addonId": "101385685"
+                                        },
+                                        {
+                                            "groupId": "114405452",
+                                            "addonId": "101385686"
+                                        },
+                                        {
+                                            "groupId": "114405452",
+                                            "addonId": "101385687"
+                                        },
+                                        {
+                                            "groupId": "114405452",
+                                            "addonId": "101385688"
+                                        },
+                                        {
+                                            "groupId": "114405452",
+                                            "addonId": "101385689"
+                                        },
+                                        {
+                                            "groupId": "114405452",
+                                            "addonId": "101385690"
+                                        },
+                                        {
+                                            "groupId": "114405452",
+                                            "addonId": "101385691"
+                                        },
+                                        {
+                                            "groupId": "114405452",
+                                            "addonId": "101385692"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "variations": [
+                                        {
+                                            "groupId": "30202474",
+                                            "variationId": "94167003"
+                                        },
+                                        {
+                                            "groupId": "30202475",
+                                            "variationId": "94167009"
+                                        }
+                                    ],
+                                    "price": 45400,
+                                    "addonCombinations": [
+                                        {
+                                            "groupId": "114405441",
+                                            "addonId": "101385674"
+                                        },
+                                        {
+                                            "groupId": "114405441",
+                                            "addonId": "101385675"
+                                        },
+                                        {
+                                            "groupId": "114405441",
+                                            "addonId": "101385676"
+                                        },
+                                        {
+                                            "groupId": "114405441",
+                                            "addonId": "101385677"
+                                        },
+                                        {
+                                            "groupId": "114405441",
+                                            "addonId": "101385678"
+                                        },
+                                        {
+                                            "groupId": "114405441",
+                                            "addonId": "101385679"
+                                        },
+                                        {
+                                            "groupId": "114405452",
+                                            "addonId": "101385680"
+                                        },
+                                        {
+                                            "groupId": "114405452",
+                                            "addonId": "101385681"
+                                        },
+                                        {
+                                            "groupId": "114405452",
+                                            "addonId": "101385682"
+                                        },
+                                        {
+                                            "groupId": "114405452",
+                                            "addonId": "101385683"
+                                        },
+                                        {
+                                            "groupId": "114405452",
+                                            "addonId": "101385684"
+                                        },
+                                        {
+                                            "groupId": "114405452",
+                                            "addonId": "101385685"
+                                        },
+                                        {
+                                            "groupId": "114405452",
+                                            "addonId": "101385686"
+                                        },
+                                        {
+                                            "groupId": "114405452",
+                                            "addonId": "101385687"
+                                        },
+                                        {
+                                            "groupId": "114405452",
+                                            "addonId": "101385688"
+                                        },
+                                        {
+                                            "groupId": "114405452",
+                                            "addonId": "101385689"
+                                        },
+                                        {
+                                            "groupId": "114405452",
+                                            "addonId": "101385690"
+                                        },
+                                        {
+                                            "groupId": "114405452",
+                                            "addonId": "101385691"
+                                        },
+                                        {
+                                            "groupId": "114405452",
+                                            "addonId": "101385692"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "variations": [
+                                        {
+                                            "groupId": "30202474",
+                                            "variationId": "94167004"
+                                        },
+                                        {
+                                            "groupId": "30202475",
+                                            "variationId": "94167010"
+                                        }
+                                    ],
+                                    "price": 63900,
+                                    "addonCombinations": [
+                                        {
+                                            "groupId": "114405441",
+                                            "addonId": "101385674"
+                                        },
+                                        {
+                                            "groupId": "114405441",
+                                            "addonId": "101385675"
+                                        },
+                                        {
+                                            "groupId": "114405441",
+                                            "addonId": "101385676"
+                                        },
+                                        {
+                                            "groupId": "114405441",
+                                            "addonId": "101385677"
+                                        },
+                                        {
+                                            "groupId": "114405441",
+                                            "addonId": "101385678"
+                                        },
+                                        {
+                                            "groupId": "114405441",
+                                            "addonId": "101385679"
+                                        },
+                                        {
+                                            "groupId": "114405446",
+                                            "addonId": "101385700"
+                                        },
+                                        {
+                                            "groupId": "114405446",
+                                            "addonId": "101385701"
+                                        },
+                                        {
+                                            "groupId": "114405446",
+                                            "addonId": "101385702"
+                                        },
+                                        {
+                                            "groupId": "114405446",
+                                            "addonId": "101385703"
+                                        },
+                                        {
+                                            "groupId": "114405446",
+                                            "addonId": "101385704"
+                                        },
+                                        {
+                                            "groupId": "114405446",
+                                            "addonId": "101385705"
+                                        },
+                                        {
+                                            "groupId": "114405446",
+                                            "addonId": "101385706"
+                                        },
+                                        {
+                                            "groupId": "114405446",
+                                            "addonId": "101385707"
+                                        },
+                                        {
+                                            "groupId": "114405446",
+                                            "addonId": "101385708"
+                                        },
+                                        {
+                                            "groupId": "114405446",
+                                            "addonId": "101385709"
+                                        },
+                                        {
+                                            "groupId": "114405446",
+                                            "addonId": "101385710"
+                                        },
+                                        {
+                                            "groupId": "114405446",
+                                            "addonId": "101385711"
+                                        },
+                                        {
+                                            "groupId": "114405446",
+                                            "addonId": "101385712"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "variations": [
+                                        {
+                                            "groupId": "30202474",
+                                            "variationId": "94167004"
+                                        },
+                                        {
+                                            "groupId": "30202475",
+                                            "variationId": "94167012"
+                                        }
+                                    ],
+                                    "price": 73800,
+                                    "addonCombinations": [
+                                        {
+                                            "groupId": "114405441",
+                                            "addonId": "101385674"
+                                        },
+                                        {
+                                            "groupId": "114405441",
+                                            "addonId": "101385675"
+                                        },
+                                        {
+                                            "groupId": "114405441",
+                                            "addonId": "101385676"
+                                        },
+                                        {
+                                            "groupId": "114405441",
+                                            "addonId": "101385677"
+                                        },
+                                        {
+                                            "groupId": "114405441",
+                                            "addonId": "101385678"
+                                        },
+                                        {
+                                            "groupId": "114405441",
+                                            "addonId": "101385679"
+                                        },
+                                        {
+                                            "groupId": "114405446",
+                                            "addonId": "101385700"
+                                        },
+                                        {
+                                            "groupId": "114405446",
+                                            "addonId": "101385701"
+                                        },
+                                        {
+                                            "groupId": "114405446",
+                                            "addonId": "101385702"
+                                        },
+                                        {
+                                            "groupId": "114405446",
+                                            "addonId": "101385703"
+                                        },
+                                        {
+                                            "groupId": "114405446",
+                                            "addonId": "101385704"
+                                        },
+                                        {
+                                            "groupId": "114405446",
+                                            "addonId": "101385705"
+                                        },
+                                        {
+                                            "groupId": "114405446",
+                                            "addonId": "101385706"
+                                        },
+                                        {
+                                            "groupId": "114405446",
+                                            "addonId": "101385707"
+                                        },
+                                        {
+                                            "groupId": "114405446",
+                                            "addonId": "101385708"
+                                        },
+                                        {
+                                            "groupId": "114405446",
+                                            "addonId": "101385709"
+                                        },
+                                        {
+                                            "groupId": "114405446",
+                                            "addonId": "101385710"
+                                        },
+                                        {
+                                            "groupId": "114405446",
+                                            "addonId": "101385711"
+                                        },
+                                        {
+                                            "groupId": "114405446",
+                                            "addonId": "101385712"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "addons": [
+                            {
+                                "groupId": "114405441",
+                                "groupName": "Add Ons",
+                                "choices": [
+                                    {
+                                        "id": "101385674",
+                                        "name": "Pepsi Pet Bottle",
+                                        "price": 5700,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385675",
+                                        "name": "Classic BreadStix : Flat Rs 20 Off",
+                                        "price": 9900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385676",
+                                        "name": "Cheese Garlic Bread : Flat Rs 20 Off",
+                                        "price": 13900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385677",
+                                        "name": "Creamy BreadStix : Flat Rs 20 Off",
+                                        "price": 14900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385678",
+                                        "name": "Zesty Paneer Pocket : Flat Rs 20 Off",
+                                        "price": 10900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385679",
+                                        "name": "Choco Volcano : Flat Rs 20 Off",
+                                        "price": 10900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    }
+                                ],
+                                "maxAddons": 6,
+                                "maxFreeAddons": -1
+                            },
+                            {
+                                "groupId": "114405446",
+                                "groupName": "Toppings.",
+                                "choices": [
+                                    {
+                                        "id": "101385700",
+                                        "name": "Cheese",
+                                        "price": 8500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385701",
+                                        "name": "Black Olives",
+                                        "price": 7000,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385702",
+                                        "name": "Baby Corn",
+                                        "price": 7000,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385703",
+                                        "name": "Capsicum",
+                                        "price": 7000,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385704",
+                                        "name": "Herbed Veggies",
+                                        "price": 7000,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385705",
+                                        "name": "Jalapeno",
+                                        "price": 7000,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385706",
+                                        "name": "Mushroom",
+                                        "price": 7000,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385707",
+                                        "name": "Onion",
+                                        "price": 7000,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385708",
+                                        "name": "Paneer",
+                                        "price": 7500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385709",
+                                        "name": "Red Paprika",
+                                        "price": 7000,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385710",
+                                        "name": "Red Capsicum",
+                                        "price": 7000,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385711",
+                                        "name": "Sweet Corn",
+                                        "price": 7000,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385712",
+                                        "name": "Tomato",
+                                        "price": 7000,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    }
+                                ],
+                                "maxAddons": 2,
+                                "maxFreeAddons": -1
+                            },
+                            {
+                                "groupId": "114405452",
+                                "groupName": "Toppings",
+                                "choices": [
+                                    {
+                                        "id": "101385680",
+                                        "name": "Cheese",
+                                        "price": 6500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385681",
+                                        "name": "Black Olives",
+                                        "price": 4500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385683",
+                                        "name": "Capsicum",
+                                        "price": 4500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385684",
+                                        "name": "Herbed Veggies",
+                                        "price": 4500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385685",
+                                        "name": "Jalapeno",
+                                        "price": 4500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385686",
+                                        "name": "Mushroom",
+                                        "price": 4500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385687",
+                                        "name": "Onion",
+                                        "price": 4500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385688",
+                                        "name": "Paneer",
+                                        "price": 5500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385689",
+                                        "name": "Red Paprika",
+                                        "price": 4500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385690",
+                                        "name": "Red Capsicum",
+                                        "price": 4500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385691",
+                                        "name": "Sweet Corn",
+                                        "price": 4500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385692",
+                                        "name": "Tomato",
+                                        "price": 4500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "101385682",
+                                        "name": "Baby Corn",
+                                        "price": 4500,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    }
+                                ],
+                                "maxAddons": 2,
+                                "maxFreeAddons": -1
+                            }
+                        ],
+                        "itemAttribute": {
+                            "vegClassifier": "VEG",
+                            "portionSize": "Serves 1"
+                        },
+                        "defaultPrice": 37900,
+                        "ribbon": {},
+                        "type": "ITEM",
+                        "itemBadge": {},
+                        "badgesV2": {},
+                        "ratings": {
+                            "aggregatedRating": {
+                                "rating": "3.7",
+                                "ratingCount": "50 ratings",
+                                "ratingCountV2": "50"
+                            }
+                        }
+                    },
+                    "analytics": {},
+                    "hideRestaurantDetails": true
+                }
+            },
+            {
+                "card": {
+                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                    "info": {
+                        "id": "95259494",
+                        "name": "Margherita Pizza",
+                        "category": "Veg Pizza",
+                        "description": "Serves 1 | Pizza topped with our herb-infused signature pan sauce and 100% mozzarella cheese. A classic treat for all cheese lovers out there!",
+                        "imageId": "dpventcrozvfni0lqb10",
+                        "inStock": 1,
+                        "isVeg": 1,
+                        "price": 16900,
+                        "variants": {},
+                        "variantsV2": {},
+                        "itemAttribute": {
+                            "vegClassifier": "VEG",
+                            "portionSize": "Serves 1"
+                        },
+                        "ribbon": {
+                            "text": "Bestseller",
+                            "textColor": "#ffffff",
+                            "topBackgroundColor": "#d53d4c",
+                            "bottomBackgroundColor": "#b02331"
+                        },
+                        "type": "ITEM",
+                        "itemBadge": {},
+                        "badgesV2": {},
+                        "isBestseller": true,
+                        "ratings": {
+                            "aggregatedRating": {
+                                "rating": "3.6",
+                                "ratingCount": "271 ratings",
+                                "ratingCountV2": "271"
+                            }
+                        },
+                        "isKidcategory": true
+                    },
+                    "analytics": {},
+                    "hideRestaurantDetails": true
+                }
+            }
+        ]
+    )
+})
+
+app.get('/restaurant/5934', (req, res) => {
+    res.status(200).send(
+        [
+            {
+                "card": {
+                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                    "info": {
+                        "id": "114906585",
+                        "name": "Premium Family Feast for 4 - Veg",
+                        "category": "Family Feast for 4 (Save upto 37%)",
+                        "description": "Save Rs. 200 | Veg Whopper + Paneer Royale + Crispy Veg + BK Veggie + 2 Med Fries + 1 Dip + Peri Peri Sachet + Medium Soft Drink (Cola) + Chocolate Thick Shake",
+                        "imageId": "a9b60d491d38b5a193285d4f5d779d79",
+                        "inStock": 1,
+                        "isVeg": 1,
+                        "price": 95300,
+                        "variants": {},
+                        "variantsV2": {},
+                        "itemAttribute": {
+                            "vegClassifier": "VEG"
+                        },
+                        "defaultPrice": 95300,
+                        "ribbon": {},
+                        "type": "ITEM",
+                        "itemBadge": {},
+                        "badgesV2": {},
+                        "ratings": {
+                            "aggregatedRating": {}
+                        }
+                    },
+                    "analytics": {},
+                    "hideRestaurantDetails": true
+                }
+            },
+            {
+                "card": {
+                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                    "info": {
+                        "id": "114906584",
+                        "name": "Premium Family Feast for 4 - Chicken",
+                        "category": "Family Feast for 4 (Save upto 37%)",
+                        "description": "Save Rs. 200 | Chicken Whopper + Fiery Chicken + Crispy Chicken + Chicken Crunchy Taco + 2 Med Fries + 1 Dip + Peri Peri Sachet + Medium Soft Drink (Cola) + Chocolate Thick Shake",
+                        "imageId": "50cc6eae0029c5022a3a49dc01cec410",
+                        "inStock": 1,
+                        "price": 98200,
+                        "variants": {},
+                        "variantsV2": {},
+                        "itemAttribute": {
+                            "vegClassifier": "NONVEG"
+                        },
+                        "defaultPrice": 98200,
+                        "ribbon": {},
+                        "type": "ITEM",
+                        "itemBadge": {},
+                        "badgesV2": {},
+                        "ratings": {
+                            "aggregatedRating": {
+                                "rating": "5.0",
+                                "ratingCount": "3 ratings",
+                                "ratingCountV2": "3"
+                            }
+                        }
+                    },
+                    "analytics": {},
+                    "hideRestaurantDetails": true
+                }
+            },
+            {
+                "card": {
+                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                    "info": {
+                        "id": "114906587",
+                        "name": "Classic Family Feast for 4 - Veg",
+                        "category": "Family Feast for 4 (Save upto 37%)",
+                        "description": "Save Rs. 200 | 2 Crispy Veg + BK Veggie + Veg Crunchy Taco + 2 Med Fries + 2 Dips + Medium Soft Drink (Cola) + Chocolate Thick Shake",
+                        "imageId": "3ff9747682a64122fd4b4a6e0601130c",
+                        "inStock": 1,
+                        "isVeg": 1,
+                        "price": 73100,
+                        "variants": {},
+                        "variantsV2": {},
+                        "itemAttribute": {
+                            "vegClassifier": "VEG"
+                        },
+                        "defaultPrice": 73100,
+                        "ribbon": {},
+                        "type": "ITEM",
+                        "itemBadge": {},
+                        "badgesV2": {},
+                        "ratings": {
+                            "aggregatedRating": {}
+                        }
+                    },
+                    "analytics": {},
+                    "hideRestaurantDetails": true
+                }
+            },
+            {
+                "card": {
+                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                    "info": {
+                        "id": "114906586",
+                        "name": "Classic Family Feast for 4 - Chicken",
+                        "category": "Family Feast for 4 (Save upto 37%)",
+                        "description": "Save Rs. 200 | 2 Crispy Chicken + BK Chicken + Chicken Crunchy Taco + 2 Med Fries + 2 Dips + Medium Soft Drink (Cola) + Chocolate Thick Shake",
+                        "imageId": "abf2088a65b3dfcd30d66d2cfd99e138",
+                        "inStock": 1,
+                        "price": 82800,
+                        "variants": {},
+                        "variantsV2": {},
+                        "itemAttribute": {
+                            "vegClassifier": "NONVEG"
+                        },
+                        "defaultPrice": 82800,
+                        "ribbon": {},
+                        "type": "ITEM",
+                        "itemBadge": {},
+                        "badgesV2": {},
+                        "ratings": {
+                            "aggregatedRating": {
+                                "rating": "4.9",
+                                "ratingCount": "8 ratings",
+                                "ratingCountV2": "8"
+                            }
+                        }
+                    },
+                    "analytics": {},
+                    "hideRestaurantDetails": true
+                }
+            }
+        ]
+    )
+})
+
+app.get('/restaurant/70246', (req, res) => {
+    res.status(200).send(
+        []
+    )
+})
+
+app.get('/restaurant/25620', (req, res) => {
+    res.status(200).send(
+        [
+            {
+                "card": {
+                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                    "info": {
+                        "id": "130624109",
+                        "name": "2 Rice Bowlz Combo",
+                        "category": "VALUE LUNCH SPECIALS",
+                        "description": "1 Rice Bowlz with Gravy + 2 Boneless Strips + 1 Reg Pepsi + 1 Brownie (Serves 1 )",
+                        "inStock": 1,
+                        "price": 39800,
+                        "variants": {},
+                        "variantsV2": {},
+                        "itemAttribute": {
+                            "vegClassifier": "NONVEG"
+                        },
+                        "ribbon": {},
+                        "type": "ITEM",
+                        "offerTags": [
+                            {
+                                "title": "40% OFF",
+                                "subTitle": "USE SWIGGYIT",
+                                "textColor": "#DB6742",
+                                "backgroundColor": "#FAE8E3"
+                            }
+                        ],
+                        "itemBadge": {},
+                        "badgesV2": {},
+                        "ratings": {
+                            "aggregatedRating": {}
+                        }
+                    },
+                    "analytics": {},
+                    "hideRestaurantDetails": true
+                }
+            },
+            {
+                "card": {
+                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                    "info": {
+                        "id": "130624105",
+                        "name": "2 Rice Bowlz Deluxe Combo",
+                        "category": "VALUE LUNCH SPECIALS",
+                        "description": "2 Rizo Rice Bowlz, 4 Chicken Strips, 1 Pepsi PET 475ml and 2 Brownies [Serves 2]",
+                        "inStock": 1,
+                        "price": 48800,
+                        "variants": {},
+                        "variantsV2": {},
+                        "itemAttribute": {
+                            "vegClassifier": "NONVEG"
+                        },
+                        "ribbon": {},
+                        "type": "ITEM",
+                        "offerTags": [
+                            {
+                                "title": "40% OFF",
+                                "subTitle": "USE SWIGGYIT",
+                                "textColor": "#DB6742",
+                                "backgroundColor": "#FAE8E3"
+                            }
+                        ],
+                        "itemBadge": {},
+                        "badgesV2": {},
+                        "ratings": {
+                            "aggregatedRating": {}
+                        }
+                    },
+                    "analytics": {},
+                    "hideRestaurantDetails": true
+                }
+            },
+            {
+                "card": {
+                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                    "info": {
+                        "id": "130624101",
+                        "name": "Rice Bowlz & Chicken Roll Combo",
+                        "category": "VALUE LUNCH SPECIALS",
+                        "description": "1 Rizo Rice Bowlz, 1 Single Chicken Roll, 4 Strips and a Pepsi PET 475ml [Serves 2]",
+                        "inStock": 1,
+                        "price": 39800,
+                        "variants": {},
+                        "variantsV2": {},
+                        "itemAttribute": {
+                            "vegClassifier": "NONVEG"
+                        },
+                        "ribbon": {},
+                        "type": "ITEM",
+                        "offerTags": [
+                            {
+                                "title": "40% OFF",
+                                "subTitle": "USE SWIGGYIT",
+                                "textColor": "#DB6742",
+                                "backgroundColor": "#FAE8E3"
+                            }
+                        ],
+                        "itemBadge": {},
+                        "badgesV2": {},
+                        "ratings": {
+                            "aggregatedRating": {}
+                        }
+                    },
+                    "analytics": {},
+                    "hideRestaurantDetails": true
+                }
+            },
+            {
+                "card": {
+                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                    "info": {
+                        "id": "130624099",
+                        "name": "Rice Bowlz & Chicken Roll Deluxe Combo",
+                        "category": "VALUE LUNCH SPECIALS",
+                        "description": "1 Rizo Rice Bowlz, 1 Single Chicken Roll, 4 Strips, 1 Pepsi PET 475ml and 2 Brownies [Serves 2]",
+                        "inStock": 1,
+                        "price": 48800,
+                        "variants": {},
+                        "variantsV2": {},
+                        "itemAttribute": {
+                            "vegClassifier": "NONVEG"
+                        },
+                        "ribbon": {},
+                        "type": "ITEM",
+                        "offerTags": [
+                            {
+                                "title": "40% OFF",
+                                "subTitle": "USE SWIGGYIT",
+                                "textColor": "#DB6742",
+                                "backgroundColor": "#FAE8E3"
+                            }
+                        ],
+                        "itemBadge": {},
+                        "badgesV2": {},
+                        "ratings": {
+                            "aggregatedRating": {}
+                        }
+                    },
+                    "analytics": {},
+                    "hideRestaurantDetails": true
+                }
+            },
+            {
+                "card": {
+                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                    "info": {
+                        "id": "130624097",
+                        "name": "Chicken Longer Burger & Rice Bowlz Combo",
+                        "category": "VALUE LUNCH SPECIALS",
+                        "description": "1 Chicken Longer Burger, 1 Rizo Rice Bowlz, 4 Strips and a Pepsi PET 475ml [Serves 2]",
+                        "inStock": 1,
+                        "price": 39800,
+                        "variants": {},
+                        "variantsV2": {},
+                        "itemAttribute": {
+                            "vegClassifier": "NONVEG"
+                        },
+                        "ribbon": {},
+                        "type": "ITEM",
+                        "offerTags": [
+                            {
+                                "title": "40% OFF",
+                                "subTitle": "USE SWIGGYIT",
+                                "textColor": "#DB6742",
+                                "backgroundColor": "#FAE8E3"
+                            }
+                        ],
+                        "itemBadge": {},
+                        "badgesV2": {},
+                        "ratings": {
+                            "aggregatedRating": {}
+                        }
+                    },
+                    "analytics": {},
+                    "hideRestaurantDetails": true
+                }
+            },
+            {
+                "card": {
+                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                    "info": {
+                        "id": "130624096",
+                        "name": "Chicken Longer Burger & Rice Bowlz Deluxe Combo",
+                        "category": "VALUE LUNCH SPECIALS",
+                        "description": "1 Chicken Longer Burger, 1 Rizo Rice Bowlz, 4 Strips, a Pepsi PET 475ml and 2 Brownies [Serves 2]",
+                        "inStock": 1,
+                        "price": 48800,
+                        "variants": {},
+                        "variantsV2": {},
+                        "itemAttribute": {
+                            "vegClassifier": "NONVEG"
+                        },
+                        "ribbon": {},
+                        "type": "ITEM",
+                        "offerTags": [
+                            {
+                                "title": "40% OFF",
+                                "subTitle": "USE SWIGGYIT",
+                                "textColor": "#DB6742",
+                                "backgroundColor": "#FAE8E3"
+                            }
+                        ],
+                        "itemBadge": {},
+                        "badgesV2": {},
+                        "ratings": {
+                            "aggregatedRating": {}
+                        }
+                    },
+                    "analytics": {},
+                    "hideRestaurantDetails": true
+                }
+            }
+        ]
+
+    )
+})
+
+app.get('/restaurant/140887', (req, res) => {
+    res.status(200).send(
+        [
+            {
+                "card": {
+                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                    "info": {
+                        "id": "52433429",
+                        "name": "2 McAloo Tikki + 2 Fries (L)",
+                        "category": "Sharing  Meals",
+                        "description": "Stay home, stay safe and share a combo- 2 McAloo Tikki Burgers + 2 Fries (L)",
+                        "imageId": "ea7ba594c7d77cb752de9a730fbcb3bf",
+                        "inStock": 1,
+                        "isVeg": 1,
+                        "price": 31905,
+                        "variants": {},
+                        "variantsV2": {},
+                        "itemAttribute": {
+                            "vegClassifier": "VEG"
+                        },
+                        "ribbon": {},
+                        "type": "ITEM",
+                        "offerTags": [
+                            {
+                                "title": "30% OFF",
+                                "subTitle": "USE SWIGGYIT",
+                                "textColor": "#DB6742",
+                                "backgroundColor": "#FAE8E3"
+                            }
+                        ],
+                        "itemBadge": {},
+                        "badgesV2": {},
+                        "ratings": {
+                            "aggregatedRating": {
+                                "rating": "4.8",
+                                "ratingCount": "32 ratings",
+                                "ratingCountV2": "32"
+                            }
+                        }
+                    },
+                    "analytics": {},
+                    "hideRestaurantDetails": true
+                }
+            },
+            {
+                "card": {
+                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                    "info": {
+                        "id": "102104290",
+                        "name": "McSpicy Chicken Burger + McChicken Burger + Fries (M)",
+                        "category": "Sharing  Meals",
+                        "description": "Flat 15% Off on McSpicy Chicken Burger + McChicken Burger + Fries (M)",
+                        "imageId": "630a62321ae747b1c3a60a550387c84b",
+                        "inStock": 1,
+                        "price": 37524,
+                        "variants": {},
+                        "variantsV2": {},
+                        "itemAttribute": {
+                            "vegClassifier": "NONVEG"
+                        },
+                        "ribbon": {},
+                        "type": "ITEM",
+                        "offerTags": [
+                            {
+                                "title": "30% OFF",
+                                "subTitle": "USE SWIGGYIT",
+                                "textColor": "#DB6742",
+                                "backgroundColor": "#FAE8E3"
+                            }
+                        ],
+                        "itemBadge": {},
+                        "badgesV2": {},
+                        "ratings": {
+                            "aggregatedRating": {
+                                "rating": "4.2",
+                                "ratingCount": "16 ratings",
+                                "ratingCountV2": "16"
+                            }
+                        }
+                    },
+                    "analytics": {},
+                    "hideRestaurantDetails": true
+                }
+            },
+            {
+                "card": {
+                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                    "info": {
+                        "id": "112714592",
+                        "name": "Corn & Cheese Burger +McVeggie Burger+Fries (M)",
+                        "category": "Sharing  Meals",
+                        "description": "Flat 15% Off on Corn & Cheese Burger +McVeggie Burger+Fries (M)",
+                        "imageId": "a6fae39f2d1210d4746ffb3b5cc474f9",
+                        "inStock": 1,
+                        "isVeg": 1,
+                        "price": 33238,
+                        "variants": {},
+                        "variantsV2": {},
+                        "itemAttribute": {
+                            "vegClassifier": "VEG"
+                        },
+                        "ribbon": {},
+                        "type": "ITEM",
+                        "offerTags": [
+                            {
+                                "title": "30% OFF",
+                                "subTitle": "USE SWIGGYIT",
+                                "textColor": "#DB6742",
+                                "backgroundColor": "#FAE8E3"
+                            }
+                        ],
+                        "itemBadge": {},
+                        "badgesV2": {},
+                        "ratings": {
+                            "aggregatedRating": {
+                                "rating": "5.0",
+                                "ratingCount": "10 ratings",
+                                "ratingCountV2": "10"
+                            }
+                        }
+                    },
+                    "analytics": {},
+                    "hideRestaurantDetails": true
+                }
+            },
+            {
+                "card": {
+                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                    "info": {
+                        "id": "117966064",
+                        "name": "2 McChicken Burger\t + 2 Fries (M)\t + Veg Pizza McPuff",
+                        "category": "Sharing  Meals",
+                        "description": "Get the best value in your meal for 2. Save big on your favourite sharing meal - 2 McChicken Burger + 2 Fries (M) + Veg Pizza McPuff",
+                        "imageId": "b57153898abed2127d7217c2ee3e9e4b",
+                        "inStock": 1,
+                        "price": 38762,
+                        "variants": {},
+                        "variantsV2": {},
+                        "itemAttribute": {
+                            "vegClassifier": "NONVEG"
+                        },
+                        "ribbon": {},
+                        "type": "ITEM",
+                        "itemBadge": {},
+                        "badgesV2": {},
+                        "ratings": {
+                            "aggregatedRating": {
+                                "rating": "4.3",
+                                "ratingCount": "16 ratings",
+                                "ratingCountV2": "16"
+                            }
+                        }
+                    },
+                    "analytics": {},
+                    "hideRestaurantDetails": true
+                }
+            },
+            {
+                "card": {
+                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                    "info": {
+                        "id": "117966065",
+                        "name": "2 McSpicy Chicken Burger  + 2 Fries (M)  + Veg Pizza McPuff",
+                        "category": "Sharing  Meals",
+                        "description": "Get the best value in your meal for 2. Save big on your favourite sharing meal - 2 McSpicy Chicken Burger + 2 Fries (M) + Veg Pizza McPuff",
+                        "imageId": "e62aea3ba1cd5585a76004f59cd991e5",
+                        "inStock": 1,
+                        "price": 49048,
+                        "variants": {},
+                        "variantsV2": {},
+                        "itemAttribute": {
+                            "vegClassifier": "NONVEG"
+                        },
+                        "ribbon": {},
+                        "type": "ITEM",
+                        "itemBadge": {},
+                        "badgesV2": {},
+                        "ratings": {
+                            "aggregatedRating": {}
+                        }
+                    },
+                    "analytics": {},
+                    "hideRestaurantDetails": true
+                }
+            },
+            {
+                "card": {
+                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                    "info": {
+                        "id": "117966068",
+                        "name": "2 McVeggie Burger\t + 2 Fries (M)\t \t+ Veg Pizza McPuff",
+                        "category": "Sharing  Meals",
+                        "description": "Get the best value in your meal for 2. Save big on your favourite sharing meal - 2 McVeggie Burger + 2 Fries (M) + Veg Pizza McPuff",
+                        "imageId": "1ff73fc5aa656a10da5801469da3327a",
+                        "inStock": 1,
+                        "isVeg": 1,
+                        "price": 38762,
+                        "variants": {},
+                        "variantsV2": {},
+                        "itemAttribute": {
+                            "vegClassifier": "VEG"
+                        },
+                        "ribbon": {},
+                        "type": "ITEM",
+                        "itemBadge": {},
+                        "badgesV2": {},
+                        "ratings": {
+                            "aggregatedRating": {
+                                "rating": "4.8",
+                                "ratingCount": "4 ratings",
+                                "ratingCountV2": "4"
+                            }
+                        }
+                    },
+                    "analytics": {},
+                    "hideRestaurantDetails": true
+                }
+            },
+            {
+                "card": {
+                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                    "info": {
+                        "id": "117966075",
+                        "name": "McSpicy Fried Chicken - 2 Pc + 2 Fries (M)\t \t+ McSpicy Chicken Burger",
+                        "category": "Sharing  Meals",
+                        "description": "Get the best value in your meal for 2. Save big on your favourite sharing meal - McSpicy Fried Chicken - 2 Pc + 2 Fries (M) + McSpicy Chicken Burger",
+                        "imageId": "311067fe96ac784c00f029acf458afaf",
+                        "inStock": 1,
+                        "price": 43905,
+                        "variants": {},
+                        "variantsV2": {},
+                        "itemAttribute": {
+                            "vegClassifier": "NONVEG"
+                        },
+                        "ribbon": {},
+                        "type": "ITEM",
+                        "itemBadge": {},
+                        "badgesV2": {},
+                        "ratings": {
+                            "aggregatedRating": {
+                                "rating": "4.2",
+                                "ratingCount": "5 ratings",
+                                "ratingCountV2": "5"
+                            }
+                        }
+                    },
+                    "analytics": {},
+                    "hideRestaurantDetails": true
+                }
+            },
+            {
+                "card": {
+                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                    "info": {
+                        "id": "117966077",
+                        "name": "McSpicy Paneer Burger + 2 Fries M + McAloo Tikki + Veg Pizza McPuff",
+                        "category": "Sharing  Meals",
+                        "description": "Get the best value in your meal for 2. Save big on your favourite sharing meal - McSpicy Paneer Burger  + 2 Fries (M) + McAloo Tikki Burger + Veg Pizza McPuff",
+                        "imageId": "0ea8a2fddbbc17bc6239a9104963a3e8",
+                        "inStock": 1,
+                        "isVeg": 1,
+                        "price": 38762,
+                        "variants": {},
+                        "variantsV2": {},
+                        "itemAttribute": {
+                            "vegClassifier": "VEG"
+                        },
+                        "ribbon": {},
+                        "type": "ITEM",
+                        "itemBadge": {},
+                        "badgesV2": {},
+                        "ratings": {
+                            "aggregatedRating": {
+                                "rating": "5.0",
+                                "ratingCount": "3 ratings",
+                                "ratingCountV2": "3"
+                            }
+                        }
+                    },
+                    "analytics": {},
+                    "hideRestaurantDetails": true
+                }
+            },
+            {
+                "card": {
+                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                    "info": {
+                        "id": "117966080",
+                        "name": "McVeggie Burger + 2 Fries (M) + McAloo Tikki+ Veg Pizza McPuff",
+                        "category": "Sharing  Meals",
+                        "description": "Get the best value in your meal for 2. Save big on your favourite sharing meal - McVeggie Burger + 2 Fries (M) + McAloo Tikki Burger + Veg Pizza McPuff",
+                        "imageId": "2bb4b3cae53b1a6739aaf769ce2b3364",
+                        "inStock": 1,
+                        "isVeg": 1,
+                        "price": 30571,
+                        "variants": {},
+                        "variantsV2": {},
+                        "itemAttribute": {
+                            "vegClassifier": "VEG"
+                        },
+                        "ribbon": {},
+                        "type": "ITEM",
+                        "itemBadge": {},
+                        "badgesV2": {},
+                        "ratings": {
+                            "aggregatedRating": {
+                                "rating": "4.1",
+                                "ratingCount": "16 ratings",
+                                "ratingCountV2": "16"
+                            }
+                        }
+                    },
+                    "analytics": {},
+                    "hideRestaurantDetails": true
+                }
+            },
+            {
+                "card": {
+                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                    "info": {
+                        "id": "123194896",
+                        "name": "2 Chicken Maharaja Mac + 2 Coke + Fries (L) + McFlurry Oreo (M)",
+                        "category": "Sharing  Meals",
+                        "description": "Enjoy 2 of the tallest burgers innovated by us. Created with chunky juicy grilled chicken patty paired along with fresh ingredients like jalapeno, onion, slice of cheese, tomatoes & crunchy lettuce dressed with the classical Habanero sauce. Served with Coke, Large Fries and a medium McFlurry Oreo",
+                        "imageId": "65c9c9b82c4d1f77a05dc4d89c9ead1d",
+                        "inStock": 1,
+                        "price": 59334,
+                        "variants": {},
+                        "variantsV2": {},
+                        "addons": [
+                            {
+                                "groupId": "123809915",
+                                "groupName": "Choose an option for Coke",
+                                "choices": [
+                                    {
+                                        "id": "94488550",
+                                        "name": "Latte (S)",
+                                        "price": 4600,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "94488553",
+                                        "name": "Green Apple Chiller",
+                                        "price": 4600,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "94488551",
+                                        "name": "Latte (R)",
+                                        "price": 4600,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "95615288",
+                                        "name": "Sprite",
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "95615299",
+                                        "name": "Berry Lemonade Splash Regular",
+                                        "price": 3100,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "94488552",
+                                        "name": "Cappuccino (R)",
+                                        "price": 4600,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "95615289",
+                                        "name": "Mocha (S)",
+                                        "price": 4600,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "95615297",
+                                        "name": "Strawberry Chiller",
+                                        "price": 4600,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "95615287",
+                                        "name": "Masala Pop Sprite",
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "95615298",
+                                        "name": "McCafe-Ice Coffee",
+                                        "price": 4600,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "100543541",
+                                        "name": "Cappuccino (S)",
+                                        "price": 4800,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "95615295",
+                                        "name": "Lemon Chiller",
+                                        "price": 4600,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "94488556",
+                                        "name": "Masala Pop Coke",
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "95615296",
+                                        "name": "Hot Chocolate (S)",
+                                        "price": 4600,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "95615293",
+                                        "name": "Fanta",
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "100543544",
+                                        "name": "McCafe-Classic Coffee",
+                                        "price": 7600,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "95615294",
+                                        "name": "McCafe-Mocha Frappe",
+                                        "price": 17800,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "100543545",
+                                        "name": "Mango Smoothie",
+                                        "price": 5600,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "95615291",
+                                        "name": "Mocha (R)",
+                                        "price": 4600,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "100543542",
+                                        "name": "Chocolate Shake",
+                                        "price": 4800,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "95615292",
+                                        "name": "McCafe-Chocolate Frappe",
+                                        "price": 17800,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "100543543",
+                                        "name": "Strawberry Shake",
+                                        "price": 4800,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "95615290",
+                                        "name": "Hot Chocolate (R)",
+                                        "price": 4600,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "100543546",
+                                        "name": "American Mudpie",
+                                        "price": 7600,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "94488554",
+                                        "name": "Chilli Guava Coke",
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "94488555",
+                                        "name": "Chilli Guava Sprite",
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    }
+                                ],
+                                "maxAddons": 1,
+                                "maxFreeAddons": -1
+                            }
+                        ],
+                        "itemAttribute": {
+                            "vegClassifier": "NONVEG"
+                        },
+                        "ribbon": {},
+                        "type": "ITEM",
+                        "offerTags": [
+                            {
+                                "title": "30% OFF",
+                                "subTitle": "USE SWIGGYIT",
+                                "textColor": "#DB6742",
+                                "backgroundColor": "#FAE8E3"
+                            }
+                        ],
+                        "itemBadge": {},
+                        "badgesV2": {},
+                        "ratings": {
+                            "aggregatedRating": {
+                                "rating": "2.5",
+                                "ratingCount": "4 ratings",
+                                "ratingCountV2": "4"
+                            }
+                        }
+                    },
+                    "analytics": {},
+                    "hideRestaurantDetails": true
+                }
+            },
+            {
+                "card": {
+                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                    "info": {
+                        "id": "127403154",
+                        "name": "4 Pc McSpicy Chicken Wings +9 Pc Chicken Nuggets Bucket",
+                        "category": "Sharing  Meals",
+                        "description": "Elevate your matchday experience with our Nuggets + Wings Bucket! Enjoy 4 pc McSpicy Chicken Wings and 9 pc Chicken Nuggets along with Piri Piri Mix, Tangy Pepper Dip and Sweet Chilli Dip.",
+                        "imageId": "a12081e90d3165b82409c79385238766",
+                        "inStock": 1,
+                        "price": 52286,
+                        "variants": {},
+                        "variantsV2": {},
+                        "itemAttribute": {
+                            "vegClassifier": "NONVEG"
+                        },
+                        "ribbon": {},
+                        "type": "ITEM",
+                        "offerTags": [
+                            {
+                                "title": "30% OFF",
+                                "subTitle": "USE SWIGGYIT",
+                                "textColor": "#DB6742",
+                                "backgroundColor": "#FAE8E3"
+                            }
+                        ],
+                        "itemBadge": {},
+                        "badgesV2": {},
+                        "ratings": {
+                            "aggregatedRating": {}
+                        }
+                    },
+                    "analytics": {},
+                    "hideRestaurantDetails": true
+                }
+            },
+            {
+                "card": {
+                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                    "info": {
+                        "id": "127403155",
+                        "name": "Chicken Nuggets Bucket – 27 Pc",
+                        "category": "Sharing  Meals",
+                        "description": "Enjoy a winning combination of 25 pc Chicken Nuggets along with Piri Piri Mix, Tangy Pepper Dip and Sweet Chilli Dip.",
+                        "imageId": "d37fa65a71c8885b463e5b2d6455bc24",
+                        "inStock": 1,
+                        "price": 57048,
+                        "variants": {},
+                        "variantsV2": {},
+                        "itemAttribute": {
+                            "vegClassifier": "NONVEG"
+                        },
+                        "ribbon": {},
+                        "type": "ITEM",
+                        "offerTags": [
+                            {
+                                "title": "30% OFF",
+                                "subTitle": "USE SWIGGYIT",
+                                "textColor": "#DB6742",
+                                "backgroundColor": "#FAE8E3"
+                            }
+                        ],
+                        "itemBadge": {},
+                        "badgesV2": {},
+                        "ratings": {
+                            "aggregatedRating": {}
+                        }
+                    },
+                    "analytics": {},
+                    "hideRestaurantDetails": true
+                }
+            },
+            {
+                "card": {
+                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                    "info": {
+                        "id": "127403156",
+                        "name": "Fries Bucket",
+                        "category": "Sharing  Meals",
+                        "description": "Indulge in the ultimate matchday snack with our Fries Bucket! A jumbo serving of fries along with Piri Piri Mix, Tangy Pepper Dip and Sweet Chilli Dip.",
+                        "imageId": "22fa7889d5fa91c14f52a1ecc09770c3",
+                        "inStock": 1,
+                        "isVeg": 1,
+                        "price": 28476,
+                        "variants": {},
+                        "variantsV2": {},
+                        "itemAttribute": {
+                            "vegClassifier": "VEG"
+                        },
+                        "ribbon": {},
+                        "type": "ITEM",
+                        "offerTags": [
+                            {
+                                "title": "30% OFF",
+                                "subTitle": "USE SWIGGYIT",
+                                "textColor": "#DB6742",
+                                "backgroundColor": "#FAE8E3"
+                            }
+                        ],
+                        "itemBadge": {},
+                        "badgesV2": {},
+                        "ratings": {
+                            "aggregatedRating": {}
+                        }
+                    },
+                    "analytics": {},
+                    "hideRestaurantDetails": true
+                }
+            }
+        ]
+    )
+})
+
+app.get('/restaurant/74444', (req, res) => {
+    res.status(200).send(
+        [
+            {
+                "card": {
+                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                    "info": {
+                        "id": "68645426",
+                        "name": "Samosa Party Bucket - Mini Peri Peri Punjabi Aloo",
+                        "category": "Buckets",
+                        "description": "Serves 2 | Mini cocktail Punjabi Aloo samosas spiced with peri-peri masala. Perfect for your binge-watching sessions or house party. Contains : NA. Energy : 285 Kcal (5 Pcs), 570 kcal (10 Pcs), 1140 Kcal (20 Pcs).",
+                        "imageId": "a1wfwlvsm4e2xs3bzdxb",
+                        "inStock": 1,
+                        "isVeg": 1,
+                        "variants": {},
+                        "variantsV2": {
+                            "variantGroups": [
+                                {
+                                    "groupId": "27443812",
+                                    "name": "Quantity",
+                                    "variations": [
+                                        {
+                                            "name": "Mini Peri Peri Punjabi Aloo Samosa (5 Pcs)",
+                                            "price": 129,
+                                            "default": 1,
+                                            "id": "86949082",
+                                            "inStock": 1,
+                                            "isVeg": 1,
+                                            "isEnabled": 1
+                                        },
+                                        {
+                                            "name": "Mini Peri Peri Punjabi Aloo Samosa(10 Pcs)",
+                                            "price": 239,
+                                            "id": "86949083",
+                                            "inStock": 1,
+                                            "isVeg": 1,
+                                            "isEnabled": 1
+                                        },
+                                        {
+                                            "name": "Mini Peri Peri Punjabi Aloo Samosa(20 pcs)",
+                                            "price": 409,
+                                            "id": "86949084",
+                                            "inStock": 1,
+                                            "isVeg": 1,
+                                            "isEnabled": 1
+                                        }
+                                    ]
+                                }
+                            ],
+                            "pricingModels": [
+                                {
+                                    "variations": [
+                                        {
+                                            "groupId": "27443812",
+                                            "variationId": "86949082"
+                                        }
+                                    ],
+                                    "price": 12900,
+                                    "addonCombinations": [
+                                        {
+                                            "groupId": "89978014",
+                                            "addonId": "80819411"
+                                        },
+                                        {
+                                            "groupId": "89978014",
+                                            "addonId": "80819412"
+                                        },
+                                        {
+                                            "groupId": "89978014",
+                                            "addonId": "80819413"
+                                        },
+                                        {
+                                            "groupId": "89978014",
+                                            "addonId": "80819414"
+                                        },
+                                        {
+                                            "groupId": "89978014",
+                                            "addonId": "80819415"
+                                        },
+                                        {
+                                            "groupId": "89978014",
+                                            "addonId": "80819416"
+                                        },
+                                        {
+                                            "groupId": "89978012",
+                                            "addonId": "80819407"
+                                        },
+                                        {
+                                            "groupId": "89978012",
+                                            "addonId": "80819408"
+                                        },
+                                        {
+                                            "groupId": "89978015",
+                                            "addonId": "80819417"
+                                        },
+                                        {
+                                            "groupId": "127683353",
+                                            "addonId": "109119230"
+                                        },
+                                        {
+                                            "groupId": "127683353",
+                                            "addonId": "109119229"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "variations": [
+                                        {
+                                            "groupId": "27443812",
+                                            "variationId": "86949083"
+                                        }
+                                    ],
+                                    "price": 23900,
+                                    "addonCombinations": [
+                                        {
+                                            "groupId": "89978014",
+                                            "addonId": "80819411"
+                                        },
+                                        {
+                                            "groupId": "89978014",
+                                            "addonId": "80819412"
+                                        },
+                                        {
+                                            "groupId": "89978014",
+                                            "addonId": "80819413"
+                                        },
+                                        {
+                                            "groupId": "89978014",
+                                            "addonId": "80819414"
+                                        },
+                                        {
+                                            "groupId": "89978014",
+                                            "addonId": "80819415"
+                                        },
+                                        {
+                                            "groupId": "89978014",
+                                            "addonId": "80819416"
+                                        },
+                                        {
+                                            "groupId": "89978012",
+                                            "addonId": "80819407"
+                                        },
+                                        {
+                                            "groupId": "89978012",
+                                            "addonId": "80819408"
+                                        },
+                                        {
+                                            "groupId": "89978015",
+                                            "addonId": "80819417"
+                                        },
+                                        {
+                                            "groupId": "127683353",
+                                            "addonId": "109119230"
+                                        },
+                                        {
+                                            "groupId": "127683353",
+                                            "addonId": "109119229"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "variations": [
+                                        {
+                                            "groupId": "27443812",
+                                            "variationId": "86949084"
+                                        }
+                                    ],
+                                    "price": 40900,
+                                    "addonCombinations": [
+                                        {
+                                            "groupId": "89978014",
+                                            "addonId": "80819411"
+                                        },
+                                        {
+                                            "groupId": "89978014",
+                                            "addonId": "80819412"
+                                        },
+                                        {
+                                            "groupId": "89978014",
+                                            "addonId": "80819413"
+                                        },
+                                        {
+                                            "groupId": "89978014",
+                                            "addonId": "80819414"
+                                        },
+                                        {
+                                            "groupId": "89978014",
+                                            "addonId": "80819415"
+                                        },
+                                        {
+                                            "groupId": "89978014",
+                                            "addonId": "80819416"
+                                        },
+                                        {
+                                            "groupId": "89978012",
+                                            "addonId": "80819407"
+                                        },
+                                        {
+                                            "groupId": "89978012",
+                                            "addonId": "80819408"
+                                        },
+                                        {
+                                            "groupId": "89978015",
+                                            "addonId": "80819417"
+                                        },
+                                        {
+                                            "groupId": "127683353",
+                                            "addonId": "109119230"
+                                        },
+                                        {
+                                            "groupId": "127683353",
+                                            "addonId": "109119229"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "addons": [
+                            {
+                                "groupId": "127683353",
+                                "groupName": "Gajar Ka Halwa",
+                                "choices": [
+                                    {
+                                        "id": "109119230",
+                                        "name": "Gajar Ka Halwa - Small (125 GM)",
+                                        "price": 12900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "109119229",
+                                        "name": "Gajar Ka Halwa - Large (250 GM)",
+                                        "price": 24900,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    }
+                                ],
+                                "maxAddons": 1,
+                                "maxFreeAddons": -1
+                            },
+                            {
+                                "groupId": "89978012",
+                                "groupName": "Chutneys",
+                                "choices": [
+                                    {
+                                        "id": "80819407",
+                                        "name": "Extra Mint Chutney",
+                                        "price": 500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "80819408",
+                                        "name": "Extra Tamarind Chutney",
+                                        "price": 500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    }
+                                ],
+                                "maxAddons": 2,
+                                "maxFreeAddons": -1
+                            },
+                            {
+                                "groupId": "89978014",
+                                "groupName": "Beverages",
+                                "choices": [
+                                    {
+                                        "id": "80819411",
+                                        "name": "Mango Lassi",
+                                        "price": 12900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "80819412",
+                                        "name": "Rose Milk",
+                                        "price": 12900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "80819413",
+                                        "name": "Ginger Chai Flask (2 Cups)",
+                                        "price": 12900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "80819414",
+                                        "name": "Masala Chai Flask (2 Cups)",
+                                        "price": 12900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "80819415",
+                                        "name": "Ginger Chai (150 ML)",
+                                        "price": 4900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "80819416",
+                                        "name": "Masala Chai (150 ML)",
+                                        "price": 4900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    }
+                                ],
+                                "maxAddons": 6,
+                                "maxFreeAddons": -1
+                            },
+                            {
+                                "groupId": "89978015",
+                                "groupName": "Dessert",
+                                "choices": [
+                                    {
+                                        "id": "80819417",
+                                        "name": "Gulab Jamoon",
+                                        "price": 3900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    }
+                                ],
+                                "maxAddons": 1,
+                                "maxFreeAddons": -1
+                            }
+                        ],
+                        "itemAttribute": {
+                            "vegClassifier": "VEG",
+                            "portionSize": "Serves 2"
+                        },
+                        "defaultPrice": 12900,
+                        "ribbon": {
+                            "text": "Bestseller",
+                            "textColor": "#ffffff",
+                            "topBackgroundColor": "#d53d4c",
+                            "bottomBackgroundColor": "#b02331"
+                        },
+                        "type": "ITEM",
+                        "itemBadge": {},
+                        "badgesV2": {},
+                        "isBestseller": true,
+                        "ratings": {
+                            "aggregatedRating": {
+                                "rating": "4.5",
+                                "ratingCount": "618 ratings",
+                                "ratingCountV2": "618"
+                            }
+                        },
+                        "isKidcategory": true
+                    },
+                    "analytics": {},
+                    "hideRestaurantDetails": true
+                }
+            },
+            {
+                "card": {
+                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                    "info": {
+                        "id": "115589278",
+                        "name": "Samosa Party Bucket - Mini Punjabi Aloo",
+                        "category": "Buckets",
+                        "description": "Serves 1 | Mini cocktail Punjabi Aloo samosas. Perfect for your binge-watching sessions or house party. Contains : NA. Energy : 285 Kcal (5 Pcs), 570 kcal (10 Pcs), 1140 Kcal (20 Pcs).",
+                        "imageId": "bcce428358ff10e3d53e696883b7f1d4",
+                        "inStock": 1,
+                        "isVeg": 1,
+                        "variants": {},
+                        "variantsV2": {
+                            "variantGroups": [
+                                {
+                                    "groupId": "27443830",
+                                    "name": "Quantity",
+                                    "variations": [
+                                        {
+                                            "name": "Mini Punjabi Aloo Samosa (5 Pcs)",
+                                            "price": 129,
+                                            "default": 1,
+                                            "id": "86949134",
+                                            "inStock": 1,
+                                            "isVeg": 1,
+                                            "isEnabled": 1
+                                        },
+                                        {
+                                            "name": "Mini Punjabi Aloo Samosa (10 Pcs)",
+                                            "price": 239,
+                                            "id": "86949135",
+                                            "inStock": 1,
+                                            "isVeg": 1,
+                                            "isEnabled": 1
+                                        },
+                                        {
+                                            "name": "Mini Punjabi Aloo Samosa (20 pcs)",
+                                            "price": 409,
+                                            "id": "86949136",
+                                            "inStock": 1,
+                                            "isVeg": 1,
+                                            "isEnabled": 1
+                                        }
+                                    ]
+                                }
+                            ],
+                            "pricingModels": [
+                                {
+                                    "variations": [
+                                        {
+                                            "groupId": "27443830",
+                                            "variationId": "86949134"
+                                        }
+                                    ],
+                                    "price": 12900,
+                                    "addonCombinations": [
+                                        {
+                                            "groupId": "89978143",
+                                            "addonId": "80819421"
+                                        },
+                                        {
+                                            "groupId": "89978143",
+                                            "addonId": "80819422"
+                                        },
+                                        {
+                                            "groupId": "89978143",
+                                            "addonId": "80819423"
+                                        },
+                                        {
+                                            "groupId": "89978143",
+                                            "addonId": "80819424"
+                                        },
+                                        {
+                                            "groupId": "89978143",
+                                            "addonId": "80819425"
+                                        },
+                                        {
+                                            "groupId": "89978143",
+                                            "addonId": "80819426"
+                                        },
+                                        {
+                                            "groupId": "89978143",
+                                            "addonId": "80819427"
+                                        },
+                                        {
+                                            "groupId": "89978143",
+                                            "addonId": "80819428"
+                                        },
+                                        {
+                                            "groupId": "89978143",
+                                            "addonId": "80819429"
+                                        },
+                                        {
+                                            "groupId": "89978143",
+                                            "addonId": "80819430"
+                                        },
+                                        {
+                                            "groupId": "89978142",
+                                            "addonId": "80819407"
+                                        },
+                                        {
+                                            "groupId": "89978142",
+                                            "addonId": "80819408"
+                                        },
+                                        {
+                                            "groupId": "89978145",
+                                            "addonId": "80819417"
+                                        },
+                                        {
+                                            "groupId": "127683417",
+                                            "addonId": "109119230"
+                                        },
+                                        {
+                                            "groupId": "127683417",
+                                            "addonId": "109119229"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "variations": [
+                                        {
+                                            "groupId": "27443830",
+                                            "variationId": "86949135"
+                                        }
+                                    ],
+                                    "price": 23900,
+                                    "addonCombinations": [
+                                        {
+                                            "groupId": "89978143",
+                                            "addonId": "80819421"
+                                        },
+                                        {
+                                            "groupId": "89978143",
+                                            "addonId": "80819422"
+                                        },
+                                        {
+                                            "groupId": "89978143",
+                                            "addonId": "80819423"
+                                        },
+                                        {
+                                            "groupId": "89978143",
+                                            "addonId": "80819424"
+                                        },
+                                        {
+                                            "groupId": "89978143",
+                                            "addonId": "80819425"
+                                        },
+                                        {
+                                            "groupId": "89978143",
+                                            "addonId": "80819426"
+                                        },
+                                        {
+                                            "groupId": "89978143",
+                                            "addonId": "80819427"
+                                        },
+                                        {
+                                            "groupId": "89978143",
+                                            "addonId": "80819428"
+                                        },
+                                        {
+                                            "groupId": "89978143",
+                                            "addonId": "80819429"
+                                        },
+                                        {
+                                            "groupId": "89978143",
+                                            "addonId": "80819430"
+                                        },
+                                        {
+                                            "groupId": "89978142",
+                                            "addonId": "80819407"
+                                        },
+                                        {
+                                            "groupId": "89978142",
+                                            "addonId": "80819408"
+                                        },
+                                        {
+                                            "groupId": "89978145",
+                                            "addonId": "80819417"
+                                        },
+                                        {
+                                            "groupId": "127683417",
+                                            "addonId": "109119230"
+                                        },
+                                        {
+                                            "groupId": "127683417",
+                                            "addonId": "109119229"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "variations": [
+                                        {
+                                            "groupId": "27443830",
+                                            "variationId": "86949136"
+                                        }
+                                    ],
+                                    "price": 40900,
+                                    "addonCombinations": [
+                                        {
+                                            "groupId": "89978143",
+                                            "addonId": "80819421"
+                                        },
+                                        {
+                                            "groupId": "89978143",
+                                            "addonId": "80819422"
+                                        },
+                                        {
+                                            "groupId": "89978143",
+                                            "addonId": "80819423"
+                                        },
+                                        {
+                                            "groupId": "89978143",
+                                            "addonId": "80819424"
+                                        },
+                                        {
+                                            "groupId": "89978143",
+                                            "addonId": "80819425"
+                                        },
+                                        {
+                                            "groupId": "89978143",
+                                            "addonId": "80819426"
+                                        },
+                                        {
+                                            "groupId": "89978143",
+                                            "addonId": "80819427"
+                                        },
+                                        {
+                                            "groupId": "89978143",
+                                            "addonId": "80819428"
+                                        },
+                                        {
+                                            "groupId": "89978143",
+                                            "addonId": "80819429"
+                                        },
+                                        {
+                                            "groupId": "89978143",
+                                            "addonId": "80819430"
+                                        },
+                                        {
+                                            "groupId": "89978142",
+                                            "addonId": "80819407"
+                                        },
+                                        {
+                                            "groupId": "89978142",
+                                            "addonId": "80819408"
+                                        },
+                                        {
+                                            "groupId": "89978145",
+                                            "addonId": "80819417"
+                                        },
+                                        {
+                                            "groupId": "127683417",
+                                            "addonId": "109119230"
+                                        },
+                                        {
+                                            "groupId": "127683417",
+                                            "addonId": "109119229"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "addons": [
+                            {
+                                "groupId": "127683417",
+                                "groupName": "Gajar Ka Halwa",
+                                "choices": [
+                                    {
+                                        "id": "109119230",
+                                        "name": "Gajar Ka Halwa - Small (125 GM)",
+                                        "price": 12900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "109119229",
+                                        "name": "Gajar Ka Halwa - Large (250 GM)",
+                                        "price": 24900,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    }
+                                ],
+                                "maxAddons": 1,
+                                "maxFreeAddons": -1
+                            },
+                            {
+                                "groupId": "89978142",
+                                "groupName": "Chutneys",
+                                "choices": [
+                                    {
+                                        "id": "80819407",
+                                        "name": "Extra Mint Chutney",
+                                        "price": 500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "80819408",
+                                        "name": "Extra Tamarind Chutney",
+                                        "price": 500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    }
+                                ],
+                                "maxAddons": 2,
+                                "maxFreeAddons": -1
+                            },
+                            {
+                                "groupId": "89978143",
+                                "groupName": "Beverages",
+                                "choices": [
+                                    {
+                                        "id": "80819421",
+                                        "name": "Ginger Chai Flask",
+                                        "price": 12900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "80819422",
+                                        "name": "Masala Chai Flask",
+                                        "price": 12900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "80819423",
+                                        "name": "Plain Chai Flask",
+                                        "price": 12900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "80819424",
+                                        "name": "Cardamom Chai Flask",
+                                        "price": 12900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "80819425",
+                                        "name": "Lemon Chai Flask",
+                                        "price": 12900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "80819426",
+                                        "name": "Lemon & Ginger Chai Flask",
+                                        "price": 12900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "80819427",
+                                        "name": "Jaljeera",
+                                        "price": 9900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "80819428",
+                                        "name": "Roohafza",
+                                        "price": 9900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "80819429",
+                                        "name": "Raw Mango & Mint Cooler",
+                                        "price": 9900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "80819430",
+                                        "name": "Rose Milk",
+                                        "price": 12900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    }
+                                ],
+                                "maxAddons": 10,
+                                "maxFreeAddons": -1
+                            },
+                            {
+                                "groupId": "89978145",
+                                "groupName": "Dessert",
+                                "choices": [
+                                    {
+                                        "id": "80819417",
+                                        "name": "Gulab Jamoon",
+                                        "price": 3900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    }
+                                ],
+                                "maxAddons": 1,
+                                "maxFreeAddons": -1
+                            }
+                        ],
+                        "itemAttribute": {
+                            "vegClassifier": "VEG",
+                            "portionSize": "Serves 1"
+                        },
+                        "defaultPrice": 12900,
+                        "ribbon": {
+                            "text": "Bestseller",
+                            "textColor": "#ffffff",
+                            "topBackgroundColor": "#d53d4c",
+                            "bottomBackgroundColor": "#b02331"
+                        },
+                        "type": "ITEM",
+                        "itemBadge": {},
+                        "badgesV2": {},
+                        "isBestseller": true,
+                        "ratings": {
+                            "aggregatedRating": {
+                                "rating": "4.6",
+                                "ratingCount": "34 ratings",
+                                "ratingCountV2": "34"
+                            }
+                        }
+                    },
+                    "analytics": {},
+                    "hideRestaurantDetails": true
+                }
+            },
+            {
+                "card": {
+                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                    "info": {
+                        "id": "115659709",
+                        "name": "Ghee Podi Mini Aloo Samosa Bucket",
+                        "category": "Buckets",
+                        "description": "Serves 1 | Ghee Podi Samosas filled with a mouth-watering blend of spiced potatoes and peas, and then drizzled with a generous amount of fragrant ghee and sprinkled with our special podi spice mix.",
+                        "imageId": "0511a6332ec5408d5716a3985e8b09cb",
+                        "inStock": 1,
+                        "isVeg": 1,
+                        "variants": {},
+                        "variantsV2": {
+                            "variantGroups": [
+                                {
+                                    "groupId": "30206176",
+                                    "name": "Quantity",
+                                    "variations": [
+                                        {
+                                            "name": "5 Pc Ghee Podi Bucket",
+                                            "price": 149,
+                                            "default": 1,
+                                            "id": "94193369",
+                                            "inStock": 1,
+                                            "isVeg": 1,
+                                            "isEnabled": 1
+                                        },
+                                        {
+                                            "name": "10 Pc Ghee Podi Bucket",
+                                            "price": 253,
+                                            "id": "94193370",
+                                            "inStock": 1,
+                                            "isVeg": 1,
+                                            "isEnabled": 1
+                                        },
+                                        {
+                                            "name": "20 Pc Ghee Podi Bucket",
+                                            "price": 479,
+                                            "id": "94193371",
+                                            "inStock": 1,
+                                            "isVeg": 1,
+                                            "isEnabled": 1
+                                        }
+                                    ]
+                                }
+                            ],
+                            "pricingModels": [
+                                {
+                                    "variations": [
+                                        {
+                                            "groupId": "30206176",
+                                            "variationId": "94193369"
+                                        }
+                                    ],
+                                    "price": 14900,
+                                    "addonCombinations": [
+                                        {
+                                            "groupId": "127683403",
+                                            "addonId": "109119230"
+                                        },
+                                        {
+                                            "groupId": "127683403",
+                                            "addonId": "109119229"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "variations": [
+                                        {
+                                            "groupId": "30206176",
+                                            "variationId": "94193370"
+                                        }
+                                    ],
+                                    "price": 25300,
+                                    "addonCombinations": [
+                                        {
+                                            "groupId": "127683403",
+                                            "addonId": "109119230"
+                                        },
+                                        {
+                                            "groupId": "127683403",
+                                            "addonId": "109119229"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "variations": [
+                                        {
+                                            "groupId": "30206176",
+                                            "variationId": "94193371"
+                                        }
+                                    ],
+                                    "price": 47900,
+                                    "addonCombinations": [
+                                        {
+                                            "groupId": "127683403",
+                                            "addonId": "109119230"
+                                        },
+                                        {
+                                            "groupId": "127683403",
+                                            "addonId": "109119229"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "addons": [
+                            {
+                                "groupId": "127683403",
+                                "groupName": "Gajar Ka Halwa",
+                                "choices": [
+                                    {
+                                        "id": "109119230",
+                                        "name": "Gajar Ka Halwa - Small (125 GM)",
+                                        "price": 12900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "109119229",
+                                        "name": "Gajar Ka Halwa - Large (250 GM)",
+                                        "price": 24900,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    }
+                                ],
+                                "maxAddons": 1,
+                                "maxFreeAddons": -1
+                            }
+                        ],
+                        "itemAttribute": {
+                            "vegClassifier": "VEG",
+                            "portionSize": "Serves 1"
+                        },
+                        "defaultPrice": 14900,
+                        "ribbon": {},
+                        "type": "ITEM",
+                        "itemBadge": {},
+                        "badgesV2": {},
+                        "ratings": {
+                            "aggregatedRating": {
+                                "rating": "4.8",
+                                "ratingCount": "4 ratings",
+                                "ratingCountV2": "4"
+                            }
+                        }
+                    },
+                    "analytics": {},
+                    "hideRestaurantDetails": true
+                }
+            },
+            {
+                "card": {
+                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                    "info": {
+                        "id": "115589275",
+                        "name": "Samosa Party Bucket - Pyaaz Kachori",
+                        "category": "Buckets",
+                        "description": "Serves 1 | Freshly made  mini Jodhpuri Pyaaz Kachori served with mint and sweet chutneys. Contains : NA. Energy : 232 Kcal (5 Pcs), 465 Kcal (10 Pcs).",
+                        "imageId": "ppdx2yduc1zcv9mnbohl",
+                        "inStock": 1,
+                        "isVeg": 1,
+                        "variants": {},
+                        "variantsV2": {
+                            "variantGroups": [
+                                {
+                                    "groupId": "27443828",
+                                    "name": "Quantity",
+                                    "variations": [
+                                        {
+                                            "name": "Pyaaz Kachori (5 Pcs)",
+                                            "price": 129,
+                                            "default": 1,
+                                            "id": "86949130",
+                                            "inStock": 1,
+                                            "isVeg": 1,
+                                            "isEnabled": 1
+                                        },
+                                        {
+                                            "name": "Pyaaz Kachori (10 Pcs)",
+                                            "price": 209,
+                                            "id": "86949131",
+                                            "inStock": 1,
+                                            "isVeg": 1,
+                                            "isEnabled": 1
+                                        }
+                                    ]
+                                }
+                            ],
+                            "pricingModels": [
+                                {
+                                    "variations": [
+                                        {
+                                            "groupId": "27443828",
+                                            "variationId": "86949130"
+                                        }
+                                    ],
+                                    "price": 12900,
+                                    "addonCombinations": [
+                                        {
+                                            "groupId": "89978132",
+                                            "addonId": "80819411"
+                                        },
+                                        {
+                                            "groupId": "89978132",
+                                            "addonId": "80819412"
+                                        },
+                                        {
+                                            "groupId": "89978132",
+                                            "addonId": "80819413"
+                                        },
+                                        {
+                                            "groupId": "89978132",
+                                            "addonId": "80819414"
+                                        },
+                                        {
+                                            "groupId": "89978132",
+                                            "addonId": "80819415"
+                                        },
+                                        {
+                                            "groupId": "89978132",
+                                            "addonId": "80819416"
+                                        },
+                                        {
+                                            "groupId": "89978130",
+                                            "addonId": "80819407"
+                                        },
+                                        {
+                                            "groupId": "89978130",
+                                            "addonId": "80819408"
+                                        },
+                                        {
+                                            "groupId": "89978133",
+                                            "addonId": "80819417"
+                                        },
+                                        {
+                                            "groupId": "127683389",
+                                            "addonId": "109119230"
+                                        },
+                                        {
+                                            "groupId": "127683389",
+                                            "addonId": "109119229"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "variations": [
+                                        {
+                                            "groupId": "27443828",
+                                            "variationId": "86949131"
+                                        }
+                                    ],
+                                    "price": 20900,
+                                    "addonCombinations": [
+                                        {
+                                            "groupId": "89978132",
+                                            "addonId": "80819411"
+                                        },
+                                        {
+                                            "groupId": "89978132",
+                                            "addonId": "80819412"
+                                        },
+                                        {
+                                            "groupId": "89978132",
+                                            "addonId": "80819413"
+                                        },
+                                        {
+                                            "groupId": "89978132",
+                                            "addonId": "80819414"
+                                        },
+                                        {
+                                            "groupId": "89978132",
+                                            "addonId": "80819415"
+                                        },
+                                        {
+                                            "groupId": "89978132",
+                                            "addonId": "80819416"
+                                        },
+                                        {
+                                            "groupId": "89978130",
+                                            "addonId": "80819407"
+                                        },
+                                        {
+                                            "groupId": "89978130",
+                                            "addonId": "80819408"
+                                        },
+                                        {
+                                            "groupId": "89978133",
+                                            "addonId": "80819417"
+                                        },
+                                        {
+                                            "groupId": "127683389",
+                                            "addonId": "109119230"
+                                        },
+                                        {
+                                            "groupId": "127683389",
+                                            "addonId": "109119229"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "addons": [
+                            {
+                                "groupId": "127683389",
+                                "groupName": "Gajar Ka Halwa",
+                                "choices": [
+                                    {
+                                        "id": "109119230",
+                                        "name": "Gajar Ka Halwa - Small (125 GM)",
+                                        "price": 12900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "109119229",
+                                        "name": "Gajar Ka Halwa - Large (250 GM)",
+                                        "price": 24900,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    }
+                                ],
+                                "maxAddons": 1,
+                                "maxFreeAddons": -1
+                            },
+                            {
+                                "groupId": "89978130",
+                                "groupName": "Chutneys",
+                                "choices": [
+                                    {
+                                        "id": "80819407",
+                                        "name": "Extra Mint Chutney",
+                                        "price": 500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "80819408",
+                                        "name": "Extra Tamarind Chutney",
+                                        "price": 500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    }
+                                ],
+                                "maxAddons": 2,
+                                "maxFreeAddons": -1
+                            },
+                            {
+                                "groupId": "89978132",
+                                "groupName": "Beverages",
+                                "choices": [
+                                    {
+                                        "id": "80819411",
+                                        "name": "Mango Lassi",
+                                        "price": 12900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "80819412",
+                                        "name": "Rose Milk",
+                                        "price": 12900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "80819413",
+                                        "name": "Ginger Chai Flask (2 Cups)",
+                                        "price": 12900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "80819414",
+                                        "name": "Masala Chai Flask (2 Cups)",
+                                        "price": 12900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "80819415",
+                                        "name": "Ginger Chai (150 ML)",
+                                        "price": 4900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "80819416",
+                                        "name": "Masala Chai (150 ML)",
+                                        "price": 4900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    }
+                                ],
+                                "maxAddons": 6,
+                                "maxFreeAddons": -1
+                            },
+                            {
+                                "groupId": "89978133",
+                                "groupName": "Dessert",
+                                "choices": [
+                                    {
+                                        "id": "80819417",
+                                        "name": "Gulab Jamoon",
+                                        "price": 3900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    }
+                                ],
+                                "maxAddons": 1,
+                                "maxFreeAddons": -1
+                            }
+                        ],
+                        "itemAttribute": {
+                            "vegClassifier": "VEG",
+                            "portionSize": "Serves 1"
+                        },
+                        "defaultPrice": 12900,
+                        "ribbon": {
+                            "text": "Bestseller",
+                            "textColor": "#ffffff",
+                            "topBackgroundColor": "#d53d4c",
+                            "bottomBackgroundColor": "#b02331"
+                        },
+                        "type": "ITEM",
+                        "itemBadge": {},
+                        "badgesV2": {},
+                        "isBestseller": true,
+                        "ratings": {
+                            "aggregatedRating": {
+                                "rating": "3.7",
+                                "ratingCount": "16 ratings",
+                                "ratingCountV2": "16"
+                            }
+                        }
+                    },
+                    "analytics": {},
+                    "hideRestaurantDetails": true
+                }
+            },
+            {
+                "card": {
+                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                    "info": {
+                        "id": "104022407",
+                        "name": "Samosa Corners'",
+                        "category": "Buckets",
+                        "description": "Serves 1 | On popular demand, the best part of a Samosa! Presenting only crust of Samosas with peri peri sprinklers. Served with mint and tamarind chutneys. Contains : NA. Energy : 262 Kcal (Small portion), 524 Kcal (Large portion).",
+                        "imageId": "lq68oj1wga6zeqfu8ced",
+                        "inStock": 1,
+                        "isVeg": 1,
+                        "variants": {},
+                        "variantsV2": {
+                            "variantGroups": [
+                                {
+                                    "groupId": "27443824",
+                                    "name": "Portion Size",
+                                    "variations": [
+                                        {
+                                            "name": "Small",
+                                            "price": 79,
+                                            "default": 1,
+                                            "id": "86949121",
+                                            "inStock": 1,
+                                            "isVeg": 1,
+                                            "isEnabled": 1
+                                        },
+                                        {
+                                            "name": "Large",
+                                            "price": 149,
+                                            "id": "86949122",
+                                            "inStock": 1,
+                                            "isVeg": 1,
+                                            "isEnabled": 1
+                                        }
+                                    ]
+                                }
+                            ],
+                            "pricingModels": [
+                                {
+                                    "variations": [
+                                        {
+                                            "groupId": "27443824",
+                                            "variationId": "86949121"
+                                        }
+                                    ],
+                                    "price": 7900,
+                                    "addonCombinations": [
+                                        {
+                                            "groupId": "89978074",
+                                            "addonId": "80819411"
+                                        },
+                                        {
+                                            "groupId": "89978074",
+                                            "addonId": "80819412"
+                                        },
+                                        {
+                                            "groupId": "89978074",
+                                            "addonId": "80819413"
+                                        },
+                                        {
+                                            "groupId": "89978074",
+                                            "addonId": "80819414"
+                                        },
+                                        {
+                                            "groupId": "89978074",
+                                            "addonId": "80819415"
+                                        },
+                                        {
+                                            "groupId": "89978074",
+                                            "addonId": "80819416"
+                                        },
+                                        {
+                                            "groupId": "89978072",
+                                            "addonId": "80819407"
+                                        },
+                                        {
+                                            "groupId": "89978072",
+                                            "addonId": "80819408"
+                                        },
+                                        {
+                                            "groupId": "89978075",
+                                            "addonId": "80819417"
+                                        },
+                                        {
+                                            "groupId": "127683347",
+                                            "addonId": "109119230"
+                                        },
+                                        {
+                                            "groupId": "127683347",
+                                            "addonId": "109119229"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "variations": [
+                                        {
+                                            "groupId": "27443824",
+                                            "variationId": "86949122"
+                                        }
+                                    ],
+                                    "price": 14900,
+                                    "addonCombinations": [
+                                        {
+                                            "groupId": "89978074",
+                                            "addonId": "80819411"
+                                        },
+                                        {
+                                            "groupId": "89978074",
+                                            "addonId": "80819412"
+                                        },
+                                        {
+                                            "groupId": "89978074",
+                                            "addonId": "80819413"
+                                        },
+                                        {
+                                            "groupId": "89978074",
+                                            "addonId": "80819414"
+                                        },
+                                        {
+                                            "groupId": "89978074",
+                                            "addonId": "80819415"
+                                        },
+                                        {
+                                            "groupId": "89978074",
+                                            "addonId": "80819416"
+                                        },
+                                        {
+                                            "groupId": "89978072",
+                                            "addonId": "80819407"
+                                        },
+                                        {
+                                            "groupId": "89978072",
+                                            "addonId": "80819408"
+                                        },
+                                        {
+                                            "groupId": "89978075",
+                                            "addonId": "80819417"
+                                        },
+                                        {
+                                            "groupId": "127683347",
+                                            "addonId": "109119230"
+                                        },
+                                        {
+                                            "groupId": "127683347",
+                                            "addonId": "109119229"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "addons": [
+                            {
+                                "groupId": "127683347",
+                                "groupName": "Gajar Ka Halwa",
+                                "choices": [
+                                    {
+                                        "id": "109119230",
+                                        "name": "Gajar Ka Halwa - Small (125 GM)",
+                                        "price": 12900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "109119229",
+                                        "name": "Gajar Ka Halwa - Large (250 GM)",
+                                        "price": 24900,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    }
+                                ],
+                                "maxAddons": 1,
+                                "maxFreeAddons": -1
+                            },
+                            {
+                                "groupId": "89978072",
+                                "groupName": "Chutneys",
+                                "choices": [
+                                    {
+                                        "id": "80819407",
+                                        "name": "Extra Mint Chutney",
+                                        "price": 500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "80819408",
+                                        "name": "Extra Tamarind Chutney",
+                                        "price": 500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    }
+                                ],
+                                "maxAddons": 2,
+                                "maxFreeAddons": -1
+                            },
+                            {
+                                "groupId": "89978074",
+                                "groupName": "Beverages",
+                                "choices": [
+                                    {
+                                        "id": "80819411",
+                                        "name": "Mango Lassi",
+                                        "price": 12900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "80819412",
+                                        "name": "Rose Milk",
+                                        "price": 12900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "80819413",
+                                        "name": "Ginger Chai Flask (2 Cups)",
+                                        "price": 12900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "80819414",
+                                        "name": "Masala Chai Flask (2 Cups)",
+                                        "price": 12900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "80819415",
+                                        "name": "Ginger Chai (150 ML)",
+                                        "price": 4900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "80819416",
+                                        "name": "Masala Chai (150 ML)",
+                                        "price": 4900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    }
+                                ],
+                                "maxAddons": 6,
+                                "maxFreeAddons": -1
+                            },
+                            {
+                                "groupId": "89978075",
+                                "groupName": "Dessert",
+                                "choices": [
+                                    {
+                                        "id": "80819417",
+                                        "name": "Gulab Jamoon",
+                                        "price": 3900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    }
+                                ],
+                                "maxAddons": 1,
+                                "maxFreeAddons": -1
+                            }
+                        ],
+                        "itemAttribute": {
+                            "vegClassifier": "VEG",
+                            "portionSize": "Serves 1"
+                        },
+                        "defaultPrice": 7900,
+                        "ribbon": {},
+                        "type": "ITEM",
+                        "itemBadge": {},
+                        "badgesV2": {},
+                        "ratings": {
+                            "aggregatedRating": {
+                                "rating": "4.3",
+                                "ratingCount": "14 ratings",
+                                "ratingCountV2": "14"
+                            }
+                        }
+                    },
+                    "analytics": {},
+                    "hideRestaurantDetails": true
+                }
+            },
+            {
+                "card": {
+                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                    "info": {
+                        "id": "61850612",
+                        "name": "Party Box Of 50 Samosas",
+                        "category": "Buckets",
+                        "description": "Serves 1 | 50 Punjabi aloo samosas delivered with chutneys. Ideal for a party. Energy : 11400 Kcal.",
+                        "imageId": "iov1trm1gv1tjbnmliru",
+                        "inStock": 1,
+                        "isVeg": 1,
+                        "price": 225000,
+                        "variants": {},
+                        "variantsV2": {},
+                        "itemAttribute": {
+                            "vegClassifier": "VEG",
+                            "portionSize": "Serves 1"
+                        },
+                        "ribbon": {},
+                        "type": "ITEM",
+                        "itemBadge": {},
+                        "badgesV2": {},
+                        "ratings": {
+                            "aggregatedRating": {
+                                "rating": "5.0",
+                                "ratingCount": "39 ratings",
+                                "ratingCountV2": "39"
+                            }
+                        }
+                    },
+                    "analytics": {},
+                    "hideRestaurantDetails": true
+                }
+            },
+            {
+                "card": {
+                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                    "info": {
+                        "id": "94084638",
+                        "name": "Samosa Party Bucket- Mini Pizza Samosa",
+                        "category": "Buckets",
+                        "description": "Serves 1 | Real mozzarella cheese, fresh bell peppers, corn and homemade pizza sauce...It's too cheesy. Served with Oregano and Chilli flakes. Contains : NA. Energy : 300 Kcal (5 Pcs), 600 kcal (10 Pcs), 1200 Kcal (20 Pcs).",
+                        "imageId": "krsldnrqnk04cesscpm5",
+                        "inStock": 1,
+                        "isVeg": 1,
+                        "variants": {},
+                        "variantsV2": {
+                            "variantGroups": [
+                                {
+                                    "groupId": "27443820",
+                                    "name": "Quantity",
+                                    "variations": [
+                                        {
+                                            "name": "Mini Pizza Samosa Bucket (5 pcs)",
+                                            "price": 149,
+                                            "default": 1,
+                                            "id": "86949108",
+                                            "inStock": 1,
+                                            "isVeg": 1,
+                                            "isEnabled": 1
+                                        },
+                                        {
+                                            "name": "Mini Pizza Samosa Bucket(10 pcs)",
+                                            "price": 259,
+                                            "id": "86949109",
+                                            "inStock": 1,
+                                            "isVeg": 1,
+                                            "isEnabled": 1
+                                        },
+                                        {
+                                            "name": "Mini Pizza Samosa Bucket(20 Pcs)",
+                                            "price": 499,
+                                            "id": "86949110",
+                                            "inStock": 1,
+                                            "isVeg": 1,
+                                            "isEnabled": 1
+                                        }
+                                    ]
+                                }
+                            ],
+                            "pricingModels": [
+                                {
+                                    "variations": [
+                                        {
+                                            "groupId": "27443820",
+                                            "variationId": "86949108"
+                                        }
+                                    ],
+                                    "price": 14900,
+                                    "addonCombinations": [
+                                        {
+                                            "groupId": "89978044",
+                                            "addonId": "80819411"
+                                        },
+                                        {
+                                            "groupId": "89978044",
+                                            "addonId": "80819412"
+                                        },
+                                        {
+                                            "groupId": "89978044",
+                                            "addonId": "80819413"
+                                        },
+                                        {
+                                            "groupId": "89978044",
+                                            "addonId": "80819414"
+                                        },
+                                        {
+                                            "groupId": "89978044",
+                                            "addonId": "80819415"
+                                        },
+                                        {
+                                            "groupId": "89978044",
+                                            "addonId": "80819416"
+                                        },
+                                        {
+                                            "groupId": "89978042",
+                                            "addonId": "80819407"
+                                        },
+                                        {
+                                            "groupId": "89978042",
+                                            "addonId": "80819408"
+                                        },
+                                        {
+                                            "groupId": "89978045",
+                                            "addonId": "80819417"
+                                        },
+                                        {
+                                            "groupId": "127683408",
+                                            "addonId": "109119230"
+                                        },
+                                        {
+                                            "groupId": "127683408",
+                                            "addonId": "109119229"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "variations": [
+                                        {
+                                            "groupId": "27443820",
+                                            "variationId": "86949109"
+                                        }
+                                    ],
+                                    "price": 25900,
+                                    "addonCombinations": [
+                                        {
+                                            "groupId": "89978044",
+                                            "addonId": "80819411"
+                                        },
+                                        {
+                                            "groupId": "89978044",
+                                            "addonId": "80819412"
+                                        },
+                                        {
+                                            "groupId": "89978044",
+                                            "addonId": "80819413"
+                                        },
+                                        {
+                                            "groupId": "89978044",
+                                            "addonId": "80819414"
+                                        },
+                                        {
+                                            "groupId": "89978044",
+                                            "addonId": "80819415"
+                                        },
+                                        {
+                                            "groupId": "89978044",
+                                            "addonId": "80819416"
+                                        },
+                                        {
+                                            "groupId": "89978042",
+                                            "addonId": "80819407"
+                                        },
+                                        {
+                                            "groupId": "89978042",
+                                            "addonId": "80819408"
+                                        },
+                                        {
+                                            "groupId": "89978045",
+                                            "addonId": "80819417"
+                                        },
+                                        {
+                                            "groupId": "127683408",
+                                            "addonId": "109119230"
+                                        },
+                                        {
+                                            "groupId": "127683408",
+                                            "addonId": "109119229"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "variations": [
+                                        {
+                                            "groupId": "27443820",
+                                            "variationId": "86949110"
+                                        }
+                                    ],
+                                    "price": 49900,
+                                    "addonCombinations": [
+                                        {
+                                            "groupId": "89978044",
+                                            "addonId": "80819411"
+                                        },
+                                        {
+                                            "groupId": "89978044",
+                                            "addonId": "80819412"
+                                        },
+                                        {
+                                            "groupId": "89978044",
+                                            "addonId": "80819413"
+                                        },
+                                        {
+                                            "groupId": "89978044",
+                                            "addonId": "80819414"
+                                        },
+                                        {
+                                            "groupId": "89978044",
+                                            "addonId": "80819415"
+                                        },
+                                        {
+                                            "groupId": "89978044",
+                                            "addonId": "80819416"
+                                        },
+                                        {
+                                            "groupId": "89978042",
+                                            "addonId": "80819407"
+                                        },
+                                        {
+                                            "groupId": "89978042",
+                                            "addonId": "80819408"
+                                        },
+                                        {
+                                            "groupId": "89978045",
+                                            "addonId": "80819417"
+                                        },
+                                        {
+                                            "groupId": "127683408",
+                                            "addonId": "109119230"
+                                        },
+                                        {
+                                            "groupId": "127683408",
+                                            "addonId": "109119229"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "addons": [
+                            {
+                                "groupId": "127683408",
+                                "groupName": "Gajar Ka Halwa",
+                                "choices": [
+                                    {
+                                        "id": "109119230",
+                                        "name": "Gajar Ka Halwa - Small (125 GM)",
+                                        "price": 12900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "109119229",
+                                        "name": "Gajar Ka Halwa - Large (250 GM)",
+                                        "price": 24900,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    }
+                                ],
+                                "maxAddons": 1,
+                                "maxFreeAddons": -1
+                            },
+                            {
+                                "groupId": "89978042",
+                                "groupName": "Chutneys",
+                                "choices": [
+                                    {
+                                        "id": "80819407",
+                                        "name": "Extra Mint Chutney",
+                                        "price": 500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "80819408",
+                                        "name": "Extra Tamarind Chutney",
+                                        "price": 500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    }
+                                ],
+                                "maxAddons": 2,
+                                "maxFreeAddons": -1
+                            },
+                            {
+                                "groupId": "89978044",
+                                "groupName": "Beverages",
+                                "choices": [
+                                    {
+                                        "id": "80819411",
+                                        "name": "Mango Lassi",
+                                        "price": 12900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "80819412",
+                                        "name": "Rose Milk",
+                                        "price": 12900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "80819413",
+                                        "name": "Ginger Chai Flask (2 Cups)",
+                                        "price": 12900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "80819414",
+                                        "name": "Masala Chai Flask (2 Cups)",
+                                        "price": 12900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "80819415",
+                                        "name": "Ginger Chai (150 ML)",
+                                        "price": 4900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "80819416",
+                                        "name": "Masala Chai (150 ML)",
+                                        "price": 4900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    }
+                                ],
+                                "maxAddons": 6,
+                                "maxFreeAddons": -1
+                            },
+                            {
+                                "groupId": "89978045",
+                                "groupName": "Dessert",
+                                "choices": [
+                                    {
+                                        "id": "80819417",
+                                        "name": "Gulab Jamoon",
+                                        "price": 3900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    }
+                                ],
+                                "maxAddons": 1,
+                                "maxFreeAddons": -1
+                            }
+                        ],
+                        "itemAttribute": {
+                            "vegClassifier": "VEG",
+                            "portionSize": "Serves 1"
+                        },
+                        "defaultPrice": 14900,
+                        "ribbon": {
+                            "text": "Bestseller",
+                            "textColor": "#ffffff",
+                            "topBackgroundColor": "#d53d4c",
+                            "bottomBackgroundColor": "#b02331"
+                        },
+                        "type": "ITEM",
+                        "itemBadge": {},
+                        "badgesV2": {},
+                        "isBestseller": true,
+                        "ratings": {
+                            "aggregatedRating": {
+                                "rating": "4.6",
+                                "ratingCount": "97 ratings",
+                                "ratingCountV2": "97"
+                            }
+                        }
+                    },
+                    "analytics": {},
+                    "hideRestaurantDetails": true
+                }
+            },
+            {
+                "card": {
+                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                    "info": {
+                        "id": "80710557",
+                        "name": "All In One Party Bucket",
+                        "category": "Buckets",
+                        "description": "Serves 1 | Large bucket of our bestsellers 5 pieces each of peri peri Punjabi Aloo samosa, Onion Patti samosa, Dal Kachori and Pizza samosa. Contains : NA. Energy : 1155 Kcal.",
+                        "imageId": "qyp4nrcvvit1b9vplazb",
+                        "inStock": 1,
+                        "isVeg": 1,
+                        "price": 45900,
+                        "variants": {},
+                        "variantsV2": {},
+                        "addons": [
+                            {
+                                "groupId": "125612777",
+                                "groupName": "Chutneys",
+                                "choices": [
+                                    {
+                                        "id": "80819407",
+                                        "name": "Extra Mint Chutney",
+                                        "price": 500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "80819408",
+                                        "name": "Extra Tamarind Chutney",
+                                        "price": 500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    }
+                                ],
+                                "maxAddons": 2,
+                                "maxFreeAddons": -1
+                            },
+                            {
+                                "groupId": "125612778",
+                                "groupName": "Beverages",
+                                "choices": [
+                                    {
+                                        "id": "80819411",
+                                        "name": "Mango Lassi",
+                                        "price": 12900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "80819412",
+                                        "name": "Rose Milk",
+                                        "price": 12900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "80819413",
+                                        "name": "Ginger Chai Flask (2 Cups)",
+                                        "price": 12900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "80819414",
+                                        "name": "Masala Chai Flask (2 Cups)",
+                                        "price": 12900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "80819415",
+                                        "name": "Ginger Chai (150 ML)",
+                                        "price": 4900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "80819416",
+                                        "name": "Masala Chai (150 ML)",
+                                        "price": 4900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    }
+                                ],
+                                "maxAddons": 6,
+                                "maxFreeAddons": -1
+                            },
+                            {
+                                "groupId": "125612779",
+                                "groupName": "Dessert",
+                                "choices": [
+                                    {
+                                        "id": "80819417",
+                                        "name": "Gulab Jamoon",
+                                        "price": 3900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    }
+                                ],
+                                "maxAddons": 1,
+                                "maxFreeAddons": -1
+                            }
+                        ],
+                        "itemAttribute": {
+                            "vegClassifier": "VEG",
+                            "portionSize": "Serves 1"
+                        },
+                        "ribbon": {},
+                        "type": "ITEM",
+                        "itemBadge": {},
+                        "badgesV2": {},
+                        "ratings": {
+                            "aggregatedRating": {
+                                "rating": "4.8",
+                                "ratingCount": "52 ratings",
+                                "ratingCountV2": "52"
+                            }
+                        }
+                    },
+                    "analytics": {},
+                    "hideRestaurantDetails": true
+                }
+            },
+            {
+                "card": {
+                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                    "info": {
+                        "id": "74046544",
+                        "name": "Samosa Party Bucket - Mini Dal Kachori",
+                        "category": "Buckets",
+                        "description": "Serves 1 | Mini freshly fried Rajasthani Heeng Dal kachori served with mint and sweet chutneys. Contains : NA. Energy : 243 Kcal (5 Pcs), 487 Kcal (10 Pcs).",
+                        "imageId": "ppdx2yduc1zcv9mnbohl",
+                        "inStock": 1,
+                        "isVeg": 1,
+                        "variants": {},
+                        "variantsV2": {
+                            "variantGroups": [
+                                {
+                                    "groupId": "27443814",
+                                    "name": "Quantity",
+                                    "variations": [
+                                        {
+                                            "name": "Mini Dal Kachori (5 Pcs)",
+                                            "price": 129,
+                                            "default": 1,
+                                            "id": "86949087",
+                                            "inStock": 1,
+                                            "isVeg": 1,
+                                            "isEnabled": 1
+                                        },
+                                        {
+                                            "name": "Mini Dal Kachori (10 Pcs)",
+                                            "price": 209,
+                                            "id": "86949088",
+                                            "inStock": 1,
+                                            "isVeg": 1,
+                                            "isEnabled": 1
+                                        }
+                                    ]
+                                }
+                            ],
+                            "pricingModels": [
+                                {
+                                    "variations": [
+                                        {
+                                            "groupId": "27443814",
+                                            "variationId": "86949087"
+                                        }
+                                    ],
+                                    "price": 12900,
+                                    "addonCombinations": [
+                                        {
+                                            "groupId": "89978023",
+                                            "addonId": "80819411"
+                                        },
+                                        {
+                                            "groupId": "89978023",
+                                            "addonId": "80819412"
+                                        },
+                                        {
+                                            "groupId": "89978023",
+                                            "addonId": "80819413"
+                                        },
+                                        {
+                                            "groupId": "89978023",
+                                            "addonId": "80819414"
+                                        },
+                                        {
+                                            "groupId": "89978023",
+                                            "addonId": "80819415"
+                                        },
+                                        {
+                                            "groupId": "89978023",
+                                            "addonId": "80819416"
+                                        },
+                                        {
+                                            "groupId": "89978021",
+                                            "addonId": "80819407"
+                                        },
+                                        {
+                                            "groupId": "89978021",
+                                            "addonId": "80819408"
+                                        },
+                                        {
+                                            "groupId": "89978024",
+                                            "addonId": "80819417"
+                                        },
+                                        {
+                                            "groupId": "127683393",
+                                            "addonId": "109119230"
+                                        },
+                                        {
+                                            "groupId": "127683393",
+                                            "addonId": "109119229"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "variations": [
+                                        {
+                                            "groupId": "27443814",
+                                            "variationId": "86949088"
+                                        }
+                                    ],
+                                    "price": 20900,
+                                    "addonCombinations": [
+                                        {
+                                            "groupId": "89978023",
+                                            "addonId": "80819411"
+                                        },
+                                        {
+                                            "groupId": "89978023",
+                                            "addonId": "80819412"
+                                        },
+                                        {
+                                            "groupId": "89978023",
+                                            "addonId": "80819413"
+                                        },
+                                        {
+                                            "groupId": "89978023",
+                                            "addonId": "80819414"
+                                        },
+                                        {
+                                            "groupId": "89978023",
+                                            "addonId": "80819415"
+                                        },
+                                        {
+                                            "groupId": "89978023",
+                                            "addonId": "80819416"
+                                        },
+                                        {
+                                            "groupId": "89978021",
+                                            "addonId": "80819407"
+                                        },
+                                        {
+                                            "groupId": "89978021",
+                                            "addonId": "80819408"
+                                        },
+                                        {
+                                            "groupId": "89978024",
+                                            "addonId": "80819417"
+                                        },
+                                        {
+                                            "groupId": "127683393",
+                                            "addonId": "109119230"
+                                        },
+                                        {
+                                            "groupId": "127683393",
+                                            "addonId": "109119229"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "addons": [
+                            {
+                                "groupId": "127683393",
+                                "groupName": "Gajar Ka Halwa",
+                                "choices": [
+                                    {
+                                        "id": "109119230",
+                                        "name": "Gajar Ka Halwa - Small (125 GM)",
+                                        "price": 12900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "109119229",
+                                        "name": "Gajar Ka Halwa - Large (250 GM)",
+                                        "price": 24900,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    }
+                                ],
+                                "maxAddons": 1,
+                                "maxFreeAddons": -1
+                            },
+                            {
+                                "groupId": "89978021",
+                                "groupName": "Chutneys",
+                                "choices": [
+                                    {
+                                        "id": "80819407",
+                                        "name": "Extra Mint Chutney",
+                                        "price": 500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "80819408",
+                                        "name": "Extra Tamarind Chutney",
+                                        "price": 500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    }
+                                ],
+                                "maxAddons": 2,
+                                "maxFreeAddons": -1
+                            },
+                            {
+                                "groupId": "89978023",
+                                "groupName": "Beverages",
+                                "choices": [
+                                    {
+                                        "id": "80819411",
+                                        "name": "Mango Lassi",
+                                        "price": 12900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "80819412",
+                                        "name": "Rose Milk",
+                                        "price": 12900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "80819413",
+                                        "name": "Ginger Chai Flask (2 Cups)",
+                                        "price": 12900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "80819414",
+                                        "name": "Masala Chai Flask (2 Cups)",
+                                        "price": 12900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "80819415",
+                                        "name": "Ginger Chai (150 ML)",
+                                        "price": 4900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "80819416",
+                                        "name": "Masala Chai (150 ML)",
+                                        "price": 4900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    }
+                                ],
+                                "maxAddons": 6,
+                                "maxFreeAddons": -1
+                            },
+                            {
+                                "groupId": "89978024",
+                                "groupName": "Dessert",
+                                "choices": [
+                                    {
+                                        "id": "80819417",
+                                        "name": "Gulab Jamoon",
+                                        "price": 3900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    }
+                                ],
+                                "maxAddons": 1,
+                                "maxFreeAddons": -1
+                            }
+                        ],
+                        "itemAttribute": {
+                            "vegClassifier": "VEG",
+                            "portionSize": "Serves 1"
+                        },
+                        "defaultPrice": 12900,
+                        "ribbon": {},
+                        "type": "ITEM",
+                        "itemBadge": {},
+                        "badgesV2": {},
+                        "ratings": {
+                            "aggregatedRating": {
+                                "rating": "4.3",
+                                "ratingCount": "47 ratings",
+                                "ratingCountV2": "47"
+                            }
+                        }
+                    },
+                    "analytics": {},
+                    "hideRestaurantDetails": true
+                }
+            },
+            {
+                "card": {
+                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                    "info": {
+                        "id": "71307194",
+                        "name": "Samosa Party Bucket- Onion Patti",
+                        "category": "Buckets",
+                        "description": "Serves 1 | Irani-style mini Onion Patti samosa with a crispy crust served with fresh chutneys. Contains : NA. Energy : 327 Kcal (5 Pcs), 655 Kcal (10 Pcs).",
+                        "imageId": "e27gjpkjvngkiduygpi3",
+                        "inStock": 1,
+                        "isVeg": 1,
+                        "variants": {},
+                        "variantsV2": {
+                            "variantGroups": [
+                                {
+                                    "groupId": "35161787",
+                                    "name": "Quantity",
+                                    "variations": [
+                                        {
+                                            "name": "Onion Patti Bucket (5 Pcs)",
+                                            "price": 149,
+                                            "default": 1,
+                                            "id": "108875751",
+                                            "inStock": 1,
+                                            "isVeg": 1,
+                                            "isEnabled": 1
+                                        },
+                                        {
+                                            "name": "Onion Patti Bucket (10 Pcs)",
+                                            "price": 259,
+                                            "id": "108875752",
+                                            "inStock": 1,
+                                            "isVeg": 1,
+                                            "isEnabled": 1
+                                        }
+                                    ]
+                                }
+                            ],
+                            "pricingModels": [
+                                {
+                                    "variations": [
+                                        {
+                                            "groupId": "35161787",
+                                            "variationId": "108875751"
+                                        }
+                                    ],
+                                    "price": 14900,
+                                    "addonCombinations": [
+                                        {
+                                            "groupId": "125612775",
+                                            "addonId": "80819411"
+                                        },
+                                        {
+                                            "groupId": "125612775",
+                                            "addonId": "80819412"
+                                        },
+                                        {
+                                            "groupId": "125612775",
+                                            "addonId": "80819413"
+                                        },
+                                        {
+                                            "groupId": "125612775",
+                                            "addonId": "80819414"
+                                        },
+                                        {
+                                            "groupId": "125612775",
+                                            "addonId": "80819415"
+                                        },
+                                        {
+                                            "groupId": "125612775",
+                                            "addonId": "80819416"
+                                        },
+                                        {
+                                            "groupId": "125612774",
+                                            "addonId": "80819407"
+                                        },
+                                        {
+                                            "groupId": "125612774",
+                                            "addonId": "80819408"
+                                        },
+                                        {
+                                            "groupId": "125612776",
+                                            "addonId": "80819417"
+                                        },
+                                        {
+                                            "groupId": "127683366",
+                                            "addonId": "109119230"
+                                        },
+                                        {
+                                            "groupId": "127683366",
+                                            "addonId": "109119229"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "variations": [
+                                        {
+                                            "groupId": "35161787",
+                                            "variationId": "108875752"
+                                        }
+                                    ],
+                                    "price": 25900,
+                                    "addonCombinations": [
+                                        {
+                                            "groupId": "125612775",
+                                            "addonId": "80819411"
+                                        },
+                                        {
+                                            "groupId": "125612775",
+                                            "addonId": "80819412"
+                                        },
+                                        {
+                                            "groupId": "125612775",
+                                            "addonId": "80819413"
+                                        },
+                                        {
+                                            "groupId": "125612775",
+                                            "addonId": "80819414"
+                                        },
+                                        {
+                                            "groupId": "125612775",
+                                            "addonId": "80819415"
+                                        },
+                                        {
+                                            "groupId": "125612775",
+                                            "addonId": "80819416"
+                                        },
+                                        {
+                                            "groupId": "125612774",
+                                            "addonId": "80819407"
+                                        },
+                                        {
+                                            "groupId": "125612774",
+                                            "addonId": "80819408"
+                                        },
+                                        {
+                                            "groupId": "125612776",
+                                            "addonId": "80819417"
+                                        },
+                                        {
+                                            "groupId": "127683366",
+                                            "addonId": "109119230"
+                                        },
+                                        {
+                                            "groupId": "127683366",
+                                            "addonId": "109119229"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "addons": [
+                            {
+                                "groupId": "127683366",
+                                "groupName": "Gajar Ka Halwa",
+                                "choices": [
+                                    {
+                                        "id": "109119230",
+                                        "name": "Gajar Ka Halwa - Small (125 GM)",
+                                        "price": 12900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "109119229",
+                                        "name": "Gajar Ka Halwa - Large (250 GM)",
+                                        "price": 24900,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    }
+                                ],
+                                "maxAddons": 1,
+                                "maxFreeAddons": -1
+                            },
+                            {
+                                "groupId": "125612774",
+                                "groupName": "Chutneys",
+                                "choices": [
+                                    {
+                                        "id": "80819407",
+                                        "name": "Extra Mint Chutney",
+                                        "price": 500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "80819408",
+                                        "name": "Extra Tamarind Chutney",
+                                        "price": 500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    }
+                                ],
+                                "maxAddons": 2,
+                                "maxFreeAddons": -1
+                            },
+                            {
+                                "groupId": "125612775",
+                                "groupName": "Beverages",
+                                "choices": [
+                                    {
+                                        "id": "80819411",
+                                        "name": "Mango Lassi",
+                                        "price": 12900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "80819412",
+                                        "name": "Rose Milk",
+                                        "price": 12900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "80819413",
+                                        "name": "Ginger Chai Flask (2 Cups)",
+                                        "price": 12900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "80819414",
+                                        "name": "Masala Chai Flask (2 Cups)",
+                                        "price": 12900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "80819415",
+                                        "name": "Ginger Chai (150 ML)",
+                                        "price": 4900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "80819416",
+                                        "name": "Masala Chai (150 ML)",
+                                        "price": 4900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    }
+                                ],
+                                "maxAddons": 6,
+                                "maxFreeAddons": -1
+                            },
+                            {
+                                "groupId": "125612776",
+                                "groupName": "Dessert",
+                                "choices": [
+                                    {
+                                        "id": "80819417",
+                                        "name": "Gulab Jamoon",
+                                        "price": 3900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    }
+                                ],
+                                "maxAddons": 1,
+                                "maxFreeAddons": -1
+                            }
+                        ],
+                        "itemAttribute": {
+                            "vegClassifier": "VEG",
+                            "portionSize": "Serves 1"
+                        },
+                        "defaultPrice": 14900,
+                        "ribbon": {
+                            "text": "Bestseller",
+                            "textColor": "#ffffff",
+                            "topBackgroundColor": "#d53d4c",
+                            "bottomBackgroundColor": "#b02331"
+                        },
+                        "type": "ITEM",
+                        "itemBadge": {},
+                        "badgesV2": {},
+                        "isBestseller": true,
+                        "ratings": {
+                            "aggregatedRating": {
+                                "rating": "4.5",
+                                "ratingCount": "295 ratings",
+                                "ratingCountV2": "295"
+                            }
+                        }
+                    },
+                    "analytics": {},
+                    "hideRestaurantDetails": true
+                }
+            },
+            {
+                "card": {
+                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                    "info": {
+                        "id": "126215961",
+                        "name": "Mix Samosa Bucket",
+                        "category": "Buckets",
+                        "description": "Serves 1 | Assorted bucket of our bestsellers 2 pieces each of Mini Punjabi Aloo samosa, Mini Pyaaz Kachori, Mini Noodle Samosa, Mini Paneer Samosa, and Mini Pizza Samosa. Contains: NA. Energy: 1155 Kcal.",
+                        "imageId": "fbe07f4698b8878e1551cc9cbb3af0bd",
+                        "inStock": 1,
+                        "isVeg": 1,
+                        "price": 25900,
+                        "variants": {},
+                        "variantsV2": {},
+                        "addons": [
+                            {
+                                "groupId": "127683371",
+                                "groupName": "Gajar Ka Halwa",
+                                "choices": [
+                                    {
+                                        "id": "109119230",
+                                        "name": "Gajar Ka Halwa - Small (125 GM)",
+                                        "price": 12900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "109119229",
+                                        "name": "Gajar Ka Halwa - Large (250 GM)",
+                                        "price": 24900,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    }
+                                ],
+                                "maxAddons": 1,
+                                "maxFreeAddons": -1
+                            }
+                        ],
+                        "itemAttribute": {
+                            "vegClassifier": "VEG",
+                            "portionSize": "Serves 1"
+                        },
+                        "ribbon": {},
+                        "type": "ITEM",
+                        "itemBadge": {},
+                        "badgesV2": {},
+                        "ratings": {
+                            "aggregatedRating": {}
+                        }
+                    },
+                    "analytics": {},
+                    "hideRestaurantDetails": true
+                }
+            },
+            {
+                "card": {
+                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                    "info": {
+                        "id": "126215960",
+                        "name": "Aloo Tuk",
+                        "category": "Buckets",
+                        "description": "Serves 1 | A special Sindhi delicacy made fresh on orders. Goes best with our Ginger Tea.",
+                        "imageId": "f0f61e9982a9cefe431ecd4b4bda00e1",
+                        "inStock": 1,
+                        "isVeg": 1,
+                        "variants": {},
+                        "variantsV2": {
+                            "variantGroups": [
+                                {
+                                    "groupId": "33233898",
+                                    "name": "Portion Size",
+                                    "variations": [
+                                        {
+                                            "name": "Small",
+                                            "price": 79,
+                                            "default": 1,
+                                            "id": "102756965",
+                                            "inStock": 1,
+                                            "isVeg": 1,
+                                            "isEnabled": 1
+                                        },
+                                        {
+                                            "name": "Large",
+                                            "price": 149,
+                                            "id": "102756966",
+                                            "inStock": 1,
+                                            "isVeg": 1,
+                                            "isEnabled": 1
+                                        }
+                                    ]
+                                }
+                            ],
+                            "pricingModels": [
+                                {
+                                    "variations": [
+                                        {
+                                            "groupId": "33233898",
+                                            "variationId": "102756965"
+                                        }
+                                    ],
+                                    "price": 7900,
+                                    "addonCombinations": [
+                                        {
+                                            "groupId": "116324382",
+                                            "addonId": "80819421"
+                                        },
+                                        {
+                                            "groupId": "116324382",
+                                            "addonId": "80819422"
+                                        },
+                                        {
+                                            "groupId": "116324382",
+                                            "addonId": "80819423"
+                                        },
+                                        {
+                                            "groupId": "116324382",
+                                            "addonId": "80819424"
+                                        },
+                                        {
+                                            "groupId": "116324382",
+                                            "addonId": "80819425"
+                                        },
+                                        {
+                                            "groupId": "116324382",
+                                            "addonId": "80819426"
+                                        },
+                                        {
+                                            "groupId": "116324382",
+                                            "addonId": "80819427"
+                                        },
+                                        {
+                                            "groupId": "116324382",
+                                            "addonId": "80819428"
+                                        },
+                                        {
+                                            "groupId": "116324382",
+                                            "addonId": "80819429"
+                                        },
+                                        {
+                                            "groupId": "116324382",
+                                            "addonId": "80819430"
+                                        },
+                                        {
+                                            "groupId": "116324381",
+                                            "addonId": "80819407"
+                                        },
+                                        {
+                                            "groupId": "116324381",
+                                            "addonId": "80819408"
+                                        },
+                                        {
+                                            "groupId": "116324383",
+                                            "addonId": "80819417"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "variations": [
+                                        {
+                                            "groupId": "33233898",
+                                            "variationId": "102756966"
+                                        }
+                                    ],
+                                    "price": 14900,
+                                    "addonCombinations": [
+                                        {
+                                            "groupId": "116324382",
+                                            "addonId": "80819421"
+                                        },
+                                        {
+                                            "groupId": "116324382",
+                                            "addonId": "80819422"
+                                        },
+                                        {
+                                            "groupId": "116324382",
+                                            "addonId": "80819423"
+                                        },
+                                        {
+                                            "groupId": "116324382",
+                                            "addonId": "80819424"
+                                        },
+                                        {
+                                            "groupId": "116324382",
+                                            "addonId": "80819425"
+                                        },
+                                        {
+                                            "groupId": "116324382",
+                                            "addonId": "80819426"
+                                        },
+                                        {
+                                            "groupId": "116324382",
+                                            "addonId": "80819427"
+                                        },
+                                        {
+                                            "groupId": "116324382",
+                                            "addonId": "80819428"
+                                        },
+                                        {
+                                            "groupId": "116324382",
+                                            "addonId": "80819429"
+                                        },
+                                        {
+                                            "groupId": "116324382",
+                                            "addonId": "80819430"
+                                        },
+                                        {
+                                            "groupId": "116324381",
+                                            "addonId": "80819407"
+                                        },
+                                        {
+                                            "groupId": "116324381",
+                                            "addonId": "80819408"
+                                        },
+                                        {
+                                            "groupId": "116324383",
+                                            "addonId": "80819417"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "addons": [
+                            {
+                                "groupId": "116324381",
+                                "groupName": "Chutneys",
+                                "choices": [
+                                    {
+                                        "id": "80819407",
+                                        "name": "Extra Mint Chutney",
+                                        "price": 500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "80819408",
+                                        "name": "Extra Tamarind Chutney",
+                                        "price": 500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    }
+                                ],
+                                "maxAddons": 2,
+                                "maxFreeAddons": -1
+                            },
+                            {
+                                "groupId": "116324382",
+                                "groupName": "Beverages",
+                                "choices": [
+                                    {
+                                        "id": "80819421",
+                                        "name": "Ginger Chai Flask",
+                                        "price": 12900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "80819422",
+                                        "name": "Masala Chai Flask",
+                                        "price": 12900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "80819423",
+                                        "name": "Plain Chai Flask",
+                                        "price": 12900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "80819424",
+                                        "name": "Cardamom Chai Flask",
+                                        "price": 12900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "80819425",
+                                        "name": "Lemon Chai Flask",
+                                        "price": 12900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "80819426",
+                                        "name": "Lemon & Ginger Chai Flask",
+                                        "price": 12900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "80819427",
+                                        "name": "Jaljeera",
+                                        "price": 9900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "80819428",
+                                        "name": "Roohafza",
+                                        "price": 9900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "80819429",
+                                        "name": "Raw Mango & Mint Cooler",
+                                        "price": 9900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "80819430",
+                                        "name": "Rose Milk",
+                                        "price": 12900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    }
+                                ],
+                                "maxAddons": 10,
+                                "maxFreeAddons": -1
+                            },
+                            {
+                                "groupId": "116324383",
+                                "groupName": "Dessert",
+                                "choices": [
+                                    {
+                                        "id": "80819417",
+                                        "name": "Gulab Jamoon",
+                                        "price": 3900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    }
+                                ],
+                                "maxAddons": 1,
+                                "maxFreeAddons": -1
+                            }
+                        ],
+                        "itemAttribute": {
+                            "vegClassifier": "VEG",
+                            "portionSize": "Serves 1"
+                        },
+                        "defaultPrice": 7900,
+                        "ribbon": {},
+                        "type": "ITEM",
+                        "itemBadge": {},
+                        "badgesV2": {},
+                        "ratings": {
+                            "aggregatedRating": {}
+                        }
+                    },
+                    "analytics": {},
+                    "hideRestaurantDetails": true
+                }
+            },
+            {
+                "card": {
+                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                    "info": {
+                        "id": "126667940",
+                        "name": "Mini Noodle Samosa Party Bucket.",
+                        "category": "Buckets",
+                        "description": "Serves 1 | Mini Noodle Samosa- Szechwan-style chilli garlic noodles inside the very desi Samosa. Our love for Chinese food just scaled new heights. Contains: NA. Energy: 168 Kcal.",
+                        "imageId": "bcce428358ff10e3d53e696883b7f1d4",
+                        "inStock": 1,
+                        "isVeg": 1,
+                        "variants": {},
+                        "variantsV2": {
+                            "variantGroups": [
+                                {
+                                    "groupId": "33463103",
+                                    "name": "Quantity",
+                                    "variations": [
+                                        {
+                                            "name": "Mini Noodle Samosa (5 Pcs)",
+                                            "price": 109,
+                                            "default": 1,
+                                            "id": "103374145",
+                                            "inStock": 1,
+                                            "isVeg": 1,
+                                            "isEnabled": 1
+                                        },
+                                        {
+                                            "name": "Mini Noodle Samosa (10 Pcs)",
+                                            "price": 199,
+                                            "id": "103374146",
+                                            "inStock": 1,
+                                            "isVeg": 1,
+                                            "isEnabled": 1
+                                        },
+                                        {
+                                            "name": "Mini Noodle Samosa (20 Pcs)",
+                                            "price": 399,
+                                            "id": "103374147",
+                                            "inStock": 1,
+                                            "isVeg": 1,
+                                            "isEnabled": 1
+                                        }
+                                    ]
+                                }
+                            ],
+                            "pricingModels": [
+                                {
+                                    "variations": [
+                                        {
+                                            "groupId": "33463103",
+                                            "variationId": "103374145"
+                                        }
+                                    ],
+                                    "price": 10900,
+                                    "addonCombinations": [
+                                        {
+                                            "groupId": "127683391",
+                                            "addonId": "109119230"
+                                        },
+                                        {
+                                            "groupId": "127683391",
+                                            "addonId": "109119229"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "variations": [
+                                        {
+                                            "groupId": "33463103",
+                                            "variationId": "103374146"
+                                        }
+                                    ],
+                                    "price": 19900,
+                                    "addonCombinations": [
+                                        {
+                                            "groupId": "127683391",
+                                            "addonId": "109119230"
+                                        },
+                                        {
+                                            "groupId": "127683391",
+                                            "addonId": "109119229"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "variations": [
+                                        {
+                                            "groupId": "33463103",
+                                            "variationId": "103374147"
+                                        }
+                                    ],
+                                    "price": 39900,
+                                    "addonCombinations": [
+                                        {
+                                            "groupId": "127683391",
+                                            "addonId": "109119230"
+                                        },
+                                        {
+                                            "groupId": "127683391",
+                                            "addonId": "109119229"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "addons": [
+                            {
+                                "groupId": "127683391",
+                                "groupName": "Gajar Ka Halwa",
+                                "choices": [
+                                    {
+                                        "id": "109119230",
+                                        "name": "Gajar Ka Halwa - Small (125 GM)",
+                                        "price": 12900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "109119229",
+                                        "name": "Gajar Ka Halwa - Large (250 GM)",
+                                        "price": 24900,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    }
+                                ],
+                                "maxAddons": 1,
+                                "maxFreeAddons": -1
+                            }
+                        ],
+                        "itemAttribute": {
+                            "vegClassifier": "VEG",
+                            "portionSize": "Serves 1"
+                        },
+                        "defaultPrice": 10900,
+                        "ribbon": {},
+                        "type": "ITEM",
+                        "itemBadge": {},
+                        "badgesV2": {},
+                        "ratings": {
+                            "aggregatedRating": {}
+                        }
+                    },
+                    "analytics": {},
+                    "hideRestaurantDetails": true
+                }
+            },
+            {
+                "card": {
+                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                    "info": {
+                        "id": "60519995",
+                        "name": "Chicken Popcorn",
+                        "category": "Buckets",
+                        "description": "Serves 1 | Crunchy boneless chicken bites, perfectly spiced with our secret Peri-Peri masala and served with tomato ketchup. Don't settle for anything less than this mouthwatering Flavorful Snack!",
+                        "imageId": "49ca3b7cf2604f8ddeec5c48a91b6b45",
+                        "inStock": 1,
+                        "variants": {},
+                        "variantsV2": {
+                            "variantGroups": [
+                                {
+                                    "groupId": "35969696",
+                                    "name": "Quantity",
+                                    "variations": [
+                                        {
+                                            "name": "Chicken Popcorn Small",
+                                            "price": 199,
+                                            "default": 1,
+                                            "id": "111712485",
+                                            "inStock": 1,
+                                            "isEnabled": 1
+                                        },
+                                        {
+                                            "name": "Chicken Popcorn Medium",
+                                            "price": 359,
+                                            "id": "111712486",
+                                            "inStock": 1,
+                                            "isEnabled": 1
+                                        },
+                                        {
+                                            "name": "Chicken Popcorn Large",
+                                            "price": 599,
+                                            "id": "111712487",
+                                            "inStock": 1,
+                                            "isEnabled": 1
+                                        }
+                                    ]
+                                }
+                            ],
+                            "pricingModels": [
+                                {
+                                    "variations": [
+                                        {
+                                            "groupId": "35969696",
+                                            "variationId": "111712485"
+                                        }
+                                    ],
+                                    "price": 19900,
+                                    "addonCombinations": [
+                                        {
+                                            "groupId": "128843792",
+                                            "addonId": "109119230"
+                                        },
+                                        {
+                                            "groupId": "128843792",
+                                            "addonId": "109119229"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "variations": [
+                                        {
+                                            "groupId": "35969696",
+                                            "variationId": "111712486"
+                                        }
+                                    ],
+                                    "price": 35900,
+                                    "addonCombinations": [
+                                        {
+                                            "groupId": "128843792",
+                                            "addonId": "109119230"
+                                        },
+                                        {
+                                            "groupId": "128843792",
+                                            "addonId": "109119229"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "variations": [
+                                        {
+                                            "groupId": "35969696",
+                                            "variationId": "111712487"
+                                        }
+                                    ],
+                                    "price": 59900,
+                                    "addonCombinations": [
+                                        {
+                                            "groupId": "128843792",
+                                            "addonId": "109119230"
+                                        },
+                                        {
+                                            "groupId": "128843792",
+                                            "addonId": "109119229"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "addons": [
+                            {
+                                "groupId": "128843792",
+                                "groupName": "Gajar Ka Halwa",
+                                "choices": [
+                                    {
+                                        "id": "109119230",
+                                        "name": "Gajar Ka Halwa - Small (125 GM)",
+                                        "price": 12900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "109119229",
+                                        "name": "Gajar Ka Halwa - Large (250 GM)",
+                                        "price": 24900,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    }
+                                ],
+                                "maxAddons": 1,
+                                "maxFreeAddons": -1
+                            }
+                        ],
+                        "itemAttribute": {
+                            "vegClassifier": "NONVEG",
+                            "portionSize": "Serves 1"
+                        },
+                        "defaultPrice": 19900,
+                        "ribbon": {},
+                        "type": "ITEM",
+                        "itemBadge": {},
+                        "badgesV2": {},
+                        "ratings": {
+                            "aggregatedRating": {}
+                        }
+                    },
+                    "analytics": {},
+                    "hideRestaurantDetails": true
+                }
+            }
+        ]
+    )
+})
+
+app.get('/restaurant/280216', (req, res) => {
+    res.status(200).send(
+        []
+    )
+})
+
+
+app.get('/restaurant/50467', (req, res) => {
+    res.status(200).send(
+        [
+            {
+                "card": {
+                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                    "info": {
+                        "id": "107363437",
+                        "name": "Merry Christmas Chocolate Jar Cakes: 2 pcs",
+                        "category": "Christmas Special",
+                        "description": "Serves 1 | Set of 2 Delicious Chocolate Jar cakes with Merry Christmas Poster on it",
+                        "imageId": "37cc89afefeabd3798bb596099c137b4",
+                        "inStock": 1,
+                        "isVeg": 1,
+                        "variants": {},
+                        "variantsV2": {
+                            "variantGroups": [
+                                {
+                                    "groupId": "35924606",
+                                    "name": "Quantity",
+                                    "variations": [
+                                        {
+                                            "name": "Large (375 ml)",
+                                            "price": 479,
+                                            "id": "111590230",
+                                            "inStock": 1,
+                                            "isVeg": 1,
+                                            "isEnabled": 1
+                                        },
+                                        {
+                                            "name": "Mini (180 ml)",
+                                            "price": 329,
+                                            "default": 1,
+                                            "id": "111590231",
+                                            "inStock": 1,
+                                            "isVeg": 1,
+                                            "isEnabled": 1
+                                        }
+                                    ]
+                                }
+                            ],
+                            "pricingModels": [
+                                {
+                                    "variations": [
+                                        {
+                                            "groupId": "35924606",
+                                            "variationId": "111590230"
+                                        }
+                                    ],
+                                    "price": 47900,
+                                    "addonCombinations": [
+                                        {
+                                            "groupId": "128664106",
+                                            "addonId": "108511225"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "variations": [
+                                        {
+                                            "groupId": "35924606",
+                                            "variationId": "111590231"
+                                        }
+                                    ],
+                                    "price": 32900,
+                                    "addonCombinations": [
+                                        {
+                                            "groupId": "128664106",
+                                            "addonId": "108511225"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "addons": [
+                            {
+                                "groupId": "128664106",
+                                "groupName": "Add on - Christmas Special",
+                                "choices": [
+                                    {
+                                        "id": "108511225",
+                                        "name": "Plum Muffin",
+                                        "price": 14900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    }
+                                ],
+                                "maxAddons": 1,
+                                "maxFreeAddons": -1
+                            }
+                        ],
+                        "itemAttribute": {
+                            "vegClassifier": "VEG",
+                            "portionSize": "Serves 1"
+                        },
+                        "defaultPrice": 32900,
+                        "ribbon": {},
+                        "type": "ITEM",
+                        "itemBadge": {},
+                        "badgesV2": {},
+                        "ratings": {
+                            "aggregatedRating": {}
+                        }
+                    },
+                    "analytics": {},
+                    "hideRestaurantDetails": true
+                }
+            },
+            {
+                "card": {
+                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                    "info": {
+                        "id": "130661727",
+                        "name": "Christmas Special Chocolate Berry Mousse Cake",
+                        "category": "Christmas Special",
+                        "description": "Serves 1 | Indulge in the festive spirit with our delectable Chocolate Berry Cake, a heavenly treat that will add a touch of sweetness to your Christmas celebrations",
+                        "imageId": "c050246bd68566e97371ea3769c6879d",
+                        "inStock": 1,
+                        "isVeg": 1,
+                        "price": 69900,
+                        "variants": {},
+                        "variantsV2": {},
+                        "addons": [
+                            {
+                                "groupId": "128261338",
+                                "groupName": "Add On - Birthday Caps",
+                                "choices": [
+                                    {
+                                        "id": "35198444",
+                                        "name": "Birthday Cap for Boys",
+                                        "price": 9900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "35198445",
+                                        "name": "Birthday Caps For Girls",
+                                        "price": 9900,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    }
+                                ],
+                                "maxAddons": 2,
+                                "maxFreeAddons": -1
+                            },
+                            {
+                                "groupId": "128261340",
+                                "groupName": "Add On -  Candles",
+                                "choices": [
+                                    {
+                                        "id": "35198446",
+                                        "name": "'BIRTHDAY' Letter Candles",
+                                        "price": 12900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "35198447",
+                                        "name": "Flower Candle",
+                                        "price": 8900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "35198448",
+                                        "name": "One Pack Magic Candle",
+                                        "price": 6900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    }
+                                ],
+                                "maxAddons": 2,
+                                "maxFreeAddons": -1
+                            },
+                            {
+                                "groupId": "128261341",
+                                "groupName": "Add On - Roses",
+                                "choices": [
+                                    {
+                                        "id": "35198449",
+                                        "name": "Single Red Rose",
+                                        "price": 8900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "35198451",
+                                        "name": "6 Red rose Bunch",
+                                        "price": 39900,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "35198450",
+                                        "name": "10 Red rose Bunch",
+                                        "price": 54900,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    }
+                                ],
+                                "maxAddons": 1,
+                                "maxFreeAddons": -1
+                            },
+                            {
+                                "groupId": "128261343",
+                                "groupName": "Add On - Extras",
+                                "choices": [
+                                    {
+                                        "id": "35198455",
+                                        "name": "Happy Birthday Banner",
+                                        "price": 9900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "35198452",
+                                        "name": "Set of 2 Party Poppers",
+                                        "price": 13900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "35198457",
+                                        "name": "Set of 50 balloons (deflated)",
+                                        "price": 14900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "35198453",
+                                        "name": "6 Inch Teddy Bear",
+                                        "price": 29900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    }
+                                ],
+                                "maxAddons": 2,
+                                "maxFreeAddons": -1
+                            },
+                            {
+                                "groupId": "128261344",
+                                "groupName": "Add on - Christmas Special",
+                                "choices": [
+                                    {
+                                        "id": "108511225",
+                                        "name": "Plum Muffin",
+                                        "price": 14900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    }
+                                ],
+                                "maxAddons": 1,
+                                "maxFreeAddons": -1
+                            }
+                        ],
+                        "itemAttribute": {
+                            "vegClassifier": "VEG",
+                            "portionSize": "Serves 1"
+                        },
+                        "defaultPrice": 69900,
+                        "ribbon": {},
+                        "type": "ITEM",
+                        "itemBadge": {},
+                        "badgesV2": {},
+                        "ratings": {
+                            "aggregatedRating": {}
+                        }
+                    },
+                    "analytics": {},
+                    "hideRestaurantDetails": true
+                }
+            },
+            {
+                "card": {
+                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                    "info": {
+                        "id": "130661728",
+                        "name": "Christmas Special Chocolate Truffle cake",
+                        "category": "Christmas Special",
+                        "description": "Serves 1 | Celebrate the enchantment of the holiday season with our sumptuous Chocolate Truffle Cake, a luxurious masterpiece that promises to elevate your Christmas festivities to new heights",
+                        "imageId": "dc82271563cf5aba66eecac57f67f094",
+                        "inStock": 1,
+                        "isVeg": 1,
+                        "variants": {},
+                        "variantsV2": {
+                            "variantGroups": [
+                                {
+                                    "groupId": "35826790",
+                                    "name": "Quantity",
+                                    "variations": [
+                                        {
+                                            "name": "1 Kg",
+                                            "price": 1099,
+                                            "id": "111281142",
+                                            "inStock": 1,
+                                            "isVeg": 1,
+                                            "isEnabled": 1
+                                        },
+                                        {
+                                            "name": "500 gm",
+                                            "price": 649,
+                                            "default": 1,
+                                            "id": "111281143",
+                                            "inStock": 1,
+                                            "isVeg": 1,
+                                            "isEnabled": 1
+                                        }
+                                    ]
+                                }
+                            ],
+                            "pricingModels": [
+                                {
+                                    "variations": [
+                                        {
+                                            "groupId": "35826790",
+                                            "variationId": "111281142"
+                                        }
+                                    ],
+                                    "price": 109900,
+                                    "addonCombinations": [
+                                        {
+                                            "groupId": "128261347",
+                                            "addonId": "35198444"
+                                        },
+                                        {
+                                            "groupId": "128261347",
+                                            "addonId": "35198445"
+                                        },
+                                        {
+                                            "groupId": "128261348",
+                                            "addonId": "35198446"
+                                        },
+                                        {
+                                            "groupId": "128261348",
+                                            "addonId": "35198447"
+                                        },
+                                        {
+                                            "groupId": "128261348",
+                                            "addonId": "35198448"
+                                        },
+                                        {
+                                            "groupId": "128261349",
+                                            "addonId": "35198449"
+                                        },
+                                        {
+                                            "groupId": "128261349",
+                                            "addonId": "35198451"
+                                        },
+                                        {
+                                            "groupId": "128261349",
+                                            "addonId": "35198450"
+                                        },
+                                        {
+                                            "groupId": "128261350",
+                                            "addonId": "35198455"
+                                        },
+                                        {
+                                            "groupId": "128261350",
+                                            "addonId": "35198452"
+                                        },
+                                        {
+                                            "groupId": "128261350",
+                                            "addonId": "35198457"
+                                        },
+                                        {
+                                            "groupId": "128261350",
+                                            "addonId": "35198453"
+                                        },
+                                        {
+                                            "groupId": "128261352",
+                                            "addonId": "108511225"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "variations": [
+                                        {
+                                            "groupId": "35826790",
+                                            "variationId": "111281143"
+                                        }
+                                    ],
+                                    "price": 64900,
+                                    "addonCombinations": [
+                                        {
+                                            "groupId": "128261347",
+                                            "addonId": "35198444"
+                                        },
+                                        {
+                                            "groupId": "128261347",
+                                            "addonId": "35198445"
+                                        },
+                                        {
+                                            "groupId": "128261348",
+                                            "addonId": "35198446"
+                                        },
+                                        {
+                                            "groupId": "128261348",
+                                            "addonId": "35198447"
+                                        },
+                                        {
+                                            "groupId": "128261348",
+                                            "addonId": "35198448"
+                                        },
+                                        {
+                                            "groupId": "128261349",
+                                            "addonId": "35198449"
+                                        },
+                                        {
+                                            "groupId": "128261349",
+                                            "addonId": "35198451"
+                                        },
+                                        {
+                                            "groupId": "128261349",
+                                            "addonId": "35198450"
+                                        },
+                                        {
+                                            "groupId": "128261350",
+                                            "addonId": "35198455"
+                                        },
+                                        {
+                                            "groupId": "128261350",
+                                            "addonId": "35198452"
+                                        },
+                                        {
+                                            "groupId": "128261350",
+                                            "addonId": "35198457"
+                                        },
+                                        {
+                                            "groupId": "128261350",
+                                            "addonId": "35198453"
+                                        },
+                                        {
+                                            "groupId": "128261352",
+                                            "addonId": "108511225"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "addons": [
+                            {
+                                "groupId": "128261347",
+                                "groupName": "Add On - Birthday Caps",
+                                "choices": [
+                                    {
+                                        "id": "35198444",
+                                        "name": "Birthday Cap for Boys",
+                                        "price": 9900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "35198445",
+                                        "name": "Birthday Caps For Girls",
+                                        "price": 9900,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    }
+                                ],
+                                "maxAddons": 2,
+                                "maxFreeAddons": -1
+                            },
+                            {
+                                "groupId": "128261348",
+                                "groupName": "Add On -  Candles",
+                                "choices": [
+                                    {
+                                        "id": "35198446",
+                                        "name": "'BIRTHDAY' Letter Candles",
+                                        "price": 12900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "35198447",
+                                        "name": "Flower Candle",
+                                        "price": 8900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "35198448",
+                                        "name": "One Pack Magic Candle",
+                                        "price": 6900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    }
+                                ],
+                                "maxAddons": 2,
+                                "maxFreeAddons": -1
+                            },
+                            {
+                                "groupId": "128261349",
+                                "groupName": "Add On - Roses",
+                                "choices": [
+                                    {
+                                        "id": "35198449",
+                                        "name": "Single Red Rose",
+                                        "price": 8900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "35198451",
+                                        "name": "6 Red rose Bunch",
+                                        "price": 39900,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "35198450",
+                                        "name": "10 Red rose Bunch",
+                                        "price": 54900,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    }
+                                ],
+                                "maxAddons": 1,
+                                "maxFreeAddons": -1
+                            },
+                            {
+                                "groupId": "128261350",
+                                "groupName": "Add On - Extras",
+                                "choices": [
+                                    {
+                                        "id": "35198455",
+                                        "name": "Happy Birthday Banner",
+                                        "price": 9900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "35198452",
+                                        "name": "Set of 2 Party Poppers",
+                                        "price": 13900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "35198457",
+                                        "name": "Set of 50 balloons (deflated)",
+                                        "price": 14900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "35198453",
+                                        "name": "6 Inch Teddy Bear",
+                                        "price": 29900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    }
+                                ],
+                                "maxAddons": 2,
+                                "maxFreeAddons": -1
+                            },
+                            {
+                                "groupId": "128261352",
+                                "groupName": "Add on - Christmas Special",
+                                "choices": [
+                                    {
+                                        "id": "108511225",
+                                        "name": "Plum Muffin",
+                                        "price": 14900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    }
+                                ],
+                                "maxAddons": 1,
+                                "maxFreeAddons": -1
+                            }
+                        ],
+                        "itemAttribute": {
+                            "vegClassifier": "VEG",
+                            "portionSize": "Serves 1"
+                        },
+                        "defaultPrice": 64900,
+                        "ribbon": {},
+                        "type": "ITEM",
+                        "itemBadge": {},
+                        "badgesV2": {},
+                        "ratings": {
+                            "aggregatedRating": {}
+                        }
+                    },
+                    "analytics": {},
+                    "hideRestaurantDetails": true
+                }
+            },
+            {
+                "card": {
+                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                    "info": {
+                        "id": "130661729",
+                        "name": "Set of 6 Christmas Special Classic Brownies",
+                        "category": "Christmas Special",
+                        "description": "Serves 1 | Delight in the festive spirit with our Set of 6 Christmas Special Classic Brownies",
+                        "imageId": "7543bdade33114e153519fe44c64bb3d",
+                        "inStock": 1,
+                        "isVeg": 1,
+                        "price": 57900,
+                        "variants": {},
+                        "variantsV2": {},
+                        "itemAttribute": {
+                            "vegClassifier": "VEG",
+                            "portionSize": "Serves 1"
+                        },
+                        "ribbon": {},
+                        "type": "ITEM",
+                        "itemBadge": {},
+                        "badgesV2": {},
+                        "ratings": {
+                            "aggregatedRating": {}
+                        }
+                    },
+                    "analytics": {},
+                    "hideRestaurantDetails": true
+                }
+            },
+            {
+                "card": {
+                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                    "info": {
+                        "id": "130834173",
+                        "name": "Merry Christmas Classic Brownies: 2 pcs",
+                        "category": "Christmas Special",
+                        "description": "Serves 1 | Set of 2 Delicious Classic walnut brownies with Merry Christmas Poster on it",
+                        "imageId": "54bb9c22b67e887b707fcdbd4167842e",
+                        "inStock": 1,
+                        "isVeg": 1,
+                        "price": 24900,
+                        "variants": {},
+                        "variantsV2": {},
+                        "addons": [
+                            {
+                                "groupId": "128664107",
+                                "groupName": "Add on - Christmas Special",
+                                "choices": [
+                                    {
+                                        "id": "108511225",
+                                        "name": "Plum Muffin",
+                                        "price": 14900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    }
+                                ],
+                                "maxAddons": 1,
+                                "maxFreeAddons": -1
+                            }
+                        ],
+                        "itemAttribute": {
+                            "vegClassifier": "VEG",
+                            "portionSize": "Serves 1"
+                        },
+                        "ribbon": {},
+                        "type": "ITEM",
+                        "itemBadge": {},
+                        "badgesV2": {},
+                        "ratings": {
+                            "aggregatedRating": {}
+                        }
+                    },
+                    "analytics": {},
+                    "hideRestaurantDetails": true
+                }
+            }
+        ]
+    )
+})
+
+app.get('/restaurant/209557', (req, res) => {
+    res.status(200).send(
+        []
+    )
+})
+
+app.get('/restaurant/263485', (req, res) => {
+    res.status(200).send(
+        []
+    )
+})
+
+app.get('/restaurant/37746', (req, res) => {
+    res.status(200).send(
+        [
+            {
+                "card": {
+                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                    "info": {
+                        "id": "90296320",
+                        "name": "Veg Family Feast In a Box (serves 2-3 pax)",
+                        "category": "Salt's  Family Feast Box (Serves 2 to 3 pax))",
+                        "description": "Serves 1 | A hearty fulfilling feast bringing the best from our menu. Includes : 3 starters + 1 paneer curry + 2 veg sides + 1 vegetable biryani + 1 steamed basmati rice + bread basket (4 pcs), + 3 classic indian desserts + salad + raita and mint chutney.",
+                        "imageId": "bcljcaykfzizvhtu0gsl",
+                        "inStock": 1,
+                        "isVeg": 1,
+                        "price": 124900,
+                        "variants": {},
+                        "variantsV2": {},
+                        "addons": [
+                            {
+                                "groupId": "102105772",
+                                "groupName": "Choice of sides(minimum 2)",
+                                "choices": [
+                                    {
+                                        "id": "95816725",
+                                        "name": "Pindi Chole Masala",
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "95816721",
+                                        "name": "Dal Tadka",
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "95816722",
+                                        "name": "Dal Makhani",
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "95816723",
+                                        "name": "Meloni Tarkari",
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "107668055",
+                                        "name": "Soya Chaap Butter masala",
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "107668060",
+                                        "name": "Mushroom Matar Makhana",
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    }
+                                ],
+                                "maxAddons": 2,
+                                "maxFreeAddons": -1
+                            },
+                            {
+                                "groupId": "103034128",
+                                "groupName": "Beverages",
+                                "choices": [
+                                    {
+                                        "id": "95816742",
+                                        "name": "coke 750ml",
+                                        "price": 10000,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "95816743",
+                                        "name": "Sprite 750ml",
+                                        "price": 10000,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "96308903",
+                                        "name": "Coke(250ml)",
+                                        "price": 4000,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    }
+                                ],
+                                "maxAddons": 3,
+                                "maxFreeAddons": -1
+                            },
+                            {
+                                "groupId": "102105775",
+                                "groupName": "Choice Of Starter(choose Any 3)",
+                                "choices": [
+                                    {
+                                        "id": "95816726",
+                                        "name": "Chutneywali Paneer Tikka",
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "95816727",
+                                        "name": "Dhaba Chilli Cauliflower",
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "95816728",
+                                        "name": "Lal Mirch Paneer Tikka",
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "95816729",
+                                        "name": "Malai Paneer Tikka",
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "107668056",
+                                        "name": "Hara bara Kabab",
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "107668057",
+                                        "name": "Tandoori Soya Chaap",
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    }
+                                ],
+                                "maxAddons": 3,
+                                "maxFreeAddons": -1,
+                                "minAddons": 3
+                            },
+                            {
+                                "groupId": "102105777",
+                                "groupName": "Paneer Curry(choose Any 1)",
+                                "choices": [
+                                    {
+                                        "id": "95816732",
+                                        "name": "Paneer Makhani",
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "95816733",
+                                        "name": "Patiala Kadai Paneer",
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "95816735",
+                                        "name": "Paneer Methi Mutter Masala",
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "107665532",
+                                        "name": "Paneer Tikka Hare Pyaz",
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    }
+                                ],
+                                "maxAddons": 1,
+                                "maxFreeAddons": -1
+                            }
+                        ],
+                        "itemAttribute": {
+                            "vegClassifier": "VEG",
+                            "portionSize": "Serves 1"
+                        },
+                        "ribbon": {},
+                        "type": "ITEM",
+                        "itemBadge": {},
+                        "badgesV2": {},
+                        "ratings": {
+                            "aggregatedRating": {
+                                "rating": "4.7",
+                                "ratingCount": "36 ratings",
+                                "ratingCountV2": "36"
+                            }
+                        }
+                    },
+                    "analytics": {},
+                    "hideRestaurantDetails": true
+                }
+            },
+            {
+                "card": {
+                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                    "info": {
+                        "id": "64788949",
+                        "name": "Non Veg Family Feast in a Box(serves 2-3 pax)",
+                        "category": "Salt's  Family Feast Box (Serves 2 to 3 pax))",
+                        "description": "Serves 1 | A hearty fulfilling feast bringing the best from our menu. Includes : 3 starters + 1non-veg curry + 2 veg sides + 1 chicken biryani + 1 steamed basmati rice + bread basket (4 pcs), + 3 classic indian desserts + salad + raita and mint chutney.",
+                        "imageId": "hvy8n2ado6sszpj2o73d",
+                        "inStock": 1,
+                        "price": 139900,
+                        "variants": {},
+                        "variantsV2": {},
+                        "addons": [
+                            {
+                                "groupId": "103034127",
+                                "groupName": "Beverages",
+                                "choices": [
+                                    {
+                                        "id": "95816742",
+                                        "name": "coke 750ml",
+                                        "price": 10000,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "95816743",
+                                        "name": "Sprite 750ml",
+                                        "price": 10000,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "96308903",
+                                        "name": "Coke(250ml)",
+                                        "price": 4000,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    }
+                                ],
+                                "maxAddons": 3,
+                                "maxFreeAddons": -1
+                            },
+                            {
+                                "groupId": "102105674",
+                                "groupName": "Non Veg Curry(choose Any 1)",
+                                "choices": [
+                                    {
+                                        "id": "95816659",
+                                        "name": "Mutton Roganjosh",
+                                        "inStock": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "95816660",
+                                        "name": "Old Delhi Butter Chicken",
+                                        "inStock": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "107668058",
+                                        "name": "Chettinad Mutton Masala",
+                                        "inStock": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "107668052",
+                                        "name": "Chicken Tikka Hare Pyaz",
+                                        "inStock": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "107668054",
+                                        "name": "Kozhi Melagu Curry",
+                                        "inStock": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "107668053",
+                                        "name": "Rara Mutton masala",
+                                        "inStock": 1,
+                                        "isEnabled": 1
+                                    }
+                                ],
+                                "maxAddons": 1,
+                                "maxFreeAddons": -1
+                            },
+                            {
+                                "groupId": "102105675",
+                                "groupName": "Choice Of Starter",
+                                "choices": [
+                                    {
+                                        "id": "95816663",
+                                        "name": "Kerala Chicken Roast",
+                                        "inStock": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "95816664",
+                                        "name": "Hariyali Fish Tikka",
+                                        "inStock": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "95816665",
+                                        "name": "Charcoal Chicken Tikka",
+                                        "inStock": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "95816666",
+                                        "name": "Masaledar Tawa Fish",
+                                        "inStock": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "95816667",
+                                        "name": "Murg Malai Tikka",
+                                        "inStock": 1,
+                                        "isEnabled": 1
+                                    }
+                                ],
+                                "maxAddons": 3,
+                                "maxFreeAddons": -1,
+                                "minAddons": 1
+                            },
+                            {
+                                "groupId": "102105676",
+                                "groupName": "Sides",
+                                "choices": [
+                                    {
+                                        "id": "95816668",
+                                        "name": "Pindi Chana Masala",
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "95816669",
+                                        "name": "Dal Tadka",
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "95816670",
+                                        "name": "Dal Makhani",
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "95816671",
+                                        "name": "Meloni Sabzi",
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "95816672",
+                                        "name": "Vilayati Tarkari Handi",
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "107668059",
+                                        "name": "Gun Powder chicken",
+                                        "inStock": 1,
+                                        "isEnabled": 1
+                                    }
+                                ],
+                                "maxAddons": 2,
+                                "maxFreeAddons": -1,
+                                "minAddons": 2
+                            }
+                        ],
+                        "itemAttribute": {
+                            "vegClassifier": "NONVEG",
+                            "portionSize": "Serves 1"
+                        },
+                        "ribbon": {},
+                        "type": "ITEM",
+                        "itemBadge": {},
+                        "badgesV2": {},
+                        "ratings": {
+                            "aggregatedRating": {
+                                "rating": "3.8",
+                                "ratingCount": "39 ratings",
+                                "ratingCountV2": "39"
+                            }
+                        }
+                    },
+                    "analytics": {},
+                    "hideRestaurantDetails": true
+                }
+            },
+            {
+                "card": {
+                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                    "info": {
+                        "id": "70480358",
+                        "name": "Premium Family Feast in a Box- Non veg (serves 2-3 pax)",
+                        "category": "Salt's  Family Feast Box (Serves 2 to 3 pax))",
+                        "description": "Serves 1 | A hearty fulfilling feast bringing the best from our menu includes: (3 starters) 4 pcs Murgh Malai Tikka + 4 pcs Tawa Masala Fish + 4 pcs Ghee Roast Prawns + (2 non-veg curry) Mutton Roganjosh, Chicken Tikka Masala + Dal Makhani + Chicken Biryani + Steamed Basmati Rice + 4 pcs Bread basket + (3 desserts) Shahi Tukda Pudding, Chocolate Browine, Gulab jamun served with Laccha Salad, Raita and Mint Chutney.",
+                        "imageId": "echcs4urjgj4kgfuu3vu",
+                        "inStock": 1,
+                        "price": 159900,
+                        "variants": {},
+                        "variantsV2": {},
+                        "addons": [
+                            {
+                                "groupId": "102105708",
+                                "groupName": "Beverages",
+                                "choices": [
+                                    {
+                                        "id": "95816742",
+                                        "name": "coke 750ml",
+                                        "price": 10000,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "95816743",
+                                        "name": "Sprite 750ml",
+                                        "price": 10000,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "96308903",
+                                        "name": "Coke(250ml)",
+                                        "price": 4000,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    }
+                                ],
+                                "maxAddons": 1,
+                                "maxFreeAddons": -1
+                            }
+                        ],
+                        "itemAttribute": {
+                            "vegClassifier": "NONVEG",
+                            "portionSize": "Serves 1"
+                        },
+                        "ribbon": {},
+                        "type": "ITEM",
+                        "itemBadge": {},
+                        "badgesV2": {},
+                        "ratings": {
+                            "aggregatedRating": {
+                                "rating": "4.5",
+                                "ratingCount": "36 ratings",
+                                "ratingCountV2": "36"
+                            }
+                        }
+                    },
+                    "analytics": {},
+                    "hideRestaurantDetails": true
+                }
+            },
+            {
+                "card": {
+                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                    "info": {
+                        "id": "70480365",
+                        "name": "Kebab And Biryani Feast Box-VEG (serves 2-3 pax)",
+                        "category": "Salt's  Family Feast Box (Serves 2 to 3 pax))",
+                        "description": "Serves 1 | A hearty fulfilling Kebabs & Biryani feast includes:(3 starters) 6 pcs Chutney Wali Paneer Tikka + 4 pcs Achari Bharwan Mushrooms + 4 pcs Tandoori Gobi + 1 portion Vegetable Biryani + 1 portion Paneer Chole ki Biryani+ Salan+ 2 pcs Laccha Paratha + (3 desserts) Saffroni Phirni Kheer, Gajjar Halwa , Gulab Jamun + Salad + Raita and Mint Chutney.",
+                        "imageId": "gpal3bt1mfgdeoim33pd",
+                        "inStock": 1,
+                        "isVeg": 1,
+                        "price": 139900,
+                        "variants": {},
+                        "variantsV2": {},
+                        "addons": [
+                            {
+                                "groupId": "102105646",
+                                "groupName": "Beverages",
+                                "choices": [
+                                    {
+                                        "id": "95816742",
+                                        "name": "coke 750ml",
+                                        "price": 10000,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "95816743",
+                                        "name": "Sprite 750ml",
+                                        "price": 10000,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "96308903",
+                                        "name": "Coke(250ml)",
+                                        "price": 4000,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    }
+                                ],
+                                "maxAddons": 1,
+                                "maxFreeAddons": -1
+                            }
+                        ],
+                        "itemAttribute": {
+                            "vegClassifier": "VEG",
+                            "portionSize": "Serves 1"
+                        },
+                        "ribbon": {},
+                        "type": "ITEM",
+                        "itemBadge": {},
+                        "badgesV2": {},
+                        "ratings": {
+                            "aggregatedRating": {
+                                "rating": "4.3",
+                                "ratingCount": "7 ratings",
+                                "ratingCountV2": "7"
+                            }
+                        }
+                    },
+                    "analytics": {},
+                    "hideRestaurantDetails": true
+                }
+            },
+            {
+                "card": {
+                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                    "info": {
+                        "id": "70480369",
+                        "name": "Kebab And Biryani Feast Box- Non veg (serves 2-3pax)",
+                        "category": "Salt's  Family Feast Box (Serves 2 to 3 pax))",
+                        "description": "Serves 1 | A hearty fulfilling Kebabs & Biryani feast from our menu includes: (3 starters) 6 pcs Andhra Chicken Kabab + 4 pcs  Charcoal Chicken Tikka + 4 pcs Hariyali Fish Tikka + 1 Chicken Dum Biryani + 1 Chicken Tikka Biryani + Salan + 2 pcs Laccha Paratha + (3 desserts) Shahi Tukda Pudding, Chocolate Brownie, Gulab Jamun + Salad + Raita and Mint Chutney.",
+                        "imageId": "kjwo5i7ordg2rz5ad1nj",
+                        "inStock": 1,
+                        "price": 154900,
+                        "variants": {},
+                        "variantsV2": {},
+                        "addons": [
+                            {
+                                "groupId": "102105647",
+                                "groupName": "Beverages",
+                                "choices": [
+                                    {
+                                        "id": "95816742",
+                                        "name": "coke 750ml",
+                                        "price": 10000,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "95816743",
+                                        "name": "Sprite 750ml",
+                                        "price": 10000,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "96308903",
+                                        "name": "Coke(250ml)",
+                                        "price": 4000,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    }
+                                ],
+                                "maxAddons": 1,
+                                "maxFreeAddons": -1
+                            }
+                        ],
+                        "itemAttribute": {
+                            "vegClassifier": "NONVEG",
+                            "portionSize": "Serves 1"
+                        },
+                        "ribbon": {},
+                        "type": "ITEM",
+                        "itemBadge": {},
+                        "badgesV2": {},
+                        "ratings": {
+                            "aggregatedRating": {
+                                "rating": "4.4",
+                                "ratingCount": "11 ratings",
+                                "ratingCountV2": "11"
+                            }
+                        }
+                    },
+                    "analytics": {},
+                    "hideRestaurantDetails": true
+                }
+            }
+        ]
+    )
+})
+
+app.get('/restaurant/50467', (req, res) => {
+    res.status(200).send(
+        [
+            {
+                "card": {
+                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                    "info": {
+                        "id": "107363437",
+                        "name": "Merry Christmas Chocolate Jar Cakes: 2 pcs",
+                        "category": "Christmas Special",
+                        "description": "Serves 1 | Set of 2 Delicious Chocolate Jar cakes with Merry Christmas Poster on it",
+                        "imageId": "37cc89afefeabd3798bb596099c137b4",
+                        "inStock": 1,
+                        "isVeg": 1,
+                        "variants": {},
+                        "variantsV2": {
+                            "variantGroups": [
+                                {
+                                    "groupId": "35924606",
+                                    "name": "Quantity",
+                                    "variations": [
+                                        {
+                                            "name": "Large (375 ml)",
+                                            "price": 479,
+                                            "id": "111590230",
+                                            "inStock": 1,
+                                            "isVeg": 1,
+                                            "isEnabled": 1
+                                        },
+                                        {
+                                            "name": "Mini (180 ml)",
+                                            "price": 329,
+                                            "default": 1,
+                                            "id": "111590231",
+                                            "inStock": 1,
+                                            "isVeg": 1,
+                                            "isEnabled": 1
+                                        }
+                                    ]
+                                }
+                            ],
+                            "pricingModels": [
+                                {
+                                    "variations": [
+                                        {
+                                            "groupId": "35924606",
+                                            "variationId": "111590230"
+                                        }
+                                    ],
+                                    "price": 47900,
+                                    "addonCombinations": [
+                                        {
+                                            "groupId": "128664106",
+                                            "addonId": "108511225"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "variations": [
+                                        {
+                                            "groupId": "35924606",
+                                            "variationId": "111590231"
+                                        }
+                                    ],
+                                    "price": 32900,
+                                    "addonCombinations": [
+                                        {
+                                            "groupId": "128664106",
+                                            "addonId": "108511225"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "addons": [
+                            {
+                                "groupId": "128664106",
+                                "groupName": "Add on - Christmas Special",
+                                "choices": [
+                                    {
+                                        "id": "108511225",
+                                        "name": "Plum Muffin",
+                                        "price": 14900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    }
+                                ],
+                                "maxAddons": 1,
+                                "maxFreeAddons": -1
+                            }
+                        ],
+                        "itemAttribute": {
+                            "vegClassifier": "VEG",
+                            "portionSize": "Serves 1"
+                        },
+                        "defaultPrice": 32900,
+                        "ribbon": {},
+                        "type": "ITEM",
+                        "itemBadge": {},
+                        "badgesV2": {},
+                        "ratings": {
+                            "aggregatedRating": {}
+                        }
+                    },
+                    "analytics": {},
+                    "hideRestaurantDetails": true
+                }
+            },
+            {
+                "card": {
+                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                    "info": {
+                        "id": "130661727",
+                        "name": "Christmas Special Chocolate Berry Mousse Cake",
+                        "category": "Christmas Special",
+                        "description": "Serves 1 | Indulge in the festive spirit with our delectable Chocolate Berry Cake, a heavenly treat that will add a touch of sweetness to your Christmas celebrations",
+                        "imageId": "c050246bd68566e97371ea3769c6879d",
+                        "inStock": 1,
+                        "isVeg": 1,
+                        "price": 69900,
+                        "variants": {},
+                        "variantsV2": {},
+                        "addons": [
+                            {
+                                "groupId": "128261338",
+                                "groupName": "Add On - Birthday Caps",
+                                "choices": [
+                                    {
+                                        "id": "35198444",
+                                        "name": "Birthday Cap for Boys",
+                                        "price": 9900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "35198445",
+                                        "name": "Birthday Caps For Girls",
+                                        "price": 9900,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    }
+                                ],
+                                "maxAddons": 2,
+                                "maxFreeAddons": -1
+                            },
+                            {
+                                "groupId": "128261340",
+                                "groupName": "Add On -  Candles",
+                                "choices": [
+                                    {
+                                        "id": "35198446",
+                                        "name": "'BIRTHDAY' Letter Candles",
+                                        "price": 12900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "35198447",
+                                        "name": "Flower Candle",
+                                        "price": 8900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "35198448",
+                                        "name": "One Pack Magic Candle",
+                                        "price": 6900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    }
+                                ],
+                                "maxAddons": 2,
+                                "maxFreeAddons": -1
+                            },
+                            {
+                                "groupId": "128261341",
+                                "groupName": "Add On - Roses",
+                                "choices": [
+                                    {
+                                        "id": "35198449",
+                                        "name": "Single Red Rose",
+                                        "price": 8900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "35198451",
+                                        "name": "6 Red rose Bunch",
+                                        "price": 39900,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "35198450",
+                                        "name": "10 Red rose Bunch",
+                                        "price": 54900,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    }
+                                ],
+                                "maxAddons": 1,
+                                "maxFreeAddons": -1
+                            },
+                            {
+                                "groupId": "128261343",
+                                "groupName": "Add On - Extras",
+                                "choices": [
+                                    {
+                                        "id": "35198455",
+                                        "name": "Happy Birthday Banner",
+                                        "price": 9900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "35198452",
+                                        "name": "Set of 2 Party Poppers",
+                                        "price": 13900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "35198457",
+                                        "name": "Set of 50 balloons (deflated)",
+                                        "price": 14900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "35198453",
+                                        "name": "6 Inch Teddy Bear",
+                                        "price": 29900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    }
+                                ],
+                                "maxAddons": 2,
+                                "maxFreeAddons": -1
+                            },
+                            {
+                                "groupId": "128261344",
+                                "groupName": "Add on - Christmas Special",
+                                "choices": [
+                                    {
+                                        "id": "108511225",
+                                        "name": "Plum Muffin",
+                                        "price": 14900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    }
+                                ],
+                                "maxAddons": 1,
+                                "maxFreeAddons": -1
+                            }
+                        ],
+                        "itemAttribute": {
+                            "vegClassifier": "VEG",
+                            "portionSize": "Serves 1"
+                        },
+                        "defaultPrice": 69900,
+                        "ribbon": {},
+                        "type": "ITEM",
+                        "itemBadge": {},
+                        "badgesV2": {},
+                        "ratings": {
+                            "aggregatedRating": {}
+                        }
+                    },
+                    "analytics": {},
+                    "hideRestaurantDetails": true
+                }
+            },
+            {
+                "card": {
+                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                    "info": {
+                        "id": "130661728",
+                        "name": "Christmas Special Chocolate Truffle cake",
+                        "category": "Christmas Special",
+                        "description": "Serves 1 | Celebrate the enchantment of the holiday season with our sumptuous Chocolate Truffle Cake, a luxurious masterpiece that promises to elevate your Christmas festivities to new heights",
+                        "imageId": "dc82271563cf5aba66eecac57f67f094",
+                        "inStock": 1,
+                        "isVeg": 1,
+                        "variants": {},
+                        "variantsV2": {
+                            "variantGroups": [
+                                {
+                                    "groupId": "35826790",
+                                    "name": "Quantity",
+                                    "variations": [
+                                        {
+                                            "name": "1 Kg",
+                                            "price": 1099,
+                                            "id": "111281142",
+                                            "inStock": 1,
+                                            "isVeg": 1,
+                                            "isEnabled": 1
+                                        },
+                                        {
+                                            "name": "500 gm",
+                                            "price": 649,
+                                            "default": 1,
+                                            "id": "111281143",
+                                            "inStock": 1,
+                                            "isVeg": 1,
+                                            "isEnabled": 1
+                                        }
+                                    ]
+                                }
+                            ],
+                            "pricingModels": [
+                                {
+                                    "variations": [
+                                        {
+                                            "groupId": "35826790",
+                                            "variationId": "111281142"
+                                        }
+                                    ],
+                                    "price": 109900,
+                                    "addonCombinations": [
+                                        {
+                                            "groupId": "128261347",
+                                            "addonId": "35198444"
+                                        },
+                                        {
+                                            "groupId": "128261347",
+                                            "addonId": "35198445"
+                                        },
+                                        {
+                                            "groupId": "128261348",
+                                            "addonId": "35198446"
+                                        },
+                                        {
+                                            "groupId": "128261348",
+                                            "addonId": "35198447"
+                                        },
+                                        {
+                                            "groupId": "128261348",
+                                            "addonId": "35198448"
+                                        },
+                                        {
+                                            "groupId": "128261349",
+                                            "addonId": "35198449"
+                                        },
+                                        {
+                                            "groupId": "128261349",
+                                            "addonId": "35198451"
+                                        },
+                                        {
+                                            "groupId": "128261349",
+                                            "addonId": "35198450"
+                                        },
+                                        {
+                                            "groupId": "128261350",
+                                            "addonId": "35198455"
+                                        },
+                                        {
+                                            "groupId": "128261350",
+                                            "addonId": "35198452"
+                                        },
+                                        {
+                                            "groupId": "128261350",
+                                            "addonId": "35198457"
+                                        },
+                                        {
+                                            "groupId": "128261350",
+                                            "addonId": "35198453"
+                                        },
+                                        {
+                                            "groupId": "128261352",
+                                            "addonId": "108511225"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "variations": [
+                                        {
+                                            "groupId": "35826790",
+                                            "variationId": "111281143"
+                                        }
+                                    ],
+                                    "price": 64900,
+                                    "addonCombinations": [
+                                        {
+                                            "groupId": "128261347",
+                                            "addonId": "35198444"
+                                        },
+                                        {
+                                            "groupId": "128261347",
+                                            "addonId": "35198445"
+                                        },
+                                        {
+                                            "groupId": "128261348",
+                                            "addonId": "35198446"
+                                        },
+                                        {
+                                            "groupId": "128261348",
+                                            "addonId": "35198447"
+                                        },
+                                        {
+                                            "groupId": "128261348",
+                                            "addonId": "35198448"
+                                        },
+                                        {
+                                            "groupId": "128261349",
+                                            "addonId": "35198449"
+                                        },
+                                        {
+                                            "groupId": "128261349",
+                                            "addonId": "35198451"
+                                        },
+                                        {
+                                            "groupId": "128261349",
+                                            "addonId": "35198450"
+                                        },
+                                        {
+                                            "groupId": "128261350",
+                                            "addonId": "35198455"
+                                        },
+                                        {
+                                            "groupId": "128261350",
+                                            "addonId": "35198452"
+                                        },
+                                        {
+                                            "groupId": "128261350",
+                                            "addonId": "35198457"
+                                        },
+                                        {
+                                            "groupId": "128261350",
+                                            "addonId": "35198453"
+                                        },
+                                        {
+                                            "groupId": "128261352",
+                                            "addonId": "108511225"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "addons": [
+                            {
+                                "groupId": "128261347",
+                                "groupName": "Add On - Birthday Caps",
+                                "choices": [
+                                    {
+                                        "id": "35198444",
+                                        "name": "Birthday Cap for Boys",
+                                        "price": 9900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "35198445",
+                                        "name": "Birthday Caps For Girls",
+                                        "price": 9900,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    }
+                                ],
+                                "maxAddons": 2,
+                                "maxFreeAddons": -1
+                            },
+                            {
+                                "groupId": "128261348",
+                                "groupName": "Add On -  Candles",
+                                "choices": [
+                                    {
+                                        "id": "35198446",
+                                        "name": "'BIRTHDAY' Letter Candles",
+                                        "price": 12900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "35198447",
+                                        "name": "Flower Candle",
+                                        "price": 8900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "35198448",
+                                        "name": "One Pack Magic Candle",
+                                        "price": 6900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    }
+                                ],
+                                "maxAddons": 2,
+                                "maxFreeAddons": -1
+                            },
+                            {
+                                "groupId": "128261349",
+                                "groupName": "Add On - Roses",
+                                "choices": [
+                                    {
+                                        "id": "35198449",
+                                        "name": "Single Red Rose",
+                                        "price": 8900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "35198451",
+                                        "name": "6 Red rose Bunch",
+                                        "price": 39900,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "35198450",
+                                        "name": "10 Red rose Bunch",
+                                        "price": 54900,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    }
+                                ],
+                                "maxAddons": 1,
+                                "maxFreeAddons": -1
+                            },
+                            {
+                                "groupId": "128261350",
+                                "groupName": "Add On - Extras",
+                                "choices": [
+                                    {
+                                        "id": "35198455",
+                                        "name": "Happy Birthday Banner",
+                                        "price": 9900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "35198452",
+                                        "name": "Set of 2 Party Poppers",
+                                        "price": 13900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "35198457",
+                                        "name": "Set of 50 balloons (deflated)",
+                                        "price": 14900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "35198453",
+                                        "name": "6 Inch Teddy Bear",
+                                        "price": 29900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    }
+                                ],
+                                "maxAddons": 2,
+                                "maxFreeAddons": -1
+                            },
+                            {
+                                "groupId": "128261352",
+                                "groupName": "Add on - Christmas Special",
+                                "choices": [
+                                    {
+                                        "id": "108511225",
+                                        "name": "Plum Muffin",
+                                        "price": 14900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    }
+                                ],
+                                "maxAddons": 1,
+                                "maxFreeAddons": -1
+                            }
+                        ],
+                        "itemAttribute": {
+                            "vegClassifier": "VEG",
+                            "portionSize": "Serves 1"
+                        },
+                        "defaultPrice": 64900,
+                        "ribbon": {},
+                        "type": "ITEM",
+                        "itemBadge": {},
+                        "badgesV2": {},
+                        "ratings": {
+                            "aggregatedRating": {}
+                        }
+                    },
+                    "analytics": {},
+                    "hideRestaurantDetails": true
+                }
+            },
+            {
+                "card": {
+                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                    "info": {
+                        "id": "130661729",
+                        "name": "Set of 6 Christmas Special Classic Brownies",
+                        "category": "Christmas Special",
+                        "description": "Serves 1 | Delight in the festive spirit with our Set of 6 Christmas Special Classic Brownies",
+                        "imageId": "7543bdade33114e153519fe44c64bb3d",
+                        "inStock": 1,
+                        "isVeg": 1,
+                        "price": 57900,
+                        "variants": {},
+                        "variantsV2": {},
+                        "itemAttribute": {
+                            "vegClassifier": "VEG",
+                            "portionSize": "Serves 1"
+                        },
+                        "ribbon": {},
+                        "type": "ITEM",
+                        "itemBadge": {},
+                        "badgesV2": {},
+                        "ratings": {
+                            "aggregatedRating": {}
+                        }
+                    },
+                    "analytics": {},
+                    "hideRestaurantDetails": true
+                }
+            },
+            {
+                "card": {
+                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                    "info": {
+                        "id": "130834173",
+                        "name": "Merry Christmas Classic Brownies: 2 pcs",
+                        "category": "Christmas Special",
+                        "description": "Serves 1 | Set of 2 Delicious Classic walnut brownies with Merry Christmas Poster on it",
+                        "imageId": "54bb9c22b67e887b707fcdbd4167842e",
+                        "inStock": 1,
+                        "isVeg": 1,
+                        "price": 24900,
+                        "variants": {},
+                        "variantsV2": {},
+                        "addons": [
+                            {
+                                "groupId": "128664107",
+                                "groupName": "Add on - Christmas Special",
+                                "choices": [
+                                    {
+                                        "id": "108511225",
+                                        "name": "Plum Muffin",
+                                        "price": 14900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    }
+                                ],
+                                "maxAddons": 1,
+                                "maxFreeAddons": -1
+                            }
+                        ],
+                        "itemAttribute": {
+                            "vegClassifier": "VEG",
+                            "portionSize": "Serves 1"
+                        },
+                        "ribbon": {},
+                        "type": "ITEM",
+                        "itemBadge": {},
+                        "badgesV2": {},
+                        "ratings": {
+                            "aggregatedRating": {}
+                        }
+                    },
+                    "analytics": {},
+                    "hideRestaurantDetails": true
+                }
+            }
+        ]
+    )
+})
+
+
+app.get('/restaurant/41913', (req, res) => {
+    res.status(200).send(
+        [
+            {
+                "card": {
+                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                    "info": {
+                        "id": "59958902",
+                        "name": "Corn Tortillas - Steam To Heat - Pack of 4",
+                        "category": "Sides",
+                        "description": "Serves 1 | Masa corn soft tortillas - pack of 4. Steam to heat. Gluten free.",
+                        "imageId": "e60ad2e05ae6dd52e2f40d83431e34b6",
+                        "inStock": 1,
+                        "isVeg": 1,
+                        "price": 13500,
+                        "variants": {},
+                        "variantsV2": {},
+                        "itemAttribute": {
+                            "vegClassifier": "VEG",
+                            "portionSize": "Serves 1"
+                        },
+                        "ribbon": {},
+                        "type": "ITEM",
+                        "itemBadge": {},
+                        "badgesV2": {},
+                        "ratings": {
+                            "aggregatedRating": {
+                                "rating": "5.0",
+                                "ratingCount": "19 ratings",
+                                "ratingCountV2": "19"
+                            }
+                        }
+                    },
+                    "analytics": {},
+                    "hideRestaurantDetails": true
+                }
+            },
+            {
+                "card": {
+                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                    "info": {
+                        "id": "8652083",
+                        "name": "Roasted Tomato Salsa",
+                        "category": "Sides",
+                        "description": "Serves 1",
+                        "imageId": "e6bb299cf2091095930416945fe0f76a",
+                        "inStock": 1,
+                        "isVeg": 1,
+                        "price": 12500,
+                        "variants": {},
+                        "variantsV2": {},
+                        "itemAttribute": {
+                            "vegClassifier": "VEG",
+                            "portionSize": "Serves 1"
+                        },
+                        "ribbon": {},
+                        "type": "ITEM",
+                        "itemBadge": {},
+                        "badgesV2": {},
+                        "ratings": {
+                            "aggregatedRating": {
+                                "rating": "4.2",
+                                "ratingCount": "57 ratings",
+                                "ratingCountV2": "57"
+                            }
+                        }
+                    },
+                    "analytics": {},
+                    "hideRestaurantDetails": true
+                }
+            },
+            {
+                "card": {
+                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                    "info": {
+                        "id": "8652084",
+                        "name": "Pico De Gallo",
+                        "category": "Sides",
+                        "description": "Serves 1 | Fresh salsa made with chopped tomato, onions, cilantro, lime and chilli.",
+                        "imageId": "ec2599f39596f22b26cdd187588bea45",
+                        "inStock": 1,
+                        "isVeg": 1,
+                        "price": 12500,
+                        "variants": {},
+                        "variantsV2": {},
+                        "itemAttribute": {
+                            "vegClassifier": "VEG",
+                            "portionSize": "Serves 1"
+                        },
+                        "ribbon": {},
+                        "type": "ITEM",
+                        "itemBadge": {},
+                        "badgesV2": {},
+                        "ratings": {
+                            "aggregatedRating": {
+                                "rating": "4.7",
+                                "ratingCount": "48 ratings",
+                                "ratingCountV2": "48"
+                            }
+                        }
+                    },
+                    "analytics": {},
+                    "hideRestaurantDetails": true
+                }
+            },
+            {
+                "card": {
+                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                    "info": {
+                        "id": "8652085",
+                        "name": "Sour Cream",
+                        "category": "Sides",
+                        "description": "Serves 1",
+                        "imageId": "5963a6bed81028d75ffdf2b6c57d7e5d",
+                        "inStock": 1,
+                        "isVeg": 1,
+                        "price": 13500,
+                        "variants": {},
+                        "variantsV2": {},
+                        "itemAttribute": {
+                            "vegClassifier": "VEG",
+                            "portionSize": "Serves 1"
+                        },
+                        "ribbon": {},
+                        "type": "ITEM",
+                        "itemBadge": {},
+                        "badgesV2": {},
+                        "ratings": {
+                            "aggregatedRating": {
+                                "rating": "4.5",
+                                "ratingCount": "121 ratings",
+                                "ratingCountV2": "121"
+                            }
+                        }
+                    },
+                    "analytics": {},
+                    "hideRestaurantDetails": true
+                }
+            },
+            {
+                "card": {
+                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                    "info": {
+                        "id": "8652086",
+                        "name": "Beans",
+                        "category": "Sides",
+                        "description": "Serves 1",
+                        "imageId": "1613d9c785b6c280cbbf19750d735744",
+                        "inStock": 1,
+                        "isVeg": 1,
+                        "price": 13500,
+                        "variants": {},
+                        "variantsV2": {},
+                        "itemAttribute": {
+                            "vegClassifier": "VEG",
+                            "portionSize": "Serves 1"
+                        },
+                        "ribbon": {},
+                        "type": "ITEM",
+                        "itemBadge": {},
+                        "badgesV2": {},
+                        "ratings": {
+                            "aggregatedRating": {
+                                "rating": "4.2",
+                                "ratingCount": "48 ratings",
+                                "ratingCountV2": "48"
+                            }
+                        }
+                    },
+                    "analytics": {},
+                    "hideRestaurantDetails": true
+                }
+            },
+            {
+                "card": {
+                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                    "info": {
+                        "id": "8652087",
+                        "name": "Cilantro Lime Rice",
+                        "category": "Sides",
+                        "description": "Serves 1",
+                        "imageId": "b710860d747a3c275fd232c6826d747c",
+                        "inStock": 1,
+                        "isVeg": 1,
+                        "price": 12500,
+                        "variants": {},
+                        "variantsV2": {},
+                        "itemAttribute": {
+                            "vegClassifier": "VEG",
+                            "portionSize": "Serves 1"
+                        },
+                        "ribbon": {},
+                        "type": "ITEM",
+                        "itemBadge": {},
+                        "badgesV2": {},
+                        "ratings": {
+                            "aggregatedRating": {
+                                "rating": "4.9",
+                                "ratingCount": "21 ratings",
+                                "ratingCountV2": "21"
+                            }
+                        }
+                    },
+                    "analytics": {},
+                    "hideRestaurantDetails": true
+                }
+            }
+        ]
+    )
+})
+
+
+app.get('/restaurant/158855', (req, res) => {
+    res.status(200).send(
+        []
+    )
+})
+
+
+app.get('/restaurant/381853', (req, res) => {
+    res.status(200).send(
+        [
+            {
+                "card": {
+                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                    "info": {
+                        "id": "70183343",
+                        "name": "Amritsari Pindi Choley And Soft Masaledar Kulcha Meal (Serves 1)",
+                        "category": "Master Chef Curated Meals (Serves 1)",
+                        "description": "This rustic combination of chickpeas simmered with a blend of spices accompanied with 2 soft and fluffy baked masala kulchas, Choice of beverage, laccha pyaz & mango pickle, is like a match made in heaven loved by one and all.\n\nAllergens:Gluten, Milk\n\nNutritional Information (Per 100g):Protein(g)8.63,Carbohydrate(g)27.64,Energy(Kcal)186.4,Fat(g)6.04\n\nDisclosure: For allergens/nutritional information (including calories and serving size), please refer the individual item",
+                        "imageId": "4f1ce411c8635516c53e53ee9b01ad36",
+                        "inStock": 1,
+                        "isVeg": 1,
+                        "price": 49700,
+                        "variants": {},
+                        "variantsV2": {},
+                        "addons": [
+                            {
+                                "groupId": "107465942",
+                                "groupName": "Choice of Beverages",
+                                "choices": [
+                                    {
+                                        "id": "43838422",
+                                        "name": "Chatpata Masala Chhaas",
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "43838421",
+                                        "name": "Masala Nimbu Shikanji",
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "43838420",
+                                        "name": "Gulab Scented Meethi Lassi",
+                                        "price": 2500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "89185635",
+                                        "name": "Aam Panna",
+                                        "price": 2500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    }
+                                ],
+                                "maxAddons": 1,
+                                "maxFreeAddons": -1,
+                                "minAddons": 1
+                            },
+                            {
+                                "groupId": "107465943",
+                                "groupName": "Curries Add Ons",
+                                "choices": [
+                                    {
+                                        "id": "98452373",
+                                        "name": "Dal Makhani (Half Portion)",
+                                        "price": 16000,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    }
+                                ],
+                                "maxAddons": 1,
+                                "maxFreeAddons": -1
+                            },
+                            {
+                                "groupId": "107465944",
+                                "groupName": "Kebab Add Ons",
+                                "choices": [
+                                    {
+                                        "id": "98452374",
+                                        "name": "Tandoori Murgh Tikka (4 Pcs)",
+                                        "price": 25100,
+                                        "inStock": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "98452375",
+                                        "name": "Tandoori Murgh Malai Tikka [Chicken Malai Tikka] (4 Pcs)",
+                                        "price": 27300,
+                                        "inStock": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "98452376",
+                                        "name": "Soya Makai Shammi Kebab (4 Pcs)",
+                                        "price": 18000,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "98452377",
+                                        "name": "Paneer Subz Dhungar Tawa Kebab (4 Pcs)",
+                                        "price": 18000,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    }
+                                ],
+                                "maxAddons": 4,
+                                "maxFreeAddons": -1
+                            },
+                            {
+                                "groupId": "108896504",
+                                "groupName": "Sides",
+                                "choices": [
+                                    {
+                                        "id": "79913016",
+                                        "name": "Sirka Pyaz",
+                                        "price": 3500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    }
+                                ],
+                                "maxAddons": 1,
+                                "maxFreeAddons": -1
+                            }
+                        ],
+                        "itemAttribute": {
+                            "vegClassifier": "VEG"
+                        },
+                        "defaultPrice": 49700,
+                        "ribbon": {},
+                        "type": "ITEM",
+                        "itemBadge": {},
+                        "badgesV2": {},
+                        "ratings": {
+                            "aggregatedRating": {
+                                "rating": "4.6",
+                                "ratingCount": "75 ratings",
+                                "ratingCountV2": "75"
+                            }
+                        }
+                    },
+                    "analytics": {},
+                    "hideRestaurantDetails": true
+                }
+            },
+            {
+                "card": {
+                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                    "info": {
+                        "id": "70183377",
+                        "name": "Malai Paneer Makhani And Tawa Paratha Meal (Serves 1)",
+                        "category": "Master Chef Curated Meals (Serves 1)",
+                        "description": "This is our ode to an all time favourite classic -- creamy soft paneer tossed in a silky tomato gravy lush with butter and cream, paired with 2 whole wheat lacchedar parathas, Choice of beverage, laccha pyaz & mango pickle.\n\nAllergens:Gluten, Milk, Nuts\n\nNutritional Information (Per 100g):Protein(g)8.18,Carbohydrate(g)27.86,Energy(Kcal)196.26,Fat(g)11.22\n\nDisclosure: For allergens/nutritional information (including calories and serving size), please refer the individual item",
+                        "imageId": "hzfjteo9iopdzkszrot5",
+                        "inStock": 1,
+                        "isVeg": 1,
+                        "price": 59100,
+                        "variants": {},
+                        "variantsV2": {},
+                        "addons": [
+                            {
+                                "groupId": "107465949",
+                                "groupName": "Choice of Beverage",
+                                "choices": [
+                                    {
+                                        "id": "43838422",
+                                        "name": "Chatpata Masala Chhaas",
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "43838421",
+                                        "name": "Masala Nimbu Shikanji",
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "43838420",
+                                        "name": "Gulab Scented Meethi Lassi",
+                                        "price": 2500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "89185635",
+                                        "name": "Aam Panna",
+                                        "price": 2500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    }
+                                ],
+                                "maxAddons": 1,
+                                "maxFreeAddons": -1,
+                                "minAddons": 1
+                            },
+                            {
+                                "groupId": "107465951",
+                                "groupName": "Curries Add Ons",
+                                "choices": [
+                                    {
+                                        "id": "98452373",
+                                        "name": "Dal Makhani (Half Portion)",
+                                        "price": 16000,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    }
+                                ],
+                                "maxAddons": 1,
+                                "maxFreeAddons": -1
+                            },
+                            {
+                                "groupId": "107465952",
+                                "groupName": "Kebabs Add Ons",
+                                "choices": [
+                                    {
+                                        "id": "98452374",
+                                        "name": "Tandoori Murgh Tikka (4 Pcs)",
+                                        "price": 25100,
+                                        "inStock": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "98452375",
+                                        "name": "Tandoori Murgh Malai Tikka [Chicken Malai Tikka] (4 Pcs)",
+                                        "price": 27300,
+                                        "inStock": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "98452376",
+                                        "name": "Soya Makai Shammi Kebab (4 Pcs)",
+                                        "price": 18000,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "98452377",
+                                        "name": "Paneer Subz Dhungar Tawa Kebab (4 Pcs)",
+                                        "price": 18000,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    }
+                                ],
+                                "maxAddons": 4,
+                                "maxFreeAddons": -1
+                            },
+                            {
+                                "groupId": "108896509",
+                                "groupName": "Sides",
+                                "choices": [
+                                    {
+                                        "id": "79913016",
+                                        "name": "Sirka Pyaz",
+                                        "price": 3500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    }
+                                ],
+                                "maxAddons": 1,
+                                "maxFreeAddons": -1
+                            }
+                        ],
+                        "itemAttribute": {
+                            "vegClassifier": "VEG"
+                        },
+                        "defaultPrice": 59100,
+                        "ribbon": {
+                            "text": "Bestseller",
+                            "textColor": "#ffffff",
+                            "topBackgroundColor": "#d53d4c",
+                            "bottomBackgroundColor": "#b02331"
+                        },
+                        "type": "ITEM",
+                        "itemBadge": {},
+                        "badgesV2": {},
+                        "isBestseller": true,
+                        "ratings": {
+                            "aggregatedRating": {
+                                "rating": "4.6",
+                                "ratingCount": "84 ratings",
+                                "ratingCountV2": "84"
+                            }
+                        }
+                    },
+                    "analytics": {},
+                    "hideRestaurantDetails": true
+                }
+            },
+            {
+                "card": {
+                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                    "info": {
+                        "id": "92700581",
+                        "name": "Murgh Tikke Ki Makhani And Tawa Paratha Meal (Serves 1)",
+                        "category": "Master Chef Curated Meals (Serves 1)",
+                        "description": "Our ode to an all time classic -- A 70 year old recipe of Tandoori chicken tikkas getting tossed in a silky tomato gravy lush with butter and cream, paired with 2 of our whole wheat parathas, choice of beverage, laccha pyaz & mango pickle\n\nDisclosure: For allergens/nutritional information (including calories and serving size), please refer the individual item",
+                        "imageId": "aom1pbzqoxbfhr1ptrgy",
+                        "inStock": 1,
+                        "price": 59100,
+                        "variants": {},
+                        "variantsV2": {},
+                        "addons": [
+                            {
+                                "groupId": "107465930",
+                                "groupName": "Choice of Beverages",
+                                "choices": [
+                                    {
+                                        "id": "43838422",
+                                        "name": "Chatpata Masala Chhaas",
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "43838421",
+                                        "name": "Masala Nimbu Shikanji",
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "43838420",
+                                        "name": "Gulab Scented Meethi Lassi",
+                                        "price": 2500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "89185635",
+                                        "name": "Aam Panna",
+                                        "price": 2500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    }
+                                ],
+                                "maxAddons": 1,
+                                "maxFreeAddons": -1,
+                                "minAddons": 1
+                            },
+                            {
+                                "groupId": "107465931",
+                                "groupName": "Addon Curries",
+                                "choices": [
+                                    {
+                                        "id": "98452373",
+                                        "name": "Dal Makhani (Half Portion)",
+                                        "price": 16000,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    }
+                                ],
+                                "maxAddons": 1,
+                                "maxFreeAddons": -1
+                            },
+                            {
+                                "groupId": "107465932",
+                                "groupName": "Choice of Kebab",
+                                "choices": [
+                                    {
+                                        "id": "98452374",
+                                        "name": "Tandoori Murgh Tikka (4 Pcs)",
+                                        "price": 25100,
+                                        "inStock": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "98452375",
+                                        "name": "Tandoori Murgh Malai Tikka [Chicken Malai Tikka] (4 Pcs)",
+                                        "price": 27300,
+                                        "inStock": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "98452376",
+                                        "name": "Soya Makai Shammi Kebab (4 Pcs)",
+                                        "price": 18000,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "98452377",
+                                        "name": "Paneer Subz Dhungar Tawa Kebab (4 Pcs)",
+                                        "price": 18000,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    }
+                                ],
+                                "maxAddons": 4,
+                                "maxFreeAddons": -1
+                            },
+                            {
+                                "groupId": "108896491",
+                                "groupName": "Sides",
+                                "choices": [
+                                    {
+                                        "id": "79913016",
+                                        "name": "Sirka Pyaz",
+                                        "price": 3500,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    }
+                                ],
+                                "maxAddons": 1,
+                                "maxFreeAddons": -1
+                            }
+                        ],
+                        "itemAttribute": {
+                            "vegClassifier": "NONVEG"
+                        },
+                        "defaultPrice": 59100,
+                        "ribbon": {},
+                        "type": "ITEM",
+                        "itemBadge": {},
+                        "badgesV2": {},
+                        "ratings": {
+                            "aggregatedRating": {
+                                "rating": "4.2",
+                                "ratingCount": "49 ratings",
+                                "ratingCountV2": "49"
+                            }
+                        }
+                    },
+                    "analytics": {},
+                    "hideRestaurantDetails": true
+                }
+            }
+        ]
+    )
+})
+
+app.get('/restaurant/347250', (req, res) => {
+    res.status(200).send(
+        [
+            {
+                "card": {
+                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                    "info": {
+                        "id": "129967005",
+                        "name": "Traditional Christmas Plum Cake",
+                        "category": "Gift Hamper",
+                        "description": "Serves 1 | Traditional Christmas Plum Cake is handcrafted using the original, century-old recipe. This baked cake contains wide range of dried fruits soaked for over a few months in a mix of liquor.",
+                        "imageId": "fa79e2e6755177d214ddfa9db16ca178",
+                        "inStock": 1,
+                        "variants": {},
+                        "variantsV2": {
+                            "variantGroups": [
+                                {
+                                    "groupId": "35517475",
+                                    "name": "Choose",
+                                    "variations": [
+                                        {
+                                            "name": "500 gm",
+                                            "price": 565,
+                                            "default": 1,
+                                            "id": "110152203",
+                                            "inStock": 1,
+                                            "isEnabled": 1
+                                        },
+                                        {
+                                            "name": "800 gm",
+                                            "price": 845,
+                                            "id": "110152204",
+                                            "inStock": 1,
+                                            "isEnabled": 1
+                                        }
+                                    ]
+                                }
+                            ],
+                            "pricingModels": [
+                                {
+                                    "variations": [
+                                        {
+                                            "groupId": "35517475",
+                                            "variationId": "110152203"
+                                        }
+                                    ],
+                                    "price": 56500
+                                },
+                                {
+                                    "variations": [
+                                        {
+                                            "groupId": "35517475",
+                                            "variationId": "110152204"
+                                        }
+                                    ],
+                                    "price": 84500
+                                }
+                            ]
+                        },
+                        "itemAttribute": {
+                            "vegClassifier": "NONVEG",
+                            "portionSize": "Serves 1"
+                        },
+                        "defaultPrice": 56500,
+                        "ribbon": {
+                            "text": "Bestseller",
+                            "textColor": "#ffffff",
+                            "topBackgroundColor": "#d53d4c",
+                            "bottomBackgroundColor": "#b02331"
+                        },
+                        "type": "ITEM",
+                        "itemBadge": {},
+                        "badgesV2": {},
+                        "isBestseller": true,
+                        "ratings": {
+                            "aggregatedRating": {}
+                        }
+                    },
+                    "analytics": {},
+                    "hideRestaurantDetails": true
+                }
+            },
+            {
+                "card": {
+                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                    "info": {
+                        "id": "129967015",
+                        "name": "Banana & Spice bread",
+                        "category": "Gift Hamper",
+                        "description": "Serves 1 | 400 gm",
+                        "imageId": "e331cfb6af1b6e4370a7d1823e210ad9",
+                        "inStock": 1,
+                        "price": 48500,
+                        "variants": {},
+                        "variantsV2": {},
+                        "itemAttribute": {
+                            "vegClassifier": "NONVEG",
+                            "portionSize": "Serves 1"
+                        },
+                        "ribbon": {},
+                        "type": "ITEM",
+                        "itemBadge": {},
+                        "badgesV2": {},
+                        "ratings": {
+                            "aggregatedRating": {}
+                        }
+                    },
+                    "analytics": {},
+                    "hideRestaurantDetails": true
+                }
+            },
+            {
+                "card": {
+                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                    "info": {
+                        "id": "129967016",
+                        "name": "Santa Stollen bread",
+                        "category": "Gift Hamper",
+                        "description": "Serves 1 | 500 gm",
+                        "imageId": "d83d771551363a384729b2d4a56e4ac7",
+                        "inStock": 1,
+                        "price": 54500,
+                        "variants": {},
+                        "variantsV2": {},
+                        "itemAttribute": {
+                            "vegClassifier": "NONVEG",
+                            "portionSize": "Serves 1"
+                        },
+                        "ribbon": {
+                            "text": "Bestseller",
+                            "textColor": "#ffffff",
+                            "topBackgroundColor": "#d53d4c",
+                            "bottomBackgroundColor": "#b02331"
+                        },
+                        "type": "ITEM",
+                        "itemBadge": {},
+                        "badgesV2": {},
+                        "isBestseller": true,
+                        "ratings": {
+                            "aggregatedRating": {}
+                        }
+                    },
+                    "analytics": {},
+                    "hideRestaurantDetails": true
+                }
+            },
+            {
+                "card": {
+                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                    "info": {
+                        "id": "129967006",
+                        "name": "Vanilla fondant cookies",
+                        "category": "Gift Hamper",
+                        "description": "Serves 1 | 6 pcs",
+                        "imageId": "95d12c5e4b924368334a6e8ca7bc0d2d",
+                        "inStock": 1,
+                        "price": 22500,
+                        "variants": {},
+                        "variantsV2": {},
+                        "itemAttribute": {
+                            "vegClassifier": "NONVEG",
+                            "portionSize": "Serves 1"
+                        },
+                        "ribbon": {},
+                        "type": "ITEM",
+                        "itemBadge": {},
+                        "badgesV2": {},
+                        "ratings": {
+                            "aggregatedRating": {}
+                        }
+                    },
+                    "analytics": {},
+                    "hideRestaurantDetails": true
+                }
+            },
+            {
+                "card": {
+                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                    "info": {
+                        "id": "129967007",
+                        "name": "Red Velvet Crinkle cookies",
+                        "category": "Gift Hamper",
+                        "description": "Serves 1 | 6 pcs",
+                        "imageId": "9dc347595c3ded17fb7bde2e9909948d",
+                        "inStock": 1,
+                        "price": 22500,
+                        "variants": {},
+                        "variantsV2": {},
+                        "itemAttribute": {
+                            "vegClassifier": "NONVEG",
+                            "portionSize": "Serves 1"
+                        },
+                        "ribbon": {},
+                        "type": "ITEM",
+                        "itemBadge": {},
+                        "badgesV2": {},
+                        "ratings": {
+                            "aggregatedRating": {}
+                        }
+                    },
+                    "analytics": {},
+                    "hideRestaurantDetails": true
+                }
+            },
+            {
+                "card": {
+                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                    "info": {
+                        "id": "129967008",
+                        "name": "Chocolate crinkle cookies",
+                        "category": "Gift Hamper",
+                        "description": "Serves 1 | 6 pcs",
+                        "imageId": "fdd9f60118870ade2f1c8371abc9916d",
+                        "inStock": 1,
+                        "price": 22500,
+                        "variants": {},
+                        "variantsV2": {},
+                        "itemAttribute": {
+                            "vegClassifier": "NONVEG",
+                            "portionSize": "Serves 1"
+                        },
+                        "ribbon": {},
+                        "type": "ITEM",
+                        "itemBadge": {},
+                        "badgesV2": {},
+                        "ratings": {
+                            "aggregatedRating": {}
+                        }
+                    },
+                    "analytics": {},
+                    "hideRestaurantDetails": true
+                }
+            },
+            {
+                "card": {
+                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                    "info": {
+                        "id": "129967009",
+                        "name": "Mandarin Tart",
+                        "category": "Gift Hamper",
+                        "description": "Serves 1 | 100 gm",
+                        "imageId": "b99d8646934c3ce8cf47a33c25001921",
+                        "inStock": 1,
+                        "price": 27500,
+                        "variants": {},
+                        "variantsV2": {},
+                        "itemAttribute": {
+                            "vegClassifier": "NONVEG",
+                            "portionSize": "Serves 1"
+                        },
+                        "ribbon": {},
+                        "type": "ITEM",
+                        "itemBadge": {},
+                        "badgesV2": {},
+                        "ratings": {
+                            "aggregatedRating": {}
+                        }
+                    },
+                    "analytics": {},
+                    "hideRestaurantDetails": true
+                }
+            },
+            {
+                "card": {
+                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                    "info": {
+                        "id": "129967011",
+                        "name": "Tiramisu Tub Cake",
+                        "category": "Gift Hamper",
+                        "description": "Serves 1 | 300 gm",
+                        "imageId": "ceb1a8cbce7ab8fc2d5939488826043f",
+                        "inStock": 1,
+                        "price": 32500,
+                        "variants": {},
+                        "variantsV2": {},
+                        "itemAttribute": {
+                            "vegClassifier": "NONVEG",
+                            "portionSize": "Serves 1"
+                        },
+                        "ribbon": {},
+                        "type": "ITEM",
+                        "itemBadge": {},
+                        "badgesV2": {},
+                        "ratings": {
+                            "aggregatedRating": {}
+                        }
+                    },
+                    "analytics": {},
+                    "hideRestaurantDetails": true
+                }
+            },
+            {
+                "card": {
+                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                    "info": {
+                        "id": "129967012",
+                        "name": "Red Velvet Mixed Berry Tub Cake",
+                        "category": "Gift Hamper",
+                        "description": "Serves 1 | 300 gm",
+                        "imageId": "9ddbb57b7b2f1435d70817b65778e2f6",
+                        "inStock": 1,
+                        "price": 32500,
+                        "variants": {},
+                        "variantsV2": {},
+                        "itemAttribute": {
+                            "vegClassifier": "NONVEG",
+                            "portionSize": "Serves 1"
+                        },
+                        "ribbon": {},
+                        "type": "ITEM",
+                        "itemBadge": {},
+                        "badgesV2": {},
+                        "ratings": {
+                            "aggregatedRating": {}
+                        }
+                    },
+                    "analytics": {},
+                    "hideRestaurantDetails": true
+                }
+            },
+            {
+                "card": {
+                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                    "info": {
+                        "id": "129967013",
+                        "name": "Chocolates Dark Bars",
+                        "category": "Gift Hamper",
+                        "description": "Serves 1 | 160 gm",
+                        "imageId": "e57dcad73b97037a844decf7e82fb199",
+                        "inStock": 1,
+                        "isVeg": 1,
+                        "price": 37500,
+                        "variants": {},
+                        "variantsV2": {},
+                        "itemAttribute": {
+                            "vegClassifier": "VEG",
+                            "portionSize": "Serves 1"
+                        },
+                        "ribbon": {},
+                        "type": "ITEM",
+                        "itemBadge": {},
+                        "badgesV2": {},
+                        "ratings": {
+                            "aggregatedRating": {}
+                        }
+                    },
+                    "analytics": {},
+                    "hideRestaurantDetails": true
+                }
+            },
+            {
+                "card": {
+                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                    "info": {
+                        "id": "129967014",
+                        "name": "Chocolate Rocks",
+                        "category": "Gift Hamper",
+                        "description": "Serves 1 | Almond & Cashew nuts rocks 100 gm (9 Pcs)",
+                        "imageId": "9f0889550384bff8094c08394f432df5",
+                        "inStock": 1,
+                        "isVeg": 1,
+                        "price": 37500,
+                        "variants": {},
+                        "variantsV2": {},
+                        "itemAttribute": {
+                            "vegClassifier": "VEG",
+                            "portionSize": "Serves 1"
+                        },
+                        "ribbon": {},
+                        "type": "ITEM",
+                        "itemBadge": {},
+                        "badgesV2": {},
+                        "ratings": {
+                            "aggregatedRating": {}
+                        }
+                    },
+                    "analytics": {},
+                    "hideRestaurantDetails": true
+                }
+            }
+        ]
+    )
+})
+
+app.get('/restaurant/450124', (req, res) => {
+    res.status(200).send(
+        [
+            {
+                "card": {
+                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                    "info": {
+                        "id": "113932943",
+                        "name": "Grilled Potato Chimichurri Salad",
+                        "category": "Salads",
+                        "inStock": 1,
+                        "isVeg": 1,
+                        "price": 26000,
+                        "variants": {},
+                        "variantsV2": {},
+                        "itemAttribute": {
+                            "vegClassifier": "VEG"
+                        },
+                        "ribbon": {},
+                        "type": "ITEM",
+                        "itemBadge": {},
+                        "badgesV2": {},
+                        "ratings": {
+                            "aggregatedRating": {}
+                        }
+                    },
+                    "analytics": {},
+                    "hideRestaurantDetails": true
+                }
+            },
+            {
+                "card": {
+                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                    "info": {
+                        "id": "113932947",
+                        "name": "Summer Corn Salad",
+                        "category": "Salads",
+                        "inStock": 1,
+                        "isVeg": 1,
+                        "price": 26000,
+                        "variants": {},
+                        "variantsV2": {},
+                        "itemAttribute": {
+                            "vegClassifier": "VEG"
+                        },
+                        "ribbon": {},
+                        "type": "ITEM",
+                        "itemBadge": {},
+                        "badgesV2": {},
+                        "ratings": {
+                            "aggregatedRating": {}
+                        }
+                    },
+                    "analytics": {},
+                    "hideRestaurantDetails": true
+                }
+            },
+            {
+                "card": {
+                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                    "info": {
+                        "id": "113932963",
+                        "name": "Aloo Chat Salad",
+                        "category": "Salads",
+                        "inStock": 1,
+                        "isVeg": 1,
+                        "price": 26000,
+                        "variants": {},
+                        "variantsV2": {},
+                        "itemAttribute": {
+                            "vegClassifier": "VEG"
+                        },
+                        "ribbon": {},
+                        "type": "ITEM",
+                        "itemBadge": {},
+                        "badgesV2": {},
+                        "ratings": {
+                            "aggregatedRating": {}
+                        }
+                    },
+                    "analytics": {},
+                    "hideRestaurantDetails": true
+                }
+            },
+            {
+                "card": {
+                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                    "info": {
+                        "id": "80016734",
+                        "name": "Greek Salad",
+                        "category": "Salads",
+                        "imageId": "jqxwpkql9ijqp33nprbr",
+                        "inStock": 1,
+                        "isVeg": 1,
+                        "price": 27000,
+                        "variants": {},
+                        "variantsV2": {},
+                        "itemAttribute": {
+                            "vegClassifier": "VEG"
+                        },
+                        "ribbon": {},
+                        "type": "ITEM",
+                        "itemBadge": {},
+                        "badgesV2": {},
+                        "ratings": {
+                            "aggregatedRating": {}
+                        }
+                    },
+                    "analytics": {},
+                    "hideRestaurantDetails": true
+                }
+            },
+            {
+                "card": {
+                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                    "info": {
+                        "id": "113932965",
+                        "name": "Watermelon Feta Salad",
+                        "category": "Salads",
+                        "inStock": 1,
+                        "isVeg": 1,
+                        "price": 28000,
+                        "variants": {},
+                        "variantsV2": {},
+                        "itemAttribute": {
+                            "vegClassifier": "VEG"
+                        },
+                        "ribbon": {},
+                        "type": "ITEM",
+                        "itemBadge": {},
+                        "badgesV2": {},
+                        "ratings": {
+                            "aggregatedRating": {}
+                        }
+                    },
+                    "analytics": {},
+                    "hideRestaurantDetails": true
+                }
+            },
+            {
+                "card": {
+                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                    "info": {
+                        "id": "80016733",
+                        "name": "Russian Salad",
+                        "category": "Salads",
+                        "imageId": "itxtqgg6a7s0x4lk9c7m",
+                        "inStock": 1,
+                        "isVeg": 1,
+                        "price": 26000,
+                        "variants": {},
+                        "variantsV2": {},
+                        "itemAttribute": {
+                            "vegClassifier": "VEG"
+                        },
+                        "ribbon": {},
+                        "type": "ITEM",
+                        "itemBadge": {},
+                        "badgesV2": {},
+                        "ratings": {
+                            "aggregatedRating": {
+                                "rating": "3.3",
+                                "ratingCount": "8 ratings",
+                                "ratingCountV2": "8"
+                            }
+                        }
+                    },
+                    "analytics": {},
+                    "hideRestaurantDetails": true
+                }
+            },
+            {
+                "card": {
+                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                    "info": {
+                        "id": "113932957",
+                        "name": "Caesar Salad",
+                        "category": "Salads",
+                        "inStock": 1,
+                        "isVeg": 1,
+                        "price": 27000,
+                        "variants": {},
+                        "variantsV2": {},
+                        "itemAttribute": {
+                            "vegClassifier": "VEG"
+                        },
+                        "ribbon": {
+                            "text": "Bestseller",
+                            "textColor": "#ffffff",
+                            "topBackgroundColor": "#d53d4c",
+                            "bottomBackgroundColor": "#b02331"
+                        },
+                        "type": "ITEM",
+                        "itemBadge": {},
+                        "badgesV2": {},
+                        "isBestseller": true,
+                        "ratings": {
+                            "aggregatedRating": {}
+                        }
+                    },
+                    "analytics": {},
+                    "hideRestaurantDetails": true
+                }
+            },
+            {
+                "card": {
+                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                    "info": {
+                        "id": "113932958",
+                        "name": "Grilled Chicken Salad",
+                        "category": "Salads",
+                        "inStock": 1,
+                        "price": 27000,
+                        "variants": {},
+                        "variantsV2": {},
+                        "itemAttribute": {
+                            "vegClassifier": "NONVEG"
+                        },
+                        "ribbon": {},
+                        "type": "ITEM",
+                        "itemBadge": {},
+                        "badgesV2": {},
+                        "ratings": {
+                            "aggregatedRating": {}
+                        }
+                    },
+                    "analytics": {},
+                    "hideRestaurantDetails": true
+                }
+            },
+            {
+                "card": {
+                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                    "info": {
+                        "id": "80016901",
+                        "name": "Green Salad",
+                        "category": "Salads",
+                        "imageId": "jzez8c0zpcfjcwufozbg",
+                        "inStock": 1,
+                        "isVeg": 1,
+                        "price": 14000,
+                        "variants": {},
+                        "variantsV2": {},
+                        "itemAttribute": {
+                            "vegClassifier": "VEG"
+                        },
+                        "ribbon": {},
+                        "type": "ITEM",
+                        "itemBadge": {},
+                        "badgesV2": {},
+                        "ratings": {
+                            "aggregatedRating": {}
+                        }
+                    },
+                    "analytics": {},
+                    "hideRestaurantDetails": true
+                }
+            }
+        ]
+    )
+})
+
+app.get('/restaurant/107443', (req, res) => {
+    res.status(200).send(
+        [
+            {
+                "card": {
+                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                    "info": {
+                        "id": "93974584",
+                        "name": "Paneer Kathi Roll - Keto",
+                        "category": "Keto Rolls",
+                        "description": "Serves 1 | Delectable paneer kathi roll is now reimagined using lo!?s ultra low carb keto flour to nourish you with deliciousness. High-quality, protein-rich paneer cooked with flavourful indian spices wrapped into healthfully tasty layers so you can enjoy a wholesome keto-friendly meal. May contain soy, gluten, groundnuts and other nuts.  [Energy: 479 kcal, Protein: 32.8g, Carbohydrates: 14.7g]",
+                        "imageId": "ywxdrkuffhn9lwydfove",
+                        "inStock": 1,
+                        "isVeg": 1,
+                        "price": 27900,
+                        "variants": {},
+                        "variantsV2": {},
+                        "addons": [
+                            {
+                                "groupId": "126947369",
+                                "groupName": "Addon",
+                                "choices": [
+                                    {
+                                        "id": "108712258",
+                                        "name": "Paneer",
+                                        "price": 5000,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    }
+                                ],
+                                "maxAddons": 1,
+                                "maxFreeAddons": -1
+                            },
+                            {
+                                "groupId": "126947371",
+                                "groupName": "Add-ons",
+                                "choices": [
+                                    {
+                                        "id": "108712445",
+                                        "name": "Keto South Indian Mixture (40g)",
+                                        "price": 5600,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "108712104",
+                                        "name": "Keto Bhujia (40g)",
+                                        "price": 5333,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "108712310",
+                                        "name": "Keto Coconut Cookies (40g)",
+                                        "price": 5600,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "108712105",
+                                        "name": "Masala Lemonade",
+                                        "price": 7900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    }
+                                ],
+                                "maxAddons": 4,
+                                "maxFreeAddons": -1
+                            }
+                        ],
+                        "itemAttribute": {
+                            "vegClassifier": "VEG",
+                            "portionSize": "Serves 1"
+                        },
+                        "ribbon": {
+                            "text": "Bestseller",
+                            "textColor": "#ffffff",
+                            "topBackgroundColor": "#d53d4c",
+                            "bottomBackgroundColor": "#b02331"
+                        },
+                        "type": "ITEM",
+                        "itemBadge": {},
+                        "badgesV2": {},
+                        "isBestseller": true,
+                        "ratings": {
+                            "aggregatedRating": {
+                                "rating": "4.6",
+                                "ratingCount": "212 ratings",
+                                "ratingCountV2": "212"
+                            }
+                        }
+                    },
+                    "analytics": {},
+                    "hideRestaurantDetails": true
+                }
+            },
+            {
+                "card": {
+                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                    "info": {
+                        "id": "93974586",
+                        "name": "Chicken Roll - Keto",
+                        "category": "Keto Rolls",
+                        "description": "Serves 1 | Treat yourself to our delicious keto friendly chicken rolls. Stir fried tender and juicy chicken rolled into a keto friendly wrap makes an absolutely sumptuous low carb meal. May contain soy, gluten, groundnuts and other nuts.  [Energy: 458 kcal, Protein: 40.4g, Carbohydrates: 15.3g]",
+                        "imageId": "hqqoustxrnxtyamprf51",
+                        "inStock": 1,
+                        "price": 29900,
+                        "variants": {},
+                        "variantsV2": {},
+                        "addons": [
+                            {
+                                "groupId": "126947445",
+                                "groupName": "Addons",
+                                "choices": [
+                                    {
+                                        "id": "108712511",
+                                        "name": "Chicken",
+                                        "price": 5000,
+                                        "inStock": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "108712509",
+                                        "name": "Egg",
+                                        "price": 2000,
+                                        "inStock": 1,
+                                        "isEnabled": 1
+                                    }
+                                ],
+                                "maxAddons": 2,
+                                "maxFreeAddons": -1
+                            },
+                            {
+                                "groupId": "126947446",
+                                "groupName": "Add-ons",
+                                "choices": [
+                                    {
+                                        "id": "108712108",
+                                        "name": "Keto South Indian Mixture (40g)",
+                                        "price": 5600,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "108712094",
+                                        "name": "Keto Bhujia (40g)",
+                                        "price": 5333,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "108712282",
+                                        "name": "Keto Coconut Cookies (40g)",
+                                        "price": 5600,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "108712093",
+                                        "name": "Masala Lemonade",
+                                        "price": 7900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    }
+                                ],
+                                "maxAddons": 4,
+                                "maxFreeAddons": -1
+                            }
+                        ],
+                        "itemAttribute": {
+                            "vegClassifier": "NONVEG",
+                            "portionSize": "Serves 1"
+                        },
+                        "ribbon": {
+                            "text": "Bestseller",
+                            "textColor": "#ffffff",
+                            "topBackgroundColor": "#d53d4c",
+                            "bottomBackgroundColor": "#b02331"
+                        },
+                        "type": "ITEM",
+                        "itemBadge": {},
+                        "badgesV2": {},
+                        "isBestseller": true,
+                        "ratings": {
+                            "aggregatedRating": {
+                                "rating": "4.4",
+                                "ratingCount": "191 ratings",
+                                "ratingCountV2": "191"
+                            }
+                        }
+                    },
+                    "analytics": {},
+                    "hideRestaurantDetails": true
+                }
+            },
+            {
+                "card": {
+                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                    "info": {
+                        "id": "93974573",
+                        "name": "Egg Bhurji Roll - Keto",
+                        "category": "Keto Rolls",
+                        "description": "Serves 1 | It's time to indulge in our keto friendly and delicious egg bhurji rolls. This perfectly healthy kathi roll is absolutely delicious yet low carb and keto friendly. May contain soy, gluten, groundnuts and other nuts.  [Energy: 400 kcal, Protein: 30.2g, Carbohydrates: 9.9g]",
+                        "imageId": "yaiobkggfis0erqjae3l",
+                        "inStock": 1,
+                        "price": 22900,
+                        "variants": {},
+                        "variantsV2": {},
+                        "addons": [
+                            {
+                                "groupId": "126947385",
+                                "groupName": "Add-ons",
+                                "choices": [
+                                    {
+                                        "id": "108712142",
+                                        "name": "Keto South Indian Mixture (40g)",
+                                        "price": 5600,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "108712189",
+                                        "name": "Keto Bhujia (40g)",
+                                        "price": 5333,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "108712444",
+                                        "name": "Keto Coconut Cookies (40g)",
+                                        "price": 5600,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "108712181",
+                                        "name": "Masala Lemonade",
+                                        "price": 7900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    }
+                                ],
+                                "maxAddons": 4,
+                                "maxFreeAddons": -1
+                            },
+                            {
+                                "groupId": "126947386",
+                                "groupName": "Addon - Egg",
+                                "choices": [
+                                    {
+                                        "id": "108712291",
+                                        "name": "Egg",
+                                        "price": 2000,
+                                        "inStock": 1,
+                                        "isEnabled": 1
+                                    }
+                                ],
+                                "maxAddons": 1,
+                                "maxFreeAddons": -1
+                            }
+                        ],
+                        "itemAttribute": {
+                            "vegClassifier": "NONVEG",
+                            "portionSize": "Serves 1"
+                        },
+                        "ribbon": {},
+                        "type": "ITEM",
+                        "itemBadge": {},
+                        "badgesV2": {},
+                        "isGuiltfree": true,
+                        "ratings": {
+                            "aggregatedRating": {
+                                "rating": "4.6",
+                                "ratingCount": "85 ratings",
+                                "ratingCountV2": "85"
+                            }
+                        }
+                    },
+                    "analytics": {},
+                    "hideRestaurantDetails": true
+                }
+            },
+            {
+                "card": {
+                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                    "info": {
+                        "id": "120369009",
+                        "name": "Mughlai Paneer Kathi Roll - Keto",
+                        "category": "Keto Rolls",
+                        "description": "Taste the rich flavours of the mughal royalties in this succulent low-carb roll! soft paneer tossed with mouth-watering mughalai marination, spicy peppers, and onions and wrapped in a delicious low-carb paratha! this kathi roll makes all your keto cravings come true! order now and taste a bite of heaven! [Energy: 461.8 kcal, Allergen: gluten,soy,peanut,nuts, Protein: 34.4g, Carbohydrates: 13g, Fiber: 10.5g, Fat: 25.5g]",
+                        "imageId": "2251ef5bc3f7e1509b65291309120e4d",
+                        "inStock": 1,
+                        "isVeg": 1,
+                        "price": 27900,
+                        "variants": {},
+                        "variantsV2": {},
+                        "addons": [
+                            {
+                                "groupId": "126947338",
+                                "groupName": "Add-ons",
+                                "choices": [
+                                    {
+                                        "id": "108712102",
+                                        "name": "Keto South Indian Mixture (40g)",
+                                        "price": 5600,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "108712344",
+                                        "name": "Keto Bhujia (40g)",
+                                        "price": 5333,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "108712118",
+                                        "name": "Keto Coconut Cookies (40g)",
+                                        "price": 5600,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "108712352",
+                                        "name": "Masala Lemonade",
+                                        "price": 7900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    }
+                                ],
+                                "maxAddons": 4,
+                                "maxFreeAddons": -1
+                            },
+                            {
+                                "groupId": "126947339",
+                                "groupName": "Addon",
+                                "choices": [
+                                    {
+                                        "id": "108712140",
+                                        "name": "Paneer",
+                                        "price": 5000,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    }
+                                ],
+                                "maxAddons": 1,
+                                "maxFreeAddons": -1
+                            }
+                        ],
+                        "itemAttribute": {
+                            "vegClassifier": "VEG"
+                        },
+                        "ribbon": {},
+                        "type": "ITEM",
+                        "itemBadge": {},
+                        "badgesV2": {},
+                        "ratings": {
+                            "aggregatedRating": {
+                                "rating": "4.2",
+                                "ratingCount": "6 ratings",
+                                "ratingCountV2": "6"
+                            }
+                        }
+                    },
+                    "analytics": {},
+                    "hideRestaurantDetails": true
+                }
+            },
+            {
+                "card": {
+                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                    "info": {
+                        "id": "120369008",
+                        "name": "Mughlai Chicken Kathi Roll - Keto",
+                        "category": "Keto Rolls",
+                        "description": "We present to you the low-carb kathi roll that will change your life! this keto mughalai chicken roll is perfect for your spicy street food cravings! brought to you from the lands of turco-mongol mughal empires, every bite of this chicken roll is juicy and will melt in your mouth! taste the richness of north india in this sinfully good keto roll! [Energy: 437.7 kcal, Allergen: gluten,soy,peanut,nuts, Protein: 41.4g, Carbohydrates: 12.8g, Fiber: 11g, Fat: 21g]",
+                        "imageId": "3ae96212aa23a59d3970cf338c418a2f",
+                        "inStock": 1,
+                        "price": 29900,
+                        "variants": {},
+                        "variantsV2": {},
+                        "addons": [
+                            {
+                                "groupId": "126947341",
+                                "groupName": "Add-ons",
+                                "choices": [
+                                    {
+                                        "id": "108712403",
+                                        "name": "Keto South Indian Mixture (40g)",
+                                        "price": 5600,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "108712438",
+                                        "name": "Keto Bhujia (40g)",
+                                        "price": 5333,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "108712168",
+                                        "name": "Keto Coconut Cookies (40g)",
+                                        "price": 5600,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "108712390",
+                                        "name": "Masala Lemonade",
+                                        "price": 7900,
+                                        "inStock": 1,
+                                        "isVeg": 1,
+                                        "isEnabled": 1
+                                    }
+                                ],
+                                "maxAddons": 4,
+                                "maxFreeAddons": -1
+                            },
+                            {
+                                "groupId": "126947342",
+                                "groupName": "Addons",
+                                "choices": [
+                                    {
+                                        "id": "108712208",
+                                        "name": "Chicken",
+                                        "price": 5000,
+                                        "inStock": 1,
+                                        "isEnabled": 1
+                                    },
+                                    {
+                                        "id": "108712210",
+                                        "name": "Egg",
+                                        "price": 2000,
+                                        "inStock": 1,
+                                        "isEnabled": 1
+                                    }
+                                ],
+                                "maxAddons": 2,
+                                "maxFreeAddons": -1
+                            }
+                        ],
+                        "itemAttribute": {
+                            "vegClassifier": "NONVEG"
+                        },
+                        "ribbon": {},
+                        "type": "ITEM",
+                        "itemBadge": {},
+                        "badgesV2": {},
+                        "ratings": {
+                            "aggregatedRating": {
+                                "rating": "5.0",
+                                "ratingCount": "8 ratings",
+                                "ratingCountV2": "8"
+                            }
+                        }
+                    },
+                    "analytics": {},
+                    "hideRestaurantDetails": true
+                }
+            }
+        ]
+    )
+})
+
+app.get('/restaurant/108097', (req, res) => {
+    res.status(200).send(
+        []
+    )
+})
+
+app.get('/restaurant/305', (req, res) => {
+    res.status(200).send(
+        []
+    )
+})
+
+app.get('/restaurant/info/10576', (req, res) => {
+    res.status(200).send({
+        "id": "10576",
+        "name": "Pizza Hut",
+        "city": "Bangalore",
+        "slugs": {
+            "restaurant": "pizza-hut-6th-block-koramangala",
+            "city": "bangalore"
+        },
+        "uniqueId": "e51e6528-4859-48c8-8fed-e84c17dc2d76",
+        "cloudinaryImageId": "2b4f62d606d1b2bfba9ba9e5386fabb7",
+        "locality": "Koramangala",
+        "areaName": "Koramangala",
+        "costForTwo": "35000",
+        "cuisines": [
+            "Pizzas"
+        ],
+        "costForTwoMessage": "₹350 for two",
+        "avgRating": 3.9,
+    }
+    )
+})
+
+app.get('/restaurant/info/5934', (req, res) => {
+    res.status(200).send({
+        "id": "5934",
+        "name": "Burger King",
+        "city": "Bangalore",
+        "slugs": {
+            "restaurant": "burger-king-koramangala",
+            "city": "bangalore"
+        },
+        "uniqueId": "e51e6528-4859-48c8-8fed-e84c17dc2d76",
+        "cloudinaryImageId": "e33e1d3ba7d6b2bb0d45e1001b731fcf",
+        "locality": "Koramangala",
+        "areaName": "Koramangala",
+        "costForTwo": "35000",
+        "costForTwoMessage": "₹350 for two",
+        "cuisines": [
+            "Burgers",
+            "American"
+        ],
+        "avgRating": 4.2,
+    }
+    )
+})
+
+app.get('/restaurant/info/70246', (req, res) => {
+    res.status(200).send({
+        "id": "70246",
+        "name": "Starbucks Coffee",
+        "city": "Bangalore",
+        "slugs": {
+            "restaurant": "starbucks-coffee-koramangala-koramangala",
+            "city": "bangalore"
+        },
+        "uniqueId": "e51e6528-4859-48c8-8fed-e84c17dc2d76",
+        "cloudinaryImageId": "258fe8a3577877fbfe064095ed1d9dc3",
+        "locality": "7th Block",
+        "areaName": "Koramangala",
+        "costForTwo": "40000",
+        "costForTwoMessage": "₹400 for two",
+        "cuisines": [
+            "Beverages",
+            "Cafe"
+        ],
+        "avgRating": 4.4,
+    }
+    )
+})
+
+app.get('/restaurant/info/25620', (req, res) => {
+    res.status(200).send({
+        "id": "25620",
+        "name": "KFC",
+        "city": "Bangalore",
+        "slugs": {
+            "restaurant": "kfc-intermediate-ring-road-koramangala",
+            "city": "bangalore"
+        },
+        "uniqueId": "e51e6528-4859-48c8-8fed-e84c17dc2d76",
+        "cloudinaryImageId": "f01666ac73626461d7455d9c24005cd4",
+        "locality": "Intermediate Ring Road",
+        "areaName": "Ejipura",
+        "costForTwo": "40000",
+        "costForTwoMessage": "₹400 for two",
+        "cuisines": [
+            "Burgers",
+            "Biryani"
+        ],
+        "avgRating": 4.2,
+    }
+    )
+})
+
+app.get('/restaurant/info/140887', (req, res) => {
+    res.status(200).send({
+        "id": "140887",
+        "name": "McDonald's",
+        "city": "Bangalore",
+        "slugs": {
+            "restaurant": "mcdonalds-bengaluru-koramangala-mantri-jupiter-mall-koramangala",
+            "city": "bangalore"
+        },
+        "uniqueId": "e51e6528-4859-48c8-8fed-e84c17dc2d76",
+        "cloudinaryImageId": "bb7ae131544c7d37e10fc5faf76f09d6",
+        "locality": "Mantri Avenue",
+        "areaName": "Koramangala",
+        "costForTwo": "40000",
+        "costForTwoMessage": "₹400 for two",
+        "cuisines": [
+            "Burgers",
+            "Beverages"
+        ],
+        "avgRating": 4.5,
+    }
+    )
+})
+
+app.get('/restaurant/info/74444', (req, res) => {
+    res.status(200).send({
+        "id": "74444",
+        "name": "Samosa Party",
+        "city": "Bangalore",
+        "slugs": {
+            "restaurant": "samosa-party-koramangala-koramangala",
+            "city": "bangalore"
+        },
+        "uniqueId": "e51e6528-4859-48c8-8fed-e84c17dc2d76",
+        "cloudinaryImageId": "d8d4e708a41f011361c949d44990d5e0",
+        "locality": "Koramangala",
+        "areaName": "Koramangala",
+        "costForTwo": "10000",
+        "costForTwoMessage": "₹100 for two",
+        "cuisines": [
+            "Fast Food",
+            "Snacks"
+        ],
+        "avgRating": 4.4,
+    }
+    )
+})
+
+
+app.get('/restaurant/info/280216', (req, res) => {
+    res.status(200).send({
+        "id": "280216",
+        "name": "Lavonne",
+        "city": "Bangalore",
+        "slugs": {
+            "restaurant": "lavonne-indiranagar-indiranagar",
+            "city": "bangalore"
+        },
+        "uniqueId": "e51e6528-4859-48c8-8fed-e84c17dc2d76",
+        "cloudinaryImageId": "udzufnegmtvimdypnfbk",
+        "locality": "Indiranagar",
+        "areaName": "Indiranagar",
+        "costForTwo": "100000",
+        "costForTwoMessage": "₹1000 for two",
+        "cuisines": [
+            "Bakery",
+            "Desserts"
+        ],
+        "avgRating": 4.6,
+    }
+    )
+})
+
+app.get('/restaurant/info/108424', (req, res) => {
+    res.status(200).send({
+        "id": "108424",
+        "name": "Domino's Pizza",
+        "city": "Bangalore",
+        "slugs": {
+            "restaurant": "dominos-pizza-jyoti-niwas-college-kormangala-bangalore-koramangala",
+            "city": "bangalore"
+        },
+        "uniqueId": "e51e6528-4859-48c8-8fed-e84c17dc2d76",
+        "cloudinaryImageId": "vw6n5betlssnqelt7rmu",
+        "locality": "5TH Block",
+        "areaName": "Koramangala",
+        "costForTwo": "40000",
+        "costForTwoMessage": "₹400 for two",
+        "cuisines": [
+            "Pizzas",
+            "Italian"
+        ],
+        "avgRating": 4.4,
+    }
+    )
+})
+
+
+
+app.get('/restaurant/info/209557', (req, res) => {
+    res.status(200).send({
+        "id": "209557",
+        "name": "Subway",
+        "city": "Bangalore",
+        "slugs": {
+            "restaurant": "subway-koramangala-koramangala",
+            "city": "bangalore"
+        },
+        "uniqueId": "e51e6528-4859-48c8-8fed-e84c17dc2d76",
+        "cloudinaryImageId": "1ace5fa65eff3e1223feb696c956b38b",
+        "locality": "JNC College Road",
+        "areaName": "Koramangala",
+        "costForTwo": "35000",
+        "costForTwoMessage": "₹350 for two",
+        "cuisines": [
+            "Salads",
+            "Snacks"
+        ],
+        "avgRating": 4.3,
+    }
+    )
+})
+
+app.get('/restaurant/info/280216', (req, res) => {
+    res.status(200).send({
+        "id": "280216",
+        "name": "Lavonne",
+        "city": "Bangalore",
+        "slugs": {
+            "restaurant": "lavonne-indiranagar-indiranagar",
+            "city": "bangalore"
+        },
+        "uniqueId": "e51e6528-4859-48c8-8fed-e84c17dc2d76",
+        "cloudinaryImageId": "udzufnegmtvimdypnfbk",
+        "locality": "Indiranagar",
+        "areaName": "Indiranagar",
+        "costForTwo": "100000",
+        "costForTwoMessage": "₹1000 for two",
+        "cuisines": [
+            "Bakery",
+            "Desserts"
+        ],
+        "avgRating": 4.6,
+    }
+    )
+})
+
+app.get('/restaurant/info/108424', (req, res) => {
+    res.status(200).send({
+        "id": "108424",
+        "name": "Domino's Pizza",
+        "city": "Bangalore",
+        "slugs": {
+            "restaurant": "dominos-pizza-jyoti-niwas-college-kormangala-bangalore-koramangala",
+            "city": "bangalore"
+        },
+        "uniqueId": "e51e6528-4859-48c8-8fed-e84c17dc2d76",
+        "cloudinaryImageId": "vw6n5betlssnqelt7rmu",
+        "locality": "5TH Block",
+        "areaName": "Koramangala",
+        "costForTwo": "40000",
+        "costForTwoMessage": "₹400 for two",
+        "cuisines": [
+            "Pizzas",
+            "Italian"
+        ],
+        "avgRating": 4.4,
+    }
+    )
+})
+
+app.get('/restaurant/info/209557', (req, res) => {
+    res.status(200).send({
+        "id": "209557",
+        "name": "Subway",
+        "city": "Bangalore",
+        "slugs": {
+            "restaurant": "subway-koramangala-koramangala",
+            "city": "bangalore"
+        },
+        "uniqueId": "e51e6528-4859-48c8-8fed-e84c17dc2d76",
+        "cloudinaryImageId": "1ace5fa65eff3e1223feb696c956b38b",
+        "locality": "JNC College Road",
+        "areaName": "Koramangala",
+        "costForTwo": "35000",
+        "costForTwoMessage": "₹350 for two",
+        "cuisines": [
+            "Salads",
+            "Snacks"
+        ],
+        "avgRating": 4.3,
+    }
+    )
+})
+
+app.get('/restaurant/info/263485', (req, res) => {
+    res.status(200).send({
+        "id": "263485",
+        "name": "Chaayos Chai+Snacks=Relax",
+        "city": "Bangalore",
+        "slugs": {
+            "restaurant": "chaayos-meri-wali-chai-varthur-hobli-bellandur-sarjapur",
+            "city": "bangalore"
+        },
+        "uniqueId": "e51e6528-4859-48c8-8fed-e84c17dc2d76",
+        "cloudinaryImageId": "cace805a6ba74137571d0f7ac92302b1",
+        "locality": "Kormangala 8th Block",
+        "areaName": "Kormangala",
+        "costForTwo": "25000",
+        "costForTwoMessage": "₹250 for two",
+        "cuisines": [
+            "Bakery",
+            "Beverages"
+        ],
+        "avgRating": 4.5,
+    }
+    )
+})
+
+app.get('/restaurant/info/37746', (req, res) => {
+    res.status(200).send({
+        "id": "37746",
+        "name": "Salt - Indian Restaurant Bar & Grill",
+        "city": "Bangalore",
+        "slugs": {
+            "restaurant": "salt-indian-restaurant-bar-grill-koramangala-koramangala",
+            "city": "bangalore"
+        },
+        "uniqueId": "e51e6528-4859-48c8-8fed-e84c17dc2d76",
+        "cloudinaryImageId": "zp0sgyo1uqgnin1ei08k",
+        "locality": "Koramangala",
+        "areaName": "Koramangala",
+        "costForTwo": "130000",
+        "costForTwoMessage": "₹1300 for two",
+        "cuisines": [
+            "North Indian",
+            "Biryani"
+        ],
+        "avgRating": 4.4,
+    }
+    )
+})
+
+app.get('/restaurant/info/50467', (req, res) => {
+    res.status(200).send({
+        "id": "50467",
+        "name": "Bakingo",
+        "city": "Bangalore",
+        "slugs": {
+            "restaurant": "bakingo-koramangala-koramangala",
+            "city": "bangalore"
+        },
+        "uniqueId": "e51e6528-4859-48c8-8fed-e84c17dc2d76",
+        "cloudinaryImageId": "0c53fd8f62e3d25ba56d1b4cfe572cef",
+        "locality": "1st Block",
+        "areaName": "Koramangala",
+        "costForTwo": "30000",
+        "costForTwoMessage": "₹300 for two",
+        "cuisines": [
+            "Bakery",
+            "Desserts"
+        ],
+        "avgRating": 4.3,
+    }
+    )
+})
+
+app.get('/restaurant/info/41913', (req, res) => {
+    res.status(200).send({
+        "id": "41913",
+        "name": "Chinita Real Mexican Food",
+        "city": "Bangalore",
+        "slugs": {
+            "restaurant": "chinita-koramangala-koramangala",
+            "city": "bangalore"
+        },
+        "uniqueId": "e51e6528-4859-48c8-8fed-e84c17dc2d76",
+        "cloudinaryImageId": "29fc772cc06b07a4b018e4971d96c9a3",
+        "locality": "Koramangala",
+        "areaName": "Koramangala",
+        "costForTwo": "75000",
+        "costForTwoMessage": "₹750 for two",
+        "cuisines": [
+            "Mexican",
+            "Salads"
+        ],
+        "avgRating": 4.4,
+    }
+    )
+})
+
+app.get('/restaurant/info/158855', (req, res) => {
+    res.status(200).send({
+        "id": "158855",
+        "name": "Candice's Gourmet Sandwiches & Wraps",
+        "city": "Bangalore",
+        "slugs": {
+            "restaurant": "candice39s-gourmet-sandwiches-koramangala",
+            "city": "bangalore"
+        },
+        "uniqueId": "e51e6528-4859-48c8-8fed-e84c17dc2d76",
+        "cloudinaryImageId": "d1331113564b015c9d55c48ff48a2553",
+        "locality": "5th Block",
+        "areaName": "Koramangala",
+        "costForTwo": "60000",
+        "costForTwoMessage": "₹600 for two",
+        "cuisines": [
+            "Continental",
+            "American"
+        ],
+        "avgRating": 4.6,
+    }
+    )
+})
+
+app.get('/restaurant/info/381853', (req, res) => {
+    res.status(200).send({
+        "id": "381853",
+        "name": "ITC Master Chef Creations",
+        "city": "Bangalore",
+        "slugs": {
+            "restaurant": "itc-master-chef-creations-7th-block-koramangala",
+            "city": "bangalore"
+        },
+        "uniqueId": "e51e6528-4859-48c8-8fed-e84c17dc2d76",
+        "cloudinaryImageId": "b15a2367ff3d6f0bf92d1def3c1e5c59",
+        "locality": "Koramangala",
+        "areaName": "Koramangala",
+        "costForTwo": "65000",
+        "costForTwoMessage": "₹650 for two",
+        "cuisines": [
+            "North Indian",
+            "Biryani"
+        ],
+        "avgRating": 4.5,
+    }
+    )
+})
+
+app.get('/restaurant/info/347250', (req, res) => {
+    res.status(200).send({
+        "id": "347250",
+        "name": "Toscano's Crafted Cakes and Desserts",
+        "city": "Bangalore",
+        "slugs": {
+            "restaurant": "toscanos-crafted-cakes-and-desserts-hosur-road-koramangala",
+            "city": "bangalore"
+        },
+        "uniqueId": "e51e6528-4859-48c8-8fed-e84c17dc2d76",
+        "cloudinaryImageId": "5fd0589ef5eaaa07edc7c8655d0540aa",
+        "locality": "Hosur Road",
+        "areaName": "Adugodi",
+        "costForTwo": "60000",
+        "costForTwoMessage": "₹600 for two",
+        "cuisines": [
+            "Desserts",
+            "Bakery"
+        ],
+        "avgRating": 4.3,
+    }
+    )
+})
+
+app.get('/restaurant/info/450124', (req, res) => {
+    res.status(200).send({
+        "id": "450124",
+        "name": "1522 - The Pub",
+        "city": "Bangalore",
+        "slugs": {
+            "restaurant": "1522-the-pub-koramangala-koramangala",
+            "city": "bangalore"
+        },
+        "uniqueId": "e51e6528-4859-48c8-8fed-e84c17dc2d76",
+        "cloudinaryImageId": "qtbt4uwnp6honairbudc",
+        "locality": "Koramangala",
+        "areaName": "Koramangala",
+        "costForTwo": "60000",
+        "costForTwoMessage": "₹600 for two",
+        "cuisines": [
+            "Chinese",
+            "Indian"
+        ],
+        "avgRating": 4,
+    }
+    )
+})
+
+app.get('/restaurant/info/107443', (req, res) => {
+    res.status(200).send({
+        "id": "107443",
+        "name": "Lo! - Low Carb and Keto Foods",
+        "city": "Bangalore",
+        "slugs": {
+            "restaurant": "lo-foods-hsr",
+            "city": "bangalore"
+        },
+        "uniqueId": "e51e6528-4859-48c8-8fed-e84c17dc2d76",
+        "cloudinaryImageId": "o8t0w5gdlujpigauaflw",
+        "locality": "Sector-6",
+        "areaName": "HSR Layout",
+        "costForTwo": "15000",
+        "costForTwoMessage": "₹150 for two",
+        "cuisines": [
+            "Healthy Food",
+            "Keto"
+        ],
+        "avgRating": 4.4,
+    }
+    )
+})
+
+app.get('/restaurant/info/108097', (req, res) => {
+    res.status(200).send({
+        "id": "108097",
+        "name": "Ambur Star Briyani Since 1890",
+        "city": "Bangalore",
+        "slugs": {
+            "restaurant": "ambur-star-briyani-btm-2",
+            "city": "bangalore"
+        },
+        "uniqueId": "e51e6528-4859-48c8-8fed-e84c17dc2d76",
+        "cloudinaryImageId": "yktanq9i7yfjrixaghuj",
+        "locality": "2nd Stage",
+        "areaName": "BTM Layout",
+        "costForTwo": "50000",
+        "costForTwoMessage": "₹500 for two",
+        "cuisines": [
+            "Biryani",
+            "Chettinad"
+        ],
+        "avgRating": 4.4,
+    }
+    )
+})
+
+app.get('/restaurant/info/305', (req, res) => {
+    res.status(200).send({
+        "id": "305",
+        "name": "A2B - Adyar Ananda Bhavan",
+        "city": "Bangalore",
+        "slugs": {
+            "restaurant": "a2b-veg-7th-block-koramangala",
+            "city": "bangalore"
+        },
+        "uniqueId": "e51e6528-4859-48c8-8fed-e84c17dc2d76",
+        "cloudinaryImageId": "gxydb9wvkadarapno4hk",
+        "locality": "7th Block",
+        "areaName": "Koramangala",
+        "costForTwo": "30000",
+        "costForTwoMessage": "₹300 for two",
+        "cuisines": [
+            "South Indian",
+            "North Indian"
+        ],
+        "avgRating": 4.3,
+    }
+    )
 })
