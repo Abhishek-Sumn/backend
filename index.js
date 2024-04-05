@@ -22989,28 +22989,7 @@ app.get('/restaurant/305', (req, res) => {
     )
 })
 
-app.get('/restaurant/info/10576', (req, res) => {
-    res.status(200).send({
-        "id": "10576",
-        "name": "Pizza Hut",
-        "city": "Bangalore",
-        "slugs": {
-            "restaurant": "pizza-hut-6th-block-koramangala",
-            "city": "bangalore"
-        },
-        "uniqueId": "e51e6528-4859-48c8-8fed-e84c17dc2d76",
-        "cloudinaryImageId": "2b4f62d606d1b2bfba9ba9e5386fabb7",
-        "locality": "Koramangala",
-        "areaName": "Koramangala",
-        "costForTwo": "35000",
-        "cuisines": [
-            "Pizzas"
-        ],
-        "costForTwoMessage": "₹350 for two",
-        "avgRating": 3.9,
-    }
-    )
-})
+
 
 app.get('/restaurant/info/5934', (req, res) => {
     res.status(200).send({
